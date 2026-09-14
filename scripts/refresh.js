@@ -34,15 +34,17 @@ const KEEP_CLOSED_DAYS = 30;
 // A slow museum site should not hang the run.
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 6;
-// Identify honestly on the first attempt, so a site that wants to set rules for
-// robots can. A good many museum sites answer that with a flat 403 regardless —
-// nearly a quarter of Boston's on the first live run — so a refusal earns one
-// retry with an ordinary browser header. One extra request per blocked venue per
-// week is a fair price for not reporting a working museum as unreachable.
+// Identify honestly. Roughly a quarter of a city's venues answer with a flat 403
+// anyway — Akamai and Cloudflare in front of the Harvard museums, the Museum of
+// Science, Historic New England and others.
+//
+// Measured, so it need not be tried again: retrying those with an ordinary
+// browser user-agent recovered none of the 15 blocked Boston venues, because
+// those walls fingerprint the TLS handshake rather than reading the header. It
+// only doubled the requests. Reporting them as unreachable is the right answer
+// here — the weekly agent has the documented workarounds (a text-extraction
+// proxy, curl over HTTP/1.1) and the report tells it exactly where to spend them.
 const UA = "Mozilla/5.0 (compatible; OnViewBot/1.0; +https://github.com/YSWen-sketch/philly-museums)";
-const UA_FALLBACK = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
-                    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36";
-const REFUSED = new Set([401, 403, 405, 406, 429]);
 
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
@@ -86,7 +88,7 @@ function fingerprint(html) {
   return { hash: crypto.createHash("sha256").update(text).digest("hex").slice(0, 16), length: text.length };
 }
 
-async function once(url, ua) {
+async function fetchPage(url) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
@@ -94,7 +96,7 @@ async function once(url, ua) {
       signal: ctrl.signal,
       redirect: "follow",
       headers: {
-        "user-agent": ua,
+        "user-agent": UA,
         accept: "text/html,application/xhtml+xml",
         "accept-language": "en-US,en;q=0.9",
       },
@@ -108,12 +110,6 @@ async function once(url, ua) {
   }
 }
 
-async function fetchPage(url) {
-  const first = await once(url, UA);
-  if (first.status === 200 || !REFUSED.has(first.status)) return first;
-  const second = await once(url, UA_FALLBACK);
-  return second.status === 200 ? { ...second, retried: true } : first;
-}
 
 // Run `jobs` a few at a time rather than opening 124 sockets at once.
 async function pool(items, worker, limit = CONCURRENCY) {
