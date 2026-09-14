@@ -21,8 +21,8 @@ CITIES.push({
   updated: "September 14, 2026",
   updatedz: "2026 年 9 月 14 日",
 
-  lede: "Seventy-one museums and galleries across Washington, from the Smithsonian museums on the Mall to the embassies, university galleries and historic houses around them. Most of the big ones cost nothing to enter.",
-  ledez: "华盛顿共 71 家博物馆与美术馆，从国家广场上的史密森尼各馆，到周边的使馆、大学画廊与历史宅邸。其中大馆多数免费。",
+  lede: "Most of the big museums cost nothing to enter. The Smithsonian roster alone fills several days, and the list also takes in the embassies, university galleries and historic houses around it.",
+  ledez: "大馆多数免费入场。光是史密森尼各馆就够逛好几天，清单里还收了周边的使馆、大学画廊与历史宅邸。",
   note: "Dumbarton House and the Woodrow Wilson House are closed for building work. Air and Space and African American History need a free timed pass on busy days.",
   notez: "Dumbarton House 与威尔逊故居因工程闭馆；航空航天馆与非裔美国人历史馆旺季需要免费预约时段票。",
 

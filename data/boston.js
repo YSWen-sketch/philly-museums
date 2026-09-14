@@ -21,8 +21,8 @@ CITIES.push({
   updated: "September 14, 2026",
   updatedz: "2026 年 9 月 14 日",
 
-  lede: "Sixty-five museums, galleries, historic houses and university collections across Boston, Cambridge and the towns around them, with the special exhibitions each one is currently advertising. A good number of the university museums are free.",
-  ledez: "波士顿、剑桥及周边共 65 家博物馆、美术馆、历史宅邸与大学收藏，以及各家官网目前挂出的特展。不少大学美术馆免费。",
+  lede: "Boston, Cambridge and the towns around them. A good number of the university museums are free, and Harvard's four collections sit within a few minutes' walk of each other.",
+  ledez: "覆盖波士顿、剑桥及周边城镇。不少大学美术馆免费，哈佛的四个收藏彼此步行可达。",
   note: "MassArt Art Museum and Harvard's Putnam Gallery are closed for installation until late September. The Museum of Science opens a new wing on October 10.",
   notez: "MassArt 美术馆与哈佛 Putnam 展厅布展闭馆至 9 月下旬；科学博物馆 10 月 10 日开放新翼。",
 

@@ -21,8 +21,8 @@ CITIES.push({
   updated: "September 14, 2026",
   updatedz: "2026 年 9 月 14 日",
 
-  lede: "Ninety-six museums, galleries, historic houses and university collections across the five boroughs, with the special exhibitions each one is currently advertising. Several of the biggest museums are pay-what-you-wish for New York State residents only, so check the admission line before you go.",
-  ledez: "纽约五个区共 96 家博物馆、美术馆、历史宅邸与大学收藏，以及各家官网目前挂出的特展。有几家大馆的随意付费只对纽约州居民开放，出发前请先看票价一栏。",
+  lede: "Spread across all five boroughs, from the Met and MoMA down to one-room nonprofits in Brooklyn and Queens. Several of the biggest museums are pay-what-you-wish for New York State residents only, so read the admission line before you go.",
+  ledez: "遍布五个区，从大都会、MoMA 到布鲁克林和皇后区只有一间屋子的非营利空间。有几家大馆的随意付费只对纽约州居民开放，出发前请先看票价一栏。",
   note: "September is changeover season: the New Museum, Poster House, SculptureCenter, Storefront and the Museum at FIT all reopen in the second half of the month. Neue Galerie is closed until November 12.",
   notez: "9 月是换展季：新美术馆、Poster House、SculptureCenter、Storefront 与 FIT 博物馆都在下半月重开；Neue Galerie 闭馆至 11 月 12 日。",
 

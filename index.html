@@ -87,24 +87,48 @@
   }
   header .lede {
     color: var(--ink-2);
-    margin: 0;
+    margin: 20px 0 0;
     max-width: 62ch;
   }
-  header .meta {
-    color: var(--ink-3);
-    font-size: 13px;
-    margin-top: 10px;
-  }
-  .cities { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 22px; }
+
+  /* masthead */
+  .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 16px; }
+  .brand { min-width: 0; flex: 1 1 auto; }
+  .brand h1 { margin: 0 0 5px; }
+  .brand .tagline { margin: 0; color: var(--ink-3); font-size: 14px; max-width: 48ch; }
+
+  /* city tabs */
+  .cities { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 22px; }
   .cities button {
     font: inherit; font-size: 13.5px; line-height: 1.4;
-    padding: 5px 14px; border: 1px solid var(--line); border-radius: 999px;
+    padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px;
     background: var(--surface); color: var(--ink-2); cursor: pointer;
+    display: inline-flex; align-items: baseline; gap: 7px;
   }
+  .cities button:hover { border-color: var(--ink-3); color: var(--ink); }
   .cities button[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .cities button i {
+    font-style: normal; font-size: 12px; opacity: 0.65;
+    font-variant-numeric: tabular-nums;
+  }
   .cities button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 16px; }
-  .topbar h1 { min-width: 0; flex: 1 1 auto; }
+
+  /* per-city figures */
+  .stats {
+    display: flex; flex-wrap: wrap; gap: 2px 18px;
+    margin-top: 14px; color: var(--ink-3); font-size: 13px;
+  }
+  .stats b { color: var(--ink-2); font-weight: 600; }
+
+  /* jump links to each group */
+  .jump { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 18px; }
+  .jump a {
+    font-size: 13px; color: var(--ink-2); text-decoration: none;
+    padding: 4px 11px; border-radius: 999px; border: 1px solid transparent;
+    display: inline-flex; align-items: baseline; gap: 6px;
+  }
+  .jump a:hover { border-color: var(--line); background: var(--surface); color: var(--accent); }
+  .jump a i { font-style: normal; color: var(--ink-3); font-size: 12px; font-variant-numeric: tabular-nums; }
   .lang {
     display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 999px;
     overflow: hidden; background: var(--surface); margin-top: 6px;
@@ -178,7 +202,7 @@
   .count { font-size: 13px; color: var(--ink-3); margin-left: auto; }
 
   /* groups */
-  .group { margin-top: 36px; }
+  .group { margin-top: 40px; scroll-margin-top: 64px; }
   .group > h2 {
     font-family: "Noto Serif SC", "Songti SC", serif;
     font-size: 22px;
@@ -239,18 +263,20 @@
 </head>
 <body>
 <div class="wrap">
-  <nav class="cities" id="cities"></nav>
-
   <header>
     <div class="topbar">
-      <h1 id="title"></h1>
+      <div class="brand">
+        <h1 id="title"></h1>
+        <p class="tagline" id="tagline"></p>
+      </div>
       <div class="lang" role="group" id="lang">
         <button type="button" data-lang="zh" lang="zh-CN">中文</button>
         <button type="button" data-lang="en" lang="en">English</button>
       </div>
     </div>
+    <nav class="cities" id="cities"></nav>
     <p class="lede" id="lede"></p>
-    <p class="meta" id="meta"></p>
+    <p class="stats" id="stats"></p>
   </header>
 
   <div class="strip" id="strip"></div>
@@ -263,6 +289,8 @@
     <button class="chip" data-f="free" aria-pressed="false"></button>
     <span class="count" id="count"></span>
   </div>
+
+  <nav class="jump" id="jump"></nav>
 
   <div id="groups"></div>
 
@@ -280,10 +308,13 @@ const REPO = "https://github.com/YSWen-sketch/philly-museums";
 // ---------- interface strings ----------
 const STR = {
   zh: {
-    title: (city) => city + "博物馆特展一览",
-    desc: (city) => city + "的博物馆、美术馆与历史宅邸特展一览，按闭幕日期自动标注。",
+    site: "东岸看展",
+    tagline: "费城、纽约、华盛顿、波士顿的博物馆特展",
+    tab: (city) => "东岸看展 · " + city,
+    desc: (city) => city + "的博物馆、美术馆与历史宅邸正在展出什么，按闭幕日期自动标注。",
     cities: "选择城市",
-    meta: (d) => `信息核对于 ${d}，来源为各馆官网；票价为成人价。状态标签按今天的日期自动计算。`,
+    stats: (v, e, f, d) => [`<b>${v}</b> 家场馆`, `<b>${e}</b> 个展览在展`, `<b>${f}</b> 家免费`, `核对于 ${d}`],
+    jumpAll: "全部",
     search: "搜索馆名或展览…",
     all: "全部", soon: "30 天内闭幕", opening: "即将开幕", free: "免费入场",
     count: (a, b) => `${a} / ${b} 家`,
@@ -296,14 +327,17 @@ const STR = {
     plainTitle: "无特展的常设馆",
     plainNote: "这些馆只有常设展或季节性活动，列出方便一并规划。",
     closedTitle: "已关闭",
-    foot: (note) => `开馆时间以官网为准，节假日常有调整。标注"第三方日期"的条目官网未写明具体日期，取自本地媒体报道。${note}`,
+    foot: (note) => `票价为成人价，开馆时间以官网为准，节假日常有调整。状态标签按打开页面当天的日期计算。${note}`,
     footAuto: '本页每周四由自动程序核对各馆官网后更新，源码与更新记录见 <a href="REPO" target="_blank" rel="noopener">GitHub</a>。'
   },
   en: {
-    title: (city) => city + " Museum Exhibitions",
+    site: "On View",
+    tagline: "Museum exhibitions in Philadelphia, New York, Washington and Boston",
+    tab: (city) => "On View · " + city,
     desc: (city) => `What is on view at ${city}'s museums, galleries and historic houses, with closing dates marked automatically.`,
     cities: "Choose a city",
-    meta: (d) => `Checked ${d} against the museums' own websites. Prices are adult admission. Status tags are computed from today's date.`,
+    stats: (v, e, f, d) => [`<b>${v}</b> venues`, `<b>${e}</b> exhibitions on view`, `<b>${f}</b> free`, `checked ${d}`],
+    jumpAll: "All",
     search: "Search a museum or exhibition…",
     all: "All", soon: "Closing in 30 days", opening: "Opening soon", free: "Free admission",
     count: (a, b) => `${a} of ${b} venues`,
@@ -316,7 +350,7 @@ const STR = {
     plainTitle: "Permanent collections, no special exhibition",
     plainNote: "These venues show only their permanent collection or seasonal programming. Listed so you can plan around them.",
     closedTitle: "Closed for good",
-    foot: (note) => `Hours follow the museums' own websites and often shift around holidays. Entries marked as third-party dates are ones the museum has not dated itself; those come from local press. ${note}`,
+    foot: (note) => `Prices are adult admission and hours follow the museums' own websites, which often shift around holidays. Status tags are computed from the date you open the page. ${note}`,
     footAuto: 'This page is reconciled against the museums\' websites every Thursday by an automated agent. Source and changelog on <a href="REPO" target="_blank" rel="noopener">GitHub</a>.'
   }
 };
@@ -383,15 +417,26 @@ function hl(text, q){
 function bothNames(o){ return zh() && o.nz ? o.n + " " + o.nz : o.n; }
 
 // ---------- chrome ----------
+// Venues in a city, and the exhibitions that have not already closed.
+function tally(c){
+  const venues = c.groups.reduce((a, g) => a + g.items.length, 0);
+  let onView = 0, free = 0;
+  c.groups.forEach(g => g.items.forEach(m => {
+    if (m.free) free++;
+    m.shows.forEach(sh => { if (status(sh).k !== "over") onView++; });
+  }));
+  return { venues, onView, free };
+}
+
 function chrome(){
   const t = T(), c = C(), city = L(c, "n");
   document.documentElement.lang = zh() ? "zh-CN" : "en";
-  document.title = t.title(city);
+  document.title = t.tab(city);
   const md = document.querySelector('meta[name="description"]');
   if (md) md.setAttribute("content", t.desc(city));
-  document.getElementById("title").textContent = t.title(city);
+  document.getElementById("title").textContent = t.site;
+  document.getElementById("tagline").textContent = t.tagline;
   document.getElementById("lede").textContent = L(c, "lede");
-  document.getElementById("meta").textContent = t.meta(L(c, "updated"));
   document.getElementById("q").placeholder = t.search;
   document.getElementById("q").setAttribute("aria-label", t.search);
   const labels = { all: t.all, soon: t.soon, new: t.opening, free: t.free };
@@ -400,16 +445,25 @@ function chrome(){
     esc(t.foot(L(c, "note"))) + "<br>" + t.footAuto.replace("REPO", esc(REPO));
   document.querySelectorAll("#lang button").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
+
   const nav = document.getElementById("cities");
   nav.setAttribute("aria-label", t.cities);
-  nav.innerHTML = CITIES.map(x =>
-    `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">${esc(L(x, "n"))}</button>`).join("");
+  nav.innerHTML = CITIES.map(x => {
+    const n = tally(x).venues;
+    return `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">` +
+           `${esc(L(x, "n"))}<i>${n}</i></button>`;
+  }).join("");
   nav.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    if (b.dataset.city === CITY) return;
     CITY = b.dataset.city; remember("city", CITY);
     document.getElementById("q").value = "";
     draw();
     window.scrollTo({ top: 0, behavior: "instant" });
   }));
+
+  const s = tally(c);
+  document.getElementById("stats").innerHTML =
+    t.stats(s.venues, s.onView, s.free, L(c, "updated")).map(x => `<span>${x}</span>`).join("");
 }
 
 // ---------- summary strip ----------
@@ -434,7 +488,9 @@ function render(){
   const q = document.getElementById("q").value.trim();
   const f = document.querySelector(".chip[aria-pressed='true']").dataset.f;
   let shown = 0, total = 0;
-  const html = c.groups.map(g => {
+  const jump = [];
+  const html = c.groups.map((g, gi) => {
+    let inGroup = 0;
     const items = g.items.map(m => {
       total++;
       const name = bothNames(m);
@@ -446,7 +502,7 @@ function render(){
       const matchF = f === "all" || (f === "free" ? !!m.free : shows.length > 0);
       if (!matchQ || !matchF) return "";
       if (q) shows = shows.filter(x => name.toLowerCase().includes(q.toLowerCase()) || (x.sh.t + " " + L(x.sh, "d")).toLowerCase().includes(q.toLowerCase()));
-      shown++;
+      shown++; inGroup++;
       const showsHtml = shows.length
         ? `<ul class="shows">${shows.map(({sh, st}) => `<li class="show">
             <span class="t">${hl(sh.t, q)}<span class="tag ${st.k}">${esc(st.label)}</span></span>
@@ -465,7 +521,9 @@ function render(){
       </article>`;
     }).join("");
     if (!items) return "";
-    return `<section class="group"><h2>${esc(L(g, "g"))}</h2><p class="note">${esc(L(g, "note"))}</p>${items}</section>`;
+    jump.push({ id: "g" + gi, label: L(g, "g"), n: inGroup });
+    return `<section class="group" id="g${gi}"><h2>${esc(L(g, "g"))}</h2>` +
+           `<p class="note">${esc(L(g, "note"))}</p>${items}</section>`;
   }).join("");
 
   const row = (x) => {
@@ -482,7 +540,13 @@ function render(){
 
   document.getElementById("groups").innerHTML =
     (html || `<p class="none" style="margin-top:24px">${esc(t.empty)}</p>`) + extras;
-  document.getElementById("count").textContent = t.count(shown, total);
+  // The stats row already carries the total, so the count only earns its place
+  // once a filter or a search has narrowed the list.
+  document.getElementById("count").textContent = (shown === total) ? "" : t.count(shown, total);
+  // Jump links earn their place only when there is more than one group to jump to.
+  document.getElementById("jump").innerHTML = jump.length > 1
+    ? jump.map(j => `<a href="#${j.id}">${esc(j.label)}<i>${j.n}</i></a>`).join("")
+    : "";
 }
 
 function draw(){ chrome(); buildStrip(); render(); }

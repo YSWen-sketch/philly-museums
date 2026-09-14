@@ -2,6 +2,18 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-14 (interface)
+
+The site now has a name: **On View** in English, **东岸看展** in Chinese, with a standing subtitle naming the four cities. The city, not the site, moved into the browser tab title.
+
+Interface reworked for the four-city scale:
+
+- City tabs sit under the title and carry each city's venue count, so the size of a city is visible before switching to it.
+- A figures line under the intro gives venues, exhibitions currently on view, free venues, and the date that city was last checked.
+- Jump links to each group, with live counts that follow the search and filter.
+- The result count now appears only once a filter or search has narrowed the list, since the figures line already carries the total.
+- City intros no longer repeat the counts, and say something useful about the city instead.
+
 ## 2026-09-14 (later)
 
 Expanded from one city to four. The page now carries a city switcher alongside the language toggle; both choices are remembered per browser and can be linked to with `?city=` and `?lang=`.

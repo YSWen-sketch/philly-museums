@@ -21,8 +21,8 @@ CITIES.push({
   updated: "September 14, 2026",
   updatedz: "2026 年 9 月 14 日",
 
-  lede: "A hundred and twenty-four museums, galleries, historic houses and university collections in Philadelphia and the towns around it, with the special exhibitions each one is currently advertising. America 250 shows are everywhere this year, and most of them close in early January.",
-  ledez: "费城及周边共 124 家博物馆、美术馆、历史宅邸与大学收藏，以及各家官网目前挂出的特展。America 250 相关的展览今年特别多，多数在明年 1 月初收官。",
+  lede: "America 250 shows are everywhere this year, and most of them close in early January. The list runs from the Parkway museums out to the Fairmount Park mansions, the Germantown houses and the artist-run rooms in Kensington.",
+  ledez: "今年 America 250 相关的展览铺天盖地，多数在明年 1 月初收官。清单从大道上的几家大馆，一直排到费尔蒙公园的老宅、Germantown 的历史住宅和 Kensington 的艺术家自营空间。",
   note: "The Academy of Natural Sciences closes its public galleries permanently on September 30. ICA and the African American Museum are closed for reinstallation, and the Poe house and Deshler-Morris House are shut for building work.",
   notez: "自然科学院 9 月 30 日永久关闭公共展区；ICA 与非裔美国人博物馆换展闭馆；坡故居与 Deshler-Morris House 因工程闭馆。",
 

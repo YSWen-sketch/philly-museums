@@ -1,14 +1,16 @@
-# East Coast Museum Exhibitions
+# On View · 东岸看展
 
 A visitor's list of what is on show right now in **Philadelphia, New York, Washington and Boston**: 356 museums, art galleries, historic houses and university galleries, with the 859 special exhibitions they are currently advertising, plus opening and closing dates, hours and admission prices.
 
+The site is called **On View** in English and **东岸看展** in Chinese.
+
 **Live site: https://yswen-sketch.github.io/philly-museums/**
 
-The page reads in **English or Chinese**, switchable in the top right corner, and shows **one city at a time**, chosen from the tabs at the top. Both choices are remembered in the browser, and `?lang=en&city=boston` links straight to a particular view. A first-time visitor gets Chinese if their browser asks for Chinese, English otherwise. Exhibition titles stay in their official form in both languages so they can be searched for.
+The page reads in **English or Chinese**, switchable in the top right corner, and shows **one city at a time**, chosen from the tabs under the title, each showing how many venues it holds. Both choices are remembered in the browser, and `?lang=en&city=boston` links straight to a particular view. A first-time visitor gets Chinese if their browser asks for Chinese, English otherwise. Exhibition titles stay in their official form in both languages so they can be searched for.
 
 ## How it works
 
-- **Static page, no build step.** `index.html` holds the styling and logic. Each city is one self-contained file in [`data/`](data/) that pushes an object onto `CITIES`; the page loads them all and lets the reader switch. Closing countdowns and the "opening soon" tags are computed from the visitor's own clock when the page loads, so they never go stale on their own.
+- **Static page, no build step.** `index.html` holds the styling and logic, including the masthead, the city tabs, the per-city figures, the closing-soon and opening-soon panels, the search and filter bar, and the jump links to each group. Each city is one self-contained file in [`data/`](data/) that pushes an object onto `CITIES`; the page loads them all and lets the reader switch. Closing countdowns and the "opening soon" tags are computed from the visitor's own clock when the page loads, so they never go stale on their own.
 - **Automatic refresh every Thursday morning.** A scheduled Claude cloud agent follows [`scripts/WEEKLY.md`](scripts/WEEKLY.md): it opens each museum's official exhibitions page, reconciles the city files against it, runs the validator, appends to [`CHANGELOG.md`](CHANGELOG.md), and pushes to `main`. GitHub Pages republishes within a minute.
 - **Every push is validated.** `node scripts/validate.js` runs in GitHub Actions and fails the build on a malformed date, a missing field, or a field that exists in only one language, so a single typo cannot blank out the page.
 
