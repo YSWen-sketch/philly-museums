@@ -38,12 +38,19 @@ const CONCURRENCY = 6;
 // anyway — Akamai and Cloudflare in front of the Harvard museums, the Museum of
 // Science, Historic New England and others.
 //
-// Measured, so it need not be tried again: retrying those with an ordinary
-// browser user-agent recovered none of the 15 blocked Boston venues, because
-// those walls fingerprint the TLS handshake rather than reading the header. It
-// only doubled the requests. Reporting them as unreachable is the right answer
-// here — the weekly agent has the documented workarounds (a text-extraction
-// proxy, curl over HTTP/1.1) and the report tells it exactly where to spend them.
+// Measured twice, so the trade-off need not be rediscovered:
+//
+//   - Retrying with a browser user-agent from this script recovered 0 of the 15
+//     blocked Boston venues. The header is not what these walls read.
+//   - The same header via curl recovered 1 of 6 sampled (brandeis.edu), and
+//     that same host still refused fetch() with the identical header. So what
+//     differs is the TLS handshake, not the request.
+//
+// Shelling out to curl would therefore recover a minority of blocked pages, at
+// the cost of a subprocess and a second code path in the one part of this
+// project that must never break. Not worth it: the report already names these
+// venues, and the weekly agent has better tools for them (a text-extraction
+// proxy, curl over HTTP/1.1, a rendering fetch). Reporting beats evading.
 const UA = "Mozilla/5.0 (compatible; OnViewBot/1.0; +https://github.com/YSWen-sketch/philly-museums)";
 
 const args = process.argv.slice(2);
