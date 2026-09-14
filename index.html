@@ -24,6 +24,8 @@
     --closed: #6B6F6D;
     --closed-soft: #E9EAE7;
     --mark: #FFF1B8;
+    --band: #E8F0EE;
+    --gold: #C79A2E;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -42,6 +44,8 @@
       --closed: #9AA19F;
       --closed-soft: #2A302F;
       --mark: #4A4320;
+      --band: #16211F;
+      --gold: #E8C56A;
     }
   }
   :root[data-theme="dark"] {
@@ -60,6 +64,47 @@
     --closed: #9AA19F;
     --closed-soft: #2A302F;
     --mark: #4A4320;
+    --band: #16211F;
+    --gold: #E8C56A;
+  }
+
+  /* Each city carries its own accent, so the whole page — tabs, links, the
+     landmark banner — takes on a colour you can recognise before reading. The
+     three blocks mirror the three palettes above: default light, system dark,
+     and an explicit dark choice. */
+  :root[data-city="newyork"]    { --accent: #2F4B7C; --accent-soft: #E3E9F4; --band: #E7ECF6; }
+  :root[data-city="washington"] { --accent: #8A6D3B; --accent-soft: #F2EADA; --band: #F4EEE1; }
+  :root[data-city="boston"]     { --accent: #8C3A3A; --accent-soft: #F5E3E1; --band: #F6E8E6; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"])[data-city="philadelphia"] { --accent: #7CC1BC; --accent-soft: #1E3534; --band: #16211F; }
+    :root:not([data-theme="light"])[data-city="newyork"]      { --accent: #93B0E0; --accent-soft: #22304A; --band: #161C26; }
+    :root:not([data-theme="light"])[data-city="washington"]   { --accent: #D4B171; --accent-soft: #3A3222; --band: #221E16; }
+    :root:not([data-theme="light"])[data-city="boston"]       { --accent: #E09A9A; --accent-soft: #3A2424; --band: #241A1A; }
+  }
+  :root[data-theme="dark"][data-city="philadelphia"] { --accent: #7CC1BC; --accent-soft: #1E3534; --band: #16211F; }
+  :root[data-theme="dark"][data-city="newyork"]      { --accent: #93B0E0; --accent-soft: #22304A; --band: #161C26; }
+  :root[data-theme="dark"][data-city="washington"]   { --accent: #D4B171; --accent-soft: #3A3222; --band: #221E16; }
+  :root[data-theme="dark"][data-city="boston"]       { --accent: #E09A9A; --accent-soft: #3A2424; --band: #241A1A; }
+
+  /* landmark banner */
+  .banner {
+    margin-top: 20px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--band);
+    line-height: 0;
+  }
+  .banner svg { display: block; width: 100%; height: auto; }
+  .banner .far  { fill: var(--accent); opacity: 0.2; }
+  .banner .near { fill: var(--accent); color: var(--accent); opacity: 0.92; }
+  .banner .cut  { fill: var(--band); }
+  .banner .gold { fill: var(--gold); }
+  .banner .cable { fill: none; stroke: var(--accent); stroke-width: 1.4; opacity: 0.5; }
+  .banner .cable.span { stroke-width: 3; opacity: 0.9; }
+  @media (prefers-reduced-motion: no-preference) {
+    .banner svg { animation: rise 520ms cubic-bezier(.22,.7,.3,1) both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
   }
 
   * { box-sizing: border-box; }
@@ -300,6 +345,7 @@
       </div>
     </div>
     <nav class="cities" id="cities"></nav>
+    <div class="banner" id="banner"></div>
     <p class="lede" id="lede"></p>
     <p class="stats" id="stats"></p>
     <details class="scope" id="scope"><summary></summary><div class="body"></div></details>
@@ -344,6 +390,7 @@ function loadCity(id) {
   });
 }
 </script>
+<script src="assets/skylines.js"></script>
 <script>
 const REPO = "https://github.com/YSWen-sketch/philly-museums";
 
@@ -563,6 +610,13 @@ function chrome(){
     window.scrollTo({ top: 0, behavior: "instant" });
     draw();
   }));
+
+  // The landmark and the city palette. aria-hidden because the drawing repeats
+  // what the selected tab already says.
+  document.documentElement.dataset.city = CITY;
+  document.getElementById("banner").innerHTML =
+    `<svg viewBox="0 0 1200 200" preserveAspectRatio="xMidYMax meet" aria-hidden="true">` +
+    (SKYLINES[CITY] || "") + `</svg>`;
 
   const s = tally(c);
   document.getElementById("stats").innerHTML =

@@ -1,4 +1,4 @@
-name: Validate data
+name: Checks
 
 on:
   push:
@@ -14,5 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Validate data.js
+      - name: Validate the city data
         run: node scripts/validate.js
+      - name: Smoke-test the weekly update
+        run: node scripts/smoke.js

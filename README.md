@@ -11,8 +11,10 @@ The page reads in **English or Chinese**, switchable in the top right corner, an
 ## How it works
 
 - **Static page, no build step.** `index.html` holds the styling and logic, including the masthead, the city tabs, the per-city figures, the closing-soon and opening-soon panels, the search and filter bar, and the jump links to each group. Each city is one self-contained file in [`data/`](data/) that pushes an object onto `CITIES`; the page loads them all and lets the reader switch. Closing countdowns and the "opening soon" tags are computed from the visitor's own clock when the page loads, so they never go stale on their own.
-- **Automatic refresh every Thursday morning.** A scheduled Claude cloud agent follows [`scripts/WEEKLY.md`](scripts/WEEKLY.md): it opens each museum's official exhibitions page, reconciles the city files against it, runs the validator, appends to [`CHANGELOG.md`](CHANGELOG.md), and pushes to `main`. GitHub Pages republishes within a minute.
-- **Every push is validated.** `node scripts/validate.js` runs in GitHub Actions and fails the build on a malformed date, a missing field, or a field that exists in only one language, so a single typo cannot blank out the page.
+- **One city a week, each city monthly.** Reconciling 350-odd venues at once produces four skimmed cities instead of one correct one, so the update takes a single city per week in the order Philadelphia, New York, Washington, Boston. The cycle is anchored to a fixed Thursday rather than the calendar, so it never resets or skips: `node scripts/rotation.js` prints whose turn it is, and `node scripts/rotation.js 2026-11-19` answers for any date.
+- **The refresh is mechanical first, and only then a model.** Every Thursday at 07:00 New York time, [`scripts/refresh.js`](scripts/refresh.js) runs in GitHub Actions with no model involved. It opens every venue's page for that week's city, notes which pages' visible text changed since last week and which would not load, drops exhibitions that closed more than a month ago, and writes `reports/<city>.md` naming only what needs judgement. Two hours later the scheduled Claude agent follows [`scripts/WEEKLY.md`](scripts/WEEKLY.md) and starts from that report rather than from the open web — so it reads the handful of pages that actually moved instead of a hundred and twenty that did not.
+- **It still works when the agent does not.** The mechanical half is the fallback, not a preamble to it. If the agent is paused, broken, or out of quota, the Thursday job has still pruned the dead exhibitions, refused to advance the "checked on" date it did not earn, and filed a GitHub issue containing the report. The site degrades into being slightly out of date rather than silently wrong.
+- **Nothing ships unless it is proven.** `npm test` runs the validator and [`scripts/smoke.js`](scripts/smoke.js), and both run on every push and again before every scheduled refresh. The smoke test is not a mock: it builds a throwaway copy of the project, serves fake museum pages from localhost, and drives the real refresh through a first scan, a page whose text changes, a page that goes down, and a week where nothing moved — checking at each step that the right thing was pruned, reported, and dated. It also feeds the validator deliberately broken data to confirm it still says no.
 
 ## What counts as a venue
 
@@ -51,9 +53,40 @@ The standard exists because the first pass did not have one. Philadelphia was au
 | Washington | 71 | 225 |
 | Boston | 65 | 135 |
 
+## How much this gets read
+
+<!-- traffic:start -->
+_Recorded from the first day the traffic job ran; the table appears here once it has._
+<!-- traffic:end -->
+
 ## Adding a city
 
 Copy any file in `data/` to `data/<city>.js`, change the `id`, the bilingual name, intro and footer note, and replace the venue groups. Then add one `<script src="data/<city>.js"></script>` line to `index.html` next to the others. Tabs appear in that order. Nothing else needs to change, and the validator will tell you what is missing.
+
+## Working on it
+
+```sh
+npm test                       # validator + smoke test; what CI runs
+node scripts/rotation.js       # whose turn it is this week
+node scripts/refresh.js boston --dry-run   # scan a city, change nothing
+node scripts/validate.js       # data only
+```
+
+Node 22 or newer, and no dependencies — `package.json` has no `dependencies` block and there is nothing to install.
+
+| Path | What it is |
+| --- | --- |
+| `index.html` | The whole page: styling, logic, copy in both languages |
+| `assets/skylines.js` | The four landmark banners, as inline SVG |
+| `data/<city>.js` | One self-contained file per city |
+| `scripts/rotation.js` | Which city this week belongs to |
+| `scripts/refresh.js` | The mechanical weekly scan |
+| `scripts/validate.js` | Rejects malformed or half-translated data |
+| `scripts/smoke.js` | Proves the weekly update actually works |
+| `scripts/traffic.js` | Records readership into the README |
+| `scripts/WEEKLY.md` | The brief the agent follows |
+| `reports/<city>.md` | Last scan's findings — written by the job, read by the agent |
+| `state/` | Page fingerprints and traffic history; machine-written |
 
 ## Editing the data by hand
 
@@ -78,5 +111,11 @@ After editing, run `node scripts/validate.js`, add a line to `CHANGELOG.md`, the
 
 ## Adjusting the automatic refresh
 
-- The schedule lives at https://claude.ai/code/routines, where it can be paused, rescheduled, or run immediately.
+- The mechanical half is [`.github/workflows/weekly.yml`](.github/workflows/weekly.yml). Run it by hand from the Actions tab — it takes an optional city, so you need not wait for a city's turn.
+- The agent's schedule lives at https://claude.ai/code/routines, where it can be paused, rescheduled, or run immediately.
 - The rules the agent follows are entirely in `scripts/WEEKLY.md`. Edit that file to make it more or less conservative; the next run reads the new version.
+- To change the rotation order or cadence, edit `ORDER` in `scripts/rotation.js`. The smoke test asserts that every city still comes round within 28 days, so a mistake there fails the build.
+
+## Licence
+
+Code is MIT — see [LICENSE](LICENSE). The exhibition data is gathered from each museum's own public website; the listings are facts and are free to reuse, but each museum owns its own titles and images.

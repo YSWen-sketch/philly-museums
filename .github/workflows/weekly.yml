@@ -1,0 +1,101 @@
+# The mechanical half of the weekly update.
+#
+# It runs on its own every Thursday morning and needs no model: it opens each
+# venue's page for the city whose turn it is, drops exhibitions that closed over
+# a month ago, and writes reports/<city>.md naming only what needs a human eye.
+# The scheduled Claude routine runs two hours later and reads that report
+# instead of re-opening every museum website, which is where the cost was.
+#
+# If the routine never runs, this job has still pruned the stale data and filed
+# an issue saying what changed, so the site does not quietly rot.
+
+name: Weekly refresh
+
+on:
+  schedule:
+    # 11:00 UTC Thursday — 07:00 in New York, two hours ahead of the agent.
+    - cron: "0 11 * * 4"
+  workflow_dispatch:
+    inputs:
+      city:
+        description: "City to refresh (blank = whichever city's turn it is)"
+        required: false
+        type: choice
+        options: ["", philadelphia, newyork, washington, boston]
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Never run a refresh that has not just proved it works.
+      - name: Smoke test
+        run: node scripts/smoke.js
+
+      - name: Scan the week's city
+        id: scan
+        run: node scripts/refresh.js ${{ inputs.city }}
+
+      - name: Validate
+        run: node scripts/validate.js
+
+      - name: Commit what the scan changed
+        id: commit
+        run: |
+          git config user.name "on-view-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data state reports
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Weekly scan: ${{ steps.scan.outputs.city_name }}
+
+          ${{ steps.scan.outputs.changed }} page(s) changed, ${{ steps.scan.outputs.unreachable }} unreachable."
+            git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Summary
+        run: |
+          {
+            echo "## ${{ steps.scan.outputs.city_name }}"
+            echo
+            echo "- Pages changed: ${{ steps.scan.outputs.changed }}"
+            echo "- Unreachable: ${{ steps.scan.outputs.unreachable }}"
+            echo "- Committed: ${{ steps.commit.outputs.committed }}"
+            echo
+            cat "reports/${{ steps.scan.outputs.city }}.md"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # The fallback. If the agent is broken, paused, or out of quota, this is
+      # what still tells a person the data needs attention.
+      - name: File a report issue
+        if: steps.scan.outputs.attention != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CITY: ${{ steps.scan.outputs.city }}
+          CITY_NAME: ${{ steps.scan.outputs.city_name }}
+        run: |
+          title="Weekly refresh: $CITY_NAME needs a look"
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')
+          body=$(cat "reports/$CITY.md")
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body" --label "refresh" || \
+            gh issue create --title "$title" --body "$body"
+          fi

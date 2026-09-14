@@ -7,15 +7,25 @@ This is the working brief for the scheduled agent. A person can follow it by han
 ## 0. Orient
 
 - Work from the repository root. Run `date` to establish today, then read `README.md` and one file in `data/` so the field meanings are fresh.
-- Only these files may be modified: the city files in `data/` and `CHANGELOG.md`. Leave `index.html`, `scripts/` and `.github/` untouched.
-- **There is one file per city in `data/`** — Philadelphia (124 venues), New York (96), Washington (71) and Boston (65). Each is self-contained and pushes one object onto `CITIES`. Reconcile them one at a time and finish a city before starting the next, so that a run which stops early still leaves whole cities correct.
-- **356 venues is more than one run can reconcile well.** Rotate: take one city each week, in the order Philadelphia, New York, Washington, Boston, picking whichever city's `updated` date is oldest. Reconciling one city properly beats skimming four.
+- **Start from the report, not from the web.** A scheduled job has already run two hours before you, opened every venue's page for this week's city, and written `reports/<city>.md`. It names the pages whose text changed since last week, the ones that would not load, the links that now redirect, and the exhibitions closing within thirty days. Read that file first and let it decide where you spend your effort. Re-fetching all of a city's venues when the report says three pages moved is the single most expensive mistake available to you.
+- Only these files may be modified: the city files in `data/` and `CHANGELOG.md`. Leave `index.html`, `assets/`, `scripts/`, `state/`, `reports/` and `.github/` untouched.
+- **There is one file per city in `data/`**, each self-contained, each pushing one object onto `CITIES`. The current venue counts are in the README's coverage table.
+- **One city a week, and only one.** Which city is not a judgement call: run `node scripts/rotation.js` and it prints the answer. The cycle is Philadelphia, New York, Washington, Boston, anchored to a fixed Thursday, so every city comes round every four weeks — about monthly — and the order is stable whoever runs it. Do not reconcile a second city because the first went quickly; a city reconciled properly is worth four skimmed.
 - **Everything visitor-facing is bilingual.** The plain key is English, the same key with a `z` suffix is Chinese: `n`/`nz`, `h`/`hz`, `p`/`pz`, `flag`/`flagz`, `d`/`dz`, `sText`/`sTextz`, `eText`/`eTextz`. Whenever you add or change one side, change the other in the same edit. The validator rejects a field that exists in only one language.
 - Exhibition titles (`t`) and street addresses (`a`) are not translated; they stay as the museum publishes them.
 
 ## 1. Reconcile each museum, city by city
 
-For the city you are reconciling this week, for each museum in its `groups`:
+Work through the city named by `node scripts/rotation.js`, in this order of priority:
+
+1. Every venue the report lists under **changed**, **unreachable** or **redirected**.
+2. Every venue with an exhibition under **closing within 30 days** — confirm whether it has been extended or a successor announced.
+3. Venues under **no exhibition on file**, as time allows.
+4. Only if all of the above are done and there is budget left, the rest of the city.
+
+The pruning of long-closed exhibitions and the `updated` date have already been handled mechanically; do not redo them by hand.
+
+For each museum you do open:
 
 1. Fetch its `u`, the official exhibitions page. If the page comes back empty, is rendered by JavaScript, or the host refuses the request, try the museum's homepage once, then search the web for `"<museum name>" exhibitions 2026`. **Cap it at three fetches per museum.** Past that, leave the museum's data exactly as it is and record it as unverified in the changelog.
 
@@ -37,11 +47,11 @@ One fetch each at most. Correct hours, admission or seasonal programming if they
 ## 3. Page copy, per city
 
 - `lede`/`ledez` (intro) and `note`/`notez` (footer) change only when something real has changed, such as a major museum closing or a season's worth of shows turning over. Keep each to two sentences and keep the existing tone. The intro line names a venue count; correct it if you added or removed venues.
-- Set the reconciled city's `updated` to today as `"September 14, 2026"` and `updatedz` as `"2026 年 9 月 14 日"`. The other cities keep their old dates — never bump a date you did not earn, since the date on the page is what tells a reader how much to trust it.
+- Set the reconciled city's `updated` to today as `"September 14, 2026"` and `updatedz` as `"2026 年 9 月 14 日"`. The other cities keep their old dates — never bump a date you did not earn, since the date on the page is what tells a reader how much to trust it. (The mechanical scan sets this itself on a week when it found nothing to look at. If it left the date alone, that is because something needed you.)
 
 ## 4. Validate
 
-Run `node scripts/validate.js`. It must print ✓. Fix whatever it reports and run it again until it passes. Do not commit a file that fails.
+Run `npm test` — that is `node scripts/validate.js` followed by `node scripts/smoke.js`. Both must pass. Fix whatever is reported and run again until they do. Do not commit a file that fails.
 
 ## 5. Record what changed
 
@@ -71,8 +81,8 @@ When you come across a venue that meets the bar and the file does not have it, a
 ## 6. Commit
 
 ```sh
-git config user.name "philly-museums bot"
-git config user.email "bot@users.noreply.github.com"
+git config user.name "on-view-bot"
+git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 git add data CHANGELOG.md
 git commit -m "Weekly reconciliation: YYYY-MM-DD"
 git push origin HEAD:main

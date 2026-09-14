@@ -1,0 +1,18 @@
+# Keeps the generated city files and the hand-written page byte-consistent
+# across editors. The city files are machine-written; a stray tab or CRLF in
+# one of them produces a noisy diff that hides the real change.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[LICENSE]
+insert_final_newline = true

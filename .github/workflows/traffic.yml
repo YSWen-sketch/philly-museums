@@ -1,0 +1,38 @@
+# Records how much the project is read and renders the figures into the README.
+# Uses GitHub's own traffic API, so no analytics script goes on the site.
+
+name: Traffic
+
+on:
+  schedule:
+    - cron: "20 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: traffic
+  cancel-in-progress: true
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Record today's figures
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/traffic.js
+      - name: Commit
+        run: |
+          git config user.name "on-view-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state assets README.md
+          git diff --cached --quiet || {
+            git commit -m "Record repository traffic"
+            git push
+          }

@@ -1,0 +1,18 @@
+{
+  "name": "on-view",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Current museum exhibitions in Philadelphia, New York, Washington and Boston, as a static bilingual page.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node scripts/validate.js && node scripts/smoke.js",
+    "validate": "node scripts/validate.js",
+    "smoke": "node scripts/smoke.js",
+    "refresh": "node scripts/refresh.js",
+    "rotation": "node scripts/rotation.js",
+    "traffic": "node scripts/traffic.js"
+  },
+  "repository": { "type": "git", "url": "https://github.com/YSWen-sketch/philly-museums.git" }
+}
