@@ -203,6 +203,40 @@ function pruneExpired(text, cutoff) {
   return { text: out.join("\n"), dropped };
 }
 
+// index.html's CITY_MANIFEST carries each city's venue count so the tabs can
+// show a size before that city is loaded. It is a duplicate of what is in
+// data/, and this script edits data/ — so without this the tabs drift the first
+// time a venue is added or dropped. The page corrects the city it has loaded;
+// this keeps the other three honest.
+function syncManifest() {
+  const counts = {};
+  for (const f of fs.readdirSync(DATA).filter((f) => f.endsWith(".js")).sort()) {
+    const sandbox = { CITIES: [] };
+    vm.createContext(sandbox);
+    try {
+      vm.runInContext(fs.readFileSync(path.join(DATA, f), "utf8"), sandbox, { filename: f });
+    } catch {
+      return [];   // a broken city file is the validator's problem, not this one
+    }
+    for (const c of sandbox.CITIES) {
+      counts[c.id] = c.groups.reduce((a, g) => a + g.items.length, 0);
+    }
+  }
+  const file = path.join(ROOT, "index.html");
+  if (!fs.existsSync(file)) return [];
+  let html = fs.readFileSync(file, "utf8");
+  const moved = [];
+  for (const [id, n] of Object.entries(counts)) {
+    const re = new RegExp(`(\\{ id: "${id}",[^}]*?venues: )(\\d+)`);
+    const m = html.match(re);
+    if (!m) continue;
+    if (Number(m[2]) !== n) moved.push(`${id} ${m[2]} -> ${n}`);
+    html = html.replace(re, `$1${n}`);
+  }
+  if (moved.length) fs.writeFileSync(file, html);
+  return moved;
+}
+
 function validates() {
   try {
     execFileSync(process.execPath, [path.join(__dirname, "validate.js")], { stdio: "pipe" });
@@ -293,14 +327,18 @@ async function main() {
     else wrote = true;
   }
 
-  // 5. Record what the pages looked like, so next week can tell what moved.
+  // 5. Keep the city tabs in step with the data this run just changed.
+  const manifestMoved = DRY ? [] : syncManifest();
+  if (manifestMoved.length) console.log("  tab counts: " + manifestMoved.join(", "));
+
+  // 6. Record what the pages looked like, so next week can tell what moved.
   if (!DRY && !OFFLINE) {
     state[CITY] = now;
     fs.mkdirSync(path.dirname(STATE), { recursive: true });
     fs.writeFileSync(STATE, JSON.stringify(state, null, 1) + "\n");
   }
 
-  // 6. The report. This is what the agent reads instead of the whole internet.
+  // 7. The report. This is what the agent reads instead of the whole internet.
   const lines = [];
   const list = (title, rows, fmt) => {
     lines.push("", `## ${title} (${rows.length})`, "");
@@ -311,7 +349,8 @@ async function main() {
     `- Scanned: ${iso(today)}${OFFLINE ? " (offline run, no pages fetched)" : ""}`,
     `- Venues: ${venues.length}`,
     `- Exhibitions after pruning: ${venues.reduce((a, m) => a + (m.shows || []).length, 0) - pruned.dropped.length}`,
-    `- Checked-on date moved: ${!needsAttention && !DRY && !OFFLINE ? "yes" : "no"}`);
+    `- Checked-on date moved: ${!needsAttention && !DRY && !OFFLINE ? "yes" : "no"}`,
+    `- Tab counts corrected: ${manifestMoved.length ? manifestMoved.join(", ") : "none needed"}`);
   list("Pages that changed since last week — re-read these", changed, (r) => `[${r.n}](${r.u})`);
   list("Unreachable", unreachable, (r) => `[${r.n}](${r.u}) — ${r.status || "no response"} ${r.error}`.trim());
   list("Redirected — the link in the data may be out of date", redirected, (r) => `${r.n}: ${r.from} → ${r.to}`);
@@ -332,7 +371,7 @@ async function main() {
   setOutput("changed", String(changed.length));
   setOutput("unreachable", String(unreachable.length));
   setOutput("attention", String(needsAttention));
-  setOutput("wrote", String(wrote));
+  setOutput("wrote", String(wrote || manifestMoved.length > 0));
   return 0;
 }
 

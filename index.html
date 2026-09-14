@@ -598,6 +598,15 @@ function chrome(){
   document.querySelectorAll("#lang button").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
 
+  // The manifest's venue counts are a copy of a fact that lives in data/, and the
+  // weekly update edits data/. Correct every city we have actually loaded, so a
+  // stale tab heals itself in the reader's browser instead of waiting to be
+  // noticed. scripts/refresh.js keeps the file itself in step for the rest.
+  CITIES.forEach(c => {
+    const entry = CITY_MANIFEST.find(x => x.id === c.id);
+    if (entry) entry.venues = c.groups.reduce((a, g) => a + g.items.length, 0);
+  });
+
   const nav = document.getElementById("cities");
   nav.setAttribute("aria-label", t.cities);
   nav.innerHTML = CITY_MANIFEST.map(x =>

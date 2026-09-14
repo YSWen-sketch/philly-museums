@@ -125,6 +125,14 @@ function collect(outFile, stdout) {
 }
 
 const dataFile = path.join(T, "data", "boston.js");
+const indexFile = path.join(T, "index.html");
+// A manifest whose count is wrong on purpose — this is the drift that happens
+// the first time the weekly update adds or drops a venue.
+const MANIFEST = `<!doctype html><script>
+var CITY_MANIFEST = [
+  { id: "boston", n: "Boston", nz: "波士顿", venues: 999 }
+];
+</script>`;
 const reportFile = path.join(T, "reports", "boston.md");
 const read = (f) => fs.readFileSync(f, "utf8");
 
@@ -152,6 +160,7 @@ const read = (f) => fs.readFileSync(f, "utf8");
 
   console.log("\nfirst scan (all pages reachable, nothing seen before)");
   fs.writeFileSync(dataFile, fixture(urls));
+  fs.writeFileSync(indexFile, MANIFEST);
   let r = await run();
   eq("city reported", r.out.city, "boston");
   eq("nothing counts as changed on a first scan", r.out.changed, "0");
@@ -172,6 +181,8 @@ const read = (f) => fs.readFileSync(f, "utf8");
   check("the report flags an exhibition with no closing date", rep.includes("No Date At All Show"));
   check("the checked-on date does not move while a page is unreachable",
     text.includes('updated: "January 1, 2020"'));
+  check("a stale tab count is corrected from the data", /venues: 3 \}/.test(read(indexFile)),
+    read(indexFile).match(/venues: \d+/) || "no manifest found");
 
   console.log("\nsecond scan (a page's text changed)");
   alphaBody = "<html><body><h1>Alpha Museum</h1><p>A Brand New Show</p></body></html>";

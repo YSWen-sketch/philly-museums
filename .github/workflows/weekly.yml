@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "on-view-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data state reports
+          git add -A data state reports index.html
           if git diff --cached --quiet; then
             echo "nothing to commit"
             echo "committed=false" >> "$GITHUB_OUTPUT"
