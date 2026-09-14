@@ -1,43 +1,60 @@
-# 每周核对流程（写给自动程序，也可以由人照着做）
+# Weekly reconciliation procedure
 
-目标：让 `data.js` 里每家馆的信息与官网一致，给普通观众一份准确、够用的看展清单。宁可少写，不要写错。
+This is the working brief for the scheduled agent. A person can follow it by hand just as well.
 
-## 0. 准备
-- 仓库根目录就是工作目录。先 `date` 看今天日期，再通读 `data.js` 和 `README.md`，弄清字段含义。
-- 只允许改这几个文件：`data.js`、`CHANGELOG.md`。不要动 `index.html`、`scripts/`、`.github/`。
+**Goal:** keep `data.js` matching what each museum's own website says, so that an ordinary visitor planning a weekend can trust it. When in doubt, leave a field alone. An omission is a small problem; an invented date sends someone across the city for nothing.
 
-## 1. 逐馆核对 `DATA`
-对 `DATA` 里的每一家馆（约 50 家）：
-1. 用 WebFetch 打开它的 `u`（官网展览页）。页面空白或打不开时，再试一次主页，或用 WebSearch 搜 `"<馆名> exhibitions 2026"`。每家馆最多 3 次抓取，超过就放弃本周核对这家馆，数据保持原样，并在更新记录里写"未能核对"。
-2. 对照官网核对并修改：
-   - `shows`：新展加进来；官网已撤下、或闭幕超过 30 天的展览删掉。
-   - 每个展览：`t` 保留官方原名（通常是英文）；`s`/`e` 只写官网明确给出的 `YYYY-MM-DD`，不确定就用 `sText`/`eText` 写文字（如 `eText: "至 11 月"`），**绝不编造日期**；`d` 是给普通人看的一句中文说明，10–30 字，讲清楚"这是个什么展"。
-   - `h` 开馆时间、`p` 票价、`flag` 馆级提示（闭馆换展、永久关闭等）有变化就改，格式跟现有条目保持一致。
-   - 如果 `u` 链接失效而你找到了新的官方展览页，更新 `u`。
-3. 不要改 `n` 馆名，不要改分组结构，不要新增分组，不要因为"暂时没有特展"就删馆（`shows: []` 即可）。馆永久关闭时，从 `DATA` 删除并加到 `CLOSED`。
+## 0. Orient
 
-## 2. `PLAIN` 与 `CLOSED`
-各扫一眼（每家最多一次抓取）：开馆时间、票价或季节性活动有变化就改。
+- Work from the repository root. Run `date` to establish today, then read `data.js` and `README.md` so the field meanings are fresh.
+- Only these files may be modified: `data.js` and `CHANGELOG.md`. Leave `index.html`, `scripts/` and `.github/` untouched.
+- **Everything visitor-facing is bilingual.** The plain key is English, the same key with a `z` suffix is Chinese: `n`/`nz`, `h`/`hz`, `p`/`pz`, `flag`/`flagz`, `d`/`dz`, `sText`/`sTextz`, `eText`/`eTextz`. Whenever you add or change one side, change the other in the same edit. The validator rejects a field that exists in only one language.
+- Exhibition titles (`t`) and street addresses (`a`) are not translated; they stay as the museum publishes them.
 
-## 3. 页面文字
-- `LEDE`（页首导语）和 `NOTE`（页脚提示）只在确有变化时改，语气保持原样，各不超过两句话。
-- `UPDATED` 改成今天，格式如 `"2026 年 9 月 14 日"`。
+## 1. Reconcile each museum in `DATA`
 
-## 4. 校验
-运行 `node scripts/validate.js`，必须打印 ✓。报错就修到通过为止。
+For each of the 42 museums:
 
-## 5. 更新记录
-在 `CHANGELOG.md` 顶部加一节，标题是今天的日期，正文每条变更一行（新增 / 修改 / 删除了哪家馆的什么）。本周没有变化也要写一行"无变化"。未能核对的馆单独列出。
+1. Fetch its `u`, the official exhibitions page. If the page comes back empty, is rendered by JavaScript, or the host refuses the request, try the museum's homepage once, then search the web for `"<museum name>" exhibitions 2026`. **Cap it at three fetches per museum.** Past that, leave the museum's data exactly as it is and record it as unverified in the changelog.
 
-## 6. 提交
-```
+   Several Philadelphia museum sites block automated requests outright or load their listings with JavaScript. As of September 2026 that includes the Historical Society of Pennsylvania, the Free Library, Cliveden, Wyck, Fireman's Hall, the Mütter Museum and the Museum of the American Revolution. Expect a handful of venues to go unverified most weeks. That is a known limitation, not a failure, and it is never a reason to guess.
+
+2. Reconcile against what the website actually says:
+   - `shows` — add newly announced exhibitions, remove ones the museum has taken down or that closed more than 30 days ago.
+   - Per exhibition: `t` keeps the official title. `s` and `e` take a `YYYY-MM-DD` date **only when the museum states one**; otherwise use `sText`/`sTextz` or `eText`/`eTextz` with the wording as given, such as `eText: "Through November"` with `eTextz: "至 11 月"`. Never infer, round, or invent a date. `d`/`dz` is a one-line description telling a visitor what kind of show it is: roughly 10 to 20 words in English, 10 to 30 characters in Chinese.
+   - Update `h`/`hz` (hours), `p`/`pz` (admission) and `flag`/`flagz` (a museum-level notice such as a closure for reinstallation) when they change, matching the formatting of the surrounding entries. English hours use 12-hour times as the museum writes them; Chinese hours use the 24-hour convention already in the file.
+   - If `u` is dead and a current official exhibitions page exists, update `u`.
+3. Do not rename museums, do not add or restructure groups, and do not drop a museum that simply has nothing on right now — give it `shows: []`. A museum that has closed permanently moves out of `DATA` into `CLOSED`.
+
+## 2. `PLAIN` and `CLOSED`
+
+One fetch each at most. Correct hours, admission or seasonal programming if they have changed. Both lists are bilingual in the same way.
+
+## 3. Page copy
+
+- `LEDE`/`LEDE_ZH` (intro) and `NOTE`/`NOTE_ZH` (footer) change only when something real has changed, such as a major museum closing or a season's worth of shows turning over. Keep each to two sentences and keep the existing tone.
+- Set `UPDATED` to today as `"September 14, 2026"` and `UPDATED_ZH` as `"2026 年 9 月 14 日"`.
+
+## 4. Validate
+
+Run `node scripts/validate.js`. It must print ✓. Fix whatever it reports and run it again until it passes. Do not commit a file that fails.
+
+## 5. Record what changed
+
+Add a section to the top of `CHANGELOG.md` headed with today's date, written in English, one line per change naming the museum and what moved. Write "No changes." when nothing did. List any museums that could not be verified this week, with the reason.
+
+## 6. Commit
+
+```sh
 git config user.name "philly-museums bot"
 git config user.email "bot@users.noreply.github.com"
 git add data.js CHANGELOG.md
-git commit -m "每周核对：YYYY-MM-DD"
+git commit -m "Weekly reconciliation: YYYY-MM-DD"
 git push origin HEAD:main
 ```
-如果 push 被拒绝，改为推到分支 `weekly/YYYY-MM-DD`，然后 `gh pr create --fill`。
 
-## 7. 汇报
-最后用中文简短汇报：核对了几家馆、新增几个展览、删掉几个、有哪些馆本周未能核对、是直接推到 main 还是开了 PR。
+If the push is rejected, push to a branch named `weekly/YYYY-MM-DD` and open a pull request with `gh pr create --fill`.
+
+## 7. Report
+
+Close with a short summary in Chinese: how many museums were checked, how many exhibitions were added and removed, which museums could not be verified, and whether the result went to `main` or to a pull request.

@@ -95,6 +95,17 @@
     font-size: 13px;
     margin-top: 10px;
   }
+  .topbar { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  .lang {
+    display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 999px;
+    overflow: hidden; background: var(--surface); margin-top: 6px;
+  }
+  .lang button {
+    font: inherit; font-size: 13px; line-height: 1.4;
+    padding: 5px 12px; border: 0; background: none; color: var(--ink-2); cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+  .lang button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 
   /* summary strip */
   .strip {
@@ -208,6 +219,8 @@
 
   .plain { display: grid; gap: 6px; font-size: 14px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 14px; }
   .plain b { color: var(--ink); font-weight: 500; }
+  .plain a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .plain a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
   footer a { color: inherit; }
   footer { margin-top: 48px; color: var(--ink-3); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 14px; max-width: 70ch; }
@@ -218,127 +231,218 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>费城博物馆特展一览</h1>
+    <div class="topbar">
+      <h1 id="title"></h1>
+      <div class="lang" role="group" id="lang">
+        <button type="button" data-lang="zh" lang="zh-CN">中文</button>
+        <button type="button" data-lang="en" lang="en">English</button>
+      </div>
+    </div>
     <p class="lede" id="lede"></p>
-    <p class="meta">信息核对于 <span id="updated"></span>，来源为各馆官网；票价为成人价，Penn 学生请留意 PennCard 优惠。状态标签按今天的日期自动计算。</p>
+    <p class="meta" id="meta"></p>
   </header>
 
   <div class="strip" id="strip"></div>
 
   <div class="controls">
-    <input id="q" type="search" placeholder="搜索馆名或展览…" aria-label="搜索">
-    <button class="chip" data-f="all" aria-pressed="true">全部</button>
-    <button class="chip" data-f="soon" aria-pressed="false">30 天内闭幕</button>
-    <button class="chip" data-f="new" aria-pressed="false">即将开幕</button>
-    <button class="chip" data-f="free" aria-pressed="false">免费入场</button>
+    <input id="q" type="search">
+    <button class="chip" data-f="all" aria-pressed="true"></button>
+    <button class="chip" data-f="soon" aria-pressed="false"></button>
+    <button class="chip" data-f="new" aria-pressed="false"></button>
+    <button class="chip" data-f="free" aria-pressed="false"></button>
     <span class="count" id="count"></span>
   </div>
 
   <div id="groups"></div>
 
-  <footer>
-    开馆时间以官网为准，节假日常有调整。标注"第三方日期"的条目官网未写明具体日期，取自本地媒体报道。<span id="note"></span>
-    <br>本页每周四由自动程序核对各馆官网后更新，源码与更新记录见 <a id="repo" href="#">GitHub</a>。
-  </footer>
+  <footer id="foot"></footer>
 </div>
 
 <script src="data.js"></script>
 <script>
-document.getElementById("updated").textContent = UPDATED;
-document.getElementById("lede").textContent = LEDE;
-document.getElementById("note").textContent = NOTE;
-document.getElementById("repo").href = REPO;
+// ---------- language ----------
+const STR = {
+  zh: {
+    title: "费城博物馆特展一览",
+    desc: "费城博物馆、美术馆与历史宅邸的特展一览，按闭幕日期自动标注。",
+    meta: (d) => `信息核对于 ${d}，来源为各馆官网；票价为成人价，Penn 学生请留意 PennCard 优惠。状态标签按今天的日期自动计算。`,
+    search: "搜索馆名或展览…",
+    all: "全部", soon: "30 天内闭幕", opening: "即将开幕", free: "免费入场",
+    count: (a, b) => `${a} / ${b} 家`,
+    stripSoon: "30 天内闭幕", stripNew: "45 天内开幕",
+    on: "进行中", willOpen: "即将开幕", over: "已结束",
+    lastDay: "今天最后一天", daysLeft: (n) => `还剩 ${n} 天`,
+    until: (t) => "至 " + t,
+    noMatch: "无符合筛选的展览", noShows: "目前无特展，常设展开放",
+    empty: "没有匹配的结果。",
+    plainTitle: "无特展的常设馆",
+    plainNote: "这些馆只有常设展或季节性活动，列出方便一并规划。",
+    closedTitle: "已关闭",
+    foot: (note) => `开馆时间以官网为准，节假日常有调整。标注"第三方日期"的条目官网未写明具体日期，取自本地媒体报道。${note}`,
+    footAuto: '本页每周四由自动程序核对各馆官网后更新，源码与更新记录见 <a href="REPO" target="_blank" rel="noopener">GitHub</a>。'
+  },
+  en: {
+    title: "Philadelphia Museum Exhibitions",
+    desc: "What is on view at Philadelphia's museums, galleries and historic houses, with closing dates marked automatically.",
+    meta: (d) => `Checked ${d} against the museums' own websites. Prices are adult admission; Penn students should check for PennCard rates. Status tags are computed from today's date.`,
+    search: "Search a museum or exhibition…",
+    all: "All", soon: "Closing in 30 days", opening: "Opening soon", free: "Free admission",
+    count: (a, b) => `${a} of ${b} venues`,
+    stripSoon: "Closing within 30 days", stripNew: "Opening within 45 days",
+    on: "On view", willOpen: "Opening soon", over: "Closed",
+    lastDay: "Last day today", daysLeft: (n) => n === 1 ? "1 day left" : `${n} days left`,
+    until: (t) => "Until " + t,
+    noMatch: "Nothing here matches the filter", noShows: "No special exhibition right now; the permanent collection is open",
+    empty: "No results.",
+    plainTitle: "Permanent collections, no special exhibition",
+    plainNote: "These venues show only their permanent collection or seasonal programming. Listed so you can plan around them.",
+    closedTitle: "Closed for good",
+    foot: (note) => `Hours follow the museums' own websites and often shift around holidays. Entries marked as third-party dates are ones the museum has not dated itself; those come from local press. ${note}`,
+    footAuto: 'This page is reconciled against the museums\' websites every Thursday by an automated agent. Source and changelog on <a href="REPO" target="_blank" rel="noopener">GitHub</a>.'
+  }
+};
+
+function pickLang() {
+  const q = new URLSearchParams(location.search).get("lang");
+  if (q === "en" || q === "zh") return q;
+  try { const v = localStorage.getItem("lang"); if (v === "en" || v === "zh") return v; } catch (e) {}
+  return (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en";
+}
+let LANG = pickLang();
+const T = () => STR[LANG];
+const zh = () => LANG === "zh";
+// Pick the localized variant of a field: `k` in English, `k + "z"` in Chinese.
+const L = (o, k) => (zh() ? (o[k + "z"] || o[k]) : o[k]) || "";
+
 // ---------- helpers ----------
 const today = new Date(); today.setHours(0,0,0,0);
 const MS = 86400000;
+const EN_MONTH = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function parse(s){ const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); }
-function fmt(s){ const d = parse(s); return (d.getFullYear() !== today.getFullYear() ? d.getFullYear() + "/" : "") + (d.getMonth()+1) + "/" + d.getDate(); }
+function fmt(s){
+  const d = parse(s), sameYear = d.getFullYear() === today.getFullYear();
+  if (zh()) return (sameYear ? "" : d.getFullYear() + "/") + (d.getMonth()+1) + "/" + d.getDate();
+  return EN_MONTH[d.getMonth()] + " " + d.getDate() + (sameYear ? "" : ", " + d.getFullYear());
+}
+function mday(d){ return zh() ? (d.getMonth()+1) + "/" + d.getDate() : EN_MONTH[d.getMonth()] + " " + d.getDate(); }
 function status(sh){
-  if (sh.s && parse(sh.s) > today) return { k: "new", label: "即将开幕" };
-  if (sh.sText && !sh.s) return { k: "new", label: "即将开幕" };
+  const t = T();
+  if (sh.s && parse(sh.s) > today) return { k: "new", label: t.willOpen };
+  if ((sh.sText || sh.sTextz) && !sh.s) return { k: "new", label: t.willOpen };
   if (sh.e) {
     const days = Math.round((parse(sh.e) - today) / MS);
-    if (days < 0) return { k: "over", label: "已结束" };
-    if (days <= 30) return { k: "soon", label: days === 0 ? "今天最后一天" : "还剩 " + days + " 天" };
+    if (days < 0) return { k: "over", label: t.over };
+    if (days <= 30) return { k: "soon", label: days === 0 ? t.lastDay : t.daysLeft(days) };
   }
-  return { k: "on", label: "进行中" };
+  return { k: "on", label: t.on };
 }
 function dateText(sh){
-  const a = sh.s ? fmt(sh.s) : (sh.sText || "");
-  const b = sh.e ? fmt(sh.e) : (sh.eText || "");
-  if (a && b) return a + " – " + b.replace(/^至 ?/, "");
-  if (b) return sh.eText && !sh.e ? b : "至 " + b;
+  const a = sh.s ? fmt(sh.s) : L(sh, "sText");
+  const b = sh.e ? fmt(sh.e) : L(sh, "eText");
+  if (a && b) return a + " – " + b.replace(/^(至 ?|Through |Until )/, "");
+  if (b) return (!sh.e) ? b : T().until(b);
   return a;
 }
-function esc(t){ return t.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function esc(t){ return String(t).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 function hl(text, q){
+  text = String(text);
   if (!q) return esc(text);
   const i = text.toLowerCase().indexOf(q.toLowerCase());
   if (i < 0) return esc(text);
   return esc(text.slice(0,i)) + "<mark>" + esc(text.slice(i, i+q.length)) + "</mark>" + esc(text.slice(i+q.length));
 }
+// The heading shows both names in Chinese, the official name alone in English.
+function museumName(m){ return zh() && m.nz ? m.n + " " + m.nz : m.n; }
+
+// ---------- chrome ----------
+function chrome(){
+  const t = T();
+  document.documentElement.lang = zh() ? "zh-CN" : "en";
+  document.title = t.title;
+  const md = document.querySelector('meta[name="description"]');
+  if (md) md.setAttribute("content", t.desc);
+  document.getElementById("title").textContent = t.title;
+  document.getElementById("lede").textContent = zh() ? LEDE_ZH : LEDE;
+  document.getElementById("meta").textContent = t.meta(zh() ? UPDATED_ZH : UPDATED);
+  document.getElementById("q").placeholder = t.search;
+  document.getElementById("q").setAttribute("aria-label", t.search);
+  const labels = { all: t.all, soon: t.soon, new: t.opening, free: t.free };
+  document.querySelectorAll(".chip").forEach(b => { b.textContent = labels[b.dataset.f]; });
+  document.getElementById("foot").innerHTML =
+    esc(t.foot(zh() ? NOTE_ZH : NOTE)) + "<br>" + t.footAuto.replace("REPO", esc(REPO));
+  document.querySelectorAll("#lang button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
+}
 
 // ---------- summary strip ----------
-(function buildStrip(){
-  const soon = [], opening = [];
+function buildStrip(){
+  const t = T(), soon = [], opening = [];
   DATA.forEach(g => g.items.forEach(m => m.shows.forEach(sh => {
     const st = status(sh);
-    if (st.k === "soon") soon.push({ d: parse(sh.e), t: sh.t, m: m.n });
-    if (st.k === "new" && sh.s) { const d = parse(sh.s); if ((d - today)/MS <= 45) opening.push({ d, t: sh.t, m: m.n }); }
+    if (st.k === "soon") soon.push({ d: parse(sh.e), t: sh.t, m });
+    if (st.k === "new" && sh.s) { const d = parse(sh.s); if ((d - today)/MS <= 45) opening.push({ d, t: sh.t, m }); }
   })));
   soon.sort((a,b)=>a.d-b.d); opening.sort((a,b)=>a.d-b.d);
-  const short = n => { const cjk = n.match(/[一-鿿][^（(]*/); return cjk ? cjk[0].trim() : n.replace(/[（(].*$/, "").trim(); };
-  const li = (x, cls) => `<li><span class="d ${cls}">${x.d.getMonth()+1}/${x.d.getDate()}</span><span>${esc(x.t)}<br><span style="color:var(--ink-3)">${esc(short(x.m))}</span></span></li>`;
+  const short = (m) => zh() ? (m.nz || m.n) : m.n.replace(/\s*\(.*$/, "").trim();
+  const li = (x, cls) => `<li><span class="d ${cls}">${esc(mday(x.d))}</span><span>${esc(x.t)}<br><span style="color:var(--ink-3)">${esc(short(x.m))}</span></span></li>`;
   document.getElementById("strip").innerHTML =
-    `<section><h2>30 天内闭幕 <b>${soon.length}</b></h2><ul>${soon.slice(0,8).map(x=>li(x,"soon")).join("")}</ul></section>` +
-    `<section><h2>45 天内开幕 <b>${opening.length}</b></h2><ul>${opening.slice(0,8).map(x=>li(x,"new")).join("")}</ul></section>`;
-})();
+    `<section><h2>${esc(t.stripSoon)} <b>${soon.length}</b></h2><ul>${soon.slice(0,8).map(x=>li(x,"soon")).join("")}</ul></section>` +
+    `<section><h2>${esc(t.stripNew)} <b>${opening.length}</b></h2><ul>${opening.slice(0,8).map(x=>li(x,"new")).join("")}</ul></section>`;
+}
 
 // ---------- groups ----------
 function render(){
+  const t = T();
   const q = document.getElementById("q").value.trim();
   const f = document.querySelector(".chip[aria-pressed='true']").dataset.f;
   let shown = 0, total = 0;
   const html = DATA.map(g => {
     const items = g.items.map(m => {
       total++;
+      const name = museumName(m);
       let shows = m.shows.map(sh => ({ sh, st: status(sh) })).filter(x => x.st.k !== "over");
       if (f === "soon") shows = shows.filter(x => x.st.k === "soon");
       if (f === "new") shows = shows.filter(x => x.st.k === "new");
-      const hay = (m.n + " " + m.shows.map(s => s.t + " " + (s.d||"")).join(" ")).toLowerCase();
+      const hay = (name + " " + m.shows.map(s => s.t + " " + L(s, "d")).join(" ")).toLowerCase();
       const matchQ = !q || hay.includes(q.toLowerCase());
       const matchF = f === "all" || (f === "free" ? !!m.free : shows.length > 0);
       if (!matchQ || !matchF) return "";
-      if (q) shows = shows.filter(x => m.n.toLowerCase().includes(q.toLowerCase()) || (x.sh.t + " " + (x.sh.d||"")).toLowerCase().includes(q.toLowerCase()));
+      if (q) shows = shows.filter(x => name.toLowerCase().includes(q.toLowerCase()) || (x.sh.t + " " + L(x.sh, "d")).toLowerCase().includes(q.toLowerCase()));
       shown++;
       const showsHtml = shows.length
         ? `<ul class="shows">${shows.map(({sh, st}) => `<li class="show">
-            <span class="t">${hl(sh.t, q)}<span class="tag ${st.k}">${st.label}</span></span>
+            <span class="t">${hl(sh.t, q)}<span class="tag ${st.k}">${esc(st.label)}</span></span>
             <span class="dates">${esc(dateText(sh))}</span>
-            ${sh.d ? `<span class="desc">${hl(sh.d, q)}</span>` : ""}
+            ${L(sh, "d") ? `<span class="desc">${hl(L(sh, "d"), q)}</span>` : ""}
           </li>`).join("")}</ul>`
-        : `<p class="none">${m.shows.length ? "无符合筛选的展览" : "目前无特展，常设展开放"}</p>`;
+        : `<p class="none">${esc(m.shows.length ? t.noMatch : t.noShows)}</p>`;
+      const heading = m.u ? `<a href="${esc(m.u)}" target="_blank" rel="noopener">${hl(name, q)}</a>` : hl(name, q);
       return `<article class="museum">
         <div>
-          <h3>${m.u ? `<a href="${esc(m.u)}" target="_blank" rel="noopener">${hl(m.n, q)}</a>` : hl(m.n, q)}<small>${esc(m.a)}</small></h3>
-          <div class="facts"><span>${esc(m.h)}</span><span>${esc(m.p)}</span></div>
-          ${m.flag ? `<span class="flag">${esc(m.flag)}</span>` : ""}
+          <h3>${heading}<small>${esc(m.a)}</small></h3>
+          <div class="facts"><span>${esc(L(m, "h"))}</span><span>${esc(L(m, "p"))}</span></div>
+          ${L(m, "flag") ? `<span class="flag">${esc(L(m, "flag"))}</span>` : ""}
         </div>
         ${showsHtml}
       </article>`;
     }).join("");
     if (!items) return "";
-    return `<section class="group"><h2>${esc(g.g)}</h2><p class="note">${esc(g.note)}</p>${items}</section>`;
+    return `<section class="group"><h2>${esc(L(g, "g"))}</h2><p class="note">${esc(L(g, "note"))}</p>${items}</section>`;
   }).join("");
 
-  const plainVisible = f === "all" && !q;
-  const plain = plainVisible ? `<section class="group"><h2>无特展的常设馆</h2><p class="note">这些馆只有常设展或季节性活动，列出方便一并规划。</p>
-      <div class="plain">${PLAIN.map(([n, s]) => `<div><b>${esc(n)}</b> · ${esc(s)}</div>`).join("")}</div></section>
-    <section class="group"><h2>已关闭</h2><div class="plain">${CLOSED.map(([n, s]) => `<div><b>${esc(n)}</b> · ${esc(s)}</div>`).join("")}</div></section>` : "";
+  const row = (x) => `<div><b>${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(zh() && x.nz ? x.n + " " + x.nz : x.n)}</a>` : esc(zh() && x.nz ? x.n + " " + x.nz : x.n)}</b> · ${esc(L(x, "d"))}</div>`;
+  const plain = (f === "all" && !q)
+    ? `<section class="group"><h2>${esc(t.plainTitle)}</h2><p class="note">${esc(t.plainNote)}</p>
+       <div class="plain">${PLAIN.map(row).join("")}</div></section>
+       <section class="group"><h2>${esc(t.closedTitle)}</h2><div class="plain">${CLOSED.map(row).join("")}</div></section>`
+    : "";
 
-  document.getElementById("groups").innerHTML = (html || `<p class="none" style="margin-top:24px">没有匹配的结果。</p>`) + plain;
-  document.getElementById("count").textContent = `${shown} / ${total} 家`;
+  document.getElementById("groups").innerHTML =
+    (html || `<p class="none" style="margin-top:24px">${esc(t.empty)}</p>`) + plain;
+  document.getElementById("count").textContent = t.count(shown, total);
 }
+
+function draw(){ chrome(); buildStrip(); render(); }
 
 document.getElementById("q").addEventListener("input", render);
 document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
@@ -346,7 +450,12 @@ document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () =
   b.setAttribute("aria-pressed", "true");
   render();
 }));
-render();
+document.querySelectorAll("#lang button").forEach(b => b.addEventListener("click", () => {
+  LANG = b.dataset.lang;
+  try { localStorage.setItem("lang", LANG); } catch (e) {}
+  draw();
+}));
+draw();
 </script>
 </body>
 </html>

@@ -1,26 +1,41 @@
-# 费城博物馆特展一览
+# Philadelphia Museum Exhibitions
 
-给普通人的费城看展清单：50 余家博物馆、美术馆、历史宅邸与大学画廊，各家官网目前挂出的特展、开闭幕日期、开馆时间和票价。
+A visitor's list of what is on show in Philadelphia right now: 42 museums, art galleries, historic houses and university galleries, with the special exhibitions each one currently advertises, their opening and closing dates, hours and admission prices.
 
-**在线地址：https://yswen-sketch.github.io/philly-museums/**
+**Live site: https://yswen-sketch.github.io/philly-museums/**
 
-## 它是怎么运转的
+The page reads in **English or Chinese**, switchable in the top right corner. The choice is remembered in the browser, and `?lang=en` or `?lang=zh` links straight to one of them. A first-time visitor gets Chinese if their browser asks for Chinese, English otherwise. Exhibition titles stay in their official form in both languages so they can be searched for.
 
-- 纯静态页面：`index.html` 负责样式和逻辑，`data.js` 存所有博物馆和展览数据。闭幕倒计时、"即将开幕"标签在打开页面时按当天日期计算，不用手动改。
-- **每周四早上自动更新**：一个 Claude 云端定时程序按 [`scripts/WEEKLY.md`](scripts/WEEKLY.md) 的流程，逐馆打开官网展览页核对，改完 `data.js` 后运行校验、写 [`CHANGELOG.md`](CHANGELOG.md)、推送到 `main`。GitHub Pages 随即重新发布。
-- 每次推送都会跑 `node scripts/validate.js`（见 Actions 页面），字段或日期格式有问题会标红，页面不会因为一处笔误整体空白。
+## How it works
 
-## 手动改数据
+- **Static page, no build step.** `index.html` holds the styling and logic; `data.js` holds every museum and exhibition. Closing countdowns and the "opening soon" tags are computed from the visitor's own clock when the page loads, so they never go stale on their own.
+- **Automatic refresh every Thursday morning.** A scheduled Claude cloud agent follows [`scripts/WEEKLY.md`](scripts/WEEKLY.md): it opens each museum's official exhibitions page, reconciles `data.js` against it, runs the validator, appends to [`CHANGELOG.md`](CHANGELOG.md), and pushes to `main`. GitHub Pages republishes within a minute.
+- **Every push is validated.** `node scripts/validate.js` runs in GitHub Actions and fails the build on a malformed field or date, so a single typo cannot blank out the page.
 
-只改 `data.js`：
+## Editing the data by hand
 
-- 每个馆是一个对象：`n` 名称、`a` 地址、`h` 开馆时间、`p` 票价、`u` 官网展览页链接、`free: true` 表示免费、`flag` 是馆级提示（闭馆换展之类）。
-- 每个展览：`t` 标题、`s` 开幕日期、`e` 闭幕日期（都是 `YYYY-MM-DD`）、`d` 一句话说明。日期不确定时用 `sText` / `eText` 写文字，比如 `eText: "至 11 月"`。
-- 已结束的展览页面会自动隐藏，闭幕超过一个月的可以删掉保持文件干净。
-- 页首导语 `LEDE`、页脚提示 `NOTE`、核对日期 `UPDATED` 也在这个文件顶部。
-- 改完在 `CHANGELOG.md` 顶部记一行，然后提交推送即可。
+Everything lives in `data.js`.
 
-## 调整自动更新
+Every visitor-facing string exists twice: the plain key holds English, the same key with a `z` suffix holds Chinese. Both are required, and the validator fails a field that has only one of them.
 
-- 定时程序在 https://claude.ai/code/routines 管理，可以暂停、改时间、或点"立即运行"。
-- 核对规则全在 `scripts/WEEKLY.md`，想让它更保守或更激进，改这个文件就行，下次运行会读新版本。
+| Field | Meaning |
+| --- | --- |
+| `n` / `nz` | Museum name |
+| `a` | Street address, not translated |
+| `h` / `hz` | Opening hours |
+| `p` / `pz` | Admission |
+| `u` | Link to the museum's official exhibitions page |
+| `free` | `true` if admission is free |
+| `flag` / `flagz` | Museum-level notice, e.g. closed for reinstallation |
+| `shows` | List of current and upcoming exhibitions |
+
+Each exhibition takes `t` (the official title, not translated), `s` (opening date), `e` (closing date) and `d` / `dz` (a one-line description). Dates are `YYYY-MM-DD`. When a museum has not published an exact date, use `sText` / `sTextz` or `eText` / `eTextz` and write the wording instead, for example `eText: "Through November"` with `eTextz: "至 11 月"`.
+
+Exhibitions that have already closed are hidden automatically; delete them once they are more than a month past to keep the file readable. The intro line, footer note and the "checked on" date sit at the top of the same file, each in both languages.
+
+After editing, run `node scripts/validate.js`, add a line to `CHANGELOG.md`, then commit and push.
+
+## Adjusting the automatic refresh
+
+- The schedule lives at https://claude.ai/code/routines, where it can be paused, rescheduled, or run immediately.
+- The rules the agent follows are entirely in `scripts/WEEKLY.md`. Edit that file to make it more or less conservative; the next run reads the new version.

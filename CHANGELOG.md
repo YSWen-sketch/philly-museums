@@ -1,8 +1,11 @@
-# 更新记录
+# Changelog
 
-每周四由自动程序核对各馆官网后写入；人工修改也请在这里记一笔。
+Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
 ## 2026-09-14
-- 初始版本：50 余家馆的数据由人工整理，来源为各馆官网。
-- 为每家馆补上官网展览页链接（`u` 字段），馆名可点击。
-- 启用每周四自动核对。
+
+- Initial release. Data for 42 venues plus 10 permanent-collection and closed venues, compiled by hand from official museum websites.
+- The page now reads in English or Chinese, switchable in the top right and remembered per browser.
+- Added a link to each museum's official exhibitions page; museum names on the page are clickable.
+- Added `scripts/validate.js`, which runs on every push and fails the build on a malformed or half-translated field.
+- Enabled the weekly automatic reconciliation.

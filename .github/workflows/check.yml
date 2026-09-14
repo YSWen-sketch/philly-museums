@@ -1,4 +1,4 @@
-name: 校验数据
+name: Validate data
 
 on:
   push:
@@ -14,5 +14,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: 校验 data.js
+      - name: Validate data.js
         run: node scripts/validate.js
