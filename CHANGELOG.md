@@ -2,6 +2,21 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-14 (automation, landmarks, project hygiene)
+
+The weekly update is now two halves, and the first half needs no model.
+
+- `scripts/refresh.js` runs in GitHub Actions every Thursday at 07:00 New York time. It opens every venue page for that week's city, fingerprints the visible text to see what actually moved, drops exhibitions that closed more than a month ago, and writes `reports/<city>.md`. The scheduled agent runs two hours later and starts from that report rather than the open web, which is where nearly all of the cost was.
+- That split is also the fallback. If the agent is paused, broken or out of quota, the Thursday job has still pruned the stale data, still refused to advance the "checked on" date it did not earn, and filed an issue carrying the report.
+- One city a week, chosen by `scripts/rotation.js` rather than by judgement, so each city comes round every four weeks in the order Philadelphia, New York, Washington, Boston. The cycle is anchored to a fixed Thursday and cannot reset or skip at a year boundary.
+- `scripts/smoke.js` proves it works, on every push and again before every scheduled run. It builds a throwaway copy of the project, serves fake museum pages from localhost, and drives the real refresh through a first scan, a page whose text changes, a page that goes down, a site that refuses robots, and a quiet week. It caught an emptied exhibition list being written as `shows: []},` rather than `shows: [] },`.
+
+The first live run scanned Boston and found 15 of 65 venues behind bot walls. Retrying those with a browser user-agent recovered none of them — those walls fingerprint the TLS handshake, not the header — so the retry was reverted and the measurement recorded in the source. Reporting them is the right answer: the agent has the workarounds, and the report says where to spend them.
+
+Each city also gets a landmark banner and an accent colour that re-tints the page, so you can tell where you are before reading: City Hall and the Art Museum, Liberty and the Brooklyn Bridge, the Capitol and the Monument, the golden State House dome and the Zakim. The drawings are inline SVG in `assets/skylines.js`, and the banner hides itself rather than breaking the page if that file fails to load.
+
+Housekeeping: `LICENSE` (MIT), `package.json` with `npm test`, `.editorconfig`, a real `.gitignore`, and a daily job that records readership from GitHub's own traffic API into the README — no analytics script on the page and nothing about a visitor leaving GitHub.
+
 ## 2026-09-14 (inclusion standard)
 
 Wrote down what counts as a venue, and put it in all three places that need to agree: the page itself, `README.md`, and the weekly reconciliation brief.
