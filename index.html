@@ -95,6 +95,14 @@
     font-size: 13px;
     margin-top: 10px;
   }
+  .cities { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 22px; }
+  .cities button {
+    font: inherit; font-size: 13.5px; line-height: 1.4;
+    padding: 5px 14px; border: 1px solid var(--line); border-radius: 999px;
+    background: var(--surface); color: var(--ink-2); cursor: pointer;
+  }
+  .cities button[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .cities button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 16px; }
   .topbar h1 { min-width: 0; flex: 1 1 auto; }
   .lang {
@@ -231,6 +239,8 @@
 </head>
 <body>
 <div class="wrap">
+  <nav class="cities" id="cities"></nav>
+
   <header>
     <div class="topbar">
       <h1 id="title"></h1>
@@ -259,14 +269,21 @@
   <footer id="foot"></footer>
 </div>
 
-<script src="data.js"></script>
+<script>var CITIES = [];</script>
+<script src="data/philadelphia.js"></script>
+<script src="data/newyork.js"></script>
+<script src="data/washington.js"></script>
+<script src="data/boston.js"></script>
 <script>
-// ---------- language ----------
+const REPO = "https://github.com/YSWen-sketch/philly-museums";
+
+// ---------- interface strings ----------
 const STR = {
   zh: {
-    title: "费城博物馆特展一览",
-    desc: "费城博物馆、美术馆与历史宅邸的特展一览，按闭幕日期自动标注。",
-    meta: (d) => `信息核对于 ${d}，来源为各馆官网；票价为成人价，Penn 学生请留意 PennCard 优惠。状态标签按今天的日期自动计算。`,
+    title: (city) => city + "博物馆特展一览",
+    desc: (city) => city + "的博物馆、美术馆与历史宅邸特展一览，按闭幕日期自动标注。",
+    cities: "选择城市",
+    meta: (d) => `信息核对于 ${d}，来源为各馆官网；票价为成人价。状态标签按今天的日期自动计算。`,
     search: "搜索馆名或展览…",
     all: "全部", soon: "30 天内闭幕", opening: "即将开幕", free: "免费入场",
     count: (a, b) => `${a} / ${b} 家`,
@@ -283,9 +300,10 @@ const STR = {
     footAuto: '本页每周四由自动程序核对各馆官网后更新，源码与更新记录见 <a href="REPO" target="_blank" rel="noopener">GitHub</a>。'
   },
   en: {
-    title: "Philadelphia Museum Exhibitions",
-    desc: "What is on view at Philadelphia's museums, galleries and historic houses, with closing dates marked automatically.",
-    meta: (d) => `Checked ${d} against the museums' own websites. Prices are adult admission; Penn students should check for PennCard rates. Status tags are computed from today's date.`,
+    title: (city) => city + " Museum Exhibitions",
+    desc: (city) => `What is on view at ${city}'s museums, galleries and historic houses, with closing dates marked automatically.`,
+    cities: "Choose a city",
+    meta: (d) => `Checked ${d} against the museums' own websites. Prices are adult admission. Status tags are computed from today's date.`,
     search: "Search a museum or exhibition…",
     all: "All", soon: "Closing in 30 days", opening: "Opening soon", free: "Free admission",
     count: (a, b) => `${a} of ${b} venues`,
@@ -303,17 +321,26 @@ const STR = {
   }
 };
 
-function pickLang() {
-  const q = new URLSearchParams(location.search).get("lang");
-  if (q === "en" || q === "zh") return q;
-  try { const v = localStorage.getItem("lang"); if (v === "en" || v === "zh") return v; } catch (e) {}
-  return (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en";
+// ---------- language and city ----------
+const PARAMS = new URLSearchParams(location.search);
+function remembered(key, valid, fallback) {
+  const q = PARAMS.get(key);
+  if (valid(q)) return q;
+  try { const v = localStorage.getItem(key); if (valid(v)) return v; } catch (e) {}
+  return fallback();
 }
-let LANG = pickLang();
+let LANG = remembered("lang", (v) => v === "en" || v === "zh",
+  () => (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en");
+let CITY = remembered("city", (v) => CITIES.some((c) => c.id === v),
+  () => (CITIES[0] || {}).id);
+
 const T = () => STR[LANG];
 const zh = () => LANG === "zh";
+const C = () => CITIES.find((c) => c.id === CITY) || CITIES[0];
 // Pick the localized variant of a field: `k` in English, `k + "z"` in Chinese.
 const L = (o, k) => (zh() ? (o[k + "z"] || o[k]) : o[k]) || "";
+
+function remember(key, value) { try { localStorage.setItem(key, value); } catch (e) {} }
 
 // ---------- helpers ----------
 const today = new Date(); today.setHours(0,0,0,0);
@@ -353,32 +380,42 @@ function hl(text, q){
   return esc(text.slice(0,i)) + "<mark>" + esc(text.slice(i, i+q.length)) + "</mark>" + esc(text.slice(i+q.length));
 }
 // The heading shows both names in Chinese, the official name alone in English.
-function museumName(m){ return zh() && m.nz ? m.n + " " + m.nz : m.n; }
+function bothNames(o){ return zh() && o.nz ? o.n + " " + o.nz : o.n; }
 
 // ---------- chrome ----------
 function chrome(){
-  const t = T();
+  const t = T(), c = C(), city = L(c, "n");
   document.documentElement.lang = zh() ? "zh-CN" : "en";
-  document.title = t.title;
+  document.title = t.title(city);
   const md = document.querySelector('meta[name="description"]');
-  if (md) md.setAttribute("content", t.desc);
-  document.getElementById("title").textContent = t.title;
-  document.getElementById("lede").textContent = zh() ? LEDE_ZH : LEDE;
-  document.getElementById("meta").textContent = t.meta(zh() ? UPDATED_ZH : UPDATED);
+  if (md) md.setAttribute("content", t.desc(city));
+  document.getElementById("title").textContent = t.title(city);
+  document.getElementById("lede").textContent = L(c, "lede");
+  document.getElementById("meta").textContent = t.meta(L(c, "updated"));
   document.getElementById("q").placeholder = t.search;
   document.getElementById("q").setAttribute("aria-label", t.search);
   const labels = { all: t.all, soon: t.soon, new: t.opening, free: t.free };
   document.querySelectorAll(".chip").forEach(b => { b.textContent = labels[b.dataset.f]; });
   document.getElementById("foot").innerHTML =
-    esc(t.foot(zh() ? NOTE_ZH : NOTE)) + "<br>" + t.footAuto.replace("REPO", esc(REPO));
+    esc(t.foot(L(c, "note"))) + "<br>" + t.footAuto.replace("REPO", esc(REPO));
   document.querySelectorAll("#lang button").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
+  const nav = document.getElementById("cities");
+  nav.setAttribute("aria-label", t.cities);
+  nav.innerHTML = CITIES.map(x =>
+    `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">${esc(L(x, "n"))}</button>`).join("");
+  nav.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    CITY = b.dataset.city; remember("city", CITY);
+    document.getElementById("q").value = "";
+    draw();
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }));
 }
 
 // ---------- summary strip ----------
 function buildStrip(){
   const t = T(), soon = [], opening = [];
-  DATA.forEach(g => g.items.forEach(m => m.shows.forEach(sh => {
+  C().groups.forEach(g => g.items.forEach(m => m.shows.forEach(sh => {
     const st = status(sh);
     if (st.k === "soon") soon.push({ d: parse(sh.e), t: sh.t, m });
     if (st.k === "new" && sh.s) { const d = parse(sh.s); if ((d - today)/MS <= 45) opening.push({ d, t: sh.t, m }); }
@@ -393,14 +430,14 @@ function buildStrip(){
 
 // ---------- groups ----------
 function render(){
-  const t = T();
+  const t = T(), c = C();
   const q = document.getElementById("q").value.trim();
   const f = document.querySelector(".chip[aria-pressed='true']").dataset.f;
   let shown = 0, total = 0;
-  const html = DATA.map(g => {
+  const html = c.groups.map(g => {
     const items = g.items.map(m => {
       total++;
-      const name = museumName(m);
+      const name = bothNames(m);
       let shows = m.shows.map(sh => ({ sh, st: status(sh) })).filter(x => x.st.k !== "over");
       if (f === "soon") shows = shows.filter(x => x.st.k === "soon");
       if (f === "new") shows = shows.filter(x => x.st.k === "new");
@@ -431,15 +468,20 @@ function render(){
     return `<section class="group"><h2>${esc(L(g, "g"))}</h2><p class="note">${esc(L(g, "note"))}</p>${items}</section>`;
   }).join("");
 
-  const row = (x) => `<div><b>${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(zh() && x.nz ? x.n + " " + x.nz : x.n)}</a>` : esc(zh() && x.nz ? x.n + " " + x.nz : x.n)}</b> · ${esc(L(x, "d"))}</div>`;
-  const plain = (f === "all" && !q)
-    ? `<section class="group"><h2>${esc(t.plainTitle)}</h2><p class="note">${esc(t.plainNote)}</p>
-       <div class="plain">${PLAIN.map(row).join("")}</div></section>
-       <section class="group"><h2>${esc(t.closedTitle)}</h2><div class="plain">${CLOSED.map(row).join("")}</div></section>`
+  const row = (x) => {
+    const nm = esc(bothNames(x));
+    return `<div><b>${x.u ? `<a href="${esc(x.u)}" target="_blank" rel="noopener">${nm}</a>` : nm}</b> · ${esc(L(x, "d"))}</div>`;
+  };
+  const extras = (f === "all" && !q)
+    ? ((c.plain || []).length
+        ? `<section class="group"><h2>${esc(t.plainTitle)}</h2><p class="note">${esc(t.plainNote)}</p>
+           <div class="plain">${c.plain.map(row).join("")}</div></section>` : "")
+      + ((c.closed || []).length
+        ? `<section class="group"><h2>${esc(t.closedTitle)}</h2><div class="plain">${c.closed.map(row).join("")}</div></section>` : "")
     : "";
 
   document.getElementById("groups").innerHTML =
-    (html || `<p class="none" style="margin-top:24px">${esc(t.empty)}</p>`) + plain;
+    (html || `<p class="none" style="margin-top:24px">${esc(t.empty)}</p>`) + extras;
   document.getElementById("count").textContent = t.count(shown, total);
 }
 
@@ -452,9 +494,7 @@ document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () =
   render();
 }));
 document.querySelectorAll("#lang button").forEach(b => b.addEventListener("click", () => {
-  LANG = b.dataset.lang;
-  try { localStorage.setItem("lang", LANG); } catch (e) {}
-  draw();
+  LANG = b.dataset.lang; remember("lang", LANG); draw();
 }));
 draw();
 </script>
