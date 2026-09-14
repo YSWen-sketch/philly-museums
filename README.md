@@ -14,6 +14,34 @@ The page reads in **English or Chinese**, switchable in the top right corner, an
 - **Automatic refresh every Thursday morning.** A scheduled Claude cloud agent follows [`scripts/WEEKLY.md`](scripts/WEEKLY.md): it opens each museum's official exhibitions page, reconciles the city files against it, runs the validator, appends to [`CHANGELOG.md`](CHANGELOG.md), and pushes to `main`. GitHub Pages republishes within a minute.
 - **Every push is validated.** `node scripts/validate.js` runs in GitHub Actions and fails the build on a malformed date, a missing field, or a field that exists in only one language, so a single typo cannot blank out the page.
 
+## What counts as a venue
+
+One standard, applied to every city. It is also stated on the page itself, under the figures line, so a reader can see what they are looking at.
+
+**Included**
+
+- Museums, galleries, historic houses, and university and library galleries with a physical exhibition space a visitor can walk into.
+- Venues open on a published schedule, or by an appointment anyone can book.
+- Anywhere within about 45 minutes of the city centre. Venues outside the city proper carry the travel time in their notice line.
+- Free and ticketed venues alike, with the admission written out.
+
+**Not included**
+
+- Commercial galleries that sell the work on their walls.
+- Places that are really an office, an archive, an events or rental space, or a shop.
+- Performance venues whose only art hangs in the lobby.
+- Zoos, aquariums and nature reserves with no rotating exhibition programme.
+- For-profit themed attractions: wax museums, immersive light shows, haunted-house experiences.
+- Venues that have closed, or that are shut with no announced reopening.
+
+**Where the data comes from**
+
+- Each city's list was built by scanning the channels where exhibitions get announced — museum directories, city tourism boards, the local arts press, museum-association rosters, and university and library gallery programmes — and then reading every venue's own website.
+- Dates are only ever what the museum itself publishes. Where it has not published one, the entry repeats the museum's own wording rather than guessing a date.
+- Some museum sites block automated reading. Those entries say so and may be less current than the rest.
+
+The standard exists because the first pass did not have one. Philadelphia was audited exhaustively while the other three cities were given venue targets, which left Philadelphia looking larger than New York — an artefact of how the lists were built rather than a fact about the cities. Applying one bar to all four fixes that.
+
 ## What is covered
 
 | City | Venues | Exhibitions |
@@ -22,10 +50,6 @@ The page reads in **English or Chinese**, switchable in the top right corner, an
 | New York | 96 | 330 |
 | Washington | 71 | 225 |
 | Boston | 65 | 135 |
-
-Each city's list was built by scanning the places exhibitions actually get announced — the Wikipedia museum lists, the city tourism boards, the local arts press, the museum-association and consortium directories, and the university and library gallery programmes — and then reading each venue's own website. Commercial galleries that sell work are deliberately excluded, as are zoos, aquariums with no rotating programme, and attractions that are not museums.
-
-Venues outside the city proper are included where a visitor would plausibly make the trip, with the travel time written into the venue's notice line. Where a museum's website blocks automated reading or publishes no dates, the entry says so rather than guessing.
 
 ## Adding a city
 

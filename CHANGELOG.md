@@ -2,6 +2,17 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-14 (inclusion standard)
+
+Wrote down what counts as a venue, and put it in all three places that need to agree: the page itself, `README.md`, and the weekly reconciliation brief.
+
+- The page carries it under the figures line, in a panel that opens on click, in whichever language the reader has chosen. It says what is included, what is not, and where the data comes from.
+- The bar: a physical exhibition space a visitor can walk into, open on a published schedule or by an appointment anyone can book, within about 45 minutes of the city centre. Out: commercial galleries that sell the work on their walls, offices and archives, event and rental spaces, performance venues with lobby art, zoos and reserves with no rotating programme, for-profit themed attractions, and anything closed with no announced reopening.
+- The weekly brief now uses the same bar to decide what to add and what to drop, and says that the three statements must be changed together.
+- The page also loads only the city being read, rather than all four at once.
+
+The standard exists because the first pass did not have one: Philadelphia was audited exhaustively while the other cities were given venue targets, which made Philadelphia look larger than New York. That was an artefact of how the lists were built, not a fact about the cities.
+
 ## 2026-09-14 (interface)
 
 The site now has a name: **On View** in English, **东岸看展** in Chinese, with a standing subtitle naming the four cities. The city, not the site, moved into the browser tab title.

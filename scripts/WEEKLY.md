@@ -47,9 +47,26 @@ Run `node scripts/validate.js`. It must print ✓. Fix whatever it reports and r
 
 Add a section to the top of `CHANGELOG.md` headed with today's date and the city you reconciled, written in English, one line per change naming the museum and what moved. Write "No changes." when nothing did. List any museums that could not be verified this week, with the reason.
 
-### Adding a venue
+### Adding and removing venues
 
-If you come across a venue in the city you are reconciling that the file does not have and an ordinary visitor would want to know about, add it to the right group with all its bilingual fields filled in. Do not add commercial galleries that sell work, zoos, or attractions that are not museums. A venue outside the city proper is fine if a visitor would plausibly make the trip — put the travel time in `flag`/`flagz`. A venue that has closed permanently moves to `closed`.
+The same standard governs every city. It is stated in `README.md` and shown on the page itself, so the three must stay in agreement — if you change the bar here, change it there too.
+
+**A venue belongs on the list when all of these hold:**
+
+- It has a physical exhibition space a visitor can walk into. A museum, gallery, historic house, or a university or library gallery.
+- It is open on a published schedule, or by an appointment any member of the public can book.
+- It is within about 45 minutes of the city centre. Anything outside the city proper carries its travel time in `flag`/`flagz`.
+
+**A venue does not belong when any of these hold:**
+
+- It sells the work on its walls. A nonprofit that runs a juried exhibition programme is fine even if work is for sale; a commercial gallery is not.
+- It is really an office, an archive, an events or rental space, or a shop.
+- It is a performance venue whose only art hangs in the lobby.
+- It is a zoo, an aquarium or a nature reserve with no rotating exhibition programme.
+- It is a for-profit themed attraction: a wax museum, an immersive light show, a haunted-house experience.
+- It has closed, or is shut with no announced reopening. A closure with a published reopening date stays, with the date in `flag`/`flagz`.
+
+When you come across a venue that meets the bar and the file does not have it, add it to the right group with every bilingual field filled in. When a venue on the list no longer meets the bar, move it to `closed` if it has shut for good, and otherwise delete it and say why in the changelog. When you are genuinely unsure, keep it and explain the doubt in the changelog rather than dropping it silently.
 
 ## 6. Commit
 

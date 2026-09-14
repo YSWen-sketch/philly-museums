@@ -120,6 +120,31 @@
   }
   .stats b { color: var(--ink-2); font-weight: 600; }
 
+  /* what counts as a venue */
+  .scope { margin-top: 18px; }
+  .scope > summary {
+    cursor: pointer; list-style: none;
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 13px; color: var(--ink-2);
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: 5px 13px; background: var(--surface);
+  }
+  .scope > summary::-webkit-details-marker { display: none; }
+  .scope > summary::after { content: "+"; color: var(--ink-3); font-weight: 700; }
+  .scope[open] > summary::after { content: "\2212"; }
+  .scope > summary:hover { border-color: var(--ink-3); color: var(--ink); }
+  .scope > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .scope .body {
+    margin-top: 12px; padding: 16px 18px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+    font-size: 13.5px; line-height: 1.6; color: var(--ink-2); max-width: 74ch;
+  }
+  .scope h3 { margin: 0 0 6px; font-size: 13px; color: var(--ink); font-weight: 700; }
+  .scope h3 + ul { margin: 0 0 16px; }
+  .scope ul { padding-left: 1.15em; }
+  .scope li { margin-bottom: 3px; }
+  .scope .last { margin-bottom: 0; }
+
   /* jump links to each group */
   .jump { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 18px; }
   .jump a {
@@ -277,6 +302,7 @@
     <nav class="cities" id="cities"></nav>
     <p class="lede" id="lede"></p>
     <p class="stats" id="stats"></p>
+    <details class="scope" id="scope"><summary></summary><div class="body"></div></details>
   </header>
 
   <div class="strip" id="strip"></div>
@@ -297,11 +323,27 @@
   <footer id="foot"></footer>
 </div>
 
-<script>var CITIES = [];</script>
-<script src="data/philadelphia.js"></script>
-<script src="data/newyork.js"></script>
-<script src="data/washington.js"></script>
-<script src="data/boston.js"></script>
+<script>
+// The city files are large, so only the one being read is fetched. The manifest
+// is what the tabs are built from, so a city appears the moment it is listed here.
+var CITIES = [];
+var CITY_MANIFEST = [
+  { id: "philadelphia", n: "Philadelphia", nz: "费城", venues: 124 },
+  { id: "newyork",      n: "New York",     nz: "纽约",   venues: 96 },
+  { id: "washington",   n: "Washington",   nz: "华盛顿", venues: 71 },
+  { id: "boston",       n: "Boston",       nz: "波士顿", venues: 65 }
+];
+function loadCity(id) {
+  if (CITIES.some(c => c.id === id)) return Promise.resolve();
+  return new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "data/" + id + ".js";
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error("could not load " + id));
+    document.head.appendChild(s);
+  });
+}
+</script>
 <script>
 const REPO = "https://github.com/YSWen-sketch/philly-museums";
 
@@ -313,6 +355,31 @@ const STR = {
     tab: (city) => "东岸看展 · " + city,
     desc: (city) => city + "的博物馆、美术馆与历史宅邸正在展出什么，按闭幕日期自动标注。",
     cities: "选择城市",
+    scopeLabel: "这份清单收录什么",
+    scope: {
+      inTitle: "收录",
+      inList: [
+        "有实体展陈空间、观众可以走进去看的博物馆、美术馆、历史宅邸，以及大学和图书馆的展厅。",
+        "有公开的固定开放时段，或者任何人都能预约到的参观排期。",
+        "距市中心约 45 分钟车程以内。城区之外的场馆会在条目上标出路程。",
+        "免费与收费一视同仁，票价照实写。"
+      ],
+      outTitle: "不收录",
+      outList: [
+        "以售卖墙上作品为主的商业画廊。",
+        "实质是办公室、档案室、活动出租场地或商店的机构。",
+        "只在门厅挂几幅画的剧场与演出场馆。",
+        "没有轮换展览的动物园、水族馆和自然保护区。",
+        "蜡像馆、沉浸式光影展、鬼屋式体验这类营利性主题景点。",
+        "已经关闭，或闭馆且未公布重开日期的场馆。"
+      ],
+      howTitle: "数据怎么来的",
+      howList: [
+        "每座城市的名单先扫一遍展览消息的公开渠道——博物馆名录、城市旅游局、本地艺术媒体、博物馆协会名录、大学与图书馆的展览项目——再逐馆读官网核对。",
+        "日期只写官网明确给出的。官网没写确切日期的，照抄它自己的说法，绝不推算。",
+        "有些馆的网站拦截自动读取，这类条目的信息可能不如其他条目新。"
+      ]
+    },
     stats: (v, e, f, d) => [`<b>${v}</b> 家场馆`, `<b>${e}</b> 个展览在展`, `<b>${f}</b> 家免费`, `核对于 ${d}`],
     jumpAll: "全部",
     search: "搜索馆名或展览…",
@@ -324,6 +391,8 @@ const STR = {
     until: (t) => "至 " + t,
     noMatch: "无符合筛选的展览", noShows: "目前无特展，常设展开放",
     empty: "没有匹配的结果。",
+    loading: "正在载入…",
+    loadFailed: "数据载入失败，请刷新页面重试。",
     plainTitle: "无特展的常设馆",
     plainNote: "这些馆只有常设展或季节性活动，列出方便一并规划。",
     closedTitle: "已关闭",
@@ -336,6 +405,31 @@ const STR = {
     tab: (city) => "On View · " + city,
     desc: (city) => `What is on view at ${city}'s museums, galleries and historic houses, with closing dates marked automatically.`,
     cities: "Choose a city",
+    scopeLabel: "What's on this list",
+    scope: {
+      inTitle: "Included",
+      inList: [
+        "Museums, galleries, historic houses, and university and library galleries with a physical exhibition space you can walk into.",
+        "Venues open on a published schedule, or by an appointment anyone can book.",
+        "Anywhere within about 45 minutes of the city centre. Venues outside the city proper carry the travel time on their entry.",
+        "Free and ticketed venues alike, with the admission written out."
+      ],
+      outTitle: "Not included",
+      outList: [
+        "Commercial galleries that sell the work on their walls.",
+        "Places that are really an office, an archive, an events or rental space, or a shop.",
+        "Performance venues whose only art hangs in the lobby.",
+        "Zoos, aquariums and nature reserves with no rotating exhibition programme.",
+        "For-profit themed attractions: wax museums, immersive light shows, haunted-house experiences.",
+        "Venues that have closed, or that are shut with no announced reopening."
+      ],
+      howTitle: "Where the data comes from",
+      howList: [
+        "Each city's list was built by scanning the channels where exhibitions get announced — museum directories, city tourism boards, the local arts press, museum-association rosters, and university and library gallery programmes — and then reading every venue's own website.",
+        "Dates are only ever what the museum itself publishes. Where it has not published one, the entry repeats its own wording instead of guessing.",
+        "Some museum sites block automated reading. Those entries say so, and may be less current than the rest."
+      ]
+    },
     stats: (v, e, f, d) => [`<b>${v}</b> venues`, `<b>${e}</b> exhibitions on view`, `<b>${f}</b> free`, `checked ${d}`],
     jumpAll: "All",
     search: "Search a museum or exhibition…",
@@ -347,6 +441,8 @@ const STR = {
     until: (t) => "Until " + t,
     noMatch: "Nothing here matches the filter", noShows: "No special exhibition right now; the permanent collection is open",
     empty: "No results.",
+    loading: "Loading…",
+    loadFailed: "Could not load this city's data. Reload the page to try again.",
     plainTitle: "Permanent collections, no special exhibition",
     plainNote: "These venues show only their permanent collection or seasonal programming. Listed so you can plan around them.",
     closedTitle: "Closed for good",
@@ -365,8 +461,8 @@ function remembered(key, valid, fallback) {
 }
 let LANG = remembered("lang", (v) => v === "en" || v === "zh",
   () => (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en");
-let CITY = remembered("city", (v) => CITIES.some((c) => c.id === v),
-  () => (CITIES[0] || {}).id);
+let CITY = remembered("city", (v) => CITY_MANIFEST.some((c) => c.id === v),
+  () => CITY_MANIFEST[0].id);
 
 const T = () => STR[LANG];
 const zh = () => LANG === "zh";
@@ -441,6 +537,15 @@ function chrome(){
   document.getElementById("q").setAttribute("aria-label", t.search);
   const labels = { all: t.all, soon: t.soon, new: t.opening, free: t.free };
   document.querySelectorAll(".chip").forEach(b => { b.textContent = labels[b.dataset.f]; });
+  const sc = t.scope, scopeEl = document.getElementById("scope");
+  scopeEl.querySelector("summary").textContent = t.scopeLabel;
+  const ul = (rows, last) => `<ul${last ? ' class="last"' : ""}>` +
+    rows.map(r => `<li>${esc(r)}</li>`).join("") + "</ul>";
+  scopeEl.querySelector(".body").innerHTML =
+    `<h3>${esc(sc.inTitle)}</h3>` + ul(sc.inList) +
+    `<h3>${esc(sc.outTitle)}</h3>` + ul(sc.outList) +
+    `<h3>${esc(sc.howTitle)}</h3>` + ul(sc.howList, true);
+
   document.getElementById("foot").innerHTML =
     esc(t.foot(L(c, "note"))) + "<br>" + t.footAuto.replace("REPO", esc(REPO));
   document.querySelectorAll("#lang button").forEach(b =>
@@ -448,17 +553,15 @@ function chrome(){
 
   const nav = document.getElementById("cities");
   nav.setAttribute("aria-label", t.cities);
-  nav.innerHTML = CITIES.map(x => {
-    const n = tally(x).venues;
-    return `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">` +
-           `${esc(L(x, "n"))}<i>${n}</i></button>`;
-  }).join("");
+  nav.innerHTML = CITY_MANIFEST.map(x =>
+    `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">` +
+    `${esc(L(x, "n"))}<i>${x.venues}</i></button>`).join("");
   nav.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
     if (b.dataset.city === CITY) return;
     CITY = b.dataset.city; remember("city", CITY);
     document.getElementById("q").value = "";
-    draw();
     window.scrollTo({ top: 0, behavior: "instant" });
+    draw();
   }));
 
   const s = tally(c);
@@ -549,7 +652,25 @@ function render(){
     : "";
 }
 
-function draw(){ chrome(); buildStrip(); render(); }
+function draw(){
+  const t = T(), want = CITY;
+  if (CITIES.some(c => c.id === want)) { chrome(); buildStrip(); render(); return; }
+  // First visit to this city: show the chrome we can, then fetch its data.
+  const nav = document.getElementById("cities");
+  nav.innerHTML = CITY_MANIFEST.map(x =>
+    `<button type="button" data-city="${esc(x.id)}" aria-pressed="${x.id === CITY}">` +
+    `${esc(L(x, "n"))}<i>${x.venues}</i></button>`).join("");
+  document.getElementById("groups").innerHTML =
+    `<p class="none" style="margin-top:24px">${esc(t.loading)}</p>`;
+  document.getElementById("strip").innerHTML = "";
+  loadCity(want).then(() => {
+    if (CITY !== want) return;   // the reader switched again while we waited
+    chrome(); buildStrip(); render();
+  }).catch(() => {
+    document.getElementById("groups").innerHTML =
+      `<p class="none" style="margin-top:24px">${esc(t.loadFailed)}</p>`;
+  });
+}
 
 document.getElementById("q").addEventListener("input", render);
 document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
