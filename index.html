@@ -95,7 +95,8 @@
     font-size: 13px;
     margin-top: 10px;
   }
-  .topbar { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 16px; }
+  .topbar h1 { min-width: 0; flex: 1 1 auto; }
   .lang {
     display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 999px;
     overflow: hidden; background: var(--surface); margin-top: 6px;
