@@ -1,0 +1,260 @@
+{
+ "boston": {
+  "https://www.mfa.org/exhibitions": {
+   "hash": "13baa7893d144624",
+   "seen": "2026-09-14"
+  },
+  "https://www.gardnermuseum.org/exhibitions": {
+   "hash": "056e37f5db073b3a",
+   "seen": "2026-09-14"
+  },
+  "https://www.icaboston.org/exhibitions/": {
+   "hash": "ccfd0d541aa9a41f",
+   "seen": "2026-09-14"
+  },
+  "https://harvardartmuseums.org/visit/exhibitions": {
+   "hash": "3926ca20f8976d3a",
+   "seen": "2026-09-14"
+  },
+  "https://listart.mit.edu/exhibitions": {
+   "hash": "7d589d54f10f5aac",
+   "seen": "2026-09-14"
+  },
+  "https://carpenter.center/exhibitions": {
+   "hash": "e0e8bd4b63169996",
+   "seen": "2026-09-14"
+  },
+  "https://maam.massart.edu/exhibitions": {
+   "hash": "0109e86acb9a705a",
+   "seen": "2026-09-14"
+  },
+  "https://www.bu.edu/art/exhibitions/": {
+   "hash": "46f52405b6a03fbb",
+   "seen": "2026-09-14"
+  },
+  "https://artgalleries.tufts.edu/exhibitions": {
+   "hash": "abed6a96f2474823",
+   "seen": "2026-09-14"
+  },
+  "https://mcmullenmuseum.bc.edu/exhibitions/": {
+   "hash": "ae1c7a7c5fa502c0",
+   "seen": "2026-09-14"
+  },
+  "https://www.brandeis.edu/rose/exhibitions/index.html": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www1.wellesley.edu/davismuseum/whats-on/current": {
+   "hash": "5d6f28a7c200dbec",
+   "seen": "2026-09-14"
+  },
+  "https://thetrustees.org/program/decordova-exhibitions/": {
+   "hash": "7362498953cd85db",
+   "seen": "2026-09-14"
+  },
+  "https://www.pem.org/exhibitions": {
+   "hash": "208b1e4300a5f8f3",
+   "seen": "2026-09-14"
+  },
+  "https://bostonarts.org/venue/mills-gallery/": {
+   "hash": "6e8c2dfb709f4cf3",
+   "seen": "2026-09-14"
+  },
+  "https://camd.northeastern.edu/center-for-the-arts/gallery-360/": {
+   "hash": "16ffb6444b7bc3e5",
+   "seen": "2026-09-14"
+  },
+  "https://emersoncontemporary.org/": {
+   "hash": "49e366a4f312b0e0",
+   "seen": "2026-09-14"
+  },
+  "https://www.ncaaa.org": {
+   "hash": "efa2b3ee40866bda",
+   "seen": "2026-09-14"
+  },
+  "https://gallery263.org/exhibitions": {
+   "hash": "4c0295f2970dee7f",
+   "seen": "2026-09-14"
+  },
+  "https://museumofbadart.org": {
+   "hash": "e27a047ee0228a00",
+   "seen": "2026-09-14"
+  },
+  "https://www.mos.org/explore/exhibits": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.neaq.org/exhibits/": {
+   "hash": "09692a21d0f33d33",
+   "seen": "2026-09-14"
+  },
+  "https://bostonchildrensmuseum.org/exhibits/": {
+   "hash": "685f51a45afbc800",
+   "seen": "2026-09-14"
+  },
+  "https://hmnh.harvard.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://mitmuseum.mit.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://chsi.harvard.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://arboretum.harvard.edu/events-2/current-and-past-art-shows/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://waterworksmuseum.org": {
+   "hash": "9dd4de5e1e8090fa",
+   "seen": "2026-09-14"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/blue-hills-trailside-museum": {
+   "hash": "634be5414d69667f",
+   "seen": "2026-09-14"
+  },
+  "https://www.charlesrivermuseum.org": {
+   "hash": "3e85771b19d1f700",
+   "seen": "2026-09-14"
+  },
+  "https://www.bpl.org/current-exhibitions/": {
+   "hash": "24f9e2ef9b9e77b5",
+   "seen": "2026-09-14"
+  },
+  "https://www.masshist.org/exhibitions": {
+   "hash": "88a0b65bf3979365",
+   "seen": "2026-09-14"
+  },
+  "https://www.bostonathenaeum.org/exhibitions/": {
+   "hash": "6068bf492155a596",
+   "seen": "2026-09-14"
+  },
+  "https://www.jfklibrary.org/visit-museum/exhibits": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.maah.org/exhibitions": {
+   "hash": "da274b3d0f170f5d",
+   "seen": "2026-09-14"
+  },
+  "https://peabody.harvard.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://hmane.harvard.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.ussconstitutionmuseum.org/exhibits/": {
+   "hash": "24b873a5e0685f87",
+   "seen": "2026-09-14"
+  },
+  "https://www.bostonteapartyship.com/": {
+   "hash": "671039ef10c39bb4",
+   "seen": "2026-09-14"
+  },
+  "https://revolutionaryspaces.org/exhibits/": {
+   "hash": "7754ea4f2b781d80",
+   "seen": "2026-09-14"
+  },
+  "https://www.sec.state.ma.us/divisions/commonwealth-museum/commonwealth-museum.htm": {
+   "hash": "97c6fd470e5239d6",
+   "seen": "2026-09-14"
+  },
+  "https://www.emkinstitute.org": {
+   "hash": "faeae6496b596ac6",
+   "seen": "2026-09-14"
+  },
+  "https://thewestendmuseum.org/exhibits/": {
+   "hash": "97113dac63b7d4b5",
+   "seen": "2026-09-14"
+  },
+  "https://vilnashul.org": {
+   "hash": "0785677288b11ec2",
+   "seen": "2026-09-14"
+  },
+  "https://www.sportsmuseum.org": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.marybakereddylibrary.org/exhibits/": {
+   "hash": "16404fd12bb7694e",
+   "seen": "2026-09-14"
+  },
+  "https://www.somervillemuseum.org/exhibitions": {
+   "hash": "d3cf4c6fd6e97a50",
+   "seen": "2026-09-14"
+  },
+  "https://armenianmuseum.org/exhibitions": {
+   "hash": "bbe32529e7204dc6",
+   "seen": "2026-09-14"
+  },
+  "https://www.larzanderson.org/exhibits": {
+   "hash": "66337c8e31ca661d",
+   "seen": "2026-09-14"
+  },
+  "https://www.paulreverehouse.org": {
+   "hash": "31a46392a4e4e03d",
+   "seen": "2026-09-14"
+  },
+  "https://oldnorth.com/visit/": {
+   "hash": "85a58bdb63b97f75",
+   "seen": "2026-09-14"
+  },
+  "https://www.historicnewengland.org/property/otis-house/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.thegibsonhouse.org/visit": {
+   "hash": "97d8e0f097080111",
+   "seen": "2026-09-14"
+  },
+  "https://www.nicholshousemuseum.org/visit/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.shirleyeustishouse.org/tours": {
+   "hash": "b63c21a52d62f7a8",
+   "seen": "2026-09-14"
+  },
+  "https://loring-greenough.org/visit/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.nps.gov/long/planyourvisit/guidedtours.htm": {
+   "hash": "6fc47c750afd86ab",
+   "seen": "2026-09-14"
+  },
+  "https://www.nps.gov/frla/planyourvisit/hours.htm": {
+   "hash": "7ea646577c1f291c",
+   "seen": "2026-09-14"
+  },
+  "https://www.nps.gov/jofi/planyourvisit/index.htm": {
+   "hash": "289b3729300db1e0",
+   "seen": "2026-09-14"
+  },
+  "https://www.historicnewengland.org/property/gropius-house/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://www.historicnewengland.org/property/eustis-estate/": {
+   "hash": null,
+   "seen": "2026-09-14"
+  },
+  "https://goreplace.org/visit/tours/": {
+   "hash": "649cad31ab8452c3",
+   "seen": "2026-09-14"
+  },
+  "https://www.nps.gov/adam/planyourvisit/hours.htm": {
+   "hash": "1b967ad1e53025ad",
+   "seen": "2026-09-14"
+  },
+  "https://www.forbeshousemuseum.org/current-exhibits": {
+   "hash": "f36a0190798521b3",
+   "seen": "2026-09-14"
+  }
+ }
+}
