@@ -612,11 +612,15 @@ function chrome(){
   }));
 
   // The landmark and the city palette. aria-hidden because the drawing repeats
-  // what the selected tab already says.
+  // what the selected tab already says. The banner is decoration, so a failed
+  // asset load must cost the reader the drawing and nothing else.
   document.documentElement.dataset.city = CITY;
-  document.getElementById("banner").innerHTML =
-    `<svg viewBox="0 0 1200 200" preserveAspectRatio="xMidYMax meet" aria-hidden="true">` +
-    (SKYLINES[CITY] || "") + `</svg>`;
+  const art = (typeof SKYLINES !== "undefined" && SKYLINES[CITY]) || "";
+  const banner = document.getElementById("banner");
+  banner.innerHTML = art
+    ? `<svg viewBox="0 0 1200 200" preserveAspectRatio="xMidYMax meet" aria-hidden="true">${art}</svg>`
+    : "";
+  banner.hidden = !art;
 
   const s = tally(c);
   document.getElementById("stats").innerHTML =
