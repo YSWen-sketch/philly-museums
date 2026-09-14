@@ -91,6 +91,13 @@ let alphaBody = "<html><body><h1>Alpha Museum</h1><p>Closing Soon Show</p></body
 const server = http.createServer((req, res) => {
   if (req.url.startsWith("/alpha")) { res.writeHead(200, { "content-type": "text/html" }); res.end(alphaBody); return; }
   if (req.url.startsWith("/beta"))  { res.writeHead(200, { "content-type": "text/html" }); res.end("<html><body>Beta, unchanging</body></html>"); return; }
+  // Refuses anything identifying itself as a bot — the behaviour of roughly a
+  // quarter of real museum sites.
+  if (req.url.startsWith("/picky")) {
+    if (/OnViewBot/.test(req.headers["user-agent"] || "")) { res.writeHead(403); res.end("no bots"); return; }
+    res.writeHead(200, { "content-type": "text/html" }); res.end("<html><body>Picky museum, open to browsers</body></html>");
+    return;
+  }
   res.writeHead(404); res.end("no");
 });
 
@@ -174,6 +181,11 @@ const read = (f) => fs.readFileSync(f, "utf8");
   eq("an unchanged page is not reported as changed", r.out.changed, "0");
   check("the date still does not move while a page is down",
     read(dataFile).includes('updated: "January 1, 2020"'));
+
+  console.log("\na site that refuses robots");
+  fs.writeFileSync(dataFile, fixture([`${base}/alpha`, `${base}/beta`, `${base}/picky`]));
+  r = await run();
+  eq("a 403 to the bot is retried with a browser header and succeeds", r.out.unreachable, "0");
 
   console.log("\nfourth scan (every page reachable and unchanged)");
   fs.writeFileSync(dataFile, fixture([`${base}/alpha`, `${base}/beta`, `${base}/beta`]));

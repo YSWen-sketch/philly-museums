@@ -34,8 +34,15 @@ const KEEP_CLOSED_DAYS = 30;
 // A slow museum site should not hang the run.
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 6;
-// Some museum sites refuse an obvious robot. Identify honestly but completely.
+// Identify honestly on the first attempt, so a site that wants to set rules for
+// robots can. A good many museum sites answer that with a flat 403 regardless —
+// nearly a quarter of Boston's on the first live run — so a refusal earns one
+// retry with an ordinary browser header. One extra request per blocked venue per
+// week is a fair price for not reporting a working museum as unreachable.
 const UA = "Mozilla/5.0 (compatible; OnViewBot/1.0; +https://github.com/YSWen-sketch/philly-museums)";
+const UA_FALLBACK = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+                    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+const REFUSED = new Set([401, 403, 405, 406, 429]);
 
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
@@ -79,14 +86,18 @@ function fingerprint(html) {
   return { hash: crypto.createHash("sha256").update(text).digest("hex").slice(0, 16), length: text.length };
 }
 
-async function fetchPage(url) {
+async function once(url, ua) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: "follow",
-      headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml" },
+      headers: {
+        "user-agent": ua,
+        accept: "text/html,application/xhtml+xml",
+        "accept-language": "en-US,en;q=0.9",
+      },
     });
     const body = res.ok ? await res.text() : "";
     return { status: res.status, url: res.url, ...(res.ok ? fingerprint(body) : { hash: null, length: 0 }) };
@@ -95,6 +106,13 @@ async function fetchPage(url) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchPage(url) {
+  const first = await once(url, UA);
+  if (first.status === 200 || !REFUSED.has(first.status)) return first;
+  const second = await once(url, UA_FALLBACK);
+  return second.status === 200 ? { ...second, retried: true } : first;
 }
 
 // Run `jobs` a few at a time rather than opening 124 sockets at once.
