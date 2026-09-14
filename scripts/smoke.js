@@ -91,8 +91,16 @@ let alphaBody = "<html><body><h1>Alpha Museum</h1><p>Closing Soon Show</p></body
 const server = http.createServer((req, res) => {
   if (req.url.startsWith("/alpha")) { res.writeHead(200, { "content-type": "text/html" }); res.end(alphaBody); return; }
   if (req.url.startsWith("/beta"))  { res.writeHead(200, { "content-type": "text/html" }); res.end("<html><body>Beta, unchanging</body></html>"); return; }
-  // Refuses robots outright, as roughly a quarter of real museum sites do.
-  if (req.url.startsWith("/picky")) { res.writeHead(403); res.end("no bots"); return; }
+  // Refuses anything that admits to being a robot, as roughly a quarter of real
+  // museum sites do — and answers an ordinary browser, as a third of those do.
+  if (req.url.startsWith("/picky")) {
+    if (/OnViewBot/.test(req.headers["user-agent"] || "")) { res.writeHead(403); res.end("no bots"); return; }
+    res.writeHead(200, { "content-type": "text/html" });
+    res.end("<html><body>Picky museum, open to browsers</body></html>");
+    return;
+  }
+  // Refuses everything, however it is asked.
+  if (req.url.startsWith("/walled")) { res.writeHead(403); res.end("no"); return; }
   res.writeHead(404); res.end("no");
 });
 
@@ -177,11 +185,15 @@ const read = (f) => fs.readFileSync(f, "utf8");
   check("the date still does not move while a page is down",
     read(dataFile).includes('updated: "January 1, 2020"'));
 
-  console.log("\na site that refuses robots");
+  console.log("\nsites that refuse robots");
   fs.writeFileSync(dataFile, fixture([`${base}/alpha`, `${base}/beta`, `${base}/picky`]));
   r = await run();
-  eq("a site that refuses robots is reported, not worked around", r.out.unreachable, "1");
-  check("the report names it so the agent knows where to use its workarounds",
+  eq("a site that refuses the bot but answers a browser is recovered", r.out.unreachable, "0");
+
+  fs.writeFileSync(dataFile, fixture([`${base}/alpha`, `${base}/beta`, `${base}/walled`]));
+  r = await run();
+  eq("a site that refuses everything is reported, not endlessly retried", r.out.unreachable, "1");
+  check("and the report names it, so the agent knows where to spend its workarounds",
     read(reportFile).includes("Gamma Centre"));
 
   console.log("\nfourth scan (every page reachable and unchanged)");

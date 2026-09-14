@@ -21,7 +21,9 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const crypto = require("crypto");
-const { execFileSync } = require("child_process");
+const { execFileSync, execFile } = require("child_process");
+const { promisify } = require("util");
+const execFileAsync = promisify(execFile);
 const { cityForWeek, ORDER } = require("./rotation.js");
 
 const ROOT = path.join(__dirname, "..");
@@ -34,24 +36,22 @@ const KEEP_CLOSED_DAYS = 30;
 // A slow museum site should not hang the run.
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 6;
-// Identify honestly. Roughly a quarter of a city's venues answer with a flat 403
-// anyway — Akamai and Cloudflare in front of the Harvard museums, the Museum of
-// Science, Historic New England and others.
+// Identify honestly on the first request, so a site that wants to set rules for
+// robots gets to. Roughly a quarter of a city's venues refuse that outright.
 //
-// Measured twice, so the trade-off need not be rediscovered:
-//
-//   - Retrying with a browser user-agent from this script recovered 0 of the 15
-//     blocked Boston venues. The header is not what these walls read.
-//   - The same header via curl recovered 1 of 6 sampled (brandeis.edu), and
-//     that same host still refused fetch() with the identical header. So what
-//     differs is the TLS handshake, not the request.
-//
-// Shelling out to curl would therefore recover a minority of blocked pages, at
-// the cost of a subprocess and a second code path in the one part of this
-// project that must never break. Not worth it: the report already names these
-// venues, and the weekly agent has better tools for them (a text-extraction
-// proxy, curl over HTTP/1.1, a rendering fetch). Reporting beats evading.
+// Measured on Boston's 17 refusals, so the trade-off is on record:
+//   - retrying with a browser user-agent from fetch() recovered 0 of 15;
+//   - the same header through curl, following redirects, recovered 5 of 17.
+// The difference is the TLS handshake, not the header — brandeis.edu refuses
+// fetch() and answers curl with identical headers. A third of the blocked list
+// is worth one subprocess, because every venue recovered here is a venue the
+// weekly agent does not have to spend its expensive workarounds on.
 const UA = "Mozilla/5.0 (compatible; OnViewBot/1.0; +https://github.com/YSWen-sketch/philly-museums)";
+const UA_BROWSER = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+                   "(KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+// Statuses that mean "refused", as opposed to "gone". A 404 is an answer.
+const REFUSED = new Set([401, 403, 405, 406, 429, 503]);
+const MARK = "__ONVIEW_STATUS__";
 
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
@@ -95,6 +95,26 @@ function fingerprint(html) {
   return { hash: crypto.createHash("sha256").update(text).digest("hex").slice(0, 16), length: text.length };
 }
 
+// Second attempt for a refused page. curl presents a different TLS fingerprint,
+// which is what actually gets past these walls.
+async function viaCurl(url) {
+  try {
+    const { stdout } = await execFileAsync("curl", [
+      "-sL", "--compressed", "--max-time", String(Math.round(TIMEOUT_MS / 1000)),
+      "-A", UA_BROWSER, "-H", "accept-language: en-US,en;q=0.9",
+      "-w", `\n${MARK}%{http_code} %{url_effective}`, url,
+    ], { maxBuffer: 16 * 1024 * 1024, encoding: "utf8" });
+    const at = stdout.lastIndexOf(MARK);
+    if (at === -1) return null;
+    const [code, finalUrl] = stdout.slice(at + MARK.length).trim().split(" ");
+    const status = Number(code);
+    if (status !== 200) return { status, url: finalUrl || url, hash: null, length: 0 };
+    return { status, url: finalUrl || url, ...fingerprint(stdout.slice(0, at)) };
+  } catch {
+    return null;   // curl missing, timed out, or failed — keep the original answer
+  }
+}
+
 async function fetchPage(url) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -108,6 +128,10 @@ async function fetchPage(url) {
         "accept-language": "en-US,en;q=0.9",
       },
     });
+    if (!res.ok && REFUSED.has(res.status)) {
+      const retry = await viaCurl(url);
+      if (retry && retry.status === 200) return { ...retry, retried: true };
+    }
     const body = res.ok ? await res.text() : "";
     return { status: res.status, url: res.url, ...(res.ok ? fingerprint(body) : { hash: null, length: 0 }) };
   } catch (e) {
