@@ -5,11 +5,12 @@
 - Exhibitions after pruning: 135
 - Checked-on date moved: no
 
-## Pages that changed since last week — re-read these (0)
+## Pages that changed since last week — re-read these (2)
 
-_none_
+- [Gallery 263](https://gallery263.org/exhibitions)
+- [Boston Public Library](https://www.bpl.org/current-exhibitions/)
 
-## Unreachable (15)
+## Unreachable (17)
 
 - [Rose Art Museum](https://www.brandeis.edu/rose/exhibitions/index.html) — 403
 - [Museum of Science](https://www.mos.org/explore/exhibits) — 403
@@ -20,14 +21,16 @@ _none_
 - [John F. Kennedy Presidential Library and Museum](https://www.jfklibrary.org/visit-museum/exhibits) — 403
 - [Peabody Museum of Archaeology & Ethnology](https://peabody.harvard.edu/exhibitions) — 403
 - [Harvard Museum of the Ancient Near East](https://hmane.harvard.edu/exhibitions) — 403
+- [Vilna Shul, Boston's Center for Jewish Culture](https://vilnashul.org) — no response fetch failed
 - [The Sports Museum](https://www.sportsmuseum.org) — 403
 - [Otis House](https://www.historicnewengland.org/property/otis-house/) — 403
 - [Nichols House Museum](https://www.nicholshousemuseum.org/visit/) — no response fetch failed
-- [The Loring Greenough House](https://loring-greenough.org/visit/) — 403
+- [The Loring Greenough House](https://loring-greenough.org/visit/) — 202
 - [Gropius House](https://www.historicnewengland.org/property/gropius-house/) — 403
 - [Eustis Estate](https://www.historicnewengland.org/property/eustis-estate/) — 403
+- [Gore Place](https://goreplace.org/visit/tours/) — no response fetch failed
 
-## Redirected — the link in the data may be out of date (13)
+## Redirected — the link in the data may be out of date (12)
 
 - Harvard Art Museums: https://harvardartmuseums.org/visit/exhibitions → https://harvardartmuseums.org/exhibitions
 - Boston University Art Galleries: https://www.bu.edu/art/exhibitions/ → https://www.bu.edu/cfa/news/bu-art-galleries/
@@ -41,7 +44,6 @@ _none_
 - Old South Meeting House: https://revolutionaryspaces.org/exhibits/ → https://revolutionaryspaces.org/explore/exhibits/
 - Edward M. Kennedy Institute for the United States Senate: https://www.emkinstitute.org → https://emkinstitute.org/
 - Armenian Museum of America: https://armenianmuseum.org/exhibitions → https://www.armenianmuseum.org/current-exhibitions
-- Gore Place: https://goreplace.org/visit/tours/ → https://goreplace.org/whats-on/mansion-tour-1
 
 ## Dropped, closed over a month ago (0)
 
