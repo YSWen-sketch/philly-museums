@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>费城博物馆特展一览</title>
+<meta name="description" content="费城博物馆、美术馆与历史宅邸的特展一览，按闭幕日期自动标注。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap">
+<style>
+  :root {
+    --bg: #F5F6F2;
+    --surface: #FFFFFF;
+    --ink: #1C2426;
+    --ink-2: #4E5A5C;
+    --ink-3: #7C8789;
+    --line: #DCE0DA;
+    --accent: #1F5C5A;
+    --accent-soft: #E1EEEC;
+    --warn: #9B4A32;
+    --warn-soft: #F5E6E0;
+    --new: #3E5A9A;
+    --new-soft: #E3E8F4;
+    --closed: #6B6F6D;
+    --closed-soft: #E9EAE7;
+    --mark: #FFF1B8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151A1B;
+      --surface: #1D2426;
+      --ink: #E6E9E4;
+      --ink-2: #AEB7B5;
+      --ink-3: #7F8988;
+      --line: #2E3839;
+      --accent: #7CC1BC;
+      --accent-soft: #1E3534;
+      --warn: #E39A82;
+      --warn-soft: #3A2620;
+      --new: #9DB4E6;
+      --new-soft: #22304A;
+      --closed: #9AA19F;
+      --closed-soft: #2A302F;
+      --mark: #4A4320;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151A1B;
+    --surface: #1D2426;
+    --ink: #E6E9E4;
+    --ink-2: #AEB7B5;
+    --ink-3: #7F8988;
+    --line: #2E3839;
+    --accent: #7CC1BC;
+    --accent-soft: #1E3534;
+    --warn: #E39A82;
+    --warn-soft: #3A2620;
+    --new: #9DB4E6;
+    --new-soft: #22304A;
+    --closed: #9AA19F;
+    --closed-soft: #2A302F;
+    --mark: #4A4320;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    padding-inline: 20px;
+    padding-block: 40px 80px;
+    font-variant-numeric: tabular-nums;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+
+  header h1 {
+    font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+    font-weight: 700;
+    font-size: clamp(28px, 4.5vw, 40px);
+    line-height: 1.2;
+    margin: 0 0 8px;
+    text-wrap: balance;
+    letter-spacing: 0.01em;
+  }
+  header .lede {
+    color: var(--ink-2);
+    margin: 0;
+    max-width: 62ch;
+  }
+  header .meta {
+    color: var(--ink-3);
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  /* summary strip */
+  .strip {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+  }
+  .strip section {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+  .strip h2 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .strip h2 b { color: var(--ink); font-weight: 700; letter-spacing: 0; text-transform: none; font-size: 13px; }
+  .strip ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .strip li { display: grid; grid-template-columns: 5.2em 1fr; gap: 10px; font-size: 13.5px; line-height: 1.45; }
+  .strip li .d { color: var(--ink-3); white-space: nowrap; }
+  .strip li .d.soon { color: var(--warn); font-weight: 500; }
+  .strip li .d.new { color: var(--new); font-weight: 500; }
+
+  /* controls */
+  .controls {
+    position: sticky; top: 0; z-index: 2;
+    background: var(--bg);
+    padding-block: 14px 10px;
+    margin-top: 28px;
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .controls input {
+    flex: 1 1 220px;
+    font: inherit;
+    padding: 8px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--ink);
+    min-width: 0;
+  }
+  .controls input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .chip {
+    font: inherit; font-size: 13px;
+    padding: 5px 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .count { font-size: 13px; color: var(--ink-3); margin-left: auto; }
+
+  /* groups */
+  .group { margin-top: 36px; }
+  .group > h2 {
+    font-family: "Noto Serif SC", "Songti SC", serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .group > p.note { margin: 0 0 14px; color: var(--ink-2); font-size: 14px; max-width: 65ch; }
+
+  .museum {
+    border-top: 1px solid var(--line);
+    padding-block: 18px;
+    display: grid;
+    grid-template-columns: minmax(180px, 34%) 1fr;
+    gap: 8px 24px;
+  }
+  @media (max-width: 640px) { .museum { grid-template-columns: 1fr; } }
+  .museum h3 { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.35; }
+  .museum h3 small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12.5px; }
+  .museum h3 a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .museum h3 a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .museum .facts { color: var(--ink-2); font-size: 13px; line-height: 1.55; margin-top: 4px; }
+  .museum .facts span { display: block; }
+  .museum .flag {
+    display: inline-block; margin-top: 6px;
+    font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 4px;
+    background: var(--warn-soft); color: var(--warn);
+  }
+  .museum .flag.closed { background: var(--closed-soft); color: var(--closed); }
+
+  .shows { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .show { display: grid; grid-template-columns: 1fr auto; gap: 4px 14px; align-items: start; }
+  .show .t { font-weight: 500; }
+  .show .t em { font-style: normal; color: var(--ink-2); font-weight: 400; }
+  .show .dates { color: var(--ink-3); font-size: 13px; white-space: nowrap; text-align: right; }
+  .show .desc { grid-column: 1 / -1; color: var(--ink-2); font-size: 13.5px; margin-top: -2px; }
+  .tag {
+    display: inline-block; vertical-align: 1px; margin-left: 6px;
+    font-size: 11.5px; font-weight: 500; letter-spacing: 0.02em;
+    padding: 1px 7px; border-radius: 4px;
+  }
+  .tag.on { background: var(--accent-soft); color: var(--accent); }
+  .tag.soon { background: var(--warn-soft); color: var(--warn); }
+  .tag.new { background: var(--new-soft); color: var(--new); }
+  .tag.over { background: var(--closed-soft); color: var(--closed); }
+  .none { color: var(--ink-3); font-size: 14px; }
+  mark { background: var(--mark); color: inherit; padding: 0 1px; }
+
+  .plain { display: grid; gap: 6px; font-size: 14px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 14px; }
+  .plain b { color: var(--ink); font-weight: 500; }
+
+  footer a { color: inherit; }
+  footer { margin-top: 48px; color: var(--ink-3); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 14px; max-width: 70ch; }
+  .hidden { display: none !important; }
+  @media (prefers-reduced-motion: no-preference) { .museum { transition: opacity .15s; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>费城博物馆特展一览</h1>
+    <p class="lede" id="lede"></p>
+    <p class="meta">信息核对于 <span id="updated"></span>，来源为各馆官网；票价为成人价，Penn 学生请留意 PennCard 优惠。状态标签按今天的日期自动计算。</p>
+  </header>
+
+  <div class="strip" id="strip"></div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="搜索馆名或展览…" aria-label="搜索">
+    <button class="chip" data-f="all" aria-pressed="true">全部</button>
+    <button class="chip" data-f="soon" aria-pressed="false">30 天内闭幕</button>
+    <button class="chip" data-f="new" aria-pressed="false">即将开幕</button>
+    <button class="chip" data-f="free" aria-pressed="false">免费入场</button>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div id="groups"></div>
+
+  <footer>
+    开馆时间以官网为准，节假日常有调整。标注"第三方日期"的条目官网未写明具体日期，取自本地媒体报道。<span id="note"></span>
+    <br>本页每周四由自动程序核对各馆官网后更新，源码与更新记录见 <a id="repo" href="#">GitHub</a>。
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+document.getElementById("updated").textContent = UPDATED;
+document.getElementById("lede").textContent = LEDE;
+document.getElementById("note").textContent = NOTE;
+document.getElementById("repo").href = REPO;
+// ---------- helpers ----------
+const today = new Date(); today.setHours(0,0,0,0);
+const MS = 86400000;
+function parse(s){ const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); }
+function fmt(s){ const d = parse(s); return (d.getFullYear() !== today.getFullYear() ? d.getFullYear() + "/" : "") + (d.getMonth()+1) + "/" + d.getDate(); }
+function status(sh){
+  if (sh.s && parse(sh.s) > today) return { k: "new", label: "即将开幕" };
+  if (sh.sText && !sh.s) return { k: "new", label: "即将开幕" };
+  if (sh.e) {
+    const days = Math.round((parse(sh.e) - today) / MS);
+    if (days < 0) return { k: "over", label: "已结束" };
+    if (days <= 30) return { k: "soon", label: days === 0 ? "今天最后一天" : "还剩 " + days + " 天" };
+  }
+  return { k: "on", label: "进行中" };
+}
+function dateText(sh){
+  const a = sh.s ? fmt(sh.s) : (sh.sText || "");
+  const b = sh.e ? fmt(sh.e) : (sh.eText || "");
+  if (a && b) return a + " – " + b.replace(/^至 ?/, "");
+  if (b) return sh.eText && !sh.e ? b : "至 " + b;
+  return a;
+}
+function esc(t){ return t.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function hl(text, q){
+  if (!q) return esc(text);
+  const i = text.toLowerCase().indexOf(q.toLowerCase());
+  if (i < 0) return esc(text);
+  return esc(text.slice(0,i)) + "<mark>" + esc(text.slice(i, i+q.length)) + "</mark>" + esc(text.slice(i+q.length));
+}
+
+// ---------- summary strip ----------
+(function buildStrip(){
+  const soon = [], opening = [];
+  DATA.forEach(g => g.items.forEach(m => m.shows.forEach(sh => {
+    const st = status(sh);
+    if (st.k === "soon") soon.push({ d: parse(sh.e), t: sh.t, m: m.n });
+    if (st.k === "new" && sh.s) { const d = parse(sh.s); if ((d - today)/MS <= 45) opening.push({ d, t: sh.t, m: m.n }); }
+  })));
+  soon.sort((a,b)=>a.d-b.d); opening.sort((a,b)=>a.d-b.d);
+  const short = n => { const cjk = n.match(/[一-鿿][^（(]*/); return cjk ? cjk[0].trim() : n.replace(/[（(].*$/, "").trim(); };
+  const li = (x, cls) => `<li><span class="d ${cls}">${x.d.getMonth()+1}/${x.d.getDate()}</span><span>${esc(x.t)}<br><span style="color:var(--ink-3)">${esc(short(x.m))}</span></span></li>`;
+  document.getElementById("strip").innerHTML =
+    `<section><h2>30 天内闭幕 <b>${soon.length}</b></h2><ul>${soon.slice(0,8).map(x=>li(x,"soon")).join("")}</ul></section>` +
+    `<section><h2>45 天内开幕 <b>${opening.length}</b></h2><ul>${opening.slice(0,8).map(x=>li(x,"new")).join("")}</ul></section>`;
+})();
+
+// ---------- groups ----------
+function render(){
+  const q = document.getElementById("q").value.trim();
+  const f = document.querySelector(".chip[aria-pressed='true']").dataset.f;
+  let shown = 0, total = 0;
+  const html = DATA.map(g => {
+    const items = g.items.map(m => {
+      total++;
+      let shows = m.shows.map(sh => ({ sh, st: status(sh) })).filter(x => x.st.k !== "over");
+      if (f === "soon") shows = shows.filter(x => x.st.k === "soon");
+      if (f === "new") shows = shows.filter(x => x.st.k === "new");
+      const hay = (m.n + " " + m.shows.map(s => s.t + " " + (s.d||"")).join(" ")).toLowerCase();
+      const matchQ = !q || hay.includes(q.toLowerCase());
+      const matchF = f === "all" || (f === "free" ? !!m.free : shows.length > 0);
+      if (!matchQ || !matchF) return "";
+      if (q) shows = shows.filter(x => m.n.toLowerCase().includes(q.toLowerCase()) || (x.sh.t + " " + (x.sh.d||"")).toLowerCase().includes(q.toLowerCase()));
+      shown++;
+      const showsHtml = shows.length
+        ? `<ul class="shows">${shows.map(({sh, st}) => `<li class="show">
+            <span class="t">${hl(sh.t, q)}<span class="tag ${st.k}">${st.label}</span></span>
+            <span class="dates">${esc(dateText(sh))}</span>
+            ${sh.d ? `<span class="desc">${hl(sh.d, q)}</span>` : ""}
+          </li>`).join("")}</ul>`
+        : `<p class="none">${m.shows.length ? "无符合筛选的展览" : "目前无特展，常设展开放"}</p>`;
+      return `<article class="museum">
+        <div>
+          <h3>${m.u ? `<a href="${esc(m.u)}" target="_blank" rel="noopener">${hl(m.n, q)}</a>` : hl(m.n, q)}<small>${esc(m.a)}</small></h3>
+          <div class="facts"><span>${esc(m.h)}</span><span>${esc(m.p)}</span></div>
+          ${m.flag ? `<span class="flag">${esc(m.flag)}</span>` : ""}
+        </div>
+        ${showsHtml}
+      </article>`;
+    }).join("");
+    if (!items) return "";
+    return `<section class="group"><h2>${esc(g.g)}</h2><p class="note">${esc(g.note)}</p>${items}</section>`;
+  }).join("");
+
+  const plainVisible = f === "all" && !q;
+  const plain = plainVisible ? `<section class="group"><h2>无特展的常设馆</h2><p class="note">这些馆只有常设展或季节性活动，列出方便一并规划。</p>
+      <div class="plain">${PLAIN.map(([n, s]) => `<div><b>${esc(n)}</b> · ${esc(s)}</div>`).join("")}</div></section>
+    <section class="group"><h2>已关闭</h2><div class="plain">${CLOSED.map(([n, s]) => `<div><b>${esc(n)}</b> · ${esc(s)}</div>`).join("")}</div></section>` : "";
+
+  document.getElementById("groups").innerHTML = (html || `<p class="none" style="margin-top:24px">没有匹配的结果。</p>`) + plain;
+  document.getElementById("count").textContent = `${shown} / ${total} 家`;
+}
+
+document.getElementById("q").addEventListener("input", render);
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", "false"));
+  b.setAttribute("aria-pressed", "true");
+  render();
+}));
+render();
+</script>
+</body>
+</html>
