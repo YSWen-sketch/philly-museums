@@ -1,6 +1,6 @@
 # On View · 东岸看展
 
-A visitor's list of what is on show right now in **Philadelphia, New York, Washington and Boston**: 356 museums, art galleries, historic houses and university galleries, with the 859 special exhibitions they are currently advertising, plus opening and closing dates, hours and admission prices.
+A visitor's list of what is on show right now in **Philadelphia, New York, Washington and Boston**: 1402 museums, art galleries, historic houses and university galleries, with the 1886 exhibitions and permanent displays they are currently showing, plus opening and closing dates, hours and admission prices.
 
 The site is called **On View** in English and **东岸看展** in Chinese.
 
@@ -42,16 +42,18 @@ One standard, applied to every city. It is also stated on the page itself, under
 - Dates are only ever what the museum itself publishes. Where it has not published one, the entry repeats the museum's own wording rather than guessing a date.
 - Some museum sites block automated reading. Those entries say so and may be less current than the rest.
 
-The standard exists because the first pass did not have one. Philadelphia was audited exhaustively while the other three cities were given venue targets, which left Philadelphia looking larger than New York — an artefact of how the lists were built rather than a fact about the cities. Applying one bar to all four fixes that.
+The standard exists because the first pass did not have one. Philadelphia was audited exhaustively while the other three cities were given venue targets, which left Philadelphia looking larger than New York — an artefact of how the lists were built, not a fact about the cities.
+
+All four cities have now been swept against this bar without a cap, which roughly quadrupled the list and reversed the picture: New York, the city that looked smallest, has the most venues by a wide margin. Philadelphia was swept last, since re-auditing its existing list was not the same as looking for what the list never had. 84 candidates were examined and excluded under the rules above, each with a recorded reason.
 
 ## What is covered
 
 | City | Venues | Exhibitions |
 | --- | ---: | ---: |
-| Philadelphia | 124 | 169 |
-| New York | 96 | 330 |
-| Washington | 71 | 225 |
-| Boston | 65 | 135 |
+| Philadelphia | 392 | 405 |
+| New York | 504 | 819 |
+| Washington | 222 | 334 |
+| Boston | 284 | 328 |
 
 ## How much this gets read
 

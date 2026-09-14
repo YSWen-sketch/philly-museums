@@ -2,6 +2,25 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-14 (one standard, all four cities)
+
+Every city has now been swept against the inclusion standard without a cap. The list goes from 356 venues to **1,402**, and from 859 to 1,886 exhibitions and permanent displays.
+
+| City | Venues | Exhibitions |
+| --- | ---: | ---: |
+| Philadelphia | 124 → 392 | 169 → 405 |
+| New York | 96 → 504 | 330 → 819 |
+| Washington | 71 → 222 | 225 → 334 |
+| Boston | 65 → 284 | 135 → 328 |
+
+The point of this was never the size. Philadelphia used to look like the biggest museum city of the four because it was the only one anybody had searched properly; the others had been given venue targets and stopped when they hit them. Sweeping all four the same way reverses the picture — New York, which looked smallest, has the most venues by a wide margin, and the ordering now reflects the cities rather than the effort spent on them.
+
+Philadelphia was swept last and deliberately. Re-auditing its existing 124 against the standard is not the same question as asking what the list never had: the audit removed one venue (Museum of Illusions, a for-profit franchise attraction) and moved four to the closed list, and it was only when the other three cities had been swept uncapped that Philadelphia was clearly the under-covered one. Its own sweep added 273.
+
+**84 candidates were examined and excluded**, each with a recorded reason: 46 with no public exhibition space (offices, archives, mail-only addresses), 20 closed for good, 5 with no access a member of the public can book, 4 that are outdoor sites with no indoor display, and the rest judged individually. Venues whose access could not be established at all — as opposed to venues that failed the bar — were recorded separately so a later pass retries them rather than treating the question as settled.
+
+Two habits held throughout and are worth keeping. No date was ever inferred: where a museum printed a range without a year, the entry carries the wording as printed rather than an assumed 2026. And where a venue publishes no hours or no admission price, the entry says so instead of guessing — including for venues whose websites refuse automated reading altogether.
+
 ## 2026-09-14 (automation, landmarks, project hygiene)
 
 The weekly update is now two halves, and the first half needs no model.
