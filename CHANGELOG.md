@@ -2,6 +2,34 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-17 (New York)
+
+`scripts/rotation.js` named New York as this week's city. `reports/` held only a stale `boston.md` scanned 2026-09-14, from before the venue count in every city file roughly quadrupled — it predates the current New York data (65 venues at scan time vs. 504 now) and could not be used. Priority 1 (changed/unreachable/redirected pages) was therefore skipped for lack of a report; effort went to priority 2, the 99 exhibitions across 75 venues that our data shows closing within 30 days (by 2026-10-17).
+
+This session's network egress proxy blocked all direct outbound HTTPS (WebFetch, curl, and the `r.jina.ai` workaround) with a blanket policy denial — confirmed against neutral control domains (wikipedia.org, google.com) that failed identically, so it was not a per-site block. Direct page-fetching was abandoned in favor of WebSearch, which runs through separate infrastructure and largely worked; findings below are sourced from search snippets that quote official pages, press releases, or event listings rather than from fetching the pages directly, and are noted as such.
+
+**Changed:**
+- Museum of Arts and Design: "Alice Riehl's Porcelain Florilegium" extended to Oct 12 (was Oct 4); "2025 Burke Prize: Hai-Wen Lin" extended to Oct 11 (was Oct 4) — per madmuseum.org.
+- Westbeth Gallery: "Imprints of Becoming" corrected to Sept 13 – Oct 7 (was Sept 18 – Oct 4) — per Westbeth's own 2026 gallery calendar.
+- Austrian Cultural Forum New York: "Dietmar Feichtinger: Architecture of Connection" now ends Sept 26, not Sept 25 — per acfny.org.
+- NYU Tisch 8th Floor Photo Gallery: "The Object/Photograph" extended to Dec 11 (was Sept 26) — per tisch.nyu.edu.
+- Louis Armstrong House Museum: "The Corona Collection" extended to Sept 26 (was Sept 18); description updated in both languages to say so — per the museum's own site.
+
+**Removed:** none this week.
+
+**Flagged, not changed (sources disagreed or gave no confirmation, so the file was left as-is rather than guessed at):**
+- Museum of the City of New York, "Another Wonderland": our file has it closing Oct 12; MCNY's own press material found by search says Sept 20, and one other summary said Sept 27. Worth a direct look.
+- Center for Puerto Rican Studies (Centro), Hunter College, "Afterlives of San Juan Hill": search turned up a 2025 run (extended through Oct 2025, then Puerto Rico Dec 2025–Feb 2026) but nothing confirming the 2026-09-09–2026-10-04 dates on file.
+- Materials for the Arts Gallery, "Lucky Finds: Second Chances": a closing-reception date of Sept 3 turned up, conflicting with our Sept 17 close.
+- Center for Brooklyn History, "New York City History Day Showcase": only a 2025-dated listing was found.
+- A handful of one-day date differences (SVA Gramercy's "Brad Holland," SVA's "BFA Fine Arts Exhibition") that may just be reporting noise rather than real errors.
+
+**Could not be verified at all** (search returned nothing usable, so left exactly as on file): Kingsborough Art Museum, Macy Art Gallery, Richard and Dolly Maass Gallery (Purchase College), Rye Arts Center, Wave Hill (most of its listed shows), and roughly a third of the individual exhibitions inside otherwise-partially-confirmed venues — mostly small galleries and university spaces with little web presence.
+
+**Scope note:** this covered the 75 venues with a near-term closing date, which is priority 2 of the weekly brief. New York's other roughly 430 venues (priorities 3–4, plus the priority-1 changed/unreachable/redirected check that the report would normally drive) were not reached this week and should be the focus once a fresh report exists for this city.
+
+**Process note for whoever next maintains this repo:** the mechanical Thursday scan (`weekly.yml` / `scripts/refresh.js`) does not appear to have run for the last two rotation cycles — the only file in `reports/` was a Boston scan already superseded by the venue-count sweep. It's worth checking whether that workflow is still firing on schedule.
+
 ## 2026-09-14 (one standard, all four cities)
 
 Every city has now been swept against the inclusion standard without a cap. The list goes from 356 venues to **1,402**, and from 859 to 1,886 exhibitions and permanent displays.

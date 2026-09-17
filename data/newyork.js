@@ -18,8 +18,8 @@ CITIES.push({
   nz: "纽约",
 
   // Set by the weekly reconciliation.
-  updated: "September 14, 2026",
-  updatedz: "2026 年 9 月 14 日",
+  updated: "September 17, 2026",
+  updatedz: "2026 年 9 月 17 日",
 
   lede: "Spread across all five boroughs, from the Met and MoMA down to one-room nonprofits in Brooklyn and Queens. Several of the biggest museums are pay-what-you-wish for New York State residents only, so read the admission line before you go.",
   ledez: "遍布五个区，从大都会、MoMA 到布鲁克林和皇后区只有一间屋子的非营利空间。有几家大馆的随意付费只对纽约州居民开放，出发前请先看票价一栏。",
@@ -167,8 +167,8 @@ CITIES.push({
     shows: [
       { t: "Nike: Form Follows Motion", e: "2027-03-07", d: "Design and prototypes behind Nike's sportswear and footwear", dz: "耐克运动服饰与鞋履背后的设计与原型" },
       { t: "Jessica Lichtenstein: Rewilding", e: "2027-04-18", d: "An installation by the artist Jessica Lichtenstein", dz: "艺术家杰西卡·利希滕斯坦的装置作品" },
-      { t: "Alice Riehl's Porcelain Florilegium", e: "2026-10-04", d: "Porcelain flowers and plant forms by Alice Riehl", dz: "爱丽丝·里尔以瓷制作的花卉与植物形态" },
-      { t: "2025 Burke Prize: Hai-Wen Lin", e: "2026-10-04", d: "Work by the winner of MAD's biennial craft prize", dz: "MAD 双年工艺奖得主的作品" },
+      { t: "Alice Riehl's Porcelain Florilegium", e: "2026-10-12", d: "Porcelain flowers and plant forms by Alice Riehl", dz: "爱丽丝·里尔以瓷制作的花卉与植物形态" },
+      { t: "2025 Burke Prize: Hai-Wen Lin", e: "2026-10-11", d: "Work by the winner of MAD's biennial craft prize", dz: "MAD 双年工艺奖得主的作品" },
       { t: "OUT of the Jewelry Box", e: "2026-10-04", d: "Contemporary jewelry drawn from the museum's collection", dz: "馆藏当代首饰精选" }
     ] },
   { n: "American Folk Art Museum", nz: "美国民间艺术博物馆", a: "2 Lincoln Square",
@@ -767,7 +767,7 @@ CITIES.push({
     h: "Wed–Sun 1–6; closed Mon–Tue", hz: "周三–周日 13–18；周一、周二闭馆", p: "Free", pz: "免费",
     u: "https://westbeth.org/about/westbeth-gallery/", free: true,
     shows: [
-      { t: "Imprints of Becoming: Traces, Temporalities, and the Unfixed Paradise", s: "2026-09-18", e: "2026-10-04", d: "Group show at the artists'-housing gallery on trace, time and things left unfixed.", dz: "艺术家公寓画廊群展，主题为痕迹、时间与未定之物" }
+      { t: "Imprints of Becoming: Traces, Temporalities, and the Unfixed Paradise", s: "2026-09-13", e: "2026-10-07", d: "Group show at the artists'-housing gallery on trace, time and things left unfixed.", dz: "艺术家公寓画廊群展，主题为痕迹、时间与未定之物" }
     ] },
   { n: "The Painting Center", nz: "绘画中心", a: "547 West 27th Street, Suite 500",
     h: "Tue 10–4, Wed–Sat 11–6", hz: "周二 10–16，周三–周六 11–18", p: "Free", pz: "免费",
@@ -965,7 +965,7 @@ CITIES.push({
     h: "Daily 10–6", hz: "每天 10–18", p: "Free", pz: "免费", u: "https://acfny.org/exhibitions/",
     free: true,
     shows: [
-      { t: "Dietmar Feichtinger: Architecture of Connection", s: "2026-03-05", e: "2026-09-25", d: "Bridges, schools and transit buildings by the Austrian architect, in drawings and photographs", dz: "奥地利建筑师的桥梁、学校与交通建筑，以图纸与摄影呈现" },
+      { t: "Dietmar Feichtinger: Architecture of Connection", s: "2026-03-05", e: "2026-09-26", d: "Bridges, schools and transit buildings by the Austrian architect, in drawings and photographs", dz: "奥地利建筑师的桥梁、学校与交通建筑，以图纸与摄影呈现" },
       { t: "The ALBERTINA Museum: Celebrating 250 Years", s: "2026-05-11", e: "2026-09-25", d: "A travelling display marking the 250th anniversary of the Vienna graphic-art museum", dz: "维也纳阿尔贝蒂娜博物馆 250 周年巡回展" },
       { t: "Erwin Wurm: Chamber Play with Jackson Pollock and Samuel Beckett", sText: "Upcoming", sTextz: "即将开幕", d: "Announced solo show by the Austrian sculptor; the museum has not published dates yet", dz: "奥地利雕塑家个展，馆方尚未公布日期" }
     ] },
@@ -1599,7 +1599,7 @@ CITIES.push({
     h: "Mon–Fri 10–7, Sat 12–5, closed Sunday", hz: "周一–周五 10–19，周六 12–17，周日闭馆", p: "Free", pz: "免费",
     u: "https://tisch.nyu.edu/photo/events", free: true,
     shows: [
-      { t: "The Object/Photograph: From the Archives of the Department of Photography & Imaging", s: "2026-09-14", e: "2026-09-26", d: "Prints and photographic objects from the department's archive, many given by dealer Lee D. Witkin", dz: "摄影系馆藏原作与摄影物件，多为经销商维特金捐赠" }
+      { t: "The Object/Photograph: From the Archives of the Department of Photography & Imaging", s: "2026-09-14", e: "2026-12-11", d: "Prints and photographic objects from the department's archive, many given by dealer Lee D. Witkin", dz: "摄影系馆藏原作与摄影物件，多为经销商维特金捐赠" }
     ] },
   { n: "ITP Gallery", nz: "ITP 互动通信画廊", a: "370 Jay Street, 4th Floor",
     h: "Not published", hz: "未公布", p: "Free", pz: "免费",
@@ -3884,7 +3884,7 @@ CITIES.push({
     u: "https://www.louisarmstronghouse.org/events/",
     shows: [
       { t: "Here to Stay", eText: "Permanent", eTextz: "常设", d: "Permanent display of Armstrong's photographs, home tapes and personal objects at the Armstrong Center", dz: "阿姆斯特朗中心常设展：照片、家庭录音带与私人物品" },
-      { t: "The Corona Collection", e: "2026-09-18", d: "Special exhibition drawn from the Corona neighborhood collection, closing September 18", dz: "取材于科罗纳社区藏品的特展，9 月 18 日闭幕" },
+      { t: "The Corona Collection", e: "2026-09-26", d: "Special exhibition drawn from the Corona neighborhood collection, extended through September 26", dz: "取材于科罗纳社区藏品的特展，延期至 9 月 26 日闭幕" },
       { t: "Armstrong in Ghana", s: "2026-10-01", d: "New exhibit on Armstrong's visits to Ghana, opening October 1", dz: "新展：阿姆斯特朗的加纳之行，10 月 1 日开幕" }
     ] },
   { n: "Alice Austen House", nz: "爱丽丝·奥斯汀故居", a: "2 Hylan Boulevard",
