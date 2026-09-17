@@ -2027,8 +2027,7 @@ CITIES.push({
     u: "https://ceresgallery.org/exhibitions/", free: true,
     shows: [
       { t: "Elizabeth Downer Riker – The Understory", s: "2026-09-08", e: "2026-10-03", d: "Solo show by a member of this women's co-op; closing reception 3 October", dz: "女性合作社成员个展，10 月 3 日设闭幕酒会" },
-      { t: "Jane Seavers – Visions of a World on Fire", s: "2026-09-08", e: "2026-10-03", d: "Second solo hang in the same slot, sharing the gallery's two rooms", dz: "同期第二个个展，与前者分占两个展厅" },
-      { t: "Ceres Gallery Friends Expo", s: "2026-07-21", e: "2026-08-15", d: "Annual summer group show of work by friends and supporters of the co-op", dz: "年度夏季群展，展出合作社友人作品" }
+      { t: "Jane Seavers – Visions of a World on Fire", s: "2026-09-08", e: "2026-10-03", d: "Second solo hang in the same slot, sharing the gallery's two rooms", dz: "同期第二个个展，与前者分占两个展厅" }
     ] },
   { n: "Pleiades Gallery", nz: "普勒阿得斯画廊", a: "547 West 27th Street, Suite 304",
     h: "Tue–Sat 12–6", hz: "周二–周六 12–18", p: "Free", pz: "免费",

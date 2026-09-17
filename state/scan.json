@@ -256,5 +256,1995 @@
    "hash": "f36a0190798521b3",
    "seen": "2026-09-14"
   }
+ },
+ "newyork": {
+  "https://www.metmuseum.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.moma.org/calendar/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.momaps1.org/programs": {
+   "hash": "3eb6f3dbc6363f96",
+   "seen": "2026-09-17"
+  },
+  "https://www.guggenheim.org/exhibitions": {
+   "hash": "968ca35773b12954",
+   "seen": "2026-09-17"
+  },
+  "https://whitney.org/exhibitions": {
+   "hash": "fe3d8157f41a1fd7",
+   "seen": "2026-09-17"
+  },
+  "https://www.frick.org/exhibitions": {
+   "hash": "6a3ec66a8faa4589",
+   "seen": "2026-09-17"
+  },
+  "https://www.neuegalerie.org/exhibitions": {
+   "hash": "6bca8237227a8481",
+   "seen": "2026-09-17"
+  },
+  "https://thejewishmuseum.org/exhibitions": {
+   "hash": "c798f57e326fe01a",
+   "seen": "2026-09-17"
+  },
+  "https://www.cooperhewitt.org/exhibitions/": {
+   "hash": "b3044cc916179ec9",
+   "seen": "2026-09-17"
+  },
+  "https://www.elmuseo.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://madmuseum.org/exhibitions": {
+   "hash": "23160b1d75c498e2",
+   "seen": "2026-09-17"
+  },
+  "https://folkartmuseum.org/exhibitions/": {
+   "hash": "b77916cbad18e9a7",
+   "seen": "2026-09-17"
+  },
+  "https://www.newmuseum.org/exhibitions": {
+   "hash": "e3b0c44298fc1c14",
+   "seen": "2026-09-17"
+  },
+  "https://studiomuseum.org/exhibitions": {
+   "hash": "2ae6efa44b9e85b3",
+   "seen": "2026-09-17"
+  },
+  "https://www.fitnyc.edu/museum/exhibitions/index.php": {
+   "hash": "615c732e2ee03c5c",
+   "seen": "2026-09-17"
+  },
+  "https://asiasociety.org/new-york/exhibitions/current": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://japansociety.org/gallery/": {
+   "hash": "a370b6e978ff8723",
+   "seen": "2026-09-17"
+  },
+  "https://www.icp.org/exhibitions": {
+   "hash": "8405b6b4148b0f5c",
+   "seen": "2026-09-17"
+  },
+  "https://www.drawingcenter.org/exhibitions": {
+   "hash": "85fe7433048d67bb",
+   "seen": "2026-09-17"
+  },
+  "https://swissinstitute.net/exhibitions": {
+   "hash": "fe268fb1b41cb1e2",
+   "seen": "2026-09-17"
+  },
+  "https://www.diaart.org/exhibition/exhibitions-projects": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.armoryonpark.org/season-events/current-season/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://theshed.org/program": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://posterhouse.org/exhibitions/": {
+   "hash": "4475c9d81310adf1",
+   "seen": "2026-09-17"
+  },
+  "https://leslielohman.org/exhibitions": {
+   "hash": "365a40525370fda4",
+   "seen": "2026-09-17"
+  },
+  "https://artistsspace.org/exhibitions": {
+   "hash": "3253423180a4856e",
+   "seen": "2026-09-17"
+  },
+  "https://apexart.org/exhibitions.php": {
+   "hash": "993f2613e365f341",
+   "seen": "2026-09-17"
+  },
+  "https://thekitchen.org/on-view/": {
+   "hash": "11850b0846b5dc71",
+   "seen": "2026-09-17"
+  },
+  "https://www.centerforarchitecture.org/exhibitions/": {
+   "hash": "5d5c559542d824fe",
+   "seen": "2026-09-17"
+  },
+  "https://hispanicsociety.org/exhibitions/": {
+   "hash": "d0cbf7d02f15fc0a",
+   "seen": "2026-09-17"
+  },
+  "https://www.brooklynmuseum.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://queensmuseum.org/whats-on/": {
+   "hash": "e2110426c8122af0",
+   "seen": "2026-09-17"
+  },
+  "https://bronxmuseum.org/exhibitions/": {
+   "hash": "df9d0e847bc4b46e",
+   "seen": "2026-09-17"
+  },
+  "https://www.noguchi.org/museum/exhibitions/": {
+   "hash": "8bb26edcb5824cae",
+   "seen": "2026-09-17"
+  },
+  "https://www.sculpture-center.org/exhibitions/": {
+   "hash": "dbbe2bc926645a7b",
+   "seen": "2026-09-17"
+  },
+  "https://bricartsmedia.org/events/exhibitions/": {
+   "hash": "164db4ecfec49e52",
+   "seen": "2026-09-17"
+  },
+  "https://mocada.org/explore/": {
+   "hash": "f6b2577712cb60ff",
+   "seen": "2026-09-17"
+  },
+  "https://pioneerworks.org/exhibitions": {
+   "hash": "8645ae2571a86c06",
+   "seen": "2026-09-17"
+  },
+  "https://www.amant.org/programs": {
+   "hash": "b6cb2e9b8e2f0bf3",
+   "seen": "2026-09-17"
+  },
+  "https://snug-harbor.org/things-to-do/museums-and-galleries/newhouse-center/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.themorgan.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://wallach.columbia.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://greyartmuseum.nyu.edu/exhibitions/": {
+   "hash": "232c2994d3e6f631",
+   "seen": "2026-09-17"
+  },
+  "https://printcenternewyork.org/exhibitions": {
+   "hash": "4e9e6d935dd0c88c",
+   "seen": "2026-09-17"
+  },
+  "https://centerforbookarts.org/exhibitions": {
+   "hash": "7b3976c3cbde71f0",
+   "seen": "2026-09-17"
+  },
+  "https://whitecolumns.org/exhibitions-programming/": {
+   "hash": "9452d99b9155b854",
+   "seen": "2026-09-17"
+  },
+  "https://storefront.nyc/program/": {
+   "hash": "fe1d459d22de95fe",
+   "seen": "2026-09-17"
+  },
+  "https://www.smackmellon.org/exhibitions/": {
+   "hash": "40a70e708ee47079",
+   "seen": "2026-09-17"
+  },
+  "https://www.bronxdoc.org/bronx-documentary-center/exhibits/current-exhibits/": {
+   "hash": "46a4574e69da67cf",
+   "seen": "2026-09-17"
+  },
+  "https://societyillustrators.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.as-coa.org/visual-arts": {
+   "hash": "1f48483fd8870888",
+   "seen": "2026-09-17"
+  },
+  "https://theafricacenter.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://huntercollegeartgalleries.org/calendar": {
+   "hash": "6a36164a54de860a",
+   "seen": "2026-09-17"
+  },
+  "https://parsons.edu/sheilacjohnsondesigncenter/exhibitions/": {
+   "hash": "2b05bc6b1e9cb66a",
+   "seen": "2026-09-17"
+  },
+  "https://www.bgc.bard.edu/gallery": {
+   "hash": "a048c8ebcaa53eaf",
+   "seen": "2026-09-17"
+  },
+  "https://www.pratt.edu/about/exhibitions/pratt-manhattan-gallery/": {
+   "hash": "62c074d3b0677191",
+   "seen": "2026-09-17"
+  },
+  "https://jamesgallery.gc.cuny.edu/": {
+   "hash": "7f2bb808d4cbd21b",
+   "seen": "2026-09-17"
+  },
+  "https://www.flushingtownhall.org/gallery": {
+   "hash": "e285d7f99082c4d2",
+   "seen": "2026-09-17"
+  },
+  "https://huc.edu/public-programs-events/museums/dr-bernard-heller-museum-in-new-york/": {
+   "hash": "a25a154911550923",
+   "seen": "2026-09-17"
+  },
+  "https://www.grolierclub.org/Default.aspx?p=DynamicModule&pageid=384826&ssid=322447&vnf=1": {
+   "hash": "c3c5434038bb74b3",
+   "seen": "2026-09-17"
+  },
+  "https://www.nacnyc.org/arts-and-programs/exhibitions": {
+   "hash": "9ea5dd6e258d9445",
+   "seen": "2026-09-17"
+  },
+  "https://salmagundi.org/current-exhibitions-events/": {
+   "hash": "ecf1f84580d64a28",
+   "seen": "2026-09-17"
+  },
+  "https://artsandletters.org/exhibitions/": {
+   "hash": "95bd49f066629855",
+   "seen": "2026-09-17"
+  },
+  "https://museumofthedog.org/visit/exhibitions/": {
+   "hash": "540ccaa8e1d89140",
+   "seen": "2026-09-17"
+  },
+  "https://www.sugarhillmuseum.org/now-on-view": {
+   "hash": "1ed02c404350de97",
+   "seen": "2026-09-17"
+  },
+  "https://www.the8thfloor.org/exhibitions": {
+   "hash": "ce0cb3cd1195f353",
+   "seen": "2026-09-17"
+  },
+  "https://www.fordfoundation.org/about/the-ford-foundation-center-for-social-justice/ford-foundation-gallery/exhibitions/": {
+   "hash": "a039d95461c63479",
+   "seen": "2026-09-17"
+  },
+  "https://www.printedmatter.org/programs/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://aperture.org/exhibitions/": {
+   "hash": "0e130d79c4deb797",
+   "seen": "2026-09-17"
+  },
+  "https://www.participantinc.org/seasons": {
+   "hash": "d5c099c839a06032",
+   "seen": "2026-09-17"
+  },
+  "https://www.abronsartscenter.org/programs": {
+   "hash": "da05aa38a56e004c",
+   "seen": "2026-09-17"
+  },
+  "https://www.theclementecenter.org/exhibitions": {
+   "hash": "ab12039b786eb608",
+   "seen": "2026-09-17"
+  },
+  "https://artistsallianceinc.org/cuchifritos-gallery-project-space/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.studios-efanyc.org/exhibitions": {
+   "hash": "e2e68826583a7c4d",
+   "seen": "2026-09-17"
+  },
+  "https://fountainhousegallery.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.howlarts.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://westbeth.org/about/westbeth-gallery/": {
+   "hash": "c3c064b3fef9e6f6",
+   "seen": "2026-09-17"
+  },
+  "https://www.thepaintingcenter.org/exhibitions2026": {
+   "hash": "7d135ddcd7c182e9",
+   "seen": "2026-09-17"
+  },
+  "https://nyss.org/exhibitions/": {
+   "hash": "7c24b00d47bd124e",
+   "seen": "2026-09-17"
+  },
+  "https://www.artstudentsleague.org/exhibitions": {
+   "hash": "42f4724ba13a554c",
+   "seen": "2026-09-17"
+  },
+  "https://nationalacademy.org/exhibitions": {
+   "hash": "3d9fc4bde7ceef05",
+   "seen": "2026-09-17"
+  },
+  "https://hillartfoundation.org/art/exhibitions/": {
+   "hash": "8eefa0160c3815f2",
+   "seen": "2026-09-17"
+  },
+  "https://www.brantfoundation.org/exhibitions/": {
+   "hash": "187f110c71994855",
+   "seen": "2026-09-17"
+  },
+  "https://www.diaart.org/visit/visit/walter-de-maria-the-new-york-earth-room": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.diaart.org/visit/visit/walter-de-maria-the-broken-kilometer": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://juddfoundation.org/spaces/101-spring-street/": {
+   "hash": "a246a5a02c76e3cc",
+   "seen": "2026-09-17"
+  },
+  "https://www.theeastonfoundation.org/": {
+   "hash": "bdad1f5103c8ef76",
+   "seen": "2026-09-17"
+  },
+  "https://www.rcgrossfoundation.org/exhibitions": {
+   "hash": "28dc2feb19de6283",
+   "seen": "2026-09-17"
+  },
+  "https://lmcc.net/lmcc-arts-center-at-governors-island/": {
+   "hash": "6547ddce023c4748",
+   "seen": "2026-09-17"
+  },
+  "https://www.onx.studio/": {
+   "hash": "b073074b4bd16fe1",
+   "seen": "2026-09-17"
+  },
+  "https://www.airgallery.org/exhibitions-home": {
+   "hash": "bb043ab17e651d16",
+   "seen": "2026-09-17"
+  },
+  "https://urbanglass.org/events": {
+   "hash": "9e8f73318c56b7fc",
+   "seen": "2026-09-17"
+  },
+  "https://www.narsfoundation.org/exhibitions/current-and-upcoming-exhibitions": {
+   "hash": "82902a572c395f34",
+   "seen": "2026-09-17"
+  },
+  "https://www.kentlergallery.org/Listing/upcoming_exhibitions": {
+   "hash": "3ed03db9e0a364b9",
+   "seen": "2026-09-17"
+  },
+  "https://www.bwac.org/current-exhibits": {
+   "hash": "b244ac79eef3c9ca",
+   "seen": "2026-09-17"
+  },
+  "https://iscp-nyc.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://residencyunlimited.org/programs/": {
+   "hash": "f3e79ac99bfbcb86",
+   "seen": "2026-09-17"
+  },
+  "https://www.e-flux.com/events/": {
+   "hash": "8f41c5c4eaa9e233",
+   "seen": "2026-09-17"
+  },
+  "https://www.recessart.org/projects": {
+   "hash": "672de4feeb1657b7",
+   "seen": "2026-09-17"
+  },
+  "https://cmaaeec.org/": {
+   "hash": "bcfce67b0c936bc9",
+   "seen": "2026-09-17"
+  },
+  "https://restorationplaza.org/arts-culture/": {
+   "hash": "20e74ba2f469c6b0",
+   "seen": "2026-09-17"
+  },
+  "https://www.tibetanmuseum.org/visit": {
+   "hash": "83169aea75462089",
+   "seen": "2026-09-17"
+  },
+  "https://acfny.org/exhibitions/": {
+   "hash": "89796b90f9b2b0c2",
+   "seen": "2026-09-17"
+  },
+  "https://lallianceny.org/": {
+   "hash": "13abf341a011d36a",
+   "seen": "2026-09-17"
+  },
+  "https://www.koreanculture.org/gallery-korea/": {
+   "hash": "a7e3a60bffd9b9cc",
+   "seen": "2026-09-17"
+  },
+  "https://www.koreasociety.org/arts-culture/": {
+   "hash": "8c78f0df5ea7bc2b",
+   "seen": "2026-09-17"
+  },
+  "https://chinainstitute.org/gallery-exhibitions/": {
+   "hash": "cc479615d25ca9db",
+   "seen": "2026-09-17"
+  },
+  "https://thus.org/nyc-cultural-center/": {
+   "hash": "0a35be8136fa828c",
+   "seen": "2026-09-17"
+  },
+  "https://www.roerich.org/": {
+   "hash": "bcb1165988a71900",
+   "seen": "2026-09-17"
+  },
+  "https://www.lehmangallery.org/": {
+   "hash": "885ad1590e67abb7",
+   "seen": "2026-09-17"
+  },
+  "https://gtmuseum.org/": {
+   "hash": "7965b316ae323d7d",
+   "seen": "2026-09-17"
+  },
+  "https://weissman.baruch.cuny.edu/mishkin-gallery/": {
+   "hash": "e2a2f62dfd468fd6",
+   "seen": "2026-09-17"
+  },
+  "https://shivagallery.org/": {
+   "hash": "49b15614f385edc5",
+   "seen": "2026-09-17"
+  },
+  "https://www.bmcc.cuny.edu/sfac/": {
+   "hash": "04c72524c5f634cd",
+   "seen": "2026-09-17"
+  },
+  "https://artgallery.qcc.cuny.edu/": {
+   "hash": "3ae55c02dba64cd5",
+   "seen": "2026-09-17"
+  },
+  "https://kccartmuseum.org/": {
+   "hash": "f798d404f9f6c41a",
+   "seen": "2026-09-17"
+  },
+  "https://www.citytech.cuny.edu/": {
+   "hash": "c455eb24b68ef901",
+   "seen": "2026-09-17"
+  },
+  "https://www.csi.cuny.edu/campus-life/csi-buildings/art-gallery-csi": {
+   "hash": "05b861ad01ff370a",
+   "seen": "2026-09-17"
+  },
+  "https://gallatin.nyu.edu/utilities/galleries.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://ifa.nyu.edu/exhibitions/": {
+   "hash": "a0acfc2d41bcc924",
+   "seen": "2026-09-17"
+  },
+  "https://italianacademy.columbia.edu/content/gallery-exhibition-highlights-da-ponte-casa-italiana-brief-history-italian-studies-columbia": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "http://fordhamuniversitygalleries.com/home.html": {
+   "hash": "c006b771e582d35f",
+   "seen": "2026-09-17"
+  },
+  "https://www.pratt.edu/about/exhibitions/the-rubelle-and-norman-schafler-gallery/": {
+   "hash": "dd2c84ea4f8492e9",
+   "seen": "2026-09-17"
+  },
+  "https://sva.edu/about/sva-gallery-exhibitions": {
+   "hash": "92091b402f69f479",
+   "seen": "2026-09-17"
+  },
+  "https://cooper.edu/events-and-exhibitions": {
+   "hash": "6234e45de45cac29",
+   "seen": "2026-09-17"
+  },
+  "https://cooper.edu/events-and-exhibitions/exhibitions": {
+   "hash": "bea0dee2a021e315",
+   "seen": "2026-09-17"
+  },
+  "https://www.pace.edu/dyson/life-dyson/art-gallery": {
+   "hash": "6b783b8e0d9d724b",
+   "seen": "2026-09-17"
+  },
+  "https://www.stjohns.edu/academics/centers-institutes/dr-m-t-geoffrey-yeh-art-gallery": {
+   "hash": "c7a05643db692c71",
+   "seen": "2026-09-17"
+  },
+  "https://www.sarahlawrence.edu/news-events/events/exhibits.html": {
+   "hash": "97ad614fde827cdd",
+   "seen": "2026-09-17"
+  },
+  "https://www.hofstra.edu/museum/exhibitions.html": {
+   "hash": "962a03e4d0d671f1",
+   "seen": "2026-09-17"
+  },
+  "https://neuberger.org/": {
+   "hash": "0fe490de83141ba0",
+   "seen": "2026-09-17"
+  },
+  "https://expressnewark.org/exhibitions/": {
+   "hash": "90b05c7cac1daa57",
+   "seen": "2026-09-17"
+  },
+  "https://inside.montclair.edu/departments/university-galleries/exhibitions/": {
+   "hash": "66f1f7171ea2c4bf",
+   "seen": "2026-09-17"
+  },
+  "https://library.shu.edu/gallery_exhibitions/current": {
+   "hash": "18dd09099c2b53a0",
+   "seen": "2026-09-17"
+  },
+  "https://galleries.kean.edu/exhibitions": {
+   "hash": "99d48e842d91f18b",
+   "seen": "2026-09-17"
+  },
+  "https://www.riverspringliving.org/derfner-judaica-museum/": {
+   "hash": "21c3a112d9bf1a74",
+   "seen": "2026-09-17"
+  },
+  "https://www.instituteforpublicarchitecture.org/": {
+   "hash": "c35aa8ddd44873ca",
+   "seen": "2026-09-17"
+  },
+  "https://www.hrm.org/exhibitions/": {
+   "hash": "56952dd7273dc617",
+   "seen": "2026-09-17"
+  },
+  "https://bluedoorartcenter.org/gallery/": {
+   "hash": "ff0bbf6604a9de17",
+   "seen": "2026-09-17"
+  },
+  "https://www.newingtoncropsey.com/exhibitions": {
+   "hash": "f0402689bcdcbcae",
+   "seen": "2026-09-17"
+  },
+  "https://hudsonvalley.org/historic-sites/union-church-of-pocantico-hills/": {
+   "hash": "8bcd8960353e09df",
+   "seen": "2026-09-17"
+  },
+  "https://artswestchester.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.ryeartscenter.org/exhibitions": {
+   "hash": "9e00c7eb75203806",
+   "seen": "2026-09-17"
+  },
+  "https://www.clayartcenter.org/": {
+   "hash": "5f28f58a5b27c95a",
+   "seen": "2026-09-17"
+  },
+  "https://www.pelhamartcenter.org/gallery/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.edwardhopperhouse.org/": {
+   "hash": "0bbe45971ae2bb18",
+   "seen": "2026-09-17"
+  },
+  "https://rocklandartcenter.org/current-exhibitions/current-exhibitions.html": {
+   "hash": "4f346e3c17497267",
+   "seen": "2026-09-17"
+  },
+  "https://nassaumuseum.org/exhibitions/": {
+   "hash": "6d808a92576307ba",
+   "seen": "2026-09-17"
+  },
+  "https://brucemuseum.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://flinngallery.org/": {
+   "hash": "f0a2178d5280cd75",
+   "seen": "2026-09-17"
+  },
+  "https://www.stamfordartassociation.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.newarkmuseumart.org/exhibitions/": {
+   "hash": "4df0684198b82b9e",
+   "seen": "2026-09-17"
+  },
+  "https://npl.org/exhibits/": {
+   "hash": "c7e3639dba31a10f",
+   "seen": "2026-09-17"
+  },
+  "https://www.expressnewark.org/paul-robeson-galleries": {
+   "hash": "7560f631d199730a",
+   "seen": "2026-09-17"
+  },
+  "https://www.manacontemporary.com/exhibitions/": {
+   "hash": "dc226374abf2d502",
+   "seen": "2026-09-17"
+  },
+  "https://www.drawingrooms.org/": {
+   "hash": "b5827a12c8b24d59",
+   "seen": "2026-09-17"
+  },
+  "https://www.smushgallery.com/whatshappening": {
+   "hash": "963570701321f700",
+   "seen": "2026-09-17"
+  },
+  "https://www.nimbusdance.org/nimbus-arts-center": {
+   "hash": "fd7ad80138fa7bc0",
+   "seen": "2026-09-17"
+  },
+  "https://www.montclairartmuseum.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://inside.montclair.edu/departments/university-galleries": {
+   "hash": "1ec8a0de87a83144",
+   "seen": "2026-09-17"
+  },
+  "https://www.belskiemuseum.com/": {
+   "hash": "a0fe87cc7f4e6df0",
+   "seen": "2026-09-17"
+  },
+  "https://tasoc.org/gallery/": {
+   "hash": "7d9077f343b71d13",
+   "seen": "2026-09-17"
+  },
+  "https://www.jamesrosecenter.org/": {
+   "hash": "4c3dc81c958feee3",
+   "seen": "2026-09-17"
+  },
+  "https://www.artcenternj.org/exhibitions/current-exhibitions-2/": {
+   "hash": "ae2e033734c6a42c",
+   "seen": "2026-09-17"
+  },
+  "https://morrismuseum.org/exhibitions/": {
+   "hash": "48bdbda117925bd8",
+   "seen": "2026-09-17"
+  },
+  "https://www.qc.cuny.edu/academics/soa/queens-college-art-center/": {
+   "hash": "de1e2cabcee06ab9",
+   "seen": "2026-09-17"
+  },
+  "https://www.brooklyn.edu/events/category/art-gallery/": {
+   "hash": "c3f299083624fb14",
+   "seen": "2026-09-17"
+  },
+  "https://artgallery.qcc.cuny.edu/programming/all-exhibits/current-exhibits/": {
+   "hash": "1f90856ad243d7b4",
+   "seen": "2026-09-17"
+  },
+  "https://www.ccny.cuny.edu/art": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.york.cuny.edu/arts-gallery": {
+   "hash": "36748e239674b80b",
+   "seen": "2026-09-17"
+  },
+  "http://www.205hudsongallery.org/calendar": {
+   "hash": "f9aa9001add1575f",
+   "seen": "2026-09-17"
+  },
+  "https://www.huntereastharlemgallery.org/": {
+   "hash": "6361e8b87995320b",
+   "seen": "2026-09-17"
+  },
+  "https://www.hostos.cuny.edu/culturearts/events/exhibits.shtml": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://80wse.org/": {
+   "hash": "5e7327952b84d70b",
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/kimmel-windows.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/broadway-windows.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/gallery-space-at-wagner.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://tisch.nyu.edu/photo/events": {
+   "hash": "c049bdff50b205d1",
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/itp-gallery.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.arch.columbia.edu/exhibitions": {
+   "hash": "bffb8e2ccdedd8b0",
+   "seen": "2026-09-17"
+  },
+  "https://www.macyartgallery.com/": {
+   "hash": "5bee0789799685d2",
+   "seen": "2026-09-17"
+  },
+  "https://library.barnard.edu/news-events/exhibits": {
+   "hash": "dab26f4ce9a72889",
+   "seen": "2026-09-17"
+  },
+  "https://www.fordham.edu/academics/departments/visual-arts/galleries/": {
+   "hash": "acd177a4dbf57cac",
+   "seen": "2026-09-17"
+  },
+  "https://www.pratt.edu/about/exhibitions/": {
+   "hash": "c5741cf6f1592432",
+   "seen": "2026-09-17"
+  },
+  "https://sva.edu/events/search/type/Exhibition": {
+   "hash": "ae6b4aa08c0b4b7a",
+   "seen": "2026-09-17"
+  },
+  "https://www.fitnyc.edu/life-at-fit/campus/gallery/index.php": {
+   "hash": "97e1535a7b83dba3",
+   "seen": "2026-09-17"
+  },
+  "https://www.nyaa.edu/exhibitions/": {
+   "hash": "ebd2ec642bd24f8a",
+   "seen": "2026-09-17"
+  },
+  "https://liu.edu/post/academics/school-of-visual-arts/Facilities-Venues/Steinberg-Museum-of-Art": {
+   "hash": "4b557b325cbda69a",
+   "seen": "2026-09-17"
+  },
+  "https://www.adelphi.edu/libraries/collections-archives/art-exhibitions/gallery-hours-locations/": {
+   "hash": "a0a156f553f49438",
+   "seen": "2026-09-17"
+  },
+  "https://www.oldwestbury.edu/school-arts-and-sciences/visual-arts/amelie-wallace-gallery": {
+   "hash": "73e0666c0da7cdaa",
+   "seen": "2026-09-17"
+  },
+  "https://www.ncc.edu/campusinformation/collegeservices/firehouse_gallery.shtml": {
+   "hash": "881cd9a0d78d2306",
+   "seen": "2026-09-17"
+  },
+  "https://www.purchase.edu/academics/art-and-design/exhibitions-and-public-programs/richard-and-dolly-maass-gallery/": {
+   "hash": "207bfada52c4307b",
+   "seen": "2026-09-17"
+  },
+  "https://www.wccartgallery.com/": {
+   "hash": "d7b5d18a15a25714",
+   "seen": "2026-09-17"
+  },
+  "https://www.wpunj.edu/cohss/departments/art/": {
+   "hash": "78ebacac0a7f5d13",
+   "seen": "2026-09-17"
+  },
+  "https://galleries.kean.edu/": {
+   "hash": "179a1ea23355069e",
+   "seen": "2026-09-17"
+  },
+  "https://www.ramapo.edu/berriecenter/art-galleries/": {
+   "hash": "295b890b1f66630d",
+   "seen": "2026-09-17"
+  },
+  "https://gallery.bergen.edu/": {
+   "hash": "71735c4dba2064c3",
+   "seen": "2026-09-17"
+  },
+  "https://drew.edu/academics/art/the-korn-gallery/": {
+   "hash": "ca487f5029b51a3f",
+   "seen": "2026-09-17"
+  },
+  "https://www.sculpturespacenyc.com/exhibitions": {
+   "hash": "c50f153ba014ad29",
+   "seen": "2026-09-17"
+  },
+  "https://www.culturelablic.org/current-exhibitions": {
+   "hash": "ee1ea2a87e104e1b",
+   "seen": "2026-09-17"
+  },
+  "https://www.fluxfactory.org/events/": {
+   "hash": "059273a3d8b2593c",
+   "seen": "2026-09-17"
+  },
+  "https://socratessculpturepark.org/exhibitions/": {
+   "hash": "017e0d9369fe606f",
+   "seen": "2026-09-17"
+  },
+  "https://www.materialsforthearts.org/": {
+   "hash": "2b7145f249c43332",
+   "seen": "2026-09-17"
+  },
+  "https://knockdown.center/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.topazarts.org/visual-arts/": {
+   "hash": "d1fc03b2d785c8e6",
+   "seen": "2026-09-17"
+  },
+  "https://jcal.org/current-exhibitions": {
+   "hash": "7f6248a329c315bc",
+   "seen": "2026-09-17"
+  },
+  "https://www.rockawayartistsalliance.org/exhibitions": {
+   "hash": "342c98cef9027888",
+   "seen": "2026-09-17"
+  },
+  "https://www.bronxarts.org/programs/connector/longwood-art-project/longwood-art-gallery": {
+   "hash": "3042ab1657fe4037",
+   "seen": "2026-09-17"
+  },
+  "https://www.bronxriverart.org/gallery": {
+   "hash": "ba8d7e45e3103c3d",
+   "seen": "2026-09-17"
+  },
+  "http://www.bronxartspace.com/upcoming": {
+   "hash": "dd1f5708dd235825",
+   "seen": "2026-09-17"
+  },
+  "https://www.theafh.org/events": {
+   "hash": "81eb2cd862a87f97",
+   "seen": "2026-09-17"
+  },
+  "https://www.casitamaria.org/gallery": {
+   "hash": "80e4a6c0a3e5e682",
+   "seen": "2026-09-17"
+  },
+  "https://artlabsi.com/about/gallery": {
+   "hash": "017dafedac334b3e",
+   "seen": "2026-09-17"
+  },
+  "https://statenislandarts.org/programs/": {
+   "hash": "913408e442e9d82c",
+   "seen": "2026-09-17"
+  },
+  "https://www.nipponclub.org/activity_exhibition/?lang=en": {
+   "hash": "92eb9456bc8a3019",
+   "seen": "2026-09-17"
+  },
+  "https://tallerboricua.org/": {
+   "hash": "fab4aabba343ff20",
+   "seen": "2026-09-17"
+  },
+  "https://www.stjohndivine.org/art-ideas/current-exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.interchurch-center.org/arts-and-music": {
+   "hash": "737ab0f98348e708",
+   "seen": "2026-09-17"
+  },
+  "https://www.sheencenter.org/venues/detail/janet-hennessey-dilenschneider-gallery": {
+   "hash": "3ead03087f9b943b",
+   "seen": "2026-09-17"
+  },
+  "https://theplayersnyc.org/docent-tours/": {
+   "hash": "d7f525d408062cc9",
+   "seen": "2026-09-17"
+  },
+  "https://www.nycgovparks.org/art-and-antiquities/arsenal-gallery": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.resnickpasslof.org/": {
+   "hash": "3d24550e0e1455f4",
+   "seen": "2026-09-17"
+  },
+  "https://www.emilyharveyfoundation.org/pages/home.html": {
+   "hash": "fbb38bf2acd691fd",
+   "seen": "2026-09-17"
+  },
+  "https://www.sohophoto.com/": {
+   "hash": "59c41304bd619251",
+   "seen": "2026-09-17"
+  },
+  "https://www.baxterst.org/exhibitions": {
+   "hash": "73ff9e369d6aa3b5",
+   "seen": "2026-09-17"
+  },
+  "https://www.penumbrafoundation.org/exhibition-space-current": {
+   "hash": "7c9669c57de260c8",
+   "seen": "2026-09-17"
+  },
+  "https://printshop.org/exhibitions/": {
+   "hash": "16eb352e3b9a8367",
+   "seen": "2026-09-17"
+  },
+  "https://www.manhattangraphicscenter.org/exhibitions": {
+   "hash": "4f2bb2e7e1bfef4d",
+   "seen": "2026-09-17"
+  },
+  "https://www.penandbrush.org/exhibitions/": {
+   "hash": "b9a0c86d91a219f8",
+   "seen": "2026-09-17"
+  },
+  "https://thenawa.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://princestreetgallery.com/exhibitions/": {
+   "hash": "81fa0bc0027eaad0",
+   "seen": "2026-09-17"
+  },
+  "https://www.bluemountaingallery.org/": {
+   "hash": "db450ea97412226b",
+   "seen": "2026-09-17"
+  },
+  "https://bowerygallery.org/": {
+   "hash": "1a3caba8e81401b1",
+   "seen": "2026-09-17"
+  },
+  "https://www.firststreetgallery.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://ceresgallery.org/exhibitions/": {
+   "hash": "1504f97c97e200c2",
+   "seen": "2026-09-17"
+  },
+  "https://www.pleiadesgallery.com/exhibitions": {
+   "hash": "bc3916d160fa2fc7",
+   "seen": "2026-09-17"
+  },
+  "https://atlanticgallery.org/exhibitions/": {
+   "hash": "30765a5391e52571",
+   "seen": "2026-09-17"
+  },
+  "https://www.viridianartists.com/exhibitions": {
+   "hash": "df2093b3890180f5",
+   "seen": "2026-09-17"
+  },
+  "https://www.55mercerstreetgallery.com/": {
+   "hash": "f8e77072de1f072d",
+   "seen": "2026-09-17"
+  },
+  "https://www.amoseno.org/current": {
+   "hash": "261d8e6af35a2f87",
+   "seen": "2026-09-17"
+  },
+  "https://assemblyroom.org/": {
+   "hash": "87a304f122bdc15a",
+   "seen": "2026-09-17"
+  },
+  "https://www.underdonk.com/exhibitions": {
+   "hash": "adc49910d3e5776b",
+   "seen": "2026-09-17"
+  },
+  "https://www.fieldprojectsgallery.com/exhibitions": {
+   "hash": "e912a0bd6e64eaf9",
+   "seen": "2026-09-17"
+  },
+  "https://www.gallery456.org/": {
+   "hash": "b0fdb47d6e344dde",
+   "seen": "2026-09-17"
+  },
+  "https://tallerboricua.org/exhibitions": {
+   "hash": "502e3bb043d1174a",
+   "seen": "2026-09-17"
+  },
+  "https://www.anthologyfilmarchives.org/visit/gallery": {
+   "hash": "56e85b55a2ff6581",
+   "seen": "2026-09-17"
+  },
+  "https://www.bulletspace.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.sva.edu/about/sva-gallery-exhibitions": {
+   "hash": "92091b402f69f479",
+   "seen": "2026-09-17"
+  },
+  "https://www.92ny.org/art-gallery": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.mmjccm.org/arts-film/laurie-m-tisch-gallery/current-exhibit": {
+   "hash": "3360fcffa7b88e75",
+   "seen": "2026-09-17"
+  },
+  "https://hudsonguild.org/events": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://gaycenter.org/culture/": {
+   "hash": "947bf7f234556f25",
+   "seen": "2026-09-17"
+  },
+  "https://fivemyles.org/programs-1": {
+   "hash": "92ff758e1ffbef57",
+   "seen": "2026-09-17"
+  },
+  "https://open-source-gallery.org/exhibitions/": {
+   "hash": "18a6e49239530364",
+   "seen": "2026-09-17"
+  },
+  "https://www.oygprojects.com/current": {
+   "hash": "2c4b352d97ad2cd1",
+   "seen": "2026-09-17"
+  },
+  "https://440gallery.com/exhibitions/current": {
+   "hash": "870203ac62d822f9",
+   "seen": "2026-09-17"
+  },
+  "https://www.triangleartsnyc.org/programs": {
+   "hash": "e9f31384f1d9ef3f",
+   "seen": "2026-09-17"
+  },
+  "https://www.dieudonne.org/exhibitions": {
+   "hash": "64c0cc5fdbe97e4d",
+   "seen": "2026-09-17"
+  },
+  "https://www.studio10bogart.com/pages/exhibitions_current.php": {
+   "hash": "f50dfa2e64e5bafa",
+   "seen": "2026-09-17"
+  },
+  "https://www.tigerstrikesasteroid.com/": {
+   "hash": "491d1080dfa33ee9",
+   "seen": "2026-09-17"
+  },
+  "https://laundromatproject.org/": {
+   "hash": "a5e75fb4266b3ade",
+   "seen": "2026-09-17"
+  },
+  "https://textileartscenter.com/tac-gallery/": {
+   "hash": "9c23ab682c1e1cdb",
+   "seen": "2026-09-17"
+  },
+  "https://www.facebook.com/TheLivingGalleryBk/": {
+   "hash": "8d1a56ea8d8e2f2d",
+   "seen": "2026-09-17"
+  },
+  "https://www.amnh.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://nysci.org/exhibits/": {
+   "hash": "b01bec577d00d82f",
+   "seen": "2026-09-17"
+  },
+  "https://momath.org/composite-gallery/": {
+   "hash": "3c2f93c083b38f3c",
+   "seen": "2026-09-17"
+  },
+  "https://cmom.org/experiences/": {
+   "hash": "3326a613b7580561",
+   "seen": "2026-09-17"
+  },
+  "https://www.brooklynkids.org/exhibits/": {
+   "hash": "06f72b3aa60700a4",
+   "seen": "2026-09-17"
+  },
+  "https://sichildrensmuseum.org/exhibits/": {
+   "hash": "00aa72fabe8f1c27",
+   "seen": "2026-09-17"
+  },
+  "https://www.nybg.org/whats-on/": {
+   "hash": "8de35e380171eb0f",
+   "seen": "2026-09-17"
+  },
+  "https://www.bbg.org/visit/calendar/category/168": {
+   "hash": "c8c0047522231fe7",
+   "seen": "2026-09-17"
+  },
+  "https://www.wavehill.org/discover/arts/exhibitions": {
+   "hash": "de2fcd421986d5e0",
+   "seen": "2026-09-17"
+  },
+  "https://www.bxcm.org/exhibits1": {
+   "hash": "f3b46c9db3c9dd43",
+   "seen": "2026-09-17"
+  },
+  "https://naturecentergb.org/": {
+   "hash": "2a3a3e8b511be81b",
+   "seen": "2026-09-17"
+  },
+  "https://www.untermyergardens.org/": {
+   "hash": "ae33e76cacdabb17",
+   "seen": "2026-09-17"
+  },
+  "https://www.cradleofaviation.org/history/exhibits/": {
+   "hash": "6a4416269e251e51",
+   "seen": "2026-09-17"
+  },
+  "https://www.licm.org/exhibits/": {
+   "hash": "e2fe388b5f71b1c9",
+   "seen": "2026-09-17"
+  },
+  "https://www.garviespointmuseum.com/exhibits.php": {
+   "hash": "140b992440b2d446",
+   "seen": "2026-09-17"
+  },
+  "https://stamfordmuseum.org/exhibitions/": {
+   "hash": "c559b9aadcf3dfad",
+   "seen": "2026-09-17"
+  },
+  "https://lsc.org/exhibitions": {
+   "hash": "6a626cffa5338564",
+   "seen": "2026-09-17"
+  },
+  "https://montclairfoundation.org/": {
+   "hash": "3cc93be231a50bec",
+   "seen": "2026-09-17"
+  },
+  "https://www.njahof.org/": {
+   "hash": "b770d4bad8faa88c",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/edis/index.htm": {
+   "hash": "38635ed8771a3502",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/gate/planyourvisit/hours.htm": {
+   "hash": "12a4118bac22c6a4",
+   "seen": "2026-09-17"
+  },
+  "https://www.alleypond.org/": {
+   "hash": "62dbad33d4033f5d",
+   "seen": "2026-09-17"
+  },
+  "https://snug-harbor.org/gardens/new-york-chinese-scholars-garden/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://sigreenbelt.org/nature-center/": {
+   "hash": "e8381b5c84c225b8",
+   "seen": "2026-09-17"
+  },
+  "https://www.nycgovparks.org/parks/blue-heron-park/facilities/nature-centers": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://parks.ny.gov/visit/nature-centers/clay-pit-ponds-interpretive-center": {
+   "hash": "7e631ee53281b073",
+   "seen": "2026-09-17"
+  },
+  "https://www.centralparknyc.org/locations/charles-a-dana-discovery-center": {
+   "hash": "162bc86d24bcfd0e",
+   "seen": "2026-09-17"
+  },
+  "https://www.centralparknyc.org/locations/belvedere-castle": {
+   "hash": "7621ecdba9c6521e",
+   "seen": "2026-09-17"
+  },
+  "https://prospectpark.org/visit-the-park/places-to-go/audubon-center/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nycgovparks.org/parks/marine-park": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.mcny.org/exhibitions": {
+   "hash": "33e829bb8f8840bf",
+   "seen": "2026-09-17"
+  },
+  "https://www.nyhistory.org/exhibitions": {
+   "hash": "140bb7df915745cb",
+   "seen": "2026-09-17"
+  },
+  "https://www.nypl.org/events/exhibitions": {
+   "hash": "5e7cfa725e507d8b",
+   "seen": "2026-09-17"
+  },
+  "https://www.nypl.org/locations/schomburg/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.tenement.org/tours/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://mjhnyc.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.mocanyc.org/calendar/": {
+   "hash": "5ad8dfb110a72b18",
+   "seen": "2026-09-17"
+  },
+  "https://www.eldridgestreet.org/exhibitions/": {
+   "hash": "53d1dd7bfc9466a7",
+   "seen": "2026-09-17"
+  },
+  "https://americanindian.si.edu/visit/newyork": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.911memorial.org/visit/museum/exhibitions": {
+   "hash": "afc257fc8584f004",
+   "seen": "2026-09-17"
+  },
+  "https://intrepidmuseum.org/exhibitions/temporary-exhibitions/": {
+   "hash": "138b61ca1ace3fb3",
+   "seen": "2026-09-17"
+  },
+  "https://www.nytransitmuseum.org/exhibits/": {
+   "hash": "7393ceb59a997968",
+   "seen": "2026-09-17"
+  },
+  "https://skyscraper.org/exhibitions/": {
+   "hash": "08efb673f941fb03",
+   "seen": "2026-09-17"
+  },
+  "https://movingimage.org/whats-on/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.statenislandmuseum.org/exhibits/current-exhibitions/": {
+   "hash": "92ce29391253e833",
+   "seen": "2026-09-17"
+  },
+  "https://www.theukrainianmuseum.org/museum-exhibitions/": {
+   "hash": "39926392563f8cb8",
+   "seen": "2026-09-17"
+  },
+  "https://southstreetseaportmuseum.org/exhibitions/": {
+   "hash": "461fbf6d0ae73447",
+   "seen": "2026-09-17"
+  },
+  "https://www.frauncestavernmuseum.org/current-exhibitions": {
+   "hash": "517416f4fb0bc579",
+   "seen": "2026-09-17"
+  },
+  "https://www.bklynlibrary.org/cbh/projects/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.jackierobinsonmuseum.org/visit/exhibitions/": {
+   "hash": "8f29535ef5bb769e",
+   "seen": "2026-09-17"
+  },
+  "https://www.cjh.org/exhibits/exhibitions": {
+   "hash": "2b62bb5e1ad2cb19",
+   "seen": "2026-09-17"
+  },
+  "https://www.yumuseum.org/exhibitions": {
+   "hash": "e617589d75b74554",
+   "seen": "2026-09-17"
+  },
+  "https://americansephardi.org/exhibitions/": {
+   "hash": "88d6f61f182604ef",
+   "seen": "2026-09-17"
+  },
+  "https://yivo.org/Exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://emanuelnyc.org/adult-engagement/learning/bernard-museum-of-judaica/": {
+   "hash": "ff99da3c401d8ea7",
+   "seen": "2026-09-17"
+  },
+  "https://www.kkjsm.org/museum-and-exhibits": {
+   "hash": "d4cc1ac5ec720c6f",
+   "seen": "2026-09-17"
+  },
+  "https://ukrainianinstitute.org/events/list/": {
+   "hash": "fb9948ac03877311",
+   "seen": "2026-09-17"
+  },
+  "https://numismatics.org/ans-coins-on-display/": {
+   "hash": "47a85f84ff05e3d9",
+   "seen": "2026-09-17"
+  },
+  "https://generalsociety.org/": {
+   "hash": "e5ce63b4821f85c0",
+   "seen": "2026-09-17"
+  },
+  "https://www.nycfiremuseum.org/on-display": {
+   "hash": "3cbefcc3b4a8405e",
+   "seen": "2026-09-17"
+  },
+  "https://www.paleycenter.org/events/": {
+   "hash": "33a7935c2cf6782b",
+   "seen": "2026-09-17"
+  },
+  "https://jmih.org/visit/": {
+   "hash": "e9bfe00f7b32a937",
+   "seen": "2026-09-17"
+  },
+  "https://mmuseumm.com/": {
+   "hash": "3c5a80233dfe15db",
+   "seen": "2026-09-17"
+  },
+  "https://www.morusnyc.org/exhibits/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/afbg/": {
+   "hash": "4acd69eee649975a",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/feha/": {
+   "hash": "11fa91ba08a1e64b",
+   "seen": "2026-09-17"
+  },
+  "https://www.statueofliberty.org/ellis-island/": {
+   "hash": "f523069fd8393d1e",
+   "seen": "2026-09-17"
+  },
+  "https://www.statueofliberty.org/statue-of-liberty/statue-of-liberty-museum/": {
+   "hash": "ad01efb1d6c74300",
+   "seen": "2026-09-17"
+  },
+  "https://isaw.nyu.edu/exhibitions": {
+   "hash": "247d3f67ff260320",
+   "seen": "2026-09-17"
+  },
+  "https://www.aihs.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.cityreliquary.org/": {
+   "hash": "3898b85c4bc04cca",
+   "seen": "2026-09-17"
+  },
+  "https://waterfrontmuseum.org/events/": {
+   "hash": "ac67f0abb58b94e9",
+   "seen": "2026-09-17"
+  },
+  "https://interferencearchive.org/": {
+   "hash": "73a8432bfb81c023",
+   "seen": "2026-09-17"
+  },
+  "https://lesbianherstoryarchives.org/calendar/": {
+   "hash": "515dca05c90b6e01",
+   "seen": "2026-09-17"
+  },
+  "https://www.coneyislandmuseum.org/": {
+   "hash": "adc6065da7851ace",
+   "seen": "2026-09-17"
+  },
+  "https://www.coneyislandhistory.org/exhibition-center": {
+   "hash": "f9e36f03e76cf788",
+   "seen": "2026-09-17"
+  },
+  "https://harbordefensemuseum.com/": {
+   "hash": "4254d3cbc6ec0a54",
+   "seen": "2026-09-17"
+  },
+  "https://www.jcm.museum/exploring-jewish-life/": {
+   "hash": "6d27fc36671ed87a",
+   "seen": "2026-09-17"
+  },
+  "https://amudaish.org/exhibit": {
+   "hash": "0862cf6823822da7",
+   "seen": "2026-09-17"
+  },
+  "https://www.thelivingtorahmuseum.com/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.brooklynnavyyard.org/events-exhibitions/": {
+   "hash": "27bf87fd63089b63",
+   "seen": "2026-09-17"
+  },
+  "https://morbidanatomy.org/library": {
+   "hash": "1809fed75a4cf154",
+   "seen": "2026-09-17"
+  },
+  "https://stonewallvisitorcenter.org/visit/": {
+   "hash": "5b76e2c169092bfb",
+   "seen": "2026-09-17"
+  },
+  "https://www.cityislandmuseum.org/general-1": {
+   "hash": "a98e524285317ca4",
+   "seen": "2026-09-17"
+  },
+  "https://noblemaritime.org/visit": {
+   "hash": "a77354fe94997139",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/sapa/planyourvisit/index.htm": {
+   "hash": "131fc9f271ab1bd9",
+   "seen": "2026-09-17"
+  },
+  "https://www.scandinaviahouse.org/exhibitions/": {
+   "hash": "be2325249352b64f",
+   "seen": "2026-09-17"
+  },
+  "https://nyork.cervantes.es/en/culture_spanish/culture_spanish.htm": {
+   "hash": "47b83cbf7893e62c",
+   "seen": "2026-09-17"
+  },
+  "https://new-york.czechcentres.cz/en/program": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://fordham.libguides.com/FordhamMuseum": {
+   "hash": "6f62de2f74772ade",
+   "seen": "2026-09-17"
+  },
+  "https://nymaritimemuseum.org/exhibits/": {
+   "hash": "5900c4ee9dbaad57",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/cacl/index.htm": {
+   "hash": "a78d83492b1206c3",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/gois/planyourvisit/index.htm": {
+   "hash": "b3d3335fffb11fff",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/gegr/index.htm": {
+   "hash": "7437266c723d493c",
+   "seen": "2026-09-17"
+  },
+  "https://lighthousemuseum.org/exhibits/permanent-exhibition/": {
+   "hash": "a3415f65a539fe2c",
+   "seen": "2026-09-17"
+  },
+  "https://www.carnegiehall.org/About/Building-Overview/Rose-Museum": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.museumofsex.com/exhibitions/": {
+   "hash": "50e0d601309e35b8",
+   "seen": "2026-09-17"
+  },
+  "https://nysignmuseum.org/visit": {
+   "hash": "be09e5c1848337b0",
+   "seen": "2026-09-17"
+  },
+  "https://www.lbi.org/exhibitions/": {
+   "hash": "63306250d32b1643",
+   "seen": "2026-09-17"
+  },
+  "https://ajhs.org/exhibits/": {
+   "hash": "a997110e2c6cd41f",
+   "seen": "2026-09-17"
+  },
+  "https://theshabazzcenter.org/plan-your-visit/": {
+   "hash": "6e677f4db250cc41",
+   "seen": "2026-09-17"
+  },
+  "https://www.thinkchinatown.org/happenings": {
+   "hash": "681b36e156b0934c",
+   "seen": "2026-09-17"
+  },
+  "https://www.pilsudski.org/en/": {
+   "hash": "eee1ff658f56e555",
+   "seen": "2026-09-17"
+  },
+  "https://casa-belvedere.org/events/": {
+   "hash": "5e2a1dbb513d0fd3",
+   "seen": "2026-09-17"
+  },
+  "https://astorialic.org/": {
+   "hash": "ac8b0335b9aabcd4",
+   "seen": "2026-09-17"
+  },
+  "https://www.hastingshistoricalsociety.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://hudsonvalley.org/historic-sites/washington-irvings-sunnyside/": {
+   "hash": "4af6d298c6076a73",
+   "seen": "2026-09-17"
+  },
+  "https://www.jayheritagecenter.org/": {
+   "hash": "0bde2dfc8e7b4418",
+   "seen": "2026-09-17"
+  },
+  "https://www.larchmonthistory.org/": {
+   "hash": "ec32fb74efb3430e",
+   "seen": "2026-09-17"
+  },
+  "https://www.rocklandhistory.org/exhibition": {
+   "hash": "f29839b4787f7d39",
+   "seen": "2026-09-17"
+  },
+  "https://www.oldwestburygardens.org/plan-your-visit/": {
+   "hash": "b03a36716505d7db",
+   "seen": "2026-09-17"
+  },
+  "https://oldbethpagevillagerestoration.org/": {
+   "hash": "a304d0fa770ee1e6",
+   "seen": "2026-09-17"
+  },
+  "https://raynhamhallmuseum.org/exhibitions/": {
+   "hash": "bfe9bd97eb84607a",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/sahi/index.htm": {
+   "hash": "e3d7d4e807d0b952",
+   "seen": "2026-09-17"
+  },
+  "https://www.hmtcli.org/museum": {
+   "hash": "63310c76b16d903a",
+   "seen": "2026-09-17"
+  },
+  "https://www.nassaucountyny.gov/2934/African-American-Museum-and-Center-for-A": {
+   "hash": "8c316074c0087d0b",
+   "seen": "2026-09-17"
+  },
+  "https://www.friendsofcedarmere.org/book-online": {
+   "hash": "129605a806acd927",
+   "seen": "2026-09-17"
+  },
+  "https://www.polishamericanmuseum.org/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://jerseyhistory.org/exhibitions/": {
+   "hash": "0f6eb97a96f86125",
+   "seen": "2026-09-17"
+  },
+  "https://www.hobokenmuseum.org/exhibitions/": {
+   "hash": "94728c5fc183f2e7",
+   "seen": "2026-09-17"
+  },
+  "https://www.patersonnj.gov/department/index.php?structureid=16": {
+   "hash": "77c2ba4610c1842f",
+   "seen": "2026-09-17"
+  },
+  "https://passaiccountyhistoricalsociety.org/": {
+   "hash": "de03606cea77f284",
+   "seen": "2026-09-17"
+  },
+  "https://www.montclairhistory.org/": {
+   "hash": "7dd2baa7227b9f66",
+   "seen": "2026-09-17"
+  },
+  "https://thehermitage.org/": {
+   "hash": "2aa22f78cd17670a",
+   "seen": "2026-09-17"
+  },
+  "https://njpalisades.org/fortlee/": {
+   "hash": "11a26fd9f7a61ae4",
+   "seen": "2026-09-17"
+  },
+  "https://barrymorefilmcenter.org/": {
+   "hash": "c343b12260f2a1e2",
+   "seen": "2026-09-17"
+  },
+  "https://www.meadowlandsmuseum.com/": {
+   "hash": "d157a723189717b8",
+   "seen": "2026-09-17"
+  },
+  "https://www.puffinculturalforum.org/": {
+   "hash": "ce71441e7894a354",
+   "seen": "2026-09-17"
+  },
+  "https://www.ridgewoodhistoricalsociety.org/": {
+   "hash": "8235d22836a13297",
+   "seen": "2026-09-17"
+  },
+  "https://www.nutleyhistoricalsociety.org/": {
+   "hash": "cdd13f1c969a617b",
+   "seen": "2026-09-17"
+  },
+  "https://dep.nj.gov/parksandforests/state-park/grover-cleveland-birthplace/": {
+   "hash": "55da65dd3db16618",
+   "seen": "2026-09-17"
+  },
+  "https://dep.nj.gov/parksandforests/state-park/boxwood-hall/": {
+   "hash": "24d5061a5891f888",
+   "seen": "2026-09-17"
+  },
+  "https://libertyhall.kean.edu/visit/": {
+   "hash": "70e0503fed4e6900",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/morr/index.htm": {
+   "hash": "98bf8b2618661c7e",
+   "seen": "2026-09-17"
+  },
+  "https://maccullochhall.org/exhibits/": {
+   "hash": "c654d73f31200b37",
+   "seen": "2026-09-17"
+  },
+  "https://khc.qcc.cuny.edu/blog/exhibit/": {
+   "hash": "b07210a28fa75e87",
+   "seen": "2026-09-17"
+  },
+  "https://library.nyu.edu/about/events-exhibitions/exhibitions/": {
+   "hash": "1adc5462a36d8a4d",
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/KJC_Center.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/casa-italiana-zerilli-marimo-gallery.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://as.nyu.edu/deutscheshaus.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/la-maison-francaise.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://apa.nyu.edu/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/The-Clive-Davis-Gallery.html": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://library.columbia.edu/libraries/rbml.html": {
+   "hash": "94905866ab9840b1",
+   "seen": "2026-09-17"
+  },
+  "https://www.nysid.edu/exhibitions": {
+   "hash": "3100374949be7e35",
+   "seen": "2026-09-17"
+  },
+  "https://bronxmusichall.org/": {
+   "hash": "eb9797d6ced44178",
+   "seen": "2026-09-17"
+  },
+  "https://thepoint.org/visual-arts/": {
+   "hash": "a9ec90ed33850e95",
+   "seen": "2026-09-17"
+  },
+  "https://www.nypl.org/locations/belmont": {
+   "hash": "cabf946343a0ad81",
+   "seen": "2026-09-17"
+  },
+  "https://thekf.org/event/": {
+   "hash": "41b20244855d0aa8",
+   "seen": "2026-09-17"
+  },
+  "https://art.piasa.org/": {
+   "hash": "40f6ee01230ffb6f",
+   "seen": "2026-09-17"
+  },
+  "https://www.hungarianhouse.org/": {
+   "hash": "752bab75d3ff2dca",
+   "seen": "2026-09-17"
+  },
+  "https://www.hungarianlibrary.org/": {
+   "hash": "01093d1ac9003147",
+   "seen": "2026-09-17"
+  },
+  "https://philippinecenterny.com/": {
+   "hash": "5774f8722ecbac6d",
+   "seen": "2026-09-17"
+  },
+  "https://www.cccadi.org/": {
+   "hash": "59f45954c815b5f2",
+   "seen": "2026-09-17"
+  },
+  "https://centropr.hunter.cuny.edu/": {
+   "hash": "9f0b26f73c80aa5a",
+   "seen": "2026-09-17"
+  },
+  "https://www.ccny.cuny.edu/dsi/exhibits": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://loisaida.org/exhibitions/": {
+   "hash": "e6c466b164207743",
+   "seen": "2026-09-17"
+  },
+  "https://irishartscenter.org/event/array-collective": {
+   "hash": "a536aa0587baf063",
+   "seen": "2026-09-17"
+  },
+  "https://www.italianamericanmuseum.org/exhibitions": {
+   "hash": "4ec043f8e67d144f",
+   "seen": "2026-09-17"
+  },
+  "https://trinitychurchnyc.org/visit/st-pauls-chapel": {
+   "hash": "717a27442dd7fd61",
+   "seen": "2026-09-17"
+  },
+  "https://johnstreetchurch.org/museum/": {
+   "hash": "589ac81829f43a2b",
+   "seen": "2026-09-17"
+  },
+  "https://catacombsbycandlelight.com/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.shearithisrael.org/content/tours": {
+   "hash": "5b9f6506599ea8a7",
+   "seen": "2026-09-17"
+  },
+  "https://www.nypl.org/locations/lpa": {
+   "hash": "256b878991ef2d57",
+   "seen": "2026-09-17"
+  },
+  "https://www.nysoclib.org/exhibitions": {
+   "hash": "17c89fdacda28c86",
+   "seen": "2026-09-17"
+  },
+  "https://poetshouse.org/programs-events/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.nyc.gov/site/records/exhibits-education/exhibits.page": {
+   "hash": "e3abd79f85a011e5",
+   "seen": "2026-09-17"
+  },
+  "https://library.columbia.edu/libraries/burke.html": {
+   "hash": "27e848023f8109d6",
+   "seen": "2026-09-17"
+  },
+  "https://www.bklynlibrary.org/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://haiticulturalx.org/events/": {
+   "hash": "c3dd9508f76aea57",
+   "seen": "2026-09-17"
+  },
+  "https://www.queenslibrary.org/locations/central": {
+   "hash": "b5c2d3cac5024c83",
+   "seen": "2026-09-17"
+  },
+  "https://www.queenslibrary.org/locations/langston-hughes": {
+   "hash": "abca6e8bfb137737",
+   "seen": "2026-09-17"
+  },
+  "https://www.1931fireboat.org/": {
+   "hash": "66eabced94e845d1",
+   "seen": "2026-09-17"
+  },
+  "https://www.lilacpreservationproject.org/exhibitions": {
+   "hash": "139bf6a8ae96b671",
+   "seen": "2026-09-17"
+  },
+  "https://southstreetseaportmuseum.org/bowne-co-stationers/": {
+   "hash": "7243970457afb301",
+   "seen": "2026-09-17"
+  },
+  "https://www.un.org/en/exhibits/page/now-view": {
+   "hash": "59369da396ee67cf",
+   "seen": "2026-09-17"
+  },
+  "https://nyam.org/library-resources/library-collections/": {
+   "hash": "09d6b7d0e9412abf",
+   "seen": "2026-09-17"
+  },
+  "https://rihs.us/visitor-center-kiosk/": {
+   "hash": "b5747cb554c97448",
+   "seen": "2026-09-17"
+  },
+  "https://www.fdrfourfreedomspark.org/": {
+   "hash": "0a94a44a692ad152",
+   "seen": "2026-09-17"
+  },
+  "https://portsidenewyork.org/tankertime": {
+   "hash": "135f07566132315f",
+   "seen": "2026-09-17"
+  },
+  "https://www.twahotel.com/museum-exhibits": {
+   "hash": "67e8801464f29c34",
+   "seen": "2026-09-17"
+  },
+  "https://tallerlatino.org/exhibitions": {
+   "hash": "8c4493aa42402655",
+   "seen": "2026-09-17"
+  },
+  "https://www.latinxproject.nyu.edu/exhibitions": {
+   "hash": "b1cbb5d25acdf70f",
+   "seen": "2026-09-17"
+  },
+  "https://www.vanalen.org/projects/": {
+   "hash": "2fde79d51c660f9e",
+   "seen": "2026-09-17"
+  },
+  "https://www.morrisjumel.org/exhibitions": {
+   "hash": "8ba67f53304586a8",
+   "seen": "2026-09-17"
+  },
+  "https://merchantshouse.org/visit/": {
+   "hash": "d9cbcb37e82394a4",
+   "seen": "2026-09-17"
+  },
+  "https://dyckmanfarmhouse.org/exhibitions/2025-2/": {
+   "hash": "cbcc06eccd449ab7",
+   "seen": "2026-09-17"
+  },
+  "https://www.bartowpellmansionmuseum.org/exhibitions/": {
+   "hash": "075f6ca73405d132",
+   "seen": "2026-09-17"
+  },
+  "https://wyckoffmuseum.org/visit/": {
+   "hash": "880adfaba25bdd56",
+   "seen": "2026-09-17"
+  },
+  "https://www.louisarmstronghouse.org/events/": {
+   "hash": "b60f5b95beb9f55c",
+   "seen": "2026-09-17"
+  },
+  "https://aliceausten.org/exhibitions/": {
+   "hash": "62944260d1510ef7",
+   "seen": "2026-09-17"
+  },
+  "https://www.historicrichmondtown.org/exhibitions": {
+   "hash": "077d014f57cf5679",
+   "seen": "2026-09-17"
+  },
+  "https://www.weeksvillesociety.org/engage/exhibitions/": {
+   "hash": "8bb5cabfa40a4b14",
+   "seen": "2026-09-17"
+  },
+  "https://www.green-wood.com/art/": {
+   "hash": "bd5fc9e49f03676b",
+   "seen": "2026-09-17"
+  },
+  "https://www.prospectpark.org/visit-the-park/places-to-go/lefferts-historic-house/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://theoldstonehouse.org/exhibitions/": {
+   "hash": "54cff22df05319a0",
+   "seen": "2026-09-17"
+  },
+  "https://www.bownehouse.org/tour": {
+   "hash": "39b1f7e40ba1df4f",
+   "seen": "2026-09-17"
+  },
+  "https://www.kingmanor.org/current-exhibit": {
+   "hash": "814d07c10b975853",
+   "seen": "2026-09-17"
+  },
+  "https://queenshistoricalsociety.org/current-exhibitions/": {
+   "hash": "0687dee908999541",
+   "seen": "2026-09-17"
+  },
+  "https://www.lewislatimerhouse.org/exhibitions": {
+   "hash": "7684bd22da3ed698",
+   "seen": "2026-09-17"
+  },
+  "https://www.queensfarm.org/visit/": {
+   "hash": "b61427368f3f7e0b",
+   "seen": "2026-09-17"
+  },
+  "https://bronxhistoricalsociety.org/poe-cottage": {
+   "hash": "2bddfb33281cd203",
+   "seen": "2026-09-17"
+  },
+  "https://bronxhistoricalsociety.org/museum": {
+   "hash": "d1e9ae35ac637837",
+   "seen": "2026-09-17"
+  },
+  "https://www.vchm.org/visit.html": {
+   "hash": "dd17c5ad366d8497",
+   "seen": "2026-09-17"
+  },
+  "https://conferencehouse.org/visit/directions-hours/": {
+   "hash": "da47703236c79e35",
+   "seen": "2026-09-17"
+  },
+  "https://mvhm.org/visit/": {
+   "hash": "f058e507bd759b37",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/thrb/planyourvisit/index.htm": {
+   "hash": "f5a6adde4eb1e8e2",
+   "seen": "2026-09-17"
+  },
+  "https://www.nps.gov/hagr/planyourvisit/index.htm": {
+   "hash": "40d79be08ae3cd2d",
+   "seen": "2026-09-17"
+  },
+  "https://www.vomuseum.org/exhibitions": {
+   "hash": "e55e37e3ef893b11",
+   "seen": "2026-09-17"
+  },
+  "https://onderdonkhouse.org/plan-a-visit": {
+   "hash": "feecf86244ef7728",
+   "seen": "2026-09-17"
+  },
+  "https://flushingfriends.org/history/40-2/": {
+   "hash": "5bc14cd0ed5b4d77",
+   "seen": "2026-09-17"
+  },
+  "https://poppenhuseninstitute.org/": {
+   "hash": "af4a896c325a2750",
+   "seen": "2026-09-17"
+  },
+  "https://www.baysidehistorical.org/exhibits": {
+   "hash": "8c207507b9f27448",
+   "seen": "2026-09-17"
+  },
+  "https://queensbotanical.org/visit/": {
+   "hash": "6084598455eb980b",
+   "seen": "2026-09-17"
+  },
+  "https://www.garibaldimeuccimuseum.com/visit": {
+   "hash": "3c3629a97caf38d9",
+   "seen": "2026-09-17"
+  },
+  "https://snug-harbor.org/visit/": {
+   "hash": null,
+   "seen": "2026-09-17"
+  },
+  "https://www.philipsemanorhall.com/plan-your-visit": {
+   "hash": "a6ea764650b8c31f",
+   "seen": "2026-09-17"
+  },
+  "https://www.lyndhurst.org/exhibitions/": {
+   "hash": "caf4e2a6bebd0bd6",
+   "seen": "2026-09-17"
+  },
+  "https://hudsonvalley.org/historic-sites/philipsburg-manor/": {
+   "hash": "0d9e91acafbdb984",
+   "seen": "2026-09-17"
+  },
+  "https://hudsonvalley.org/historic-sites/kykuit/": {
+   "hash": "b519e0f6e9a0a601",
+   "seen": "2026-09-17"
+  },
+  "https://hudsonvalley.org/historic-sites/van-cortlandt-manor/": {
+   "hash": "095035db2d281acd",
+   "seen": "2026-09-17"
+  },
+  "https://www.thomaspainecottage.org/": {
+   "hash": "e489ad48987a7c3f",
+   "seen": "2026-09-17"
+  },
+  "https://www.ryehistory.org/": {
+   "hash": "8e4e2c184d9b1f20",
+   "seen": "2026-09-17"
+  },
+  "https://en.wikipedia.org/wiki/DeWint_House": {
+   "hash": "78f7a9bd144038b4",
+   "seen": "2026-09-17"
+  },
+  "https://www.sandspointpreserveconservancy.org/education/mansion-tours/": {
+   "hash": "a3733009478b30a0",
+   "seen": "2026-09-17"
+  },
+  "https://plantingfields.org/": {
+   "hash": "34523ab5ebce5270",
+   "seen": "2026-09-17"
+  },
+  "https://oysterbayhistorical.org/exhibitions.html": {
+   "hash": "be128205ce27cfa8",
+   "seen": "2026-09-17"
+  },
+  "https://greenwichhistory.org/exhibitions/": {
+   "hash": "a2c200f77846163b",
+   "seen": "2026-09-17"
+  },
+  "https://www.mjchistory.com/": {
+   "hash": "97106d42b4bb07ad",
+   "seen": "2026-09-17"
+  },
+  "https://www.labormuseum.net/": {
+   "hash": "800a70e4a16b5f4c",
+   "seen": "2026-09-17"
+  },
+  "https://www.bergencountyhistory.org/": {
+   "hash": "b0294577978e2b17",
+   "seen": "2026-09-17"
+  },
+  "https://theproprietaryhouse.org/": {
+   "hash": "6e2318d4a2a05b0a",
+   "seen": "2026-09-17"
+  },
+  "https://www.deymansion.org/": {
+   "hash": "f83017ebd37ee898",
+   "seen": "2026-09-17"
+  },
+  "https://rihs.us/landmark-structures/blackwell-house/": {
+   "hash": "d8c667fd88d1fa5d",
+   "seen": "2026-09-17"
+  }
  }
 }
