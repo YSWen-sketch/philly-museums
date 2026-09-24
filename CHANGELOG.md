@@ -2,6 +2,32 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-09-24 (Washington)
+
+`scripts/rotation.js` named Washington as this week's city. `reports/washington.md` did not exist: the mechanical Thursday scan (`weekly.yml`) had not run yet when this session started (its `schedule` trigger appears to run late some weeks — the same gap the 2026-09-17 New York entry below flagged), and this session had no permission to trigger it via `workflow_dispatch` (403). Priority 1 (changed/unreachable/redirected pages) was therefore skipped for lack of a report.
+
+This session's network egress also blocked all direct outbound HTTPS (WebFetch and curl both refused every tested host, including neutral ones), so effort went to priority 2 using WebSearch only: the 25 exhibitions across 19 venues that our data shows closing within 30 days (by 2026-10-24). Findings are sourced from search snippets quoting official pages and press listings, not from fetching the pages directly.
+
+**Changed:**
+- Transformer: "Icons" and "Flow" at The LINE DC actually closed 2026-07-06, not 2026-10-18 as on file (per transformerdc.org and East City Art) — removed, since they closed more than 30 days ago. The museum-level flag now says the P Street space is between shows and the next exhibition ("The Kaleidoscope Effect," already on file) doesn't open until November.
+- Arts Club of Washington: added a downstairs-gallery show, "Sabina Puppo and Karen Schulz" (curated by Brandon Fortune), closing 2026-09-26 alongside the Spilsbury members' show already on file — per washington.org, it had been missing.
+
+**Removed:** Transformer's "Icons" and "Flow" (see above).
+
+**Confirmed unchanged** (dates on file matched what the museum's own site or press listing says): IA&A at Hillyer ("Auction on the Alley 2026"), Glen Echo Park (three Partnership Galleries shows), National Museum of Asian Art ("Into the Waters with Senju and Bingyi"), National Museum of Women in the Arts ("Burnished: Pueblo Pottery"), Martin Luther King Jr. Memorial Library ("Diasporacity"), Glenview Mansion ("The World As We View It"), Pyramid Atlantic Art Center ("Ruminations: Our Stories in Paper"), Museum of the Bible ("From the Vault: Art About America"), United States Botanic Garden ("America's State Flowers"), Reston Museum (the "Golden Standard" 50th-anniversary show), National Portrait Gallery ("Best Laid Plans"), Art Museum of the Americas ("Passport to Patriotism").
+
+**Could not fully verify** (search gave no exact date, or conflicting dates, so the file was left as-is):
+- District of Columbia Arts Center, "Fallin' from the Uppercut": confirmed on view, no exact closing date found.
+- Sarah Silberman Art Gallery (Montgomery College), "57th Annual Rockville and Germantown Faculty and Staff Exhibition": confirmed running in September 2026, no exact closing date found.
+- Dupont Underground, "Veiled Ladies" and "The Skin of Discomfort": confirmed with a September 4 opening reception, no closing date found.
+- Dumbarton Oaks, "Hestia Fragmented": one source said May–August 2026, another said the show continues through October 11 (matching the file); left as-is.
+- Martin Luther King Jr. Memorial Library, "Concopia": the file has this closing 2026-10-22, but search turned up a separate "Concopian Chamber of Wonders" fall program with an opening celebration on 2026-09-10 and an original June 6 – September 3, 2026 run at other branch libraries — unclear whether these are the same exhibition; left as-is.
+- Martin Luther King Jr. Memorial Library, "hometown DC": the citywide project's press release says the run across libraries ends 2026-10-05, one day before the file's 2026-10-06; not clearly a museum-stated correction for this specific location, so left as-is.
+
+**Scope note:** this covered the 25 exhibitions with a near-term closing date, which is priority 2 of the weekly brief. Washington's other roughly 200 venues (priorities 1, 3 and 4) were not reached this week and should be the focus once a fresh report exists for this city.
+
+**Process note for whoever next maintains this repo:** this is the second week in a row (see 2026-09-17 below) that `reports/<city>.md` did not exist when the agent started. Worth checking whether `weekly.yml`'s `schedule` trigger is firing reliably, and whether the agent's GitHub App permissions should include `actions: write` so a missing report can be filled in by triggering the workflow directly instead of working from web search alone.
+
 ## 2026-09-17 (New York)
 
 `scripts/rotation.js` named New York as this week's city. `reports/` held only a stale `boston.md` scanned 2026-09-14, from before the venue count in every city file roughly quadrupled — it predates the current New York data (65 venues at scan time vs. 504 now) and could not be used. Priority 1 (changed/unreachable/redirected pages) was therefore skipped for lack of a report; effort went to priority 2, the 99 exhibitions across 75 venues that our data shows closing within 30 days (by 2026-10-17).

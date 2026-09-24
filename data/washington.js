@@ -18,8 +18,8 @@ CITIES.push({
   nz: "华盛顿",
 
   // Set by the weekly reconciliation.
-  updated: "September 14, 2026",
-  updatedz: "2026 年 9 月 14 日",
+  updated: "September 24, 2026",
+  updatedz: "2026 年 9 月 24 日",
 
   lede: "Most of the big museums cost nothing to enter. The Smithsonian roster alone fills several days, and the list also takes in the embassies, university galleries and historic houses around it.",
   ledez: "大馆多数免费入场。光是史密森尼各馆就够逛好几天，清单里还收了周边的使馆、大学画廊与历史宅邸。",
@@ -233,11 +233,9 @@ CITIES.push({
   { n: "Transformer", nz: "Transformer 艺术空间", a: "1404 P St NW",
     h: "Wed–Sat 12–6", hz: "周三–周六 12–18", p: "Free", pz: "免费",
     u: "https://www.transformerdc.org/exhibitions-1", free: true,
-    flag: "The P Street space is between shows; everything currently on view is off-site at The LINE DC hotel, 2468 Champlain St NW.",
-    flagz: "P 街空间正处换展间隙；当前展出均在馆外的 The LINE DC 酒店（2468 Champlain St NW）。",
+    flag: "Between shows on P Street; Icons and Flow at The LINE DC closed in early July, and the next exhibition there does not open until November.",
+    flagz: "P 街空间正处换展间隙；此前在 The LINE DC 展出的 Icons 与 Flow 已于 7 月初闭展，下一场展览要到 11 月才开幕。",
     shows: [
-      { t: "Icons", s: "2026-04-15", e: "2026-10-18", d: "Off-site at The LINE DC: work by Rachel Sale and John Coplen in the hotel lobby", dz: "馆外展，于 The LINE DC 酒店大堂：Rachel Sale 与 John Coplen 作品" },
-      { t: "Flow", s: "2026-04-15", e: "2026-10-18", d: "Off-site at The LINE DC: a solo presentation by Rachel Sale", dz: "馆外展，于 The LINE DC 酒店：Rachel Sale 个展" },
       { t: "The Kaleidoscope Effect", s: "2026-11-09", e: "2026-11-20", d: "Transformer's 22nd annual benefit auction exhibition, shown at The LINE DC", dz: "Transformer 第 22 届年度义拍展，于 The LINE DC 举办" }
     ] },
   { n: "Washington Project for the Arts", nz: "华盛顿艺术计划", a: "2124 8th St NW",
@@ -1807,6 +1805,7 @@ CITIES.push({
     u: "https://artsclubofwashington.org/arts-club-galleries/", free: true,
     shows: [
       { t: "September 2026 Exhibit", s: "2026-09-04", e: "2026-09-26", d: "Members' show by Lucretia Dewey Tanner and Meme Austin in the Spilsbury Gallery", dz: "Spilsbury 展厅会员展，展出 Tanner 与 Austin 的作品" },
+      { t: "Sabina Puppo and Karen Schulz", e: "2026-09-26", d: "Downstairs galleries show curated by Brandon Fortune, closing alongside the Spilsbury members' show", dz: "楼下展厅展览，由 Brandon Fortune 策划，与 Spilsbury 会员展同期闭展" },
       { t: "October 2026 Exhibit", s: "2026-10-02", e: "2026-10-31", d: "Month-long show across the Monroe and Spilsbury galleries; artists not yet named online", dz: "门罗展厅与 Spilsbury 展厅的月度展；参展艺术家尚未公布" }
     ] },
   { n: "The White House", nz: "白宫", a: "1600 Pennsylvania Ave NW",
