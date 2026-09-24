@@ -2246,5 +2246,851 @@
    "hash": "d8c667fd88d1fa5d",
    "seen": "2026-09-17"
   }
+ },
+ "washington": {
+  "https://hirshhorn.si.edu/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://americanart.si.edu/exhibitions": {
+   "hash": "1dedbec9d002e257",
+   "seen": "2026-09-24"
+  },
+  "https://npg.si.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://africa.si.edu/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://asia.si.edu/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.nga.gov/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.phillipscollection.org/exhibitions": {
+   "hash": "9c844953149ff12d",
+   "seen": "2026-09-24"
+  },
+  "https://nmwa.org/exhibitions/": {
+   "hash": "c5ae1425e5ed61f1",
+   "seen": "2026-09-24"
+  },
+  "https://www.kreegermuseum.org/exhibitions": {
+   "hash": "502e906fc582832e",
+   "seen": "2026-09-24"
+  },
+  "https://rubellmuseum.org/exhibitions-dc": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://museum.oas.org/": {
+   "hash": "f7283bb5e94ec47a",
+   "seen": "2026-09-24"
+  },
+  "https://www.glenstone.org/exhibitions/": {
+   "hash": "e329df94ef39e9ce",
+   "seen": "2026-09-24"
+  },
+  "https://www.kennedy-center.org/whats-on/explore-by-genre/exhibits/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.american.edu/cas/museum/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://museum.gwu.edu/exhibitions": {
+   "hash": "d075284a7a5a4aa7",
+   "seen": "2026-09-24"
+  },
+  "https://guartgalleries.org/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://finearts.howard.edu/gallery-art/exhibitions": {
+   "hash": "761525dd577e8cbb",
+   "seen": "2026-09-24"
+  },
+  "https://architecture.catholic.edu/exhibitions/index.html": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.transformerdc.org/exhibitions-1": {
+   "hash": "c9d0525837047892",
+   "seen": "2026-09-24"
+  },
+  "https://www.wpadc.org/exhibitions": {
+   "hash": "9ec676d0db5b3133",
+   "seen": "2026-09-24"
+  },
+  "https://athillyer.org/all-exhibitions/": {
+   "hash": "6cba83e885549331",
+   "seen": "2026-09-24"
+  },
+  "https://instituteofmexicodc.org/": {
+   "hash": "f86914bedb7cc8b0",
+   "seen": "2026-09-24"
+  },
+  "https://www.meridian.org/": {
+   "hash": "f38998f128dc5577",
+   "seen": "2026-09-24"
+  },
+  "https://mocaarlington.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://torpedofactory.org/target-gallery/": {
+   "hash": "3b0221d8d795343e",
+   "seen": "2026-09-24"
+  },
+  "https://dupontunderground.org/": {
+   "hash": "9ac5f734ac10b834",
+   "seen": "2026-09-24"
+  },
+  "https://www.stablearts.org/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.dcartscenter.org/exhibitions-menu": {
+   "hash": "d9f79f91708c8f45",
+   "seen": "2026-09-24"
+  },
+  "https://bradygallery.gwu.edu/exhibitions": {
+   "hash": "0cd3f80c7fda57b2",
+   "seen": "2026-09-24"
+  },
+  "https://www.masonexhibitions.org/exhibitions": {
+   "hash": "72933f7ef60956dc",
+   "seen": "2026-09-24"
+  },
+  "https://art.umd.edu/galleries/herman-maril-gallery": {
+   "hash": "6d030d04cb8b69b0",
+   "seen": "2026-09-24"
+  },
+  "https://www.iadb.org/en/who-we-are/topics/art-and-culture/latin-american-caribbean-art-exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://smithcenter.org/art-gallery/": {
+   "hash": "c7b4f662bf58f32f",
+   "seen": "2026-09-24"
+  },
+  "https://www.montgomerycollege.edu/academics/departments/visual-performing-arts-tpss/gallery-performance-studio-spaces.html": {
+   "hash": "887686d0c2e99dc5",
+   "seen": "2026-09-24"
+  },
+  "https://gallaudet.edu/art-and-media-design/linda-k-jordan-gallery/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://culture.hu/us/washington": {
+   "hash": "70722195a23de2a5",
+   "seen": "2026-09-24"
+  },
+  "https://www.mpaart.org/exhibitions": {
+   "hash": "05ce3b9980316d0a",
+   "seen": "2026-09-24"
+  },
+  "https://www.mei.edu/arts-culture": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/montpelier-arts-center": {
+   "hash": "a3acf1638e5a24c9",
+   "seen": "2026-09-24"
+  },
+  "https://www.nvcc.edu/student-life/college-galleries/index.html": {
+   "hash": "fe587841c8cbae17",
+   "seen": "2026-09-24"
+  },
+  "https://www.otisstreetarts.org/events": {
+   "hash": "454d0d090419cc63",
+   "seen": "2026-09-24"
+  },
+  "https://www.phillipscollection.org/thearc": {
+   "hash": "7db42beced934c50",
+   "seen": "2026-09-24"
+  },
+  "https://pgaamcc.org/exhibitions/": {
+   "hash": "346d4100c9fa20b8",
+   "seen": "2026-09-24"
+  },
+  "https://pyramidatlanticartcenter.org/the-gallery/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.montgomerycollege.edu/academics/departments/art-rockville/silberman-gallery.html": {
+   "hash": "9e2700dfc0b345eb",
+   "seen": "2026-09-24"
+  },
+  "https://www.nvcc.edu/student-life/arts/schlesinger-center/galleries/index.html": {
+   "hash": "3d46ef8e66813e12",
+   "seen": "2026-09-24"
+  },
+  "https://takomaparkmd.gov/1479/Art-Exhibition-Series": {
+   "hash": "b29965772a9c82ed",
+   "seen": "2026-09-24"
+  },
+  "https://www.nvfaa.org/gallery": {
+   "hash": "45f6f37a23ac196c",
+   "seen": "2026-09-24"
+  },
+  "https://www.spainculture.us/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://airandspace.si.edu/exhibitions": {
+   "hash": "cbef974167c416b7",
+   "seen": "2026-09-24"
+  },
+  "https://naturalhistory.si.edu/exhibits": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://nationalchildrensmuseum.org/explore/exhibits": {
+   "hash": "ef814cd64e280fd2",
+   "seen": "2026-09-24"
+  },
+  "https://www.usbg.gov/visit/exhibits": {
+   "hash": "e741fc997fb9eb5c",
+   "seen": "2026-09-24"
+  },
+  "https://usna.usda.gov/discover/gardens-collections/national-bonsai-penjing-museum/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://moe.nationalgeographic.org/exhibitions-experiences": {
+   "hash": "5c5594adc2f1fa95",
+   "seen": "2026-09-24"
+  },
+  "https://medicalmuseum.health.mil/index.cfm/visit/exhibits/index": {
+   "hash": "ee03ab93afc62bd0",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/brookside-gardens/": {
+   "hash": "836864859fda1644",
+   "seen": "2026-09-24"
+  },
+  "https://www.childsci.org/plan-your-visit/hours-admission": {
+   "hash": "b91dfc4faea902eb",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/college-park-aviation-museum": {
+   "hash": "6cd35cd52816b49b",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/frying-pan-park": {
+   "hash": "7aaf3f9ee4a12d1a",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/grfa/planyourvisit/index.htm": {
+   "hash": "124ab6bb86735365",
+   "seen": "2026-09-24"
+  },
+  "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Nature-Centers/Gulf-Branch-Nature-Center-Park": {
+   "hash": "f261bec34c727fa5",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/hidden-oaks": {
+   "hash": "ad414d85c64904f1",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/huntley-meadows": {
+   "hash": "9dca474dcc3a1dec",
+   "seen": "2026-09-24"
+  },
+  "https://kid-museum.org/visit/": {
+   "hash": "3dd385bae8db8738",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/keaq/planyourvisit/index.htm": {
+   "hash": "cf960afe792c3f64",
+   "seen": "2026-09-24"
+  },
+  "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Nature-Centers/Long-Branch-Nature-Center": {
+   "hash": "2bf3d0ffe898f322",
+   "seen": "2026-09-24"
+  },
+  "https://www.novaparks.com/parks/meadowlark-botanical-gardens": {
+   "hash": "739af2335bd13ab7",
+   "seen": "2026-09-24"
+  },
+  "https://www.nasa.gov/goddard/visitor-center/": {
+   "hash": "bf357bfa7c151194",
+   "seen": "2026-09-24"
+  },
+  "https://www.fws.gov/refuge/patuxent-research/visit-us": {
+   "hash": "0fdfc31c7c884ded",
+   "seen": "2026-09-24"
+  },
+  "https://www.novaparks.com/parks/potomac-overlook-regional-park": {
+   "hash": "2e0c6ae816a3c260",
+   "seen": "2026-09-24"
+  },
+  "https://ahsgardening.org/visit-river-farm/": {
+   "hash": "58ff1eb4ed9615cd",
+   "seen": "2026-09-24"
+  },
+  "https://www.usna.usda.gov/visit/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.invent.org/museum/plan-your-visit": {
+   "hash": "1436172ccd8893a9",
+   "seen": "2026-09-24"
+  },
+  "https://www.nlm.nih.gov/hmd/about/exhibition/index.html": {
+   "hash": "84b148c674f2f7d7",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/prwi/planyourvisit/index.htm": {
+   "hash": "f7b47f82e6283fe3",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/locust-grove-nature-center/": {
+   "hash": "1c96d7bff951977c",
+   "seen": "2026-09-24"
+  },
+  "https://www.rockvillemd.gov/places/croydon-creek-nature-center/": {
+   "hash": "c641be5194c12afa",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/brookside-nature-center/": {
+   "hash": "cd13134878afa329",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/turner-farm": {
+   "hash": "ebde18deef67af96",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/hidden-pond": {
+   "hash": "7946707f6f4a9faa",
+   "seen": "2026-09-24"
+  },
+  "https://americanhistory.si.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://nmaahc.si.edu/explore/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://americanindian.si.edu/explore/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://postalmuseum.si.edu/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://anacostia.si.edu/exhibition-search": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.si.edu/museums/arts-and-industries-building": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.loc.gov/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://visit.archives.gov/exhibits": {
+   "hash": "4090d57c470c1a6e",
+   "seen": "2026-09-24"
+  },
+  "https://www.folger.edu/visit/exhibitions/": {
+   "hash": "f8ed65bce637a363",
+   "seen": "2026-09-24"
+  },
+  "https://www.ushmm.org/information/exhibitions": {
+   "hash": "3f99f92f88c26808",
+   "seen": "2026-09-24"
+  },
+  "https://www.nbm.org/exhibitions/": {
+   "hash": "685d6ed5cbd12d66",
+   "seen": "2026-09-24"
+  },
+  "https://www.spymuseum.org/exhibition-experiences/": {
+   "hash": "7514c53037fae941",
+   "seen": "2026-09-24"
+  },
+  "https://planetwordmuseum.org/exhibits/": {
+   "hash": "437328677a35858d",
+   "seen": "2026-09-24"
+  },
+  "https://www.museumofthebible.org/current-exhibits": {
+   "hash": "3267aae9667a7cdf",
+   "seen": "2026-09-24"
+  },
+  "https://capitaljewishmuseum.org/exhibitions/": {
+   "hash": "f9140dbc0198fd85",
+   "seen": "2026-09-24"
+  },
+  "https://dchistory.org/current-exhibits/": {
+   "hash": "75bddc752c3d5cc2",
+   "seen": "2026-09-24"
+  },
+  "https://afroamcivilwar.org/": {
+   "hash": "a3975c69ce1790fe",
+   "seen": "2026-09-24"
+  },
+  "https://www.gogomuseumcafe.com/": {
+   "hash": "193fbd4a3360b528",
+   "seen": "2026-09-24"
+  },
+  "https://gallaudet.edu/museum/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://fords.org/visit-us/plan-your-visit/": {
+   "hash": "a0d9368341cb428e",
+   "seen": "2026-09-24"
+  },
+  "https://nleomf.org/museum/exhibits/": {
+   "hash": "f6c57673dcee967b",
+   "seen": "2026-09-24"
+  },
+  "https://www.doi.gov/interiormuseum/exhibitions": {
+   "hash": "71df8275836c649a",
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/Archaeology": {
+   "hash": "a7fc1132bdd0372d",
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/BlackHistory": {
+   "hash": "b7e14b76af47023f",
+   "seen": "2026-09-24"
+  },
+  "https://arlhist.org/arlington-historical-musem/": {
+   "hash": "78352886cb46d207",
+   "seen": "2026-09-24"
+  },
+  "https://www.historicviennainc.org/": {
+   "hash": "877aa1471dd103c8",
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/FriendshipFirehouse": {
+   "hash": "11966e5e2c1d8e07",
+   "seen": "2026-09-24"
+  },
+  "https://gwmemorial.org/pages/tours": {
+   "hash": "f34781c9d3c552f4",
+   "seen": "2026-09-24"
+  },
+  "https://gahmusa.org/": {
+   "hash": "555732ae6ba41ef3",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxva.gov/government/historic-resources/historic-blenheim": {
+   "hash": "80317fc4c39ec72d",
+   "seen": "2026-09-24"
+  },
+  "https://scottishrite.org/about/house-of-the-temple/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://msrc.howard.edu/": {
+   "hash": "5730064ea9530b99",
+   "seen": "2026-09-24"
+  },
+  "https://www.latvianmuseum.org/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://laurelhistoricalsociety.org/exhibits/": {
+   "hash": "47748c8fd3f62d0c",
+   "seen": "2026-09-24"
+  },
+  "https://www.dclibrary.org/exhibits": {
+   "hash": "5c185c733cf2a4e7",
+   "seen": "2026-09-24"
+  },
+  "https://womensmemorial.org/": {
+   "hash": "7f0db8fcf5eab92a",
+   "seen": "2026-09-24"
+  },
+  "https://latino.si.edu/visit": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://mpp-dc.org/exhibitions/": {
+   "hash": "3c991dc810fe1b97",
+   "seen": "2026-09-24"
+  },
+  "https://www.cityofbowie.org/292/National-Capital-Radio-Television-Museum": {
+   "hash": "9ef8397847bbfc54",
+   "seen": "2026-09-24"
+  },
+  "https://www.dctrolley.org/": {
+   "hash": "a7f83e2ebbec4af4",
+   "seen": "2026-09-24"
+  },
+  "https://www.nsa.gov/museum/": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.ngef.org/national-guard-memorial-museum/": {
+   "hash": "a59689a97777469d",
+   "seen": "2026-09-24"
+  },
+  "https://diplomacy.state.gov/exhibits/": {
+   "hash": "b77fe13adec6c00d",
+   "seen": "2026-09-24"
+  },
+  "https://nmajmh.org/": {
+   "hash": "e1393b0f268142b6",
+   "seen": "2026-09-24"
+  },
+  "https://www.usmcmuseum.com/Exhibits.html": {
+   "hash": "72c6b97dae78b392",
+   "seen": "2026-09-24"
+  },
+  "https://www.thenmusa.org/exhibits/": {
+   "hash": "e680b6dbb534ce37",
+   "seen": "2026-09-24"
+  },
+  "https://www.history.navy.mil/content/history/museums/nmusn/visit-the-museum.html": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.jp2shrine.org/visit/": {
+   "hash": "0ef278b1e05618c1",
+   "seen": "2026-09-24"
+  },
+  "https://sandyspringslavemuseum.org/": {
+   "hash": "7b9a344a9d847965",
+   "seen": "2026-09-24"
+  },
+  "https://www.si.edu/museums/smithsonian-institution-building": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/Apothecary": {
+   "hash": "468f4b9ba872126f",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryhistory.org/stonestreet-museum-of-19th-century-medicine/": {
+   "hash": "0ddc246b3e7ef0de",
+   "seen": "2026-09-24"
+  },
+  "https://www.supremecourt.gov/visiting/exhibition.aspx": {
+   "hash": "e0eb1fbacbe9bf7f",
+   "seen": "2026-09-24"
+  },
+  "https://osse.dc.gov/page/charles-sumner-school-museum-and-archives": {
+   "hash": "ec63bcaef82c6872",
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/Lyceum": {
+   "hash": "3fda74dfe12238ce",
+   "seen": "2026-09-24"
+  },
+  "https://www.thepeopleshouse.org/visit": {
+   "hash": "f30b7121895775c3",
+   "seen": "2026-09-24"
+  },
+  "https://www.visitthecapitol.gov/explore/exhibitions": {
+   "hash": "596fd2125646278c",
+   "seen": "2026-09-24"
+  },
+  "https://www.navymemorial.org/exhibits": {
+   "hash": "43ee14cce14cfd9d",
+   "seen": "2026-09-24"
+  },
+  "https://cathedral.org/visit/": {
+   "hash": "e1d62f0b71f0e475",
+   "seen": "2026-09-24"
+  },
+  "https://www.bep.gov/washington-dc-tour-and-visitor-center": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.arlingtoncemetery.mil/Explore/Welcome-Center": {
+   "hash": "c95fb92494593d14",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/linc/planyourvisit/index.htm": {
+   "hash": "abcff0791508ca26",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/wamo/planyourvisit/index.htm": {
+   "hash": "49f2277a24336b33",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/thje/planyourvisit/index.htm": {
+   "hash": "9e3fed9699e0d799",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm": {
+   "hash": "44639aa96f4328f2",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/glec/planyourvisit/index.htm": {
+   "hash": "c666da01d2f549fb",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/mana/planyourvisit/index.htm": {
+   "hash": "9fe1990c94c9ceb3",
+   "seen": "2026-09-24"
+  },
+  "https://www.casaitalianacenter.org/iamdc": {
+   "hash": "275d77bfbedfd3ef",
+   "seen": "2026-09-24"
+  },
+  "https://www.cityofbowie.org/293/Bowie-Railroad-Museum": {
+   "hash": "3e7e4f300a6e3f92",
+   "seen": "2026-09-24"
+  },
+  "https://historictakoma.org/": {
+   "hash": "6431adcb086a33ec",
+   "seen": "2026-09-24"
+  },
+  "https://www.nramuseum.org/museums/national-firearms-museum.aspx": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Historic-Blenheim-Tours-and-History": {
+   "hash": "80317fc4c39ec72d",
+   "seen": "2026-09-24"
+  },
+  "https://www.restonmuseum.org/exhibitions": {
+   "hash": "599c4235e1d9f67d",
+   "seen": "2026-09-24"
+  },
+  "https://hillwoodmuseum.org/exhibitions": {
+   "hash": "59767d8432247eac",
+   "seen": "2026-09-24"
+  },
+  "https://www.doaks.org/visit/museum/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://tudorplace.org/visit/plan-your-visit/": {
+   "hash": "1d808337228ca540",
+   "seen": "2026-09-24"
+  },
+  "https://dumbartonhouse.org/visit-dumbarton-house/": {
+   "hash": "3dc920844f50ec55",
+   "seen": "2026-09-24"
+  },
+  "https://woodrowwilsonhouse.org/exhibitions/": {
+   "hash": "1951924766950dc3",
+   "seen": "2026-09-24"
+  },
+  "https://heurichhouse.org/pages/exhibits": {
+   "hash": "feb0b84eb71623ed",
+   "seen": "2026-09-24"
+  },
+  "https://www.lincolncottage.org/visit/exhibits/": {
+   "hash": "90965437e5312dd6",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/frdo/planyourvisit/index.htm": {
+   "hash": "5c0fa81bbeb544e2",
+   "seen": "2026-09-24"
+  },
+  "https://www.americanrevolutioninstitute.org/exhibitions/": {
+   "hash": "17d3cc14078695dd",
+   "seen": "2026-09-24"
+  },
+  "https://www.dar.org/museum/exhibitions": {
+   "hash": null,
+   "seen": "2026-09-24"
+  },
+  "https://www.omuseum.org/": {
+   "hash": "7b3b9977249dd102",
+   "seen": "2026-09-24"
+  },
+  "https://gunstonhall.org/visit/": {
+   "hash": "1dea604c291c3916",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/historic-huntley": {
+   "hash": "1a83dc27e0723760",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/josiah-henson-museum-and-park/": {
+   "hash": "9edb862692903137",
+   "seen": "2026-09-24"
+  },
+  "https://www.leefendallhouse.org/": {
+   "hash": "4f4462dae1fc1b11",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/marietta-house-museum": {
+   "hash": "4278dac7f12ee508",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/mamc/planyourvisit/index.htm": {
+   "hash": "ea2aee33f51c606d",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/montpelier-historic-site-museum": {
+   "hash": "5d7efed6157c3731",
+   "seen": "2026-09-24"
+  },
+  "https://www.accokeek.org/visit": {
+   "hash": "41010612a5beb7ba",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/oakley-cabin-african-american-museum-park/": {
+   "hash": "70283b562e08ddd5",
+   "seen": "2026-09-24"
+  },
+  "https://oldkoreanlegation.org/": {
+   "hash": "59e4d1d116f54b50",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/places/old-stone-house.htm": {
+   "hash": "ce6c269927063556",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/oxhi/planyourvisit/index.htm": {
+   "hash": "48a2e533b9e6fc6b",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/places/peirce-mill.htm": {
+   "hash": "35a1200112400055",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Ratcliffe-Allison-Pozer-House": {
+   "hash": "a02d00a7e1a5fad3",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/riversdale-historic-site-museum": {
+   "hash": "f3712769116e79b7",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/sully-historic-site": {
+   "hash": "bafd2b7f5c8ac0ec",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/surratt-house-museum": {
+   "hash": "42497bb82571f1a3",
+   "seen": "2026-09-24"
+  },
+  "https://architectsfoundation.org/the-octagon/visiting/": {
+   "hash": "9ab5f07c1ce7ffb5",
+   "seen": "2026-09-24"
+  },
+  "https://diplomaticrooms.state.gov/": {
+   "hash": "780d38b1e7dcaa6f",
+   "seen": "2026-09-24"
+  },
+  "https://democraticwoman.org/exhibitions": {
+   "hash": "ab5335d98ee81eb8",
+   "seen": "2026-09-24"
+  },
+  "https://www.woodlawnpopeleighey.org/visit": {
+   "hash": "50aa9c2755074ce1",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryparks.org/parks-and-trails/woodlawn-manor-cultural-park/woodlawn-museum/": {
+   "hash": "a01c5afe6aa03469",
+   "seen": "2026-09-24"
+  },
+  "https://architectsfoundation.org/the-octagon/": {
+   "hash": "02266d7041f44906",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/surratt-historic-site-museum": {
+   "hash": "42497bb82571f1a3",
+   "seen": "2026-09-24"
+  },
+  "https://www.alexandriava.gov/MDFHouse": {
+   "hash": "c46b0d4790405043",
+   "seen": "2026-09-24"
+  },
+  "https://www.woodlawnpopeleighey.org/tourinformation": {
+   "hash": "50aa9c2755074ce1",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/colvin-run-mill": {
+   "hash": "b89d275369abe454",
+   "seen": "2026-09-24"
+  },
+  "https://www.lronhubbard.org/heritage-sites/dc.html": {
+   "hash": "83a49786592ae882",
+   "seen": "2026-09-24"
+  },
+  "https://artsclubofwashington.org/arts-club-galleries/": {
+   "hash": "08fc84b0ce56c9cd",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/whho/planyourvisit/the-white-house-tour.htm": {
+   "hash": "fd3246fcea99a228",
+   "seen": "2026-09-24"
+  },
+  "https://www.nps.gov/places/000/lockkeepers-house.htm": {
+   "hash": "f8d741bedf2f38ce",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/eclawrence/tour": {
+   "hash": "6eeb53465033f3c5",
+   "seen": "2026-09-24"
+  },
+  "https://www.fairfaxcounty.gov/parks/frying-pan-park/kidwell": {
+   "hash": "70e6bcc8f9245724",
+   "seen": "2026-09-24"
+  },
+  "https://www.workhousearts.org/lorton-prison-museum": {
+   "hash": "df339071c75aa670",
+   "seen": "2026-09-24"
+  },
+  "https://www.occoquanhistoricalsociety.org/mill-house-museum": {
+   "hash": "1fccd6684164d508",
+   "seen": "2026-09-24"
+  },
+  "https://montgomeryhistory.org/visit/": {
+   "hash": "178180f10a82de97",
+   "seen": "2026-09-24"
+  },
+  "https://www.rockvillemd.gov/places/glenview-mansion-art-gallery/": {
+   "hash": "826cf416eac59152",
+   "seen": "2026-09-24"
+  },
+  "https://www.historicmedley.org/visit/john-poole-house/": {
+   "hash": "e122e050f792e364",
+   "seen": "2026-09-24"
+  },
+  "https://www.historicmedley.org/visit/seneca-schoolhouse/": {
+   "hash": "dc701bf01cd2fd97",
+   "seen": "2026-09-24"
+  },
+  "https://www.hyattstownmill.org/visit": {
+   "hash": "3507ca47d0565eaa",
+   "seen": "2026-09-24"
+  },
+  "https://www.montgomeryparks.org/parks-and-trails/mccrillis-gardens/": {
+   "hash": "69bf535594a472f2",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/dorsey-chapel-historic-site": {
+   "hash": "dcdf6cfe9501211a",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/ridgeley-rosenwald-school": {
+   "hash": "417be85ed35d3424",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/billingsley-historic-site-historic-site": {
+   "hash": "c5a62bcf97f55bcb",
+   "seen": "2026-09-24"
+  },
+  "https://www.pgparks.com/facilities/mount-calvert-historic-site": {
+   "hash": "472e1c2f9efb97e8",
+   "seen": "2026-09-24"
+  },
+  "https://poplarhillonhlk.com/": {
+   "hash": "a0ccd22c0418d33e",
+   "seen": "2026-09-24"
+  }
  }
 }
