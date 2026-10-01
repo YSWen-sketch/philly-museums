@@ -2,6 +2,42 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-10-01 (Boston)
+
+`scripts/rotation.js` named Boston as this week's city, and `reports/boston.md` existed (scanned 2026-09-14, 65 venues, 135 exhibitions after pruning). Work followed the report's priority order: the 4 pages flagged as changed, the 9 exhibitions closing within 30 days, the 14 venues with a redirected `u` link, and the 14 venues the mechanical scan could not reach.
+
+As in the past two weeks, this session's network egress proxy blocked all direct outbound HTTPS to every museum domain and to the `r.jina.ai` workaround (confirmed against neutral control domains too, so it is a blanket environment policy, not a per-site block). All findings below come from WebSearch instead, which runs through separate infrastructure. Where a search result only paraphrased a page rather than quoting it, or where sources disagreed, the item was left unverified rather than acted on — no date was invented or inferred.
+
+**Redirected links fixed** (confirmed by the mechanical scan's own real HTTP fetch, which is unaffected by this session's egress block, so these are high-confidence): Harvard Art Museums, Boston University Art Galleries ("/art/exhibitions/" page is gone), Museum of the National Center of Afro-American Artists, Boston Children's Museum, Blue Hills Trailside Museum, Boston Athenaeum, Museum of African American History, USS Constitution Museum, Old State House, Old South Meeting House, Edward M. Kennedy Institute, Armenian Museum of America, The Loring Greenough House, Gore Place.
+
+**Added (new exhibitions found via WebSearch, with explicit museum-stated dates):**
+- Rose Art Museum: "Yinka Shonibare: Sanctuary" (2026-02-11 to 2027-01-03), the artist's US debut of *Sanctuary City*.
+- Harvard Museum of Natural History: "Au: Origins Unearthed," opening 2026-11-12, no closing date published yet.
+- Harvard Collection of Historical Scientific Instruments: "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories" (2026-10-16 to 2027-08-15).
+- John F. Kennedy Presidential Library and Museum: "Declaring the Revolution: America's Printed Path to Independence" (2026-06-22 to 2026-11-29) — the file had `shows: []` for this venue.
+- Peabody Museum of Archaeology & Ethnology: "Washington's Sash" (2026-05-25 to 2026-10-18) and "Castaway: The Afterlife of Plastic" (opens 2026-05-17, no closing date published).
+- Boston Athenaeum: added the start date 2026-02-12 to "Imagined Nation" (closing date was already on file).
+
+**Removed:** MassArt Art Museum's "closed for installation, reopens September 30" museum-level flag — the reopening date it names has passed, so the flag is now stale; the city footer note was updated to match (it now says MassArt and Harvard's Putnam Gallery have reopened).
+
+**Confirmed unchanged / already correct:** Gallery 263 ("Myth to Ritual," closing 2026-10-03, and hours), Arnold Arboretum ("Living Connections: The Arnold Arboretum and Korea"), Harvard Museum of the Ancient Near East ("Egypt Eternal"), Institute of Contemporary Art Boston ("Lucy Raven: Rounds" and the "90 YEARS" successor show already on file), Carpenter Center ("Knowledge Is Myth" and "Constitutive Outside" successor shows already on file), deCordova Sculpture Park (closing dates for "Nature Sanctuary" and "Zohra Opoku, Self-Portraits"), Nichols House Museum hours, Eustis Estate ("Myth and Memory: Stories of the American Revolution"), Gropius House (no rotating exhibition, correctly `shows: []`), Blue Hills Trailside Museum and Loring Greenough House hours/admission.
+
+**Closed on schedule with no successor found (left on file; not yet 30 days past closing, so not pruned):** Peabody Essex Museum's "Knowing Nature: Stories of the Boreal Forest" (closed 2026-09-27), Boston Public Library's "Out of the Box: Unpacking the World of Archives" (closed 2026-09-30).
+
+**Could not verify, or evidence conflicted (left as-is, flagged for next pass):**
+- Frederick Law Olmsted National Historic Site: two WebSearch queries suggested the visitor-center hours may have narrowed from Thu–Sun to Fri–Sat only, but this touches several linked tour-time details I could not independently confirm — needs a direct page check before editing.
+- Gore Place: tour-time list may be missing a 10am slot; search snippets disagreed with each other.
+- Armenian Museum of America: "Arshile Gorky: Redrawing Community and Connections" may have closed 2026-09-27 rather than the file's 2026-09-29 — sources disagreed (one said "extended to September 27," another just "through September"); both dates are already past today, and no successor show for that gallery was found.
+- Institute of Contemporary Art Boston: "Collection Spotlight: Nari Ward" may have closed 2026-09-13 rather than the file's 2026-09-20 — one search result gave the earlier date; also already past today either way.
+- Otis House (Historic New England): a secondary news source (not historicnewengland.org, which was unreachable) claims the house closed 2026-08-30 for a multi-year restoration with no announced reopening date. Not confirmed directly — left unchanged, but this needs checking soon since it would affect whether the venue still belongs on the list.
+- USS Constitution Museum: "Exploring Old Ironsides… by Photographer Greg M. Cooper" may have already closed (one source said through 2026-07-18); a "Small Ships" exhibit was also mentioned with no dates found. Left unchanged.
+- Boston Children's Museum: possible new exhibits ("Trees Make Happiness 2" in the Japanese House Gallery, "Dream it! Build it!") surfaced with no reliably sourced dates — not added.
+- MIT Museum, Museum of Science, The Sports Museum: search results looked stale or too vague to act on; left unchanged.
+
+**Not reached this week:** the 22 venues the report listed as "no exhibition on file" and the 21 "no closing date on file," plus the remainder of Boston's ~65-venue report beyond the two priority groups above — budget went to priorities 1 and 2 as the brief directs. Also not independently re-verified this week: Rose Art Museum's existing shows beyond the new addition, Peabody's existing long-term galleries, Museum of African American History's two current shows (a search summary suggested "Black Voices of the Revolution" runs "through 2026" but gave no exact date, so nothing was added), and Harvard Museum of the Ancient Near East's secondary shows.
+
+Boston's `updated` date is bumped to October 1, 2026; the other three cities' dates are untouched.
+
 ## 2026-09-24 (Washington)
 
 `scripts/rotation.js` named Washington as this week's city. `reports/washington.md` did not exist: the mechanical Thursday scan (`weekly.yml`) had not run yet when this session started (its `schedule` trigger appears to run late some weeks — the same gap the 2026-09-17 New York entry below flagged), and this session had no permission to trigger it via `workflow_dispatch` (403). Priority 1 (changed/unreachable/redirected pages) was therefore skipped for lack of a report.

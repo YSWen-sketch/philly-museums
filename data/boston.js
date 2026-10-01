@@ -18,13 +18,13 @@ CITIES.push({
   nz: "波士顿",
 
   // Set by the weekly reconciliation.
-  updated: "September 14, 2026",
-  updatedz: "2026 年 9 月 14 日",
+  updated: "October 1, 2026",
+  updatedz: "2026 年 10 月 1 日",
 
   lede: "Boston, Cambridge and the towns around them. A good number of the university museums are free, and Harvard's four collections sit within a few minutes' walk of each other.",
   ledez: "覆盖波士顿、剑桥及周边城镇。不少大学美术馆免费，哈佛的四个收藏彼此步行可达。",
-  note: "MassArt Art Museum and Harvard's Putnam Gallery are closed for installation until late September. The Museum of Science opens a new wing on October 10.",
-  notez: "MassArt 美术馆与哈佛 Putnam 展厅布展闭馆至 9 月下旬；科学博物馆 10 月 10 日开放新翼。",
+  note: "MassArt Art Museum and Harvard's Putnam Gallery have reopened after their installation closures. The Museum of Science opens a new wing on October 10.",
+  notez: "MassArt 美术馆与哈佛 Putnam 展厅已结束布展，重新开放；科学博物馆 10 月 10 日开放新翼。",
 
   groups: [
 { g: "Art", gz: "艺术",
@@ -77,7 +77,7 @@ CITIES.push({
     ] },
   { n: "Harvard Art Museums", nz: "哈佛艺术博物馆", a: "32 Quincy Street",
     h: "Tue–Sun 10–5; closed Mondays", hz: "周二–周日 10–17；周一闭馆", p: "Free", pz: "免费",
-    u: "https://harvardartmuseums.org/visit/exhibitions", free: true,
+    u: "https://harvardartmuseums.org/exhibitions", free: true,
     shows: [
       { t: "Pınar Öğrenci: Glück auf in Deutschland", s: "2026-04-16", e: "2026-10-18", d: "The artist's first major US show, on migrant labour, memory and belonging", dz: "艺术家首个美国大型个展，关注移民劳动、记忆与归属" },
       { t: "Introduction to the History of Art", s: "2026-08-29", e: "2027-01-03", d: "Teaching gallery show tracing art making across regions and periods", dz: "教学展厅展览，纵览不同地区与时代的艺术创作" },
@@ -106,8 +106,6 @@ CITIES.push({
     h: "Wed & Fri 12–6; Thu 12–8; Sat–Sun 10–6; closed Mon–Tue",
     hz: "周三、周五 12–18，周四 12–20，周六–周日 10–18；周一–周二闭馆", p: "Free", pz: "免费",
     u: "https://maam.massart.edu/exhibitions", free: true,
-    flag: "Closed for installation; reopens Wednesday, September 30",
-    flagz: "因布展闭馆，9 月 30 日（周三）重新开放",
     shows: [
       { t: "Banu Cennetoğlu", s: "2026-09-30", e: "2027-02-28", d: "Installation by the Turkish artist, including large gold balloon works", dz: "土耳其艺术家的装置，含大型金色气球作品" },
       { t: "Robert Lazzarini", s: "2026-09-30", e: "2027-02-28", d: "Distorted sculptures and warped flag imagery by the American artist", dz: "美国艺术家的变形雕塑与扭曲国旗图像" },
@@ -141,7 +139,8 @@ CITIES.push({
     u: "https://www.brandeis.edu/rose/exhibitions/index.html", free: true,
     shows: [
       { t: "Jenna Gribbon: Entwined", s: "2026-08-19", e: "2027-01-03", d: "More than forty paintings, the artist's first major museum survey", dz: "艺术家首个大型美术馆回顾，逾四十幅绘画" },
-      { t: "ChromaForm", s: "2026-08-19", e: "2027-06-06", d: "Mid-twentieth-century abstraction built on geometry, colour and shaped canvases", dz: "20 世纪中叶以几何、色彩与异形画布为核心的抽象绘画" }
+      { t: "ChromaForm", s: "2026-08-19", e: "2027-06-06", d: "Mid-twentieth-century abstraction built on geometry, colour and shaped canvases", dz: "20 世纪中叶以几何、色彩与异形画布为核心的抽象绘画" },
+      { t: "Yinka Shonibare: Sanctuary", s: "2026-02-11", e: "2027-01-03", d: "The artist's US debut of Sanctuary City, a large installation", dz: "艺术家作品《圣所之城》的美国首展，大型装置" }
     ] },
   { n: "Davis Museum at Wellesley College", nz: "韦尔斯利学院戴维斯博物馆", a: "106 Central Street",
     h: "Tue–Sun 11–5; closed Mondays", hz: "周二–周日 11–17；周一闭馆", p: "Free", pz: "免费",
@@ -202,7 +201,7 @@ CITIES.push({
   { n: "Museum of the National Center of Afro-American Artists", nz: "国家非裔美国艺术家中心博物馆", a: "300 Walnut Avenue",
     h: "Closed to the public; open only for special events", hz: "暂不对公众开放；仅在特别活动期间开放",
     p: "Adults $4, seniors and students $3 when open", pz: "开放时成人 $4，老年人及学生 $3",
-    u: "https://www.ncaaa.org",
+    u: "https://ncaaa.org/",
     flag: "Museum closed to the public; open only for special events. Call 617-442-8614 before travelling.",
     flagz: "博物馆暂不对公众开放，仅在特别活动期间开放。前往前请致电 617-442-8614 确认。",
     shows: [] },
@@ -741,7 +740,7 @@ CITIES.push({
   { n: "Boston Children's Museum", nz: "波士顿儿童博物馆", a: "308 Congress Street",
     h: "Wed–Mon 9–4, closed Tue; opens 10 on the first Saturday of the month",
     hz: "周三–周一 9–16，周二闭馆；每月第一个周六 10:00 开放", p: "Adults $24, children 1–15 $24; free under 1",
-    pz: "成人 $24，1–15 岁儿童 $24；1 岁以下免费", u: "https://bostonchildrensmuseum.org/exhibits/",
+    pz: "成人 $24，1–15 岁儿童 $24；1 岁以下免费", u: "https://bostonchildrensmuseum.org/exhibits-and-programs/exhibits/",
     flag: "Closed September 8–17, 2026 for annual maintenance", flagz: "2026 年 9 月 8–17 日因年度维护闭馆",
     shows: [
       { t: "Sweet Ritual", s: "2026-06-27", e: "2026-09-07", d: "Drawings and paintings of American sweets by Soojin Kim, in The Gallery", dz: "Soojin Kim 以美式甜点为题的绘画，于 The Gallery 展出" },
@@ -756,6 +755,7 @@ CITIES.push({
     flagz: "同一张门票可一并参观隔壁的皮博迪考古与民族学博物馆",
     shows: [
       { t: "Collecting Wonders: Tomorrow's Discoveries", s: "2026-06-27", eText: "April 2027", eTextz: "至 2027 年 4 月", d: "Rare research specimens from Harvard's collections, many shown publicly for the first time", dz: "哈佛研究藏品中的罕见标本，多数为首次公开展出" },
+      { t: "Au: Origins Unearthed", s: "2026-11-12", d: "Gold traced from geology through to contemporary jewellery", dz: "追溯黄金从地质形成到当代珠宝的展览" },
       { t: "Emeralds", eText: "Long-term", eTextz: "长期", d: "Emerald specimens on display in the Earth and Planetary Sciences Gallery", dz: "地球与行星科学展厅展出的祖母绿标本" },
       { t: "The Glass Flowers: The Ware Collection of Blaschka Glass Models of Plants", eText: "Permanent", eTextz: "常设", d: "About 4,000 glass plant models made by Leopold and Rudolf Blaschka", dz: "布拉施卡父子制作的约四千件玻璃植物模型" },
       { t: "Great Mammal Hall", eText: "Permanent", eTextz: "常设", d: "Whale skeletons hung above a 19th-century gallery of mounted mammals", dz: "19 世纪展厅，鲸骨悬于哺乳动物标本之上" }
@@ -779,7 +779,8 @@ CITIES.push({
     flagz: "因展厅施工，2026 年 8 月 17 日至 9 月 26 日闭馆，9 月 27 日重新开放",
     shows: [
       { t: "TIME, LIFE, & MATTER: Science in Cambridge", eText: "Permanent", eTextz: "常设", d: "Instruments Harvard scientists used to measure time, study life and probe matter, in the Putnam Gallery", dz: "普特南展厅内哈佛学者用于计时、研究生命与物质的历史仪器" },
-      { t: "Revolutionary Technology", d: "Objects marking the 250th anniversary of the Declaration of Independence, shown in Science Center 371", dz: "纪念《独立宣言》250 周年的仪器展，位于科学中心 371 室" }
+      { t: "Revolutionary Technology", d: "Objects marking the 250th anniversary of the Declaration of Independence, shown in Science Center 371", dz: "纪念《独立宣言》250 周年的仪器展，位于科学中心 371 室" },
+      { t: "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories", s: "2026-10-16", e: "2027-08-15", d: "Scientific instruments and how they were used to construct racial categories", dz: "探讨科学仪器如何被用以建构种族分类" }
     ] },
   { n: "Arnold Arboretum of Harvard University", nz: "哈佛大学阿诺德树木园", a: "125 Arborway",
     h: "Landscape open daily sunrise–sunset; Hunnewell Visitor Center daily 10–4",
@@ -800,7 +801,7 @@ CITIES.push({
     h: "Wed–Sun 9–4; outdoor exhibits daily 9–4", hz: "周三–周日 9–16；户外展区每日 9–16",
     p: "Adults $5, seniors 65+ $4, children 2–12 $3; free for Mass Audubon members",
     pz: "成人 $5，65 岁以上 $4，2–12 岁儿童 $3；马萨诸塞奥杜邦会员免费",
-    u: "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/blue-hills-trailside-museum",
+    u: "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/blue-hills-trailside-museum",
     shows: [] },
   { n: "Charles River Museum of Industry & Innovation", nz: "查尔斯河工业与创新博物馆", a: "154 Moody Street",
     h: "Wed–Fri 10–3, Sat 10–2:30; closed Sun–Tue", hz: "周三–周五 10–15，周六 10–14:30；周日至周二闭馆",
@@ -978,21 +979,23 @@ CITIES.push({
     h: "Mon–Thu 9–8, Fri–Sat 9–5; closed Sundays", hz: "周一–周四 9–20，周五–周六 9–17；周日闭馆",
     p: "First-floor gallery $11 ages 14 and up, $8 students, educators and military, $5 ages 13 and under, $2 with a Card to Culture; free for NARM and ROAM members; a $40 day membership opens the whole building",
     pz: "一楼展厅：14 岁及以上 $11，学生、教师及军人 $8，13 岁以下 $5，持 Card to Culture $2；NARM 与 ROAM 会员免费；$40 日票可进入全馆",
-    u: "https://www.bostonathenaeum.org/exhibitions/",
+    u: "https://bostonathenaeum.org/whats-on/exhibitions/",
     shows: [
       { t: "Where's Boston? 50 Years Later", d: "Photographs of Boston's neighbourhoods and people, revisited fifty years on, in the Calderwood Gallery", dz: "卡尔德伍德展厅重看五十年前记录波士顿街区与市民的摄影" },
-      { t: "Imagined Nation", eText: "Through November 14", eTextz: "至 11 月 14 日", d: "Art and print culture marking 250 years of how Americans pictured the nation's future", dz: "以艺术与印刷品呈现美国 250 年来对国家未来的想象" },
+      { t: "Imagined Nation", s: "2026-02-12", eText: "Through November 14", eTextz: "至 11 月 14 日", d: "Art and print culture marking 250 years of how Americans pictured the nation's future", dz: "以艺术与印刷品呈现美国 250 年来对国家未来的想象" },
       { t: "Re-Reading Special Collections", eText: "Ongoing", eTextz: "持续展出", d: "A rotating selection of highlights from the Athenaeum's special collections", dz: "轮换展出雅典娜图书馆特藏中的精品" }
     ] },
   { n: "John F. Kennedy Presidential Library and Museum", nz: "约翰·肯尼迪总统图书馆暨博物馆", a: "Columbia Point",
     h: "Open daily 10–5", hz: "每日 10–17", p: "Adults $14", pz: "成人 $14",
     u: "https://www.jfklibrary.org/visit-museum/exhibits",
-    shows: [] },
+    shows: [
+      { t: "Declaring the Revolution: America's Printed Path to Independence", s: "2026-06-22", e: "2026-11-29", d: "Printed documents from the Rubenstein Americana Collection on the path to independence", dz: "鲁本斯坦美国文献收藏中有关通往独立之路的印刷文献" }
+    ] },
   { n: "Museum of African American History", nz: "非裔美国人历史博物馆", a: "46 Joy Street",
     h: "Thu–Sun 10–4 for general admission; Tue–Wed 10–4 for school groups, private tours and rentals",
     hz: "周四–周日 10–16 接待普通观众；周二–周三 10–16 仅接待学校团体、私人导览与场地租用",
     p: "Adults $10, seniors and students $8; free for members and children under 12",
-    pz: "成人 $10，老年人与学生 $8；会员及 12 岁以下儿童免费", u: "https://www.maah.org/exhibitions",
+    pz: "成人 $10，老年人与学生 $8；会员及 12 岁以下儿童免费", u: "https://maah.org/exhibitions/",
     shows: [
       { t: "Black Voices of the Revolution: Liberty, Emancipation, and the Struggle for Independence", d: "Holographic projections of primary sources on Black life in America from the 1620s to the 1800s", dz: "以全息影像呈现 1620 至 1800 年代美国黑人生活的原始史料" },
       { t: "Selections from the Collection", d: "A rotating pick from over 3,000 objects documenting African-descended life in America", dz: "从三千余件记录美国非裔生活的藏品中轮换选展" }
@@ -1009,7 +1012,9 @@ CITIES.push({
       { t: "Hall of the North American Indian", eText: "Long-term", eTextz: "长期", d: "Native North American objects across regions, including a Northwest Coast memorial pole", dz: "跨地域的北美原住民藏品，含一根西北海岸纪念柱" },
       { t: "Wiyohpiyata: Lakota Images of the Contested West", d: "A Lakota warrior's ledger-book drawings of the nineteenth-century fight for the plains", dz: "拉科塔战士的账簿画，记录十九世纪西部草原的争夺" },
       { t: "The Legacy of Penobscot Canoes", d: "Birchbark canoes and builders' models from the Penobscot Nation in Maine", dz: "缅因州佩诺布斯科特族的桦皮独木舟与工匠模型" },
-      { t: "Digging Veritas", d: "Archaeology of the seventeenth-century Indian College on Harvard Yard", dz: "哈佛园内十七世纪印第安学院的考古发现" }
+      { t: "Digging Veritas", d: "Archaeology of the seventeenth-century Indian College on Harvard Yard", dz: "哈佛园内十七世纪印第安学院的考古发现" },
+      { t: "Washington's Sash", s: "2026-05-25", e: "2026-10-18", d: "A special display marking the 250th anniversary of the Declaration of Independence", dz: "纪念《独立宣言》250 周年的特别展示" },
+      { t: "Castaway: The Afterlife of Plastic", s: "2026-05-17", d: "Work by the art collective TRES on plastic waste and its afterlife", dz: "艺术团体 TRES 关于塑料废弃物及其归宿的作品" }
     ] },
   { n: "Harvard Museum of the Ancient Near East", nz: "哈佛古代近东博物馆", a: "6 Divinity Avenue",
     h: "Sun–Fri 11–4; closed Saturdays", hz: "周日–周五 11–16；周六闭馆", p: "Free", pz: "免费",
@@ -1028,7 +1033,7 @@ CITIES.push({
     h: "Open daily 9–6", hz: "每日 9–18",
     p: "Suggested admission: $15 standard, $25 pay it forward, or free to $10 reduced; the ship itself is free",
     pz: "建议票价：标准 $15，赞助 $25，优惠 $0–$10；军舰本身免费参观",
-    u: "https://www.ussconstitutionmuseum.org/exhibits/",
+    u: "https://ussconstitutionmuseum.org/exhibits/",
     flag: "The ship next door is open Tue–Sun 10–6 and requires security screening and federal or state photo ID for visitors 18 and over",
     flagz: "隔壁的军舰周二–周日 10–18 开放，18 岁以上须通过安检并出示联邦或州政府核发的照片证件",
     shows: [
@@ -1045,7 +1050,7 @@ CITIES.push({
     h: "Daily 10–5", hz: "每日 10–17",
     p: "Adults $18, seniors 65+ $16, youth 6–17 $10; 5 and under free; one ticket also admits you to Old South Meeting House",
     pz: "成人 $18，65 岁以上长者 $16，6–17 岁 $10；5 岁及以下免费；同一张票可通用老南集会所",
-    u: "https://revolutionaryspaces.org/exhibits/",
+    u: "https://revolutionaryspaces.org/explore/exhibits/",
     shows: [
       { t: "Colony to Commonwealth", eText: "Long-term", eTextz: "长期", d: "Old State House galleries tracing Massachusetts from colonial rule to statehood", dz: "旧州议会大厦展厅，讲述马萨诸塞从殖民地到建州的历程" },
       { t: "The Humble Petitioner", eText: "Long-term", eTextz: "长期", d: "In the Council Chamber: how colonists, women, Native people and the enslaved petitioned government", dz: "在议事厅呈现殖民地民众、妇女、原住民与被奴役者的请愿" },
@@ -1056,7 +1061,7 @@ CITIES.push({
     h: "Daily 10–5", hz: "每日 10–17",
     p: "Adults $18, seniors 65+ $16, youth 6–17 $10; 5 and under free; one ticket also admits you to the Old State House",
     pz: "成人 $18，65 岁以上长者 $16，6–17 岁 $10；5 岁及以下免费；同一张票可通用旧州议会大厦",
-    u: "https://revolutionaryspaces.org/exhibits/",
+    u: "https://revolutionaryspaces.org/explore/exhibits/",
     shows: [
       { t: "Voices of Protest", eText: "Long-term", eTextz: "长期", d: "The meeting house's long history as a place of public debate and protest", dz: "讲述这座集会所作为公共辩论与抗议场所的历史" },
       { t: "Ruckus!", eText: "Long-term", eTextz: "长期", d: "An immersive show that puts visitors inside the arguments that ignited the Revolution", dz: "沉浸式演出，把观众置于引发独立革命的争辩现场" }
@@ -1072,7 +1077,7 @@ CITIES.push({
     hz: "周二–周日 10–16:30，最后入场 16:00；每日 11:00、14:00 提供免费导览",
     p: "Adults 19–62 $20, college students $15, seniors 63+ and veterans $10, youth 6–18 $10; 5 and under and members free; reduced entry for EBT/WIC holders and on Boston Family Days",
     pz: "19–62 岁成人 $20，大学生 $15，63 岁以上长者与退伍军人 $10，6–18 岁 $10；5 岁及以下与会员免费；EBT/WIC 持卡者及 Boston Family Days 可优惠",
-    u: "https://www.emkinstitute.org",
+    u: "https://emkinstitute.org/",
     flag: "Closed October 16–19 for a special event; regular operations resume October 21",
     flagz: "10 月 16–19 日因专场活动闭馆，10 月 21 日恢复正常开放",
     shows: [] },
@@ -1125,7 +1130,7 @@ CITIES.push({
   { n: "Armenian Museum of America", nz: "美国亚美尼亚博物馆", a: "65 Main Street",
     h: "Thu–Sun 12–6", hz: "周四–周日 12–18",
     p: "Adults $15, students and seniors $5; free for under 18 and members",
-    pz: "成人 $15，学生与长者 $5；18 岁以下及会员免费", u: "https://armenianmuseum.org/exhibitions",
+    pz: "成人 $15，学生与长者 $5；18 岁以下及会员免费", u: "https://www.armenianmuseum.org/current-exhibitions",
     shows: [
       { t: "Arshile Gorky: Redrawing Community and Connections", s: "2025-12-12", e: "2026-09-29", d: "The Abstract Expressionist painter seen through his circles and Armenian ties", dz: "从人际圈与亚美尼亚渊源重看抽象表现主义画家高尔基" },
       { t: "Father", s: "2026-05-29", e: "2026-09-13", d: "Diana Markosian's US debut: photography, video and archives on family and memory", dz: "Diana Markosian 美国首展：以摄影、录像与档案讲述家庭与记忆" },
@@ -1851,7 +1856,7 @@ CITIES.push({
     h: "Sun tours at 1, 2 and 3, April to October; by appointment January to March; grounds daily dawn–dusk",
     hz: "4–10 月周日导览 13:00、14:00、15:00；1–3 月需预约；庭院每日黎明至黄昏",
     p: "Suggested donation $5 adults, $2 school-age children; grounds free",
-    pz: "建议捐赠成人 $5，学龄儿童 $2；庭院免费", u: "https://loring-greenough.org/visit/",
+    pz: "建议捐赠成人 $5，学龄儿童 $2；庭院免费", u: "https://loring-greenough.org/visit-the-house-and-gardens/",
     shows: [] },
   { n: "Longfellow House-Washington's Headquarters National Historic Site", nz: "朗费罗故居–华盛顿司令部国家历史遗址", a: "105 Brattle Street",
     h: "Fri–Mon, hourly house tours 10–4, May 22 to October 31; grounds daily dawn–dusk",
@@ -1897,7 +1902,7 @@ CITIES.push({
     hz: "宅邸导览周一、周三、周五、周六 11:00、12:00、13:00；联邦假日闭馆；庭院每日黎明至黄昏",
     p: "Mansion tour $16, children 6–16 $11; free for members; $5 each for two adults with a Card to Culture; grounds and parking free",
     pz: "宅邸导览 $16，6–16 岁 $11；会员免费；持 Card to Culture 两位成人每人 $5；庭院与停车免费",
-    u: "https://goreplace.org/visit/tours/",
+    u: "https://goreplace.org/whats-on/mansion-tour-1",
     flag: "Tours take at most ten people and include two flights of stairs; in hot weather the upper floors may close and a cheaper ground-floor tour is offered instead.",
     flagz: "每场导览限 10 人，需上下两层楼梯；酷暑时可能关闭楼上，改为票价更低的一层导览。",
     shows: [] },
