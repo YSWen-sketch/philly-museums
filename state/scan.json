@@ -1,84 +1,284 @@
 {
  "boston": {
   "https://www.mfa.org/exhibitions": {
-   "hash": "13baa7893d144624",
-   "seen": "2026-09-14"
+   "hash": "9b654d7c4acdb714",
+   "seen": "2026-10-01"
   },
   "https://www.gardnermuseum.org/exhibitions": {
-   "hash": "056e37f5db073b3a",
-   "seen": "2026-09-14"
+   "hash": "3ed237149afbe588",
+   "seen": "2026-10-01"
   },
   "https://www.icaboston.org/exhibitions/": {
-   "hash": "ccfd0d541aa9a41f",
-   "seen": "2026-09-14"
+   "hash": "ca8e23ff081d4004",
+   "seen": "2026-10-01"
   },
-  "https://harvardartmuseums.org/visit/exhibitions": {
-   "hash": "3926ca20f8976d3a",
-   "seen": "2026-09-14"
+  "https://harvardartmuseums.org/exhibitions": {
+   "hash": "f1e65a01e7342fd3",
+   "seen": "2026-10-01"
   },
   "https://listart.mit.edu/exhibitions": {
-   "hash": "7d589d54f10f5aac",
-   "seen": "2026-09-14"
+   "hash": "0ac34c5a727bc69d",
+   "seen": "2026-10-01"
   },
   "https://carpenter.center/exhibitions": {
-   "hash": "e0e8bd4b63169996",
-   "seen": "2026-09-14"
+   "hash": "afaa2beadf81bb61",
+   "seen": "2026-10-01"
   },
   "https://maam.massart.edu/exhibitions": {
-   "hash": "0109e86acb9a705a",
-   "seen": "2026-09-14"
+   "hash": "c2ab0381879f8178",
+   "seen": "2026-10-01"
   },
   "https://www.bu.edu/art/exhibitions/": {
-   "hash": "46f52405b6a03fbb",
-   "seen": "2026-09-14"
+   "hash": "b786f26fae5504ac",
+   "seen": "2026-10-01"
   },
   "https://artgalleries.tufts.edu/exhibitions": {
    "hash": "abed6a96f2474823",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://mcmullenmuseum.bc.edu/exhibitions/": {
    "hash": "ae1c7a7c5fa502c0",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://www.brandeis.edu/rose/exhibitions/index.html": {
    "hash": null,
    "seen": "2026-09-14"
   },
   "https://www1.wellesley.edu/davismuseum/whats-on/current": {
-   "hash": "5d6f28a7c200dbec",
-   "seen": "2026-09-14"
+   "hash": "cd03f296e9025a7e",
+   "seen": "2026-10-01"
   },
   "https://thetrustees.org/program/decordova-exhibitions/": {
-   "hash": "7362498953cd85db",
-   "seen": "2026-09-14"
+   "hash": "086d4e48488f02f9",
+   "seen": "2026-10-01"
   },
   "https://www.pem.org/exhibitions": {
-   "hash": "208b1e4300a5f8f3",
-   "seen": "2026-09-14"
+   "hash": "c0140efc0acaf1fd",
+   "seen": "2026-10-01"
   },
   "https://bostonarts.org/venue/mills-gallery/": {
    "hash": "6e8c2dfb709f4cf3",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://camd.northeastern.edu/center-for-the-arts/gallery-360/": {
    "hash": "16ffb6444b7bc3e5",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://emersoncontemporary.org/": {
-   "hash": "49e366a4f312b0e0",
-   "seen": "2026-09-14"
+   "hash": "8e5d382860b5736c",
+   "seen": "2026-10-01"
   },
-  "https://www.ncaaa.org": {
-   "hash": "efa2b3ee40866bda",
-   "seen": "2026-09-14"
+  "https://ncaaa.org/": {
+   "hash": "c9b15d47d8728ccb",
+   "seen": "2026-10-01"
   },
   "https://gallery263.org/exhibitions": {
-   "hash": "13f10030f1e8019d",
-   "seen": "2026-09-14"
+   "hash": "69af3db91893c691",
+   "seen": "2026-10-01"
   },
   "https://museumofbadart.org": {
    "hash": "e27a047ee0228a00",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
+  },
+  "https://www.bentley.edu/library/art-gallery": {
+   "hash": "fceda72b8a3d1d7c",
+   "seen": "2026-10-01"
+  },
+  "https://www.brooklinelibrary.org/events/exhibits/": {
+   "hash": "44518b4ee00af9e7",
+   "seen": "2026-10-01"
+  },
+  "https://www.fortpointarts.org/events-calendar/": {
+   "hash": "fbfde1bd179eeffd",
+   "seen": "2026-10-01"
+  },
+  "https://www.cambridgema.gov/arts/publicart/gallery344": {
+   "hash": "b581a2d076c16c80",
+   "seen": "2026-10-01"
+  },
+  "https://www.icaboston.org/ica-watershed/": {
+   "hash": "3cfcba8f44b24c01",
+   "seen": "2026-10-01"
+  },
+  "https://www.brandeis.edu/wsrc/kniznick-gallery/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.lexart.org/exhibits-events": {
+   "hash": "3b69e1738c04d418",
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadarts.org/current/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.bhcc.edu/artgallery/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://the-bac.edu/info-for/campus-and-community/exhibits-at-the-mccormick-gallery": {
+   "hash": "cbcd88e5c682af3e",
+   "seen": "2026-10-01"
+  },
+  "https://www.hpaa-mac.org/exhibits/": {
+   "hash": "11e9a6e433db9eaf",
+   "seen": "2026-10-01"
+  },
+  "https://miltonartcenter.org/current_exhibit/": {
+   "hash": "62d805fbaa119aa8",
+   "seen": "2026-10-01"
+  },
+  "https://www.montserrat.edu/exhibitions-events/galleries/": {
+   "hash": "a2de222dbd0595e4",
+   "seen": "2026-10-01"
+  },
+  "https://www.mosesianarts.org/gallery": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.quincyartma.org/exhibitions": {
+   "hash": "2342752d1af0836f",
+   "seen": "2026-10-01"
+  },
+  "https://somervillepubliclibrary.org/adults/gallery-spl/": {
+   "hash": "e48aea8bbd154a39",
+   "seen": "2026-10-01"
+  },
+  "https://sites.suffolk.edu/gallery/": {
+   "hash": "666e6bd3425f8520",
+   "seen": "2026-10-01"
+  },
+  "https://www.fortpointarts.org/gallery-at-atlantic-wharf/": {
+   "hash": "4ef5985ccd58cf4c",
+   "seen": "2026-10-01"
+  },
+  "https://www.theumbrellaarts.org/exhibitions": {
+   "hash": "9f09150588c8e56d",
+   "seen": "2026-10-01"
+  },
+  "https://trustman.simmons.edu/": {
+   "hash": "cb473c2ccc0d5a17",
+   "seen": "2026-10-01"
+  },
+  "https://www.umb.edu/liberal-arts/the-arts-at-umass-boston/university-gallery/upcoming-exhibitions/": {
+   "hash": "532625208f2fae60",
+   "seen": "2026-10-01"
+  },
+  "https://urbanoproject.org/exhibitions": {
+   "hash": "c27de3aedd268c6d",
+   "seen": "2026-10-01"
+  },
+  "https://waltham.lib.ma.us/exhibit-and-display-spaces/": {
+   "hash": "ca8d622e29cb6042",
+   "seen": "2026-10-01"
+  },
+  "https://www.watertownlib.org/154/Art-in-the-Library": {
+   "hash": "4c3704ddec62024a",
+   "seen": "2026-10-01"
+  },
+  "https://arts.mit.edu/start/wiesner-student-art-gallery/": {
+   "hash": "faef137dd005055f",
+   "seen": "2026-10-01"
+  },
+  "https://www.radcliffe.harvard.edu/events-and-exhibitions": {
+   "hash": "2f72b95a75e0b289",
+   "seen": "2026-10-01"
+  },
+  "https://library.harvard.edu/visit/exhibitions": {
+   "hash": "253b34c4bfa870b1",
+   "seen": "2026-10-01"
+  },
+  "https://edportal.harvard.edu/crossings-gallery": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://ofa.fas.harvard.edu/ceramics/Gallery_224": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://artlab.harvard.edu/events/": {
+   "hash": "b2403daf95beaf66",
+   "seen": "2026-10-01"
+  },
+  "https://architecture.mit.edu/news": {
+   "hash": "a9eee63d23f40ed4",
+   "seen": "2026-10-01"
+  },
+  "https://www.bu.edu/cfa/news/bu-art-galleries/": {
+   "hash": "b786f26fae5504ac",
+   "seen": "2026-10-01"
+  },
+  "https://www.bu.edu/cfa/about/galleries/": {
+   "hash": "458baf9205948551",
+   "seen": "2026-10-01"
+  },
+  "https://library.bc.edu/exhibits/": {
+   "hash": "d6524fb81d4152d8",
+   "seen": "2026-10-01"
+  },
+  "https://tischlibrary.tufts.edu/whats-happening/exhibits/exhibits": {
+   "hash": "598cfe9256d0ed34",
+   "seen": "2026-10-01"
+  },
+  "https://www.brandeis.edu/fine-arts/events/exhibitions.html": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://aamarp.net/events": {
+   "hash": "40684777961b9deb",
+   "seen": "2026-10-01"
+  },
+  "https://emersoncontemporary.org/exhibitions/": {
+   "hash": "ef585bcf23ae7477",
+   "seen": "2026-10-01"
+  },
+  "https://massart.edu/galleries/": {
+   "hash": "71419fa0515d9887",
+   "seen": "2026-10-01"
+  },
+  "https://lesley.edu/events": {
+   "hash": "39f51ec549ef32a4",
+   "seen": "2026-10-01"
+  },
+  "https://www.emmanuel.edu/academics/academic-study/schools/school-humanities-social-sciences/undergraduate-programs/art/gallery-5": {
+   "hash": "050633035ece57d4",
+   "seen": "2026-10-01"
+  },
+  "https://www.babson.edu/": {
+   "hash": "1f85cf0c5c66a6fa",
+   "seen": "2026-10-01"
+  },
+  "https://www.regiscollege.edu/about-regis/fine-arts-center/upcoming-events-and-exhibitions": {
+   "hash": "1c0c7db18d656343",
+   "seen": "2026-10-01"
+  },
+  "https://addison.andover.edu/exhibition-pages/on-view-now/": {
+   "hash": "f121e0d95a602708",
+   "seen": "2026-10-01"
+  },
+  "https://www.montserrat.edu/galleries/": {
+   "hash": "a2de222dbd0595e4",
+   "seen": "2026-10-01"
+  },
+  "https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/spencer-presentation-gallery": {
+   "hash": "61fac85378a089e0",
+   "seen": "2026-10-01"
+  },
+  "https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/carol-grillo-gallery": {
+   "hash": "ecafcfab07ea2b8c",
+   "seen": "2026-10-01"
+  },
+  "https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/heftler-visiting-artist-gallery": {
+   "hash": "09d8a86b690273f3",
+   "seen": "2026-10-01"
+  },
+  "https://www.salemstate.edu/winfiskygallery": {
+   "hash": "b58a399fcf75f250",
+   "seen": "2026-10-01"
+  },
+  "https://whistlerhouse.org/exhibits/parker-gallery-exhibits/": {
+   "hash": "b69a86d3872ece3e",
+   "seen": "2026-10-01"
   },
   "https://www.mos.org/explore/exhibits": {
    "hash": null,
@@ -86,11 +286,11 @@
   },
   "https://www.neaq.org/exhibits/": {
    "hash": "09692a21d0f33d33",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
-  "https://bostonchildrensmuseum.org/exhibits/": {
-   "hash": "685f51a45afbc800",
-   "seen": "2026-09-14"
+  "https://bostonchildrensmuseum.org/exhibits-and-programs/exhibits/": {
+   "hash": "ffb9c69e5ed850cb",
+   "seen": "2026-10-01"
   },
   "https://hmnh.harvard.edu/exhibitions": {
    "hash": null,
@@ -109,36 +309,104 @@
    "seen": "2026-09-14"
   },
   "https://waterworksmuseum.org": {
-   "hash": "9dd4de5e1e8090fa",
-   "seen": "2026-09-14"
+   "hash": "73e39f9a0384af95",
+   "seen": "2026-10-01"
   },
-  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/blue-hills-trailside-museum": {
-   "hash": "634be5414d69667f",
-   "seen": "2026-09-14"
+  "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/blue-hills-trailside-museum": {
+   "hash": "c670391bbab83a1a",
+   "seen": "2026-10-01"
   },
   "https://www.charlesrivermuseum.org": {
-   "hash": "3e85771b19d1f700",
-   "seen": "2026-09-14"
+   "hash": "9811a91103ab782c",
+   "seen": "2026-10-01"
+  },
+  "https://bluehill.org/visit/": {
+   "hash": "aab8688d4f36d16b",
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/boston-nature-center": {
+   "hash": "1a9fb3345ff706cf",
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/broadmoor": {
+   "hash": "13b611ae52946e0f",
+   "seen": "2026-10-01"
+  },
+  "https://www.discoveryacton.org/visit/exhibits": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/drumlin-farm": {
+   "hash": "12ccebdced663af8",
+   "seen": "2026-10-01"
+  },
+  "https://www.nativeplanttrust.org/visit/garden-woods/": {
+   "hash": "ce4fff96b66cd822",
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/habitat": {
+   "hash": "56a1ee9a5b1991e3",
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/ipswich-river": {
+   "hash": "c6b13dc152e1571a",
+   "seen": "2026-10-01"
+  },
+  "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/moose-hill": {
+   "hash": "ed22381c7d04fe88",
+   "seen": "2026-10-01"
+  },
+  "https://mountauburn.org/art/": {
+   "hash": "c8d2dea3f5728aeb",
+   "seen": "2026-10-01"
+  },
+  "https://masshort.org/the-garden/visit/": {
+   "hash": "57341c3ca5668040",
+   "seen": "2026-10-01"
+  },
+  "https://www.wellesley.edu/wcbg": {
+   "hash": "93be291a2a7fe0cc",
+   "seen": "2026-10-01"
+  },
+  "https://mgmh.fas.harvard.edu/Exhibitions": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://countway.harvard.edu/center-history-medicine/warren-anatomical-museum": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://mitmuseum.mit.edu/more/mit-museum-studio-and-compton-gallery": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.media.mit.edu/about/visiting-the-lab/": {
+   "hash": "b06ff254f24eb46b",
+   "seen": "2026-10-01"
+  },
+  "https://ki.mit.edu/galleries": {
+   "hash": "91dbc4b707a8d4bb",
+   "seen": "2026-10-01"
   },
   "https://www.bpl.org/current-exhibitions/": {
-   "hash": "2f8b6eb5ed095170",
-   "seen": "2026-09-14"
+   "hash": "2d5629f938b89e43",
+   "seen": "2026-10-01"
   },
   "https://www.masshist.org/exhibitions": {
-   "hash": "88a0b65bf3979365",
-   "seen": "2026-09-14"
+   "hash": "8110aa53c3de5e56",
+   "seen": "2026-10-01"
   },
-  "https://www.bostonathenaeum.org/exhibitions/": {
-   "hash": "6068bf492155a596",
-   "seen": "2026-09-14"
+  "https://bostonathenaeum.org/whats-on/exhibitions/": {
+   "hash": "3c85ab9e228f26af",
+   "seen": "2026-10-01"
   },
   "https://www.jfklibrary.org/visit-museum/exhibits": {
    "hash": null,
    "seen": "2026-09-14"
   },
-  "https://www.maah.org/exhibitions": {
+  "https://maah.org/exhibitions/": {
    "hash": "da274b3d0f170f5d",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://peabody.harvard.edu/exhibitions": {
    "hash": null,
@@ -148,33 +416,33 @@
    "hash": null,
    "seen": "2026-09-14"
   },
-  "https://www.ussconstitutionmuseum.org/exhibits/": {
-   "hash": "24b873a5e0685f87",
-   "seen": "2026-09-14"
+  "https://ussconstitutionmuseum.org/exhibits/": {
+   "hash": "b8380346b1eac975",
+   "seen": "2026-10-01"
   },
   "https://www.bostonteapartyship.com/": {
-   "hash": "671039ef10c39bb4",
-   "seen": "2026-09-14"
+   "hash": "367961d0aead54df",
+   "seen": "2026-10-01"
   },
-  "https://revolutionaryspaces.org/exhibits/": {
-   "hash": "7754ea4f2b781d80",
-   "seen": "2026-09-14"
+  "https://revolutionaryspaces.org/explore/exhibits/": {
+   "hash": "78701aa2fbdabd5c",
+   "seen": "2026-10-01"
   },
   "https://www.sec.state.ma.us/divisions/commonwealth-museum/commonwealth-museum.htm": {
    "hash": "97c6fd470e5239d6",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
-  "https://www.emkinstitute.org": {
-   "hash": "faeae6496b596ac6",
-   "seen": "2026-09-14"
+  "https://emkinstitute.org/": {
+   "hash": "b431af41b4a0dc4d",
+   "seen": "2026-10-01"
   },
   "https://thewestendmuseum.org/exhibits/": {
-   "hash": "97113dac63b7d4b5",
-   "seen": "2026-09-14"
+   "hash": "cb472862fc48a48e",
+   "seen": "2026-10-01"
   },
   "https://vilnashul.org": {
-   "hash": "0785677288b11ec2",
-   "seen": "2026-09-14"
+   "hash": "511d7552f3d79662",
+   "seen": "2026-10-01"
   },
   "https://www.sportsmuseum.org": {
    "hash": null,
@@ -182,59 +450,351 @@
   },
   "https://www.marybakereddylibrary.org/exhibits/": {
    "hash": "16404fd12bb7694e",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://www.somervillemuseum.org/exhibitions": {
-   "hash": "d3cf4c6fd6e97a50",
-   "seen": "2026-09-14"
+   "hash": "74d22be3fe5b5538",
+   "seen": "2026-10-01"
   },
-  "https://armenianmuseum.org/exhibitions": {
-   "hash": "bbe32529e7204dc6",
-   "seen": "2026-09-14"
+  "https://www.armenianmuseum.org/current-exhibitions": {
+   "hash": "0f5e15070a1cf842",
+   "seen": "2026-10-01"
   },
   "https://www.larzanderson.org/exhibits": {
-   "hash": "66337c8e31ca661d",
-   "seen": "2026-09-14"
+   "hash": "c5626bec400acc1b",
+   "seen": "2026-10-01"
+  },
+  "https://fhe.americanancestors.org/": {
+   "hash": "53c086e84c0f184f",
+   "seen": "2026-10-01"
+  },
+  "https://www.americanheritagemuseum.org/exhibits/": {
+   "hash": "7a1e14c6fa2dcf44",
+   "seen": "2026-10-01"
+  },
+  "https://www.ahac.us.com/include/museum.php": {
+   "hash": "b47b65e45e3cea07",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/boaf/planyourvisit/index.htm": {
+   "hash": "cc436a26aee70e2f",
+   "seen": "2026-10-01"
+  },
+  "https://www.bostonsparks.com/boston-fire-museum": {
+   "hash": "83a1444c1d9e07d2",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/boha/planyourvisit/index.htm": {
+   "hash": "15c030ab6fffe89f",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/bost/learn/historyculture/bhmuseum.htm": {
+   "hash": "e2583a3abbfc4a03",
+   "seen": "2026-10-01"
+  },
+  "https://www.cambridgema.gov/cpl/programsandevents": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://countway.harvard.edu/center-history-medicine/online-exhibits": {
+   "hash": "a98d660e4b2620e6",
+   "seen": "2026-10-01"
+  },
+  "https://concordlibrary.org/events/exhibitions/art-galleries": {
+   "hash": "11b2f7cce1437213",
+   "seen": "2026-10-01"
+  },
+  "https://www.concordmuseum.org/whats-on/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://congregationallibrary.org/exhibitions": {
+   "hash": "102fd29fa6fbbad1",
+   "seen": "2026-10-01"
+  },
+  "https://www.dedhammuseum.org/learn/exhibits/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.dorchesterhistoricalsociety.org/": {
+   "hash": "16ee76f96385fe03",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/bost/learn/historyculture/fh.htm": {
+   "hash": "73b12a1d404bc4ae",
+   "seen": "2026-10-01"
+  },
+  "https://www.bostonharborislands.org/georges-island/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://thetrustees.org/place/fruitlands-museum/": {
+   "hash": "b2bd900c5b6429eb",
+   "seen": "2026-10-01"
+  },
+  "https://www.goethe.de/ins/us/en/sta/bos/ver.html": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://massfreemasonry.org/boston-masonic-building/": {
+   "hash": "353ce58f1584b196",
+   "seen": "2026-10-01"
+  },
+  "https://library.harvard.edu/libraries/houghton": {
+   "hash": "f4b12c6388aa5fcf",
+   "seen": "2026-10-01"
+  },
+  "https://hulllifesavingmuseum.org/visit/": {
+   "hash": "a66b3dfff15b8af1",
+   "seen": "2026-10-01"
+  },
+  "https://www.mass.gov/info-details/exhibits-at-the-john-adams-courthouse": {
+   "hash": "aaa970a7f838931b",
+   "seen": "2026-10-01"
+  },
+  "https://libguides.bc.edu/burns/visit/exhibits": {
+   "hash": "6c55caf6fd3d9e17",
+   "seen": "2026-10-01"
+  },
+  "https://www.kings-chapel.org/history/visit-kings-chapel": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.longyear.org/visit/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/lowe/planyourvisit/index.htm": {
+   "hash": "8b8116b31ca5a115",
+   "seen": "2026-10-01"
+  },
+  "https://lynnmuseum.org/exhibits-and-collections/": {
+   "hash": "1c94a06fc30ef325",
+   "seen": "2026-10-01"
+  },
+  "https://www.maldenhistoricalsociety.org/": {
+   "hash": "20ab11819a817bc0",
+   "seen": "2026-10-01"
+  },
+  "https://maliotis.hchc.edu/exhibitions/": {
+   "hash": "bfb60640f392d3d2",
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadmuseum.org/exhibits/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.sec.state.ma.us/divisions/state-house-tours/state-house-tours.htm": {
+   "hash": "81d2c19443de285f",
+   "seen": "2026-10-01"
+  },
+  "https://medfordhistorical.org/visit/": {
+   "hash": "528532513de960fc",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/planyourvisit/index.htm": {
+   "hash": "7266a7a384b2fd48",
+   "seen": "2026-10-01"
+  },
+  "https://www.neqm.org/exhibitions": {
+   "hash": "887d31422ce3ddd5",
+   "seen": "2026-10-01"
+  },
+  "https://www.leventhalmap.org/exhibitions/": {
+   "hash": "ce49ba9e04645f90",
+   "seen": "2026-10-01"
+  },
+  "https://oldschwambmill.org/visit/": {
+   "hash": "c1d54252c2cd68ca",
+   "seen": "2026-10-01"
+  },
+  "https://www.massgeneral.org/museum": {
+   "hash": "c98af687828893b2",
+   "seen": "2026-10-01"
+  },
+  "https://plimoth.org/collections-research/exhibitions": {
+   "hash": "17554c0e45d7f96f",
+   "seen": "2026-10-01"
+  },
+  "https://www.oldnorth.com/clough-house/": {
+   "hash": "9ec3af0c64fc3c95",
+   "seen": "2026-10-01"
+  },
+  "https://quincyhistory.org/exhibits/": {
+   "hash": "cdde46bfc279cc33",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/sama/planyourvisit/basicinfo.htm": {
+   "hash": "9fc4467706ddaef4",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/sair/planyourvisit/index.htm": {
+   "hash": "0deff5ee44b77ae0",
+   "seen": "2026-10-01"
+  },
+  "https://www.radcliffe.harvard.edu/schlesinger-library": {
+   "hash": "71ac686bdf2459e1",
+   "seen": "2026-10-01"
+  },
+  "https://www.srmml.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://spellmanmuseum.org/": {
+   "hash": "c442601fe5d85f02",
+   "seen": "2026-10-01"
+  },
+  "https://www.russellmuseum.org/ether-dome/": {
+   "hash": "c5985039260c7e83",
+   "seen": "2026-10-01"
+  },
+  "https://www.trinitychurchboston.org/tours": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/bost/learn/historyculture/usscassinyoung.htm": {
+   "hash": "d0cde66adf93984e",
+   "seen": "2026-10-01"
+  },
+  "https://www.uss-salem.org/visit": {
+   "hash": "0252d3b36bcd0897",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/sama/planyourvisit/placestogo.htm": {
+   "hash": "d71abf115d4ef0e2",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/sama/planyourvisit/salem-armory.htm": {
+   "hash": "fbde9e0af65512f2",
+   "seen": "2026-10-01"
+  },
+  "https://salemwitchmuseum.com/visit/": {
+   "hash": "4a147f887add7673",
+   "seen": "2026-10-01"
+  },
+  "https://www.pioneervillagesalem.org/visiting": {
+   "hash": "9d7bb46feff08b82",
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadmuseum.org/civil-war-museum/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://peabodyhistorical.org/programs-exhibits/": {
+   "hash": "d694cf61cd53e4d3",
+   "seen": "2026-10-01"
+  },
+  "https://concordlibrary.org/special-collections": {
+   "hash": "dadadb98a30fa843",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/planyourvisit/minute-man-visitor-center.htm": {
+   "hash": "2024580333a3a2d9",
+   "seen": "2026-10-01"
+  },
+  "https://www.lexingtonhistory.org/the-depot": {
+   "hash": "3a08c74a1ca5ed93",
+   "seen": "2026-10-01"
+  },
+  "https://www.sudbury01776.org/": {
+   "hash": "fab524e86782efa0",
+   "seen": "2026-10-01"
+  },
+  "https://www.westonhistory.org/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.walthammuseum.org/": {
+   "hash": "4bed3283fdfd1a88",
+   "seen": "2026-10-01"
+  },
+  "https://needhamhistory.org/visit/": {
+   "hash": "1e05bd063b01c281",
+   "seen": "2026-10-01"
+  },
+  "https://www.waylandmuseum.org/museum/": {
+   "hash": "909d199c0bf72392",
+   "seen": "2026-10-01"
+  },
+  "https://dallin.org/visit/": {
+   "hash": "f074fe042bd2f477",
+   "seen": "2026-10-01"
+  },
+  "https://www.bedfordmahistory.org/": {
+   "hash": "98922dee25caec87",
+   "seen": "2026-10-01"
+  },
+  "https://hls.harvard.edu/library/historical-special-collections/exhibits": {
+   "hash": "417340c862c85a68",
+   "seen": "2026-10-01"
+  },
+  "https://library.hds.harvard.edu/exhibits": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://libraries.mit.edu/exhibits/": {
+   "hash": "d8d2eac6222b6e57",
+   "seen": "2026-10-01"
+  },
+  "https://www.bu.edu/library/gotlieb-center/exhibitions-from-the-gotlieb-center/": {
+   "hash": "6bcd0fdd1a3ab8a5",
+   "seen": "2026-10-01"
+  },
+  "https://www.brandeis.edu/library/archives/events/index.html": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/lowe/planyourvisit/boott-cotton-mills-museum.htm": {
+   "hash": "2a6e6953de027ead",
+   "seen": "2026-10-01"
+  },
+  "https://www.uss-salem.org/visit/": {
+   "hash": "0252d3b36bcd0897",
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadhistory.org/about-abbot-hall/": {
+   "hash": "c840c39e92fc4a10",
+   "seen": "2026-10-01"
   },
   "https://www.paulreverehouse.org": {
-   "hash": "31a46392a4e4e03d",
-   "seen": "2026-09-14"
+   "hash": "7ec4dabc4505e649",
+   "seen": "2026-10-01"
   },
   "https://oldnorth.com/visit/": {
-   "hash": "85a58bdb63b97f75",
-   "seen": "2026-09-14"
+   "hash": "ed441058f75824e3",
+   "seen": "2026-10-01"
   },
   "https://www.historicnewengland.org/property/otis-house/": {
    "hash": null,
    "seen": "2026-09-14"
   },
   "https://www.thegibsonhouse.org/visit": {
-   "hash": "97d8e0f097080111",
-   "seen": "2026-09-14"
+   "hash": "f3ec368accd2cd91",
+   "seen": "2026-10-01"
   },
   "https://www.nicholshousemuseum.org/visit/": {
    "hash": null,
    "seen": "2026-09-14"
   },
   "https://www.shirleyeustishouse.org/tours": {
-   "hash": "b63c21a52d62f7a8",
-   "seen": "2026-09-14"
+   "hash": "0e4f610aaa9fa32c",
+   "seen": "2026-10-01"
   },
-  "https://loring-greenough.org/visit/": {
+  "https://loring-greenough.org/visit-the-house-and-gardens/": {
    "hash": "692972cccbb2c754",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
   },
   "https://www.nps.gov/long/planyourvisit/guidedtours.htm": {
-   "hash": "6fc47c750afd86ab",
-   "seen": "2026-09-14"
+   "hash": "ea17be369d54ad94",
+   "seen": "2026-10-01"
   },
   "https://www.nps.gov/frla/planyourvisit/hours.htm": {
-   "hash": "300fa42ab5207340",
-   "seen": "2026-09-14"
+   "hash": "1f98ae821ed9b7d5",
+   "seen": "2026-10-01"
   },
   "https://www.nps.gov/jofi/planyourvisit/index.htm": {
-   "hash": "289b3729300db1e0",
-   "seen": "2026-09-14"
+   "hash": "b2ee6c50ccf25987",
+   "seen": "2026-10-01"
   },
   "https://www.historicnewengland.org/property/gropius-house/": {
    "hash": null,
@@ -244,17 +804,241 @@
    "hash": null,
    "seen": "2026-09-14"
   },
-  "https://goreplace.org/visit/tours/": {
-   "hash": "6c0a56694c84b3f5",
-   "seen": "2026-09-14"
+  "https://goreplace.org/whats-on/mansion-tour-1": {
+   "hash": "11ca3b44ca88617f",
+   "seen": "2026-10-01"
   },
   "https://www.nps.gov/adam/planyourvisit/hours.htm": {
-   "hash": "1b967ad1e53025ad",
-   "seen": "2026-09-14"
+   "hash": "ab307f91822ebe83",
+   "seen": "2026-10-01"
   },
   "https://www.forbeshousemuseum.org/current-exhibits": {
    "hash": "f36a0190798521b3",
-   "seen": "2026-09-14"
+   "seen": "2026-10-01"
+  },
+  "https://www.historicnewengland.org/property/boardman-house/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.lexingtonhistory.org/buckman-tavern": {
+   "hash": "cc452adc417c0188",
+   "seen": "2026-10-01"
+  },
+  "https://historicbeverly.net/": {
+   "hash": "177e37bb7971a81c",
+   "seen": "2026-10-01"
+  },
+  "https://www.newtonma.gov/government/historic-newton/visit-museum/jackson-homestead-and-museum": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://arlingtonhistorical.org/visit/": {
+   "hash": "49c38f4255576e5f",
+   "seen": "2026-10-01"
+  },
+  "https://thetrustees.org/place/long-hill/": {
+   "hash": "02b31900a70067df",
+   "seen": "2026-10-01"
+  },
+  "https://www.wayside.org/museum-rooms": {
+   "hash": "a9b5c3cdd7825a37",
+   "seen": "2026-10-01"
+  },
+  "https://louisamayalcott.org/visit": {
+   "hash": "7d08bfcac6da2b0b",
+   "seen": "2026-10-01"
+  },
+  "https://www.historicnewengland.org/property/lyman-estate/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.lexingtonhistory.org/munroe-tavern": {
+   "hash": "25ec775353950131",
+   "seen": "2026-10-01"
+  },
+  "https://www.historicnewengland.org/property/phillips-house/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.historicnewengland.org/property/pierce-house/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://rwema.org/visit-the-emerson-house": {
+   "hash": "cdbb0aa5379c377b",
+   "seen": "2026-10-01"
+  },
+  "https://www.rebeccanurse.org/visit": {
+   "hash": "fbaa51a166571a08",
+   "seen": "2026-10-01"
+  },
+  "https://www.pem.org/historic-houses/ropes-mansion": {
+   "hash": "0bef1598eae98d70",
+   "seen": "2026-10-01"
+  },
+  "https://www.royallhouse.org/visit/": {
+   "hash": "9d6a4b05953396c1",
+   "seen": "2026-10-01"
+  },
+  "https://stonehurstwaltham.org/": {
+   "hash": "fbf3de97b804331d",
+   "seen": "2026-10-01"
+  },
+  "https://www.7gables.org/visit/": {
+   "hash": "726b8da719c1c1d6",
+   "seen": "2026-10-01"
+  },
+  "https://thetrustees.org/place/the-old-manse/": {
+   "hash": "91bf089a63c71db9",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/learn/historyculture/thewayside.htm": {
+   "hash": "9645d2f2156117c2",
+   "seen": "2026-10-01"
+  },
+  "https://www.thewitchhouse.org/": {
+   "hash": "6e2ca13ffd6bbfce",
+   "seen": "2026-10-01"
+  },
+  "https://thoreaufarm.org/visit/": {
+   "hash": "ddbcd11644bb8c3e",
+   "seen": "2026-10-01"
+  },
+  "https://unitedfirstparishchurch.org/historic-tours": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.wellesleyhistoricalsociety.org/wellesley-history-center": {
+   "hash": "5eabd254cc85124a",
+   "seen": "2026-10-01"
+  },
+  "https://nscdama.org/properties/william-hickling-prescott-house/": {
+   "hash": "13d77b883b7328b2",
+   "seen": "2026-10-01"
+  },
+  "https://www.thewitchhouse.org/new-page-5": {
+   "hash": "9316f582203ab279",
+   "seen": "2026-10-01"
+  },
+  "https://www.pem.org/visit/tours/salem-walking-tours/ropes-mansion-self-guided-tour": {
+   "hash": "ad016c91eff373e6",
+   "seen": "2026-10-01"
+  },
+  "https://www.pem.org/historic-houses/crowninshield-bentley-house": {
+   "hash": "bf2aff63a05ea68e",
+   "seen": "2026-10-01"
+  },
+  "https://www.pickeringfoundation.org/tours-events": {
+   "hash": "0c8a9506a2d75167",
+   "seen": "2026-10-01"
+  },
+  "https://www.hamiltonhall.org/audio-tour": {
+   "hash": "792c583ba2b1833c",
+   "seen": "2026-10-01"
+  },
+  "https://glenmagnafarms.org/public-access/": {
+   "hash": "8b2d222226128b08",
+   "seen": "2026-10-01"
+  },
+  "https://www.danvershistory.org/visit-us/historic-houses/": {
+   "hash": "f5916a5640363056",
+   "seen": "2026-10-01"
+  },
+  "https://ipswichmuseum.org/visit/": {
+   "hash": "d06ce5c5e5bd7ab7",
+   "seen": "2026-10-01"
+  },
+  "https://ipswichmuseum.org/historic-properties/": {
+   "hash": "a8dfccad27f6a8c0",
+   "seen": "2026-10-01"
+  },
+  "https://historicbeverly.net/properties/the-john-cabot-house/": {
+   "hash": "607692c4466225b1",
+   "seen": "2026-10-01"
+  },
+  "https://historicbeverly.net/properties/hale-farm/": {
+   "hash": "b48ef66b67250fe8",
+   "seen": "2026-10-01"
+  },
+  "https://historicbeverly.net/properties/the-balch-house/": {
+   "hash": "604788393d84c383",
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadmuseum.org/hours/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://marbleheadarts.org/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.historicnewengland.org/property/beauport-sleeper-mccann-house/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://hammondcastle.org/exhibits/": {
+   "hash": "9b4a6bdaeb9e0d96",
+   "seen": "2026-10-01"
+  },
+  "https://www.mass.gov/locations/walden-pond-state-reservation": {
+   "hash": "ae6613c05b70c110",
+   "seen": "2026-10-01"
+  },
+  "https://www.robbinshouse.org/visit-the-robbins-house/": {
+   "hash": "385db68e0b36afa0",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/planyourvisit/north-bridge-visitor-center.htm": {
+   "hash": "db9f51a9408dbf15",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/learn/historyculture/colonel-james-barrett-house.htm": {
+   "hash": "2c8e30ed32719216",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/hartwell-tavern.htm": {
+   "hash": "e734d6e803f76ce0",
+   "seen": "2026-10-01"
+  },
+  "https://www.nps.gov/mima/planyourvisit/placestogo.htm": {
+   "hash": "eee2debf4b58140b",
+   "seen": "2026-10-01"
+  },
+  "https://wayside.org/the-grist-mill/": {
+   "hash": "b3e2ddfd80e5052a",
+   "seen": "2026-10-01"
+  },
+  "https://wayside.org/your-visit": {
+   "hash": "c3fc4282566ba123",
+   "seen": "2026-10-01"
+  },
+  "https://arlingtonhistorical.org/jason-russell-house/": {
+   "hash": "91fc279febc45181",
+   "seen": "2026-10-01"
+  },
+  "https://www.historicalsocietyofwatertownma.org/": {
+   "hash": null,
+   "seen": "2026-10-01"
+  },
+  "https://www.bedfordmahistory.org/job-lane-farm-museum": {
+   "hash": "913f2fcf6fa1351f",
+   "seen": "2026-10-01"
+  },
+  "https://nscdama.org/properties/dorothy-quincy-homestead/": {
+   "hash": "5ac6ac17b5410a6b",
+   "seen": "2026-10-01"
+  },
+  "https://abigailadamsbirthplace.org/": {
+   "hash": "db052e0a6e25a680",
+   "seen": "2026-10-01"
+  },
+  "https://woburnma.gov/government/historical-commission/": {
+   "hash": "848a16afbd81dccd",
+   "seen": "2026-10-01"
+  },
+  "https://www.miltonhistoricalsociety.org/visiting": {
+   "hash": "9e05fb4a512c6d2f",
+   "seen": "2026-10-01"
   }
  },
  "newyork": {

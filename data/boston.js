@@ -210,8 +210,7 @@ CITIES.push({
     u: "https://gallery263.org/exhibitions", free: true,
     shows: [
       { t: "Myth to Ritual", s: "2026-09-04", e: "2026-10-03", d: "National group show of work about myth and ritual; reception September 18", dz: "以神话与仪式为题的全国群展，9 月 18 日举行开幕酒会" },
-      { t: "Small Works Project", sText: "September 2026", sTextz: "2026 年 9 月", eText: "August 2027", eTextz: "至 2027 年 8 月", d: "Flat files of small works that visitors can browse and handle", dz: "可自由翻看与取放的小幅作品平柜" },
-      { t: "Field Studies (Symbiosis)", s: "2026-08-20", e: "2026-08-30", d: "Ten-day show of work made from forest ecology fieldwork", dz: "为期十天，展出源自森林生态田野调查的作品" }
+      { t: "Small Works Project", sText: "September 2026", sTextz: "2026 年 9 月", eText: "August 2027", eTextz: "至 2027 年 8 月", d: "Flat files of small works that visitors can browse and handle", dz: "可自由翻看与取放的小幅作品平柜" }
     ] },
   { n: "Museum of Bad Art", nz: "劣质艺术博物馆", a: "1250 Massachusetts Avenue",
     h: "Daily from 11:30; closes 9 Sun–Mon, 10 Tue–Thu, 11 Fri–Sat",
