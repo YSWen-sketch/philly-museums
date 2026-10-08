@@ -711,8 +711,7 @@ CITIES.push({
     h: "No fixed gallery hours — most days roughly 12–8, ring the bell to be let in",
     hz: "无固定开放时间，多数日子约 12–20，按门铃入内", p: "Free", pz: "免费", u: "https://space1026.com/", free: true,
     shows: [
-      { t: "DEEFORMA", s: "2026-09-04", e: "2026-09-25", d: "Sculptures by Lale Westvind, whose comics work turns into welded metal", dz: "Lale Westvind 的雕塑，把漫画语言转成焊接金属" },
-      { t: "GET IN THE CAR WE'RE GOING DANCING", s: "2026-08-07", e: "2026-08-30", d: "Works on paper by Kerry Lloyd", dz: "Kerry Lloyd 的纸上作品" }
+      { t: "DEEFORMA", s: "2026-09-04", e: "2026-09-25", d: "Sculptures by Lale Westvind, whose comics work turns into welded metal", dz: "Lale Westvind 的雕塑，把漫画语言转成焊接金属" }
     ] },
   { n: "Grizzly Grizzly", nz: "Grizzly Grizzly 画廊", a: "319 N. 11th Street, 2nd Floor",
     h: "Sat–Sun 2–6; First Fridays 6–9", hz: "周六–周日 14–18；每月第一个周五 18–21", p: "Free", pz: "免费",
@@ -1558,9 +1557,7 @@ CITIES.push({
     pz: "Faith & Freedom 特展 $5；10 岁及以下儿童免费", u: "https://www.mikvehisrael.org/museum",
     flag: "No walk-in visiting hours — tours must be arranged by phone on 215-922-5446",
     flagz: "无自由参观时段，须致电 215-922-5446 预约导览",
-    shows: [
-      { t: "Faith & Freedom", s: "2026-07-01", e: "2026-09-04", d: "Immersive displays on Jewish life in Revolutionary Philadelphia, with a recreated Gratz family period room", dz: "沉浸式陈列讲述革命时期费城的犹太生活，含复原的 Gratz 家族时期房间" }
-    ] },
+    shows: [] },
   { n: "Romanian Folk Art Museum", nz: "罗马尼亚民间艺术博物馆", a: "1606 Spruce Street",
     h: "Not published; visits were previously by appointment", hz: "未公布；此前须预约参观", p: "Not published",
     pz: "未公布", u: "https://www.philadelphiaromanianfolkartmuseum.com/",

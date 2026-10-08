@@ -3876,5 +3876,1539 @@
    "hash": "a0ccd22c0418d33e",
    "seen": "2026-09-24"
   }
+ },
+ "philadelphia": {
+  "https://www.philamuseum.org/exhibitions": {
+   "hash": "00d8874316cdb1f7",
+   "seen": "2026-10-08"
+  },
+  "https://www.philamuseum.org/rodin-museum/": {
+   "hash": "69519184b28276c9",
+   "seen": "2026-10-08"
+  },
+  "https://www.barnesfoundation.org/whats-on/exhibitions": {
+   "hash": "9832c43a9458c0d9",
+   "seen": "2026-10-08"
+  },
+  "https://www.pafa.org/museum/exhibitions": {
+   "hash": "7229e1f95bf67ecd",
+   "seen": "2026-10-08"
+  },
+  "https://icaphila.org/exhibitions/": {
+   "hash": "b2c257ea224ea7a6",
+   "seen": "2026-10-08"
+  },
+  "https://fabricworkshopandmuseum.org/exhibitions/": {
+   "hash": "6a8cd71f59efac01",
+   "seen": "2026-10-08"
+  },
+  "https://woodmeremuseum.org/experience/exhibitions": {
+   "hash": "bdf02ad44610070c",
+   "seen": "2026-10-08"
+  },
+  "https://printcenter.org/current-exhibitions/": {
+   "hash": "c4526f9bf7c183e6",
+   "seen": "2026-10-08"
+  },
+  "https://fleisher.org/calendar/": {
+   "hash": "4a5d5be70254fb15",
+   "seen": "2026-10-08"
+  },
+  "https://www.phillymagicgardens.org/exhibitions/current-exhibition/": {
+   "hash": "ff871300988265f9",
+   "seen": "2026-10-08"
+  },
+  "https://www.theclaystudio.org/exhibitions": {
+   "hash": "f022c934cd297806",
+   "seen": "2026-10-08"
+  },
+  "https://museumforartinwood.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://arthurrossgallery.org/exhibitions/": {
+   "hash": "42902dba322422fd",
+   "seen": "2026-10-08"
+  },
+  "https://tyler.temple.edu/happening-tyler/temple-contemporary-gallery": {
+   "hash": "9bfed350fdc37ff6",
+   "seen": "2026-10-08"
+  },
+  "https://moore.edu/the-galleries-at-moore/about/current-exhibitions/": {
+   "hash": "c26e58f7382d4d6e",
+   "seen": "2026-10-08"
+  },
+  "https://artcollection.lasalle.edu/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://caldergardens.org/on-view/": {
+   "hash": "1620cde42718c8fd",
+   "seen": "2026-10-08"
+  },
+  "https://www.voxpopuligallery.org/current-and-upcoming": {
+   "hash": "a15746b200cc0565",
+   "seen": "2026-10-08"
+  },
+  "https://davinciartalliance.org/current-exhibitions": {
+   "hash": "8f44adeff004eccc",
+   "seen": "2026-10-08"
+  },
+  "https://www.inliquid.org/programming/inliquid-gallery": {
+   "hash": "4901cdcdbb285f18",
+   "seen": "2026-10-08"
+  },
+  "https://www.iceboxprojectspace.com/": {
+   "hash": "de104b608269bf6c",
+   "seen": "2026-10-08"
+  },
+  "https://tiltinstitute.org/category/exhibitions/": {
+   "hash": "21dd45d2d090a216",
+   "seen": "2026-10-08"
+  },
+  "https://asianartsinitiative.org/programs/current-upcoming": {
+   "hash": "d8777af51b142d95",
+   "seen": "2026-10-08"
+  },
+  "https://tallerpr.org/on-view/": {
+   "hash": "2a6388f66fa892e4",
+   "seen": "2026-10-08"
+  },
+  "https://www.twelvegatesarts.org/gallery-exhibitions": {
+   "hash": "73f8ac0ea5660dc0",
+   "seen": "2026-10-08"
+  },
+  "https://drexel.edu/pearlsteingallery/": {
+   "hash": "52ded5c4dfeb013e",
+   "seen": "2026-10-08"
+  },
+  "https://www.sju.edu/maguire-art-museum/exhibitions": {
+   "hash": "76f4dccbd064128b",
+   "seen": "2026-10-08"
+  },
+  "https://www.haverford.edu/exhibitions-program": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.swarthmore.edu/list-gallery": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.villanova.edu/university/art-gallery/exhibitions.html": {
+   "hash": "1d0a81cf0f6eb01b",
+   "seen": "2026-10-08"
+  },
+  "https://www.brynmawr.edu/research/special-collections/exhibitions-events": {
+   "hash": "91274513012cf3de",
+   "seen": "2026-10-08"
+  },
+  "https://www.cherrystreetpier.com/events/": {
+   "hash": "d53c78765268249a",
+   "seen": "2026-10-08"
+  },
+  "https://www.albustanseeds.org/exhibitions": {
+   "hash": "2072c7d39c5be08f",
+   "seen": "2026-10-08"
+  },
+  "https://www.esperanzaartscenter.us/exhibitions/": {
+   "hash": "696466df3280439d",
+   "seen": "2026-10-08"
+  },
+  "https://mtairyartgarage.org/exhibitions/": {
+   "hash": "2f05e575e19e100d",
+   "seen": "2026-10-08"
+  },
+  "https://www.waygay.org/galleries": {
+   "hash": "5b9ad06209453e9a",
+   "seen": "2026-10-08"
+  },
+  "https://abingtonartcenter.org/gallery/exhibitions/": {
+   "hash": "b93ad47653bf35a6",
+   "seen": "2026-10-08"
+  },
+  "https://www.glencairnmuseum.org/exhibitions": {
+   "hash": "1e9ae9382c5d6bec",
+   "seen": "2026-10-08"
+  },
+  "https://www.brandywine.org/museum/exhibitions": {
+   "hash": "7890deeac95cdb17",
+   "seen": "2026-10-08"
+  },
+  "https://allenslane.org/exhibitions/": {
+   "hash": "9910445b2141f0b1",
+   "seen": "2026-10-08"
+  },
+  "https://rodephshalom.org/philadelphia-museum-of-jewish-art/": {
+   "hash": "ce0fa4920d404e54",
+   "seen": "2026-10-08"
+  },
+  "https://sketchclub.org/": {
+   "hash": "7e8fb0db0a1758f7",
+   "seen": "2026-10-08"
+  },
+  "https://plasticclub.org/exhibitions/": {
+   "hash": "aade2c4dfa910727",
+   "seen": "2026-10-08"
+  },
+  "https://www.kenesethisrael.org/exhibitions/": {
+   "hash": "63c447deaedc8c97",
+   "seen": "2026-10-08"
+  },
+  "https://yellowsprings.org/in-the-galleries/": {
+   "hash": "1366c4688096699d",
+   "seen": "2026-10-08"
+  },
+  "https://communityartscenter.org/art-exhibition/": {
+   "hash": "0225277893c17852",
+   "seen": "2026-10-08"
+  },
+  "https://www.michenerartmuseum.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://newhopearts.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://markeimartscenter.org/": {
+   "hash": "e8915ef5fc6aafc5",
+   "seen": "2026-10-08"
+  },
+  "https://perkinsarts.org/exhibitions/": {
+   "hash": "ec9db201168b050e",
+   "seen": "2026-10-08"
+  },
+  "https://www.design.upenn.edu/fine-arts/undergraduate/resources/charles-addams-fine-arts-gallery": {
+   "hash": "4ee186574ddebb48",
+   "seen": "2026-10-08"
+  },
+  "https://university-club.business-services.upenn.edu/burrison-gallery": {
+   "hash": "838973eb6d4f4853",
+   "seen": "2026-10-08"
+  },
+  "https://www.design.upenn.edu/architectural-archives/visiting": {
+   "hash": "90a387ad6615da76",
+   "seen": "2026-10-08"
+  },
+  "https://www.arcadia.edu/exhibitions/": {
+   "hash": "e84e39df591d27f6",
+   "seen": "2026-10-08"
+  },
+  "https://www.ursinus.edu/berman/": {
+   "hash": "c56ab7f1af5b015f",
+   "seen": "2026-10-08"
+  },
+  "https://rcca.camden.rutgers.edu/exhibitions/": {
+   "hash": "04df5bb2535892a9",
+   "seen": "2026-10-08"
+  },
+  "https://www.widener.edu/about/campus-community-resources/art-gallery": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.wcupa.edu/arts-humanities/artdesign/exhibitionsevents.aspx": {
+   "hash": "69333751d4585dd6",
+   "seen": "2026-10-08"
+  },
+  "https://www.rowan.edu/arts/museum/exhibitions/": {
+   "hash": "87974c8c8b5652f3",
+   "seen": "2026-10-08"
+  },
+  "https://www.ccp.edu/gilroy-roberts-gallery": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://hicksgallery.bucks.edu/": {
+   "hash": "aa2ba9db7af4f9aa",
+   "seen": "2026-10-08"
+  },
+  "https://www.mc3.edu/for-our-community/cultural-center/art-galleries/blue-bell-art-gallery": {
+   "hash": "d4bed8a142325527",
+   "seen": "2026-10-08"
+  },
+  "https://www.mc3.edu/for-our-community/cultural-center/art-galleries": {
+   "hash": "aa1f5463243782ef",
+   "seen": "2026-10-08"
+  },
+  "https://www.mc3.edu/for-our-community/cultural-center/art-galleries/pottstown-art-gallery": {
+   "hash": "6e8cf76557d35cec",
+   "seen": "2026-10-08"
+  },
+  "https://www.dccc.edu/art-gallery": {
+   "hash": "2303c0b4a7a20d6c",
+   "seen": "2026-10-08"
+  },
+  "https://sites.psu.edu/abingtonartgallery/": {
+   "hash": "d4adf0cbd942c432",
+   "seen": "2026-10-08"
+  },
+  "https://www.camdencc.edu/arts/marlin-art-gallery/exhibits/": {
+   "hash": "46e6850e5c584a28",
+   "seen": "2026-10-08"
+  },
+  "https://rosemont.edu/upcoming-exhibitions/": {
+   "hash": "a344b929b8272ec1",
+   "seen": "2026-10-08"
+  },
+  "https://holyfamilyartgallery.wordpress.com/": {
+   "hash": "8d5625eb048da215",
+   "seen": "2026-10-08"
+  },
+  "https://www.neumann.edu/arts/gallery": {
+   "hash": "2955b2690f39fc2c",
+   "seen": "2026-10-08"
+  },
+  "https://www.sch.org/learn/arts/visual-arts": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.library.upenn.edu/exhibits": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.groundsforsculpture.org/visit/": {
+   "hash": "82cbd33b42bdf6f3",
+   "seen": "2026-10-08"
+  },
+  "https://www.winterthur.org/visit/": {
+   "hash": "111c796d528884ab",
+   "seen": "2026-10-08"
+  },
+  "https://delart.org/visit/": {
+   "hash": "f400c6724229301d",
+   "seen": "2026-10-08"
+  },
+  "https://decontemporary.org/exhibitions/": {
+   "hash": "1db1c65f640a99b3",
+   "seen": "2026-10-08"
+  },
+  "https://rosevalleymuseum.org/": {
+   "hash": "5c6a2fa38c1189f7",
+   "seen": "2026-10-08"
+  },
+  "https://www.automatcollective.com/": {
+   "hash": "898548e17e56544b",
+   "seen": "2026-10-08"
+  },
+  "https://space1026.com/": {
+   "hash": "8d1fc3f65bf20229",
+   "seen": "2026-10-08"
+  },
+  "https://grizzlygrizzly.com/": {
+   "hash": "bf61ec35fedb2efb",
+   "seen": "2026-10-08"
+  },
+  "https://www.tigerstrikesasteroid.com/": {
+   "hash": "81821bb7021ccdc5",
+   "seen": "2026-10-08"
+  },
+  "https://fjordspace.com/Exhibitions": {
+   "hash": "b4a438fd53a267f0",
+   "seen": "2026-10-08"
+  },
+  "https://secondstatepress.org/": {
+   "hash": "c6319342698eb29a",
+   "seen": "2026-10-08"
+  },
+  "https://www.villagearts.org/": {
+   "hash": "85c97845efab3b1c",
+   "seen": "2026-10-08"
+  },
+  "https://www.creativephl.org/exhibitions/current/": {
+   "hash": "7f79a03a468f47e9",
+   "seen": "2026-10-08"
+  },
+  "https://cheltenhamarts.org/exhibits": {
+   "hash": "5491900a04f5ccb3",
+   "seen": "2026-10-08"
+  },
+  "https://mainlineart.org/exhibitions/": {
+   "hash": "7b343abb4d76cd2f",
+   "seen": "2026-10-08"
+  },
+  "https://wayneart.org/exhibitions/": {
+   "hash": "af06c2f4ff60e68b",
+   "seen": "2026-10-08"
+  },
+  "https://www.chestercountyarts.org/west-chester-galleries.html": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://artfusion19464.org/exhibits/": {
+   "hash": "03914fa86b46431c",
+   "seen": "2026-10-08"
+  },
+  "https://camdenfireworks.org/exhibitions": {
+   "hash": "944c7664f49f2727",
+   "seen": "2026-10-08"
+  },
+  "https://ellarslie.org/exhibitions/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.bucks.edu/culture/thegalleryatlowerbuckscampus/": {
+   "hash": "fa626635906eeb82",
+   "seen": "2026-10-08"
+  },
+  "https://www.aoyarts.org/events": {
+   "hash": "f34f8aa096093e97",
+   "seen": "2026-10-08"
+  },
+  "https://www.phillipsmill.org/": {
+   "hash": "2d5c3aa5eaf33d6e",
+   "seen": "2026-10-08"
+  },
+  "https://muttermuseum.org/on-view/": {
+   "hash": "b67e3f48a3e2deab",
+   "seen": "2026-10-08"
+  },
+  "https://www.sciencehistory.org/visit/exhibitions/": {
+   "hash": "0e67b5d7c2c9e2ad",
+   "seen": "2026-10-08"
+  },
+  "https://fi.edu/en/exhibits-experiences": {
+   "hash": "a2b2f6ecf43ba402",
+   "seen": "2026-10-08"
+  },
+  "https://www.pleasetouchmuseum.org/exhibits/": {
+   "hash": "881048e60bb039a3",
+   "seen": "2026-10-08"
+  },
+  "https://www.wagnerfreeinstitute.org/events": {
+   "hash": "58fe34e68808e370",
+   "seen": "2026-10-08"
+  },
+  "https://pahmuseum.pennmedicine.org/exhibits": {
+   "hash": "2699a201423f56ef",
+   "seen": "2026-10-08"
+  },
+  "https://schuylkillcenter.org/environmental-art/": {
+   "hash": "e8b2ecf8611a353b",
+   "seen": "2026-10-08"
+  },
+  "https://www.discoveryphila.org/": {
+   "hash": "2d4061dc66e1f639",
+   "seen": "2026-10-08"
+  },
+  "https://www.audubon.org/john-james/explore/art-john-james-audubon-center": {
+   "hash": "a8c3b19b22b64c96",
+   "seen": "2026-10-08"
+  },
+  "https://www.delcoscience.org/": {
+   "hash": "41e49348b42b5f47",
+   "seen": "2026-10-08"
+  },
+  "https://www.sju.edu/barnesarboretum": {
+   "hash": "8175eee3b173dae2",
+   "seen": "2026-10-08"
+  },
+  "https://ambler.temple.edu/arboretum/visit": {
+   "hash": "975a892d2b231398",
+   "seen": "2026-10-08"
+  },
+  "https://www.scottarboretum.org/": {
+   "hash": "ece32eacbbe6f2e6",
+   "seen": "2026-10-08"
+  },
+  "https://www.haverford.edu/arboretum": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.nj.gov/state/museum/index.shtml": {
+   "hash": "6af85ae06fb9cf99",
+   "seen": "2026-10-08"
+  },
+  "https://www.delmns.org/exhibits/": {
+   "hash": "6da7fdffed48896b",
+   "seen": "2026-10-08"
+  },
+  "https://tylerarboretum.org/special-events/": {
+   "hash": "6099e6408fa7f4b4",
+   "seen": "2026-10-08"
+  },
+  "https://briarbush.org": {
+   "hash": "9c9c1b21552a46bf",
+   "seen": "2026-10-08"
+  },
+  "https://www.silverlakenaturecenter.org": {
+   "hash": "67d06efc97e60b1f",
+   "seen": "2026-10-08"
+  },
+  "https://www.churchvillenaturecenter.org": {
+   "hash": "e54ce02b214499de",
+   "seen": "2026-10-08"
+  },
+  "https://www.fws.gov/refuge/john-heinz-tinicum/visit-us": {
+   "hash": "12be9ce12b1452e5",
+   "seen": "2026-10-08"
+  },
+  "https://www.peacevalleynaturecenter.org": {
+   "hash": "2bb83db1b15e502c",
+   "seen": "2026-10-08"
+  },
+  "https://riverbendeec.org": {
+   "hash": "7f5cc6101ed67ad4",
+   "seen": "2026-10-08"
+  },
+  "https://www.jenkinsarboretum.org/exhibitions/": {
+   "hash": "86c48f52204b2af7",
+   "seen": "2026-10-08"
+  },
+  "https://www.henrybotanicgarden.org/visit/": {
+   "hash": "1e20654a9058cc60",
+   "seen": "2026-10-08"
+  },
+  "https://natlands.org/stoneleigh": {
+   "hash": "3ba8d156ff9d6a4f",
+   "seen": "2026-10-08"
+  },
+  "https://bhwp.org/visit/": {
+   "hash": "bfd41013e5a974fb",
+   "seen": "2026-10-08"
+  },
+  "https://www.widener.edu/about/campus-community-resources/taylor-arboretum": {
+   "hash": "5a1b1c74fd1e1b9d",
+   "seen": "2026-10-08"
+  },
+  "https://welkinweir.org/visit/": {
+   "hash": "d9981701dcc29677",
+   "seen": "2026-10-08"
+  },
+  "https://www.phila.gov/parks-rec-finder/#/location/wissahickon-environmental-center/56a8f87c7a8cee5e3a25b155": {
+   "hash": "904d55eea5f61f98",
+   "seen": "2026-10-08"
+  },
+  "https://www.phila.gov/parks-rec-finder/#/location/pennypack-environmental-center/56a8f83e7a8cee5e3a25af42": {
+   "hash": "904d55eea5f61f98",
+   "seen": "2026-10-08"
+  },
+  "https://www.phila.gov/parks-rec-finder/#/location/cobbs-creek-community-environmental-center/5a3d82449a5c40071b510df5": {
+   "hash": "904d55eea5f61f98",
+   "seen": "2026-10-08"
+  },
+  "https://www.phila.gov/parks-rec-finder/#/location/horticulture-center-centennial-arboretum/56a8f8797a8cee5e3a25b127": {
+   "hash": "904d55eea5f61f98",
+   "seen": "2026-10-08"
+  },
+  "https://pennypacktrust.org": {
+   "hash": "ce6a39a40de5a313",
+   "seen": "2026-10-08"
+  },
+  "https://www.palmyracove.org": {
+   "hash": "bd9775561096d377",
+   "seen": "2026-10-08"
+  },
+  "https://www.rancocasnaturecenter.org": {
+   "hash": "c689d2a10683df3e",
+   "seen": "2026-10-08"
+  },
+  "https://camdenchildrensgarden.org": {
+   "hash": "79e4d1eed4fbf0dc",
+   "seen": "2026-10-08"
+  },
+  "https://www.cedarrun.org": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.efm.org": {
+   "hash": "495ca2cab36c8593",
+   "seen": "2026-10-08"
+  },
+  "https://mtcubacenter.org/visit/": {
+   "hash": "2215ab01c01d1faa",
+   "seen": "2026-10-08"
+  },
+  "https://delawarenaturesociety.org/visit/ashland-nature-center/": {
+   "hash": "3ccc3b869543b8b7",
+   "seen": "2026-10-08"
+  },
+  "https://delawarenaturesociety.org/visit/dupont-environmental-education-center/": {
+   "hash": "18ff3be6c23d1278",
+   "seen": "2026-10-08"
+  },
+  "https://thedch.org": {
+   "hash": "c4410c9067ab5b11",
+   "seen": "2026-10-08"
+  },
+  "https://www.delawarechildrensmuseum.org": {
+   "hash": "b9c6f7ed17dc3dca",
+   "seen": "2026-10-08"
+  },
+  "https://www.honeyhollownaturecenter.org": {
+   "hash": "9ffa7442f5cef262",
+   "seen": "2026-10-08"
+  },
+  "https://www.destateparks.com/park/brandywine-creek/": {
+   "hash": "124107574f7cad51",
+   "seen": "2026-10-08"
+  },
+  "https://buckskids.org/plan-your-visit/": {
+   "hash": "598f026c33717aa1",
+   "seen": "2026-10-08"
+  },
+  "https://www.penn.museum/on-view/galleries-exhibitions": {
+   "hash": "4e52c74b0771a611",
+   "seen": "2026-10-08"
+  },
+  "https://www.amrevmuseum.org/at-the-museum/exhibits": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://constitutioncenter.org/museum/exhibits-programs": {
+   "hash": "40cb53497cd281c4",
+   "seen": "2026-10-08"
+  },
+  "https://theweitzman.org/exhibitions/": {
+   "hash": "e7ffb7cb8b36c60f",
+   "seen": "2026-10-08"
+  },
+  "https://aampmuseum.org/exhibitions": {
+   "hash": "a0e65838e202bc62",
+   "seen": "2026-10-08"
+  },
+  "https://www.easternstate.org/explore/exhibits": {
+   "hash": "22bb6b1989ee3a72",
+   "seen": "2026-10-08"
+  },
+  "https://www.phillyseaport.org/current-exhibits/": {
+   "hash": "723202ebf8a12da1",
+   "seen": "2026-10-08"
+  },
+  "https://www.libertymuseum.org/exhibits/": {
+   "hash": "7a270723643f586b",
+   "seen": "2026-10-08"
+  },
+  "https://www.rosenbach.org/treasures": {
+   "hash": "7146f13b939c1958",
+   "seen": "2026-10-08"
+  },
+  "https://librarycompany.org/calendar-2/": {
+   "hash": "8205234e791f3e01",
+   "seen": "2026-10-08"
+  },
+  "https://hsp.org/exhibits": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://libwww.freelibrary.org/calendar/type/exhibitions": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://drexel.edu/drexel-founding-collection/exhibitions-events/exhibit": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.americanswedish.org/exhibitions": {
+   "hash": "b88311641d1831ee",
+   "seen": "2026-10-08"
+  },
+  "https://www.simeonemuseum.org/events/": {
+   "hash": "9da8b5211b59b2fd",
+   "seen": "2026-10-08"
+  },
+  "https://fairmountwaterworks.org/events/": {
+   "hash": "52904ee202e9aca7",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/benjaminfranklinmuseum.htm": {
+   "hash": "f46adc1d151478e8",
+   "seen": "2026-10-08"
+  },
+  "https://historicphiladelphia.org/betsy-ross-house/visit/": {
+   "hash": "40535fa28032f306",
+   "seen": "2026-10-08"
+  },
+  "https://www.firemanshallmuseum.org/hours-admission/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.mummersmuseum.org/visitors/": {
+   "hash": "8a395c80dec3ae86",
+   "seen": "2026-10-08"
+  },
+  "https://fortmifflin.us/events/": {
+   "hash": "68af5868c1235cfc",
+   "seen": "2026-10-08"
+  },
+  "https://www.amphilsoc.org/museum/exhibitions": {
+   "hash": "a1f1ae1987a3154d",
+   "seen": "2026-10-08"
+  },
+  "https://philaathenaeum.org/exhibitions/": {
+   "hash": "ebdda39305ea8ca8",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/learn/historyculture/places-secondbank.htm": {
+   "hash": "d6fe225e358157e6",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/firstbank.htm": {
+   "hash": "b5efb37eff1ff6f1",
+   "seen": "2026-10-08"
+  },
+  "https://www.carpentershall.org/": {
+   "hash": "32466ba107d0e00b",
+   "seen": "2026-10-08"
+  },
+  "https://www.elfrethsalley.org/": {
+   "hash": "75b6bebd4139ecd1",
+   "seen": "2026-10-08"
+  },
+  "https://www.historicasmh.org/": {
+   "hash": "067b4efb3cedde26",
+   "seen": "2026-10-08"
+  },
+  "https://christchurchphila.org/": {
+   "hash": "4da6205899f8f247",
+   "seen": "2026-10-08"
+  },
+  "https://pamasonictemple.org/": {
+   "hash": "a4658e84bfa4549a",
+   "seen": "2026-10-08"
+  },
+  "https://library.temple.edu/blockson": {
+   "hash": "44435872a9d78cdb",
+   "seen": "2026-10-08"
+  },
+  "https://pcusa.org/about-pcusa/agencies-entities/life-witness/ministry-areas/historical-society": {
+   "hash": "7556d09779ebca76",
+   "seen": "2026-10-08"
+  },
+  "https://www.thecoloredgirlsmuseum.com/exhibitions": {
+   "hash": "ffff3401abf45c24",
+   "seen": "2026-10-08"
+  },
+  "https://thebwm.org/": {
+   "hash": "982f68d30487c671",
+   "seen": "2026-10-08"
+  },
+  "https://historicgermantownpa.org/lest-we-forget-slavery-museum/": {
+   "hash": "a0af6dcc0d5f38b8",
+   "seen": "2026-10-08"
+  },
+  "https://historicgermantownpa.org/exhibits/": {
+   "hash": "0501e58df895812c",
+   "seen": "2026-10-08"
+  },
+  "https://paulrobesonhouse.org/": {
+   "hash": "59f7e21d9b42086b",
+   "seen": "2026-10-08"
+  },
+  "https://marianandersonhistoricalsociety.weebly.com/": {
+   "hash": "151e51ab32f26a7f",
+   "seen": "2026-10-08"
+  },
+  "https://www.mariolanzainstitute.org/": {
+   "hash": "3db523793642490f",
+   "seen": "2026-10-08"
+  },
+  "https://garmuslib.org/": {
+   "hash": "946fd04cf30cfac3",
+   "seen": "2026-10-08"
+  },
+  "https://acesveteransmuseum.org/": {
+   "hash": "22a7e116c00b1b51",
+   "seen": "2026-10-08"
+  },
+  "https://podiatry.temple.edu/shoe-museum": {
+   "hash": "f865b2427153d403",
+   "seen": "2026-10-08"
+  },
+  "https://historicgermantownpa.org/germantown-mennonite-historic-trust/": {
+   "hash": "7e00d5d7fb8f23c2",
+   "seen": "2026-10-08"
+  },
+  "https://thehistoricalsocietyoffrankford.org/": {
+   "hash": "848bb0ea3dcf1a8d",
+   "seen": "2026-10-08"
+  },
+  "https://motherbethel.org/museum": {
+   "hash": "72f3967dcd7a4f30",
+   "seen": "2026-10-08"
+  },
+  "https://www.hsgmuseum.org/": {
+   "hash": "579dc8381c98f31b",
+   "seen": "2026-10-08"
+  },
+  "https://www.mikvehisrael.org/museum": {
+   "hash": "2249a837740068d3",
+   "seen": "2026-10-08"
+  },
+  "https://www.philadelphiaromanianfolkartmuseum.com/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.girardcollege.edu/museum/visit-us/exhibitions/": {
+   "hash": "fac257ed421fdcad",
+   "seen": "2026-10-08"
+  },
+  "https://1752.com/about-us/history/": {
+   "hash": "476920cea9ae0ad3",
+   "seen": "2026-10-08"
+  },
+  "https://www.stpetersphila.org/visit-us": {
+   "hash": "4154af5918d85e48",
+   "seen": "2026-10-08"
+  },
+  "https://oldstjoseph.org/visit/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.philashipguild.org/": {
+   "hash": "1b6d6d6c12cbaa5f",
+   "seen": "2026-10-08"
+  },
+  "https://folkloreproject.org/our-work/exhibitions/": {
+   "hash": "104f25b3d371444b",
+   "seen": "2026-10-08"
+  },
+  "https://stjohnneumann.org/visit/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.saintritashrine.org/visit": {
+   "hash": "23b2d63b919766eb",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/freequaker.htm": {
+   "hash": "5973d1e8c78af25b",
+   "seen": "2026-10-08"
+  },
+  "https://hsmcpa.org/": {
+   "hash": "ced8ce472241eb1a",
+   "seen": "2026-10-08"
+  },
+  "https://www.montgomerycountypa.gov/928/Pennypacker-Mills": {
+   "hash": "301469aa2a05d2dd",
+   "seen": "2026-10-08"
+  },
+  "https://www.montgomerycountypa.gov/929/Peter-Wentz-Farmstead": {
+   "hash": "3166581451c4acce",
+   "seen": "2026-10-08"
+  },
+  "https://www.graemepark.org/visit": {
+   "hash": "3cf157aef3303b5e",
+   "seen": "2026-10-08"
+  },
+  "https://mhep.org/exhibits/": {
+   "hash": "b6209ee5b91f219d",
+   "seen": "2026-10-08"
+  },
+  "https://www.schwenkfelder.org/changing-exhibits": {
+   "hash": "159b5e67dd58677f",
+   "seen": "2026-10-08"
+  },
+  "https://goschenhoppen.org/red-mens-hall-museums/": {
+   "hash": "ed0fb9e13bd60499",
+   "seen": "2026-10-08"
+  },
+  "https://millbrooksociety.org/": {
+   "hash": "238eb0882d478be1",
+   "seen": "2026-10-08"
+  },
+  "https://www.sfahs.com/": {
+   "hash": "407eb32a0443ccbd",
+   "seen": "2026-10-08"
+  },
+  "https://mycchc.org/changing-exhibits/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://historicsugartown.org/hours-directions/": {
+   "hash": "6e187e2b1be1e555",
+   "seen": "2026-10-08"
+  },
+  "https://anselmamill.org/visit/": {
+   "hash": "a5280c93f8f65ed3",
+   "seen": "2026-10-08"
+  },
+  "https://chaddsfordhistory.org/visit/": {
+   "hash": "df17f4ff0ce97c61",
+   "seen": "2026-10-08"
+  },
+  "https://sandersonmuseum.org/": {
+   "hash": "774b87f554a40b6e",
+   "seen": "2026-10-08"
+  },
+  "https://www.brandywinebattlefield.org/visit": {
+   "hash": "d683f2d981458b05",
+   "seen": "2026-10-08"
+  },
+  "https://steelmuseum.org/": {
+   "hash": "3c603bf9f9d77259",
+   "seen": "2026-10-08"
+  },
+  "https://www.philalandmarks.org/contact-visit": {
+   "hash": "dc7e245af0d0ff51",
+   "seen": "2026-10-08"
+  },
+  "https://www.padelcohistory.org/": {
+   "hash": "3e57ad9fe91d8573",
+   "seen": "2026-10-08"
+  },
+  "https://newlingristmill.org/visit/": {
+   "hash": "35eb16830e52b47d",
+   "seen": "2026-10-08"
+  },
+  "https://paveteransmuseum.org/museum/": {
+   "hash": "1557ee6caf73e6ac",
+   "seen": "2026-10-08"
+  },
+  "https://swedishcabin.info/": {
+   "hash": "ed2da8e9d701a78d",
+   "seen": "2026-10-08"
+  },
+  "https://www.mercermuseum.org/exhibits/": {
+   "hash": "584966d700a88a9a",
+   "seen": "2026-10-08"
+  },
+  "https://www.mercermuseum.org/about/fonthill-castle/": {
+   "hash": "c9987ad9cfd55c21",
+   "seen": "2026-10-08"
+  },
+  "https://www.buckscounty.gov/2164/Moravian-Pottery-and-Tile-Works": {
+   "hash": "6f738f91c39d1298",
+   "seen": "2026-10-08"
+  },
+  "https://www.doylestownhistorical.org/": {
+   "hash": "ac730f0ecadaf5fc",
+   "seen": "2026-10-08"
+  },
+  "https://www.historicfallsington.org/tours": {
+   "hash": "9fef05be26ae053f",
+   "seen": "2026-10-08"
+  },
+  "https://grundymuseum.org/visit/tours/": {
+   "hash": "d5918fa0764a4a4a",
+   "seen": "2026-10-08"
+  },
+  "https://historiclanghorne.org/": {
+   "hash": "d03074f5f474bf5f",
+   "seen": "2026-10-08"
+  },
+  "https://www.cchsnj.org/": {
+   "hash": "5796a4f5cdc0a9fd",
+   "seen": "2026-10-08"
+  },
+  "https://www.battleshipnewjersey.org/visit/": {
+   "hash": "fd171b2964bf13c4",
+   "seen": "2026-10-08"
+  },
+  "https://indiankingfriends.org/visit/": {
+   "hash": "668b06fdb68e15a2",
+   "seen": "2026-10-08"
+  },
+  "https://haddonfieldhistory.org/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.cherryhill-nj.com/barclay": {
+   "hash": "60539d0d72f89d8e",
+   "seen": "2026-10-08"
+  },
+  "https://www.burlingtoncountynj.gov/956/Prison-Museum": {
+   "hash": "b530ba521d677070",
+   "seen": "2026-10-08"
+  },
+  "https://www.alicepaul.org/whats-on/": {
+   "hash": "5e86766086ff6e07",
+   "seen": "2026-10-08"
+  },
+  "https://peachfield.org/visit/": {
+   "hash": "64b7629c4fddc02a",
+   "seen": "2026-10-08"
+  },
+  "https://roeblingmuseum.org/atthemuseum": {
+   "hash": "3e55c2fd4a8b98cf",
+   "seen": "2026-10-08"
+  },
+  "https://www.gchsnj.org/museum/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://heritageglassmuseum.com/": {
+   "hash": "03f632ca8d007ee0",
+   "seen": "2026-10-08"
+  },
+  "https://www.smithvillemansion.org/tours/": {
+   "hash": "f7fdf2188e7f7b54",
+   "seen": "2026-10-08"
+  },
+  "https://powhatanrenape.com/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://airvictorymuseum.org/": {
+   "hash": "b78f75c8a3f8f1ac",
+   "seen": "2026-10-08"
+  },
+  "https://depacemuseum.org/": {
+   "hash": "c5d74fa249c2a40d",
+   "seen": "2026-10-08"
+  },
+  "https://library.jefferson.edu/gutman/special_collections/collections/costume.cfm": {
+   "hash": "877099e3d1611691",
+   "seen": "2026-10-08"
+  },
+  "https://www.sju.edu/pharmacymuseum/visit": {
+   "hash": "02d6985ab8aa3b7c",
+   "seen": "2026-10-08"
+  },
+  "https://www.haverford.edu/libraries/exhibits-program/current-exhibits": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.swarthmore.edu/friends-historical-library/visit-fhl": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.swarthmore.edu/peace-collection": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://drexel.edu/foxcollection/plan-visit/overview/": {
+   "hash": "ddc836572ee0f14e",
+   "seen": "2026-10-08"
+  },
+  "https://library.temple.edu/exhibitions": {
+   "hash": "6d39752cd8f6a611",
+   "seen": "2026-10-08"
+  },
+  "https://rosemont.edu/college/library/cultural-heritage-gallery/": {
+   "hash": "1885b85203b06f11",
+   "seen": "2026-10-08"
+  },
+  "https://www.nursing.upenn.edu/history/exhibits/": {
+   "hash": "61aa9d2016de4a08",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/libertybellcenter.htm": {
+   "hash": "8b08a910c2babc71",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/independencehall.htm": {
+   "hash": "c18d4f103272dbe8",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/congresshall.htm": {
+   "hash": "316bb980a988ae28",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/learn/historyculture/places-oldcityhall.htm": {
+   "hash": "32115e3108dbb8a5",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/thko/index.htm": {
+   "hash": "c95adf87ec739d67",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/learn/historyculture/places-printingoffice.htm": {
+   "hash": "2cbbac118ee60213",
+   "seen": "2026-10-08"
+  },
+  "https://www.phlvisitorcenter.com/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/glde/index.htm": {
+   "hash": "240a63cbe4b510c8",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/learn/historyculture/places-merchantsexchange.htm": {
+   "hash": "a0ced9b1984981a5",
+   "seen": "2026-10-08"
+  },
+  "https://www.usmint.gov/about/tours-and-locations/philadelphia/tour-philadelphia-mint": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.philadelphiafed.org/education/money-in-motion": {
+   "hash": "c5209d3df3f8c92d",
+   "seen": "2026-10-08"
+  },
+  "https://libwww.freelibrary.org/locations/departments/rare-book-department": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://libwww.freelibrary.org/locations/departments/print-and-picture-collection": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.germansociety.org/horner-library": {
+   "hash": "5a25f19116b90a21",
+   "seen": "2026-10-08"
+  },
+  "https://www.lutheranarchives.org/": {
+   "hash": "0be8fb64fb8e9d08",
+   "seen": "2026-10-08"
+  },
+  "https://foundingforward.org/public-events-and-exhibits/exhibits/": {
+   "hash": "a4c5078aa8fe5424",
+   "seen": "2026-10-08"
+  },
+  "https://www.phila.gov/departments/department-of-records/city-archives/": {
+   "hash": "6f5d9d60a2b705dd",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/vafo/index.htm": {
+   "hash": "4b256ab82a0a1b09",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/vafo/planyourvisit/index.htm": {
+   "hash": "467717b109404ee3",
+   "seen": "2026-10-08"
+  },
+  "https://www.wmchapel.org/": {
+   "hash": "34f97db6fb90ba1a",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/hofu/index.htm": {
+   "hash": "300120157c7b438b",
+   "seen": "2026-10-08"
+  },
+  "https://www.washingtoncrossingpark.org/plan-your-visit/": {
+   "hash": "2c08a4446079b5ba",
+   "seen": "2026-10-08"
+  },
+  "https://www.wcpa-nj.com/museum": {
+   "hash": "3bcff5453f703ef5",
+   "seen": "2026-10-08"
+  },
+  "https://barracks.org/visit/": {
+   "hash": "f3b77c030e286616",
+   "seen": "2026-10-08"
+  },
+  "https://www.batstovillage.org/": {
+   "hash": "a00ebb6aacd4dd29",
+   "seen": "2026-10-08"
+  },
+  "https://whitesbog.org/": {
+   "hash": "cdb466adceebb3ad",
+   "seen": "2026-10-08"
+  },
+  "https://dep.nj.gov/parksandforests/parks/fort-mott-state-park/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.hagley.org/plan-your-visit": {
+   "hash": "345f96449f4e5f45",
+   "seen": "2026-10-08"
+  },
+  "https://dehistory.org/visit/delaware-history-museum/": {
+   "hash": "1f9e9fc571bd4694",
+   "seen": "2026-10-08"
+  },
+  "https://www.newcastlede.gov/431/Rockwood-Park-Museum": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.oldswedes.org/": {
+   "hash": "4668c14522ef463a",
+   "seen": "2026-10-08"
+  },
+  "https://www.kalmarnyckel.org/visit/": {
+   "hash": "58eaa5f6995899e0",
+   "seen": "2026-10-08"
+  },
+  "https://destateparks.com/History/FortDelaware": {
+   "hash": "724250c8d12fc119",
+   "seen": "2026-10-08"
+  },
+  "https://historictrappe.org/visit/exhibitions/": {
+   "hash": "78f1cbdbacbaa88c",
+   "seen": "2026-10-08"
+  },
+  "https://stoogeum.com/visit/": {
+   "hash": "0cefd0245973a2ae",
+   "seen": "2026-10-08"
+  },
+  "https://www.bahistoricdistrict.org/tours-1": {
+   "hash": "d3667a486bf8f7a6",
+   "seen": "2026-10-08"
+  },
+  "https://haverfordhistoricalsociety.org/contact/": {
+   "hash": "e253c82c512a00a3",
+   "seen": "2026-10-08"
+  },
+  "https://udhistory.com/collen-brook-farm/": {
+   "hash": "7589f807d7ff770b",
+   "seen": "2026-10-08"
+  },
+  "https://lazaretto.site/?page_id=302": {
+   "hash": "4be0bfb2620cb38a",
+   "seen": "2026-10-08"
+  },
+  "https://www.newtownsquarerailroadmuseum.org/": {
+   "hash": "c3c9c7a5e316846a",
+   "seen": "2026-10-08"
+  },
+  "https://hspa-pa.org/visit-our-museum/": {
+   "hash": "fb6c27bb8ba200a3",
+   "seen": "2026-10-08"
+  },
+  "https://www.helicoptermuseum.org/": {
+   "hash": "1326d351354390dd",
+   "seen": "2026-10-08"
+  },
+  "https://www.newtownhistoric.org/": {
+   "hash": "a131d26915ad0366",
+   "seen": "2026-10-08"
+  },
+  "https://www.byerschoice.com/pages/christmas-museum": {
+   "hash": "8c10a69b9b65d387",
+   "seen": "2026-10-08"
+  },
+  "https://historicsummerseat.com/": {
+   "hash": "ea470ded68f54e72",
+   "seen": "2026-10-08"
+  },
+  "https://www.alicepaul.org/visit/": {
+   "hash": "8390b15e3d30c7e5",
+   "seen": "2026-10-08"
+  },
+  "https://www.ocjac.org/current-exhibition": {
+   "hash": "d35be62b697964c4",
+   "seen": "2026-10-08"
+  },
+  "https://www.hamec.org/": {
+   "hash": "7517053c972206b5",
+   "seen": "2026-10-08"
+  },
+  "https://www.bethsholompreservation.org/guided-tours": {
+   "hash": "c6bfe793aae2ef39",
+   "seen": "2026-10-08"
+  },
+  "http://www.filitaliainternational.com/museum-main": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.philaholocaustmemorial.org/": {
+   "hash": "172a69c46c43872d",
+   "seen": "2026-10-08"
+  },
+  "https://firsttroop.com/contact-us/": {
+   "hash": "9cb3cf213d4e34c7",
+   "seen": "2026-10-08"
+  },
+  "https://wingsoffreedommuseum.org/visit/": {
+   "hash": "8662d2f20a0c51db",
+   "seen": "2026-10-08"
+  },
+  "https://www.americantreasuretour.com/": {
+   "hash": "852a14fc3c07b50f",
+   "seen": "2026-10-08"
+  },
+  "https://boyertownmuseum.org/visit-the-museum/": {
+   "hash": "be28e09b306a8e70",
+   "seen": "2026-10-08"
+  },
+  "https://auburnheights.org/visit/": {
+   "hash": "3e1fd768f6be94ed",
+   "seen": "2026-10-08"
+  },
+  "https://www.antiqueicetoolmuseum.org/": {
+   "hash": "3032ef80cf97f2e8",
+   "seen": "2026-10-08"
+  },
+  "https://www.septa.org/customer-service/tours-and-presentations/": {
+   "hash": "d2bab52855c5c553",
+   "seen": "2026-10-08"
+  },
+  "https://nursinghistory.org/tour-the-museum/": {
+   "hash": "ecbaa22ce35fc5c0",
+   "seen": "2026-10-08"
+  },
+  "https://dentistry.temple.edu/about/museum": {
+   "hash": "c56168d6b446f678",
+   "seen": "2026-10-08"
+  },
+  "https://www.phlvisitorcenter.com/CityHall": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/planyourvisit/hours.htm": {
+   "hash": "4e90213c47cb17af",
+   "seen": "2026-10-08"
+  },
+  "https://cliveden.org/events-3/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.stenton.org/programs": {
+   "hash": "766813400404049d",
+   "seen": "2026-10-08"
+  },
+  "https://wyck.org/programs-events/": {
+   "hash": "f9f1a08d798cacce",
+   "seen": "2026-10-08"
+  },
+  "https://japanphilly.org/shofuso/": {
+   "hash": "0c177ce3f328d0de",
+   "seen": "2026-10-08"
+  },
+  "https://www.historicstrawberrymansion.org/": {
+   "hash": "ff25b5eeb93141f3",
+   "seen": "2026-10-08"
+  },
+  "https://laurelhillmansion.org/": {
+   "hash": "c1f91ec61fb20343",
+   "seen": "2026-10-08"
+  },
+  "https://www.parkcharms.org/lemon-hill": {
+   "hash": "f3937448b71e3663",
+   "seen": "2026-10-08"
+  },
+  "https://www.woodfordmansion.org/": {
+   "hash": "730ec59c25f63681",
+   "seen": "2026-10-08"
+  },
+  "https://www.belmontmansion.org/": {
+   "hash": "181306aa645c9f36",
+   "seen": "2026-10-08"
+  },
+  "https://www.parkcharms.org/mount-pleasant": {
+   "hash": "8ca1bd4536a9a3d2",
+   "seen": "2026-10-08"
+  },
+  "https://www.philalandmarks.org/powel-house": {
+   "hash": "8e5130a53d8ae74d",
+   "seen": "2026-10-08"
+  },
+  "https://www.philalandmarks.org/hillphysick": {
+   "hash": "46d3bf56cbca0c00",
+   "seen": "2026-10-08"
+  },
+  "https://www.philalandmarks.org/grumblethorpe": {
+   "hash": "df40f5f7ba72f182",
+   "seen": "2026-10-08"
+  },
+  "https://ebenezermaxwellmansion.org/": {
+   "hash": "6ab00d6ea222a7d4",
+   "seen": "2026-10-08"
+  },
+  "https://rittenhousetown.org/": {
+   "hash": "c26c32ee0cd72cb1",
+   "seen": "2026-10-08"
+  },
+  "https://historicgermantownpa.org/concord-school-house-upper-burying-ground/": {
+   "hash": "fb0864dfa6aa9ca9",
+   "seen": "2026-10-08"
+  },
+  "https://awbury.org/": {
+   "hash": "89f09cd827c6bd02",
+   "seen": "2026-10-08"
+  },
+  "https://www.morrisarboretum.org/see-do/seasonal-exhibitions": {
+   "hash": "eb19935091d8dd9d",
+   "seen": "2026-10-08"
+  },
+  "https://www.woodlandsphila.org/visit": {
+   "hash": "7597d9e5e0c9d853",
+   "seen": "2026-10-08"
+  },
+  "https://www.glenfoerd.org/": {
+   "hash": "0c91032a07a0a64c",
+   "seen": "2026-10-08"
+  },
+  "https://robertryerss.org/": {
+   "hash": "58fc54099548873d",
+   "seen": "2026-10-08"
+  },
+  "https://andalusiapa.org/visit/": {
+   "hash": "71e6e5c3078aeb8d",
+   "seen": "2026-10-08"
+  },
+  "https://harritonhouse.org/visit/": {
+   "hash": "1d423690fec13b86",
+   "seen": "2026-10-08"
+  },
+  "https://www.highlandshistorical.org/visiting": {
+   "hash": "593b301d1e9c5d45",
+   "seen": "2026-10-08"
+  },
+  "https://www.historichopelodge.org/new-events": {
+   "hash": "6c3b5382bed0b180",
+   "seen": "2026-10-08"
+  },
+  "https://www.chanticleergarden.org/": {
+   "hash": "204055568672c386",
+   "seen": "2026-10-08"
+  },
+  "https://longwoodgardens.org/": {
+   "hash": "c07a4f6b0b03331c",
+   "seen": "2026-10-08"
+  },
+  "https://whartonesherickmuseum.org/programs/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://chconservancy.org/exhibits/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.ormistonmansion.org/upcoming-events": {
+   "hash": "8effcee739c267d8",
+   "seen": "2026-10-08"
+  },
+  "https://www.montgomerycountypa.gov/930/Pottsgrove-Manor": {
+   "hash": "a7683b4c83aadedc",
+   "seen": "2026-10-08"
+  },
+  "https://morganloghouse.org/visit/": {
+   "hash": "184d407a1620d0da",
+   "seen": "2026-10-08"
+  },
+  "https://historictrappe.org/visit/": {
+   "hash": "22c7e73b482efaad",
+   "seen": "2026-10-08"
+  },
+  "https://cairnwood.org/activities/historic-tours/": {
+   "hash": "db275b61923cb14a",
+   "seen": "2026-10-08"
+  },
+  "https://historicalsocietyfw.wixsite.com/fwhistory": {
+   "hash": "48ae2b919852fbed",
+   "seen": "2026-10-08"
+  },
+  "https://brintonfamily.org/": {
+   "hash": "61dd4ea2af3f0c90",
+   "seen": "2026-10-08"
+  },
+  "https://colonialfarmstead.org/visit/hours-and-admission/": {
+   "hash": null,
+   "seen": "2026-10-08"
+  },
+  "https://www.calebpuseyhouse.org/": {
+   "hash": "c5a54136f9638801",
+   "seen": "2026-10-08"
+  },
+  "https://www.marplehistoricalsociety.org/thomas-massey-house": {
+   "hash": "16a98a00fd159572",
+   "seen": "2026-10-08"
+  },
+  "https://thegrangeestate.net/": {
+   "hash": "31b85677d7fc85a9",
+   "seen": "2026-10-08"
+  },
+  "https://nphistory.org/leiperhouse": {
+   "hash": "e05fd35aa85e1337",
+   "seen": "2026-10-08"
+  },
+  "https://pearlsbuck.org/visit/": {
+   "hash": "97b582f1496be737",
+   "seen": "2026-10-08"
+  },
+  "https://www.moland.org/": {
+   "hash": "f1dd390d200e4d9d",
+   "seen": "2026-10-08"
+  },
+  "https://www.newhopehistorical.org/house-tours": {
+   "hash": "f36dcaf3b61a57dc",
+   "seen": "2026-10-08"
+  },
+  "https://dep.nj.gov/parksandforests/state-park/walt-whitman-house/": {
+   "hash": "e551b7775d089ec6",
+   "seen": "2026-10-08"
+  },
+  "https://www.petermotthouse.org/": {
+   "hash": "0d045914e216cc05",
+   "seen": "2026-10-08"
+  },
+  "https://moorestownhistory.org/current-exhibition/": {
+   "hash": "404e674326107c0f",
+   "seen": "2026-10-08"
+  },
+  "https://burlingtoncountyhistoricalsociety.org/visit/": {
+   "hash": "ed6a948100b2fc73",
+   "seen": "2026-10-08"
+  },
+  "https://www.gloucestercountynj.gov/671/Red-Bank-Battlefield": {
+   "hash": "ec4d1ad2235896db",
+   "seen": "2026-10-08"
+  },
+  "https://www.oldestonehousehistoricvillage.org/": {
+   "hash": "c047ae1c2ba39425",
+   "seen": "2026-10-08"
+  },
+  "https://manor.edu/about/ukraine/ukrainian-heritage-studies-center/": {
+   "hash": "dc1f31b82d8a015c",
+   "seen": "2026-10-08"
+  },
+  "https://www.nps.gov/inde/learn/historyculture/places-presidentshousesite.htm": {
+   "hash": "ecbc1feb64c79904",
+   "seen": "2026-10-08"
+  },
+  "https://www.pennsburymanor.org/visit/": {
+   "hash": "69293aa3a9113eef",
+   "seen": "2026-10-08"
+  },
+  "https://www.thedanielboonehomestead.org/": {
+   "hash": "1d755d59f0bdbcc4",
+   "seen": "2026-10-08"
+  },
+  "https://www.williamtrenthouse.org/": {
+   "hash": "2f9e8ec1c3c0efe7",
+   "seen": "2026-10-08"
+  },
+  "https://www.gloucestercountynj.gov/1377/Red-Bank-Battlefield-Tours": {
+   "hash": "f4e4d90b2297ba0b",
+   "seen": "2026-10-08"
+  },
+  "https://www.nemoursestate.org/visit": {
+   "hash": "30f614dab3dbcafd",
+   "seen": "2026-10-08"
+  },
+  "https://dehistory.org/visit/read-house-gardens/": {
+   "hash": "c8b3a551a8b1da81",
+   "seen": "2026-10-08"
+  },
+  "https://history.delaware.gov/new-castle-court-house-museum/": {
+   "hash": "effa153ed7a72a22",
+   "seen": "2026-10-08"
+  },
+  "https://www.newcastlehistory.org/museums": {
+   "hash": "6107c68754f44cf7",
+   "seen": "2026-10-08"
+  },
+  "https://halebyrneshouse.org/": {
+   "hash": "c7fefc4b9668d5c5",
+   "seen": "2026-10-08"
+  },
+  "https://norristownpreservationsociety.org/": {
+   "hash": "739419500f513a63",
+   "seen": "2026-10-08"
+  },
+  "https://radnorhistory.org/finleyhouse-2/": {
+   "hash": "c179e668bb6b5666",
+   "seen": "2026-10-08"
+  },
+  "https://nshistory.org/pmh": {
+   "hash": "601f4111d2ffc1a2",
+   "seen": "2026-10-08"
+  },
+  "https://visitdelco.com/things-to-do/history-museums/morton-homestead/": {
+   "hash": "d12e9f7621dc2123",
+   "seen": "2026-10-08"
+  },
+  "https://www.chesco.org/4691/Hibernia-Mansion": {
+   "hash": "6804000db11c61b2",
+   "seen": "2026-10-08"
+  },
+  "https://quakertownhistoricalsociety.org/": {
+   "hash": "2fbb1af73b62e6ae",
+   "seen": "2026-10-08"
+  },
+  "https://www.facebook.com/GriffithMorganHouse": {
+   "hash": "a27e924651edeab7",
+   "seen": "2026-10-08"
+  },
+  "https://glotwp.com/information/history-of-gloucester-township-nj/": {
+   "hash": "3a4e113d87ccde5c",
+   "seen": "2026-10-08"
+  },
+  "https://smithvillemansion.org/": {
+   "hash": "2642a8c963adbe91",
+   "seen": "2026-10-08"
+  }
  }
 }
