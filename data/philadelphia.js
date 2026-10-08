@@ -18,13 +18,13 @@ CITIES.push({
   nz: "费城",
 
   // Set by the weekly reconciliation.
-  updated: "September 14, 2026",
-  updatedz: "2026 年 9 月 14 日",
+  updated: "October 8, 2026",
+  updatedz: "2026 年 10 月 8 日",
 
   lede: "America 250 shows are everywhere this year, and most of them close in early January. The list runs from the Parkway museums out to the Fairmount Park mansions, the Germantown houses and the artist-run rooms in Kensington.",
   ledez: "今年 America 250 相关的展览铺天盖地，多数在明年 1 月初收官。清单从大道上的几家大馆，一直排到费尔蒙公园的老宅、Germantown 的历史住宅和 Kensington 的艺术家自营空间。",
-  note: "The Academy of Natural Sciences closes its public galleries permanently on September 30. ICA and the African American Museum are closed for reinstallation, and the Poe house and Deshler-Morris House are shut for building work.",
-  notez: "自然科学院 9 月 30 日永久关闭公共展区；ICA 与非裔美国人博物馆换展闭馆；坡故居与 Deshler-Morris House 因工程闭馆。",
+  note: "The Academy of Natural Sciences closed its public galleries for good on September 30; ICA has reopened after reinstallation. The African American Museum remains closed for reinstallation, and the Poe house and Deshler-Morris House are still shut for building work.",
+  notez: "自然科学院已于 9 月 30 日永久关闭公共展区；ICA 换展完成已重开。非裔美国人博物馆仍在换展闭馆；坡故居与 Deshler-Morris House 仍因工程闭馆。",
 
   groups: [
 { g: "Art", gz: "艺术",
@@ -35,13 +35,13 @@ CITIES.push({
     p: "Adults $30; free under 18; pay what you wish on the first Sunday of the month and Fridays after 5",
     pz: "成人 $30；18 岁以下免费；每月首个周日及周五 17:00 后随意付费", u: "https://www.philamuseum.org/exhibitions",
     shows: [
-      { t: "Workshop of the World: Arts and Crafts in Philadelphia", s: "2026-07-12", e: "2026-10-11", d: "150 years of the Arts and Crafts movement in Philadelphia", dz: "费城工艺美术运动 150 周年" },
-      { t: "Van Gogh's Sunflowers: A Symphony in Blue and Yellow", s: "2026-06-06", e: "2026-10-11", d: "The 1888 and 1889 Sunflowers hung side by side", dz: "1888 与 1889 两版《向日葵》同场" },
-      { t: "Americana: Photographs 1850–1950", s: "2026-07-23", e: "2026-11-01", d: "America in daguerreotypes, tintypes, stereographs and postcards", dz: "银版、锡版、立体照片与明信片里的美国" },
-      { t: "New Eyes: American Landscape Drawings", s: "2026-06-06", eText: "Through November", eTextz: "至 11 月", d: "American landscape drawing", dz: "美国风景素描" },
-      { t: "A Nation of Artists", s: "2026-04-12", e: "2027-07-05", d: "Three centuries of American art, with PAFA", dz: "与 PAFA 联合，三百年美国艺术" },
-      { t: "Marcel Duchamp", s: "2026-10-10", e: "2027-01-31", d: "A 300-work retrospective, including Nude Descending a Staircase and Fountain", dz: "300 余件作品的大型回顾展，含《下楼梯的裸女》与《泉》" },
-      { t: "El Anatsui: Prints and Play", sText: "Opens in December", sTextz: "12 月开幕", d: "Exact dates not yet announced", dz: "具体日期未公布" }
+      { t: "Workshop of the World: Arts and Crafts in Philadelphia", s: "2026-07-12", e: "2026-10-11", d: "150 years of Philadelphia's Arts and Crafts movement, with furniture, textiles, metalwork and ceramics on view.", dz: "费城工艺美术运动 150 年，含家具、织物、金工与陶瓷" },
+      { t: "Van Gogh's Sunflowers: A Symphony in Blue and Yellow", s: "2026-06-06", e: "2026-10-11", d: "The 1888 and 1889 versions of Van Gogh's Sunflowers shown together for a rare side-by-side comparison.", dz: "1888 与 1889 两版《向日葵》罕见同场对照展出" },
+      { t: "Americana: Photographs 1850–1950", s: "2026-07-23", e: "2026-11-01", d: "A century of American photography, from daguerreotypes and tintypes to stereographs and postcards.", dz: "百年美国摄影：银版、锡版、立体照片与明信片" },
+      { t: "New Eyes: American Landscape Drawings", s: "2026-06-06", eText: "Through November", eTextz: "至 11 月", d: "American landscape drawings tracing changing artistic views of nature and the land over time.", dz: "美国风景素描中自然观念的变迁" },
+      { t: "A Nation of Artists", s: "2026-04-12", e: "2027-07-05", d: "Three centuries of American art co-presented with PAFA, marking the nation's 250th anniversary.", dz: "与 PAFA 联合展出，三百年美国艺术，纪念建国 250 周年" },
+      { t: "Marcel Duchamp", s: "2026-10-10", e: "2027-01-31", d: "First major US Duchamp retrospective in 50+ years, about 300 works including Fountain and Nude Descending a Staircase.", dz: "50 余年来美国最大杜尚回顾展，约 300 件作品，含《泉》与《下楼梯的裸女》" },
+      { t: "El Anatsui: Prints and Play", sText: "Opens in December", sTextz: "12 月开幕", d: "Exact dates not yet announced; survey of the Ghanaian sculptor's experimental prints and paper works.", dz: "具体日期未公布；加纳雕塑家实验版画与纸本作品回顾" }
     ] },
   { n: "Rodin Museum", nz: "罗丹博物馆", a: "2151 Benjamin Franklin Pkwy",
     h: "Mon and Fri–Sun 10–5", hz: "周一、周五–周日 10–17", p: "Adults $15, students $7",
@@ -54,29 +54,27 @@ CITIES.push({
     p: "Adults $30, college students $5; includes special exhibitions, valid two days",
     pz: "成人 $30，大学生 $5；票含特展，两天内有效", u: "https://www.barnesfoundation.org/whats-on/exhibitions",
     shows: [
-      { t: "Just Us", e: "2026-10-12", d: "Work by artists at SCI Phoenix and the Mural Arts Rec Crew", dz: "SCI Phoenix 监狱艺术家与 Mural Arts Rec Crew 作品" },
-      { t: "Sky Hopinka: Red Metal Dust", e: "2027-01-18", d: "Eleven new installation works", dz: "11 件新作装置" },
-      { t: "Education & Empowerment, Vol. Two: 1927–1952", e: "2027-01-25", d: "Archives of the Barnes scholarship students", dz: "巴恩斯奖学金学生档案展" },
-      { t: "Noguchi to Asawa: Designing Postwar America", s: "2026-09-20", e: "2027-01-10", d: "Two generations of Japanese American sculptors and designers", dz: "两代日裔美国艺术家的雕塑与设计" }
+      { t: "Just Us", e: "2026-10-12", d: "Work by incarcerated artists at SCI Phoenix and Mural Arts' Rec Crew youth program.", dz: "SCI Phoenix 监狱艺术家与 Mural Arts 青年项目 Rec Crew 作品" },
+      { t: "Sky Hopinka: Red Metal Dust", e: "2027-01-18", d: "Eleven new installation works by the filmmaker-artist exploring Indigenous language and landscape.", dz: "影像艺术家新作，11 件装置，探讨原住民语言与土地" },
+      { t: "Education & Empowerment, Vol. Two: 1927–1952", e: "2027-01-25", d: "Archival exhibition on students whose education the Barnes Foundation's scholarship program supported.", dz: "巴恩斯奖学金学生档案展" },
+      { t: "Noguchi to Asawa: Designing Postwar America", s: "2026-09-20", e: "2027-01-10", d: "Postwar sculpture and design by two generations of Japanese American artists, tied to wartime incarceration history.", dz: "两代日裔美国艺术家的战后雕塑与设计，涉及拘禁史" }
     ] },
   { n: "PAFA (Pennsylvania Academy of the Fine Arts)", nz: "宾夕法尼亚美术学院博物馆", a: "118–128 N Broad St",
     h: "Thu–Mon 10–5, Fri until 8", hz: "周四–周一 10–17，周五至 20",
     p: "Adults $25, students $10; reduced on Friday evenings", pz: "成人 $25，学生 $10；周五晚减价",
     u: "https://www.pafa.org/museum/exhibitions",
     shows: [
-      { t: "A Nation of Artists", s: "2026-04-12", e: "2027-09-05", d: "Includes Jasper Johns's Flag", dz: "含 Jasper Johns《Flag》" },
-      { t: "To Be Continued…", s: "2026-08-27", e: "2027-03-08", d: "Mary Cassatt's unfinished paintings", dz: "Mary Cassatt 未完成的画作" },
-      { t: "Kati Gegenheimer: We've Only Just Begun", e: "2026-12-31", d: "In the Morris Gallery", dz: "Morris Gallery" },
-      { t: "Fred Wilson: THE MASTER PLAN…", e: "2027-04-04", d: "Works on paper built from architectural floor plans", dz: "建筑平面图为题的纸上作品" },
-      { t: "Proof Testing: PrintLab Residency at Brandywine", s: "2026-06-18", e: "2027-02-15", d: "Printmaking", dz: "版画" },
-      { t: "In This Community: Arnab Gan Choudhury", s: "2026-08-06", e: "2026-10-12", d: "In the School of Fine Arts Gallery", dz: "School of Fine Arts Gallery" },
-      { t: "In This Academy / Cast Collection", s: "2026-06-25", e: "2027-04-26", d: "From the collection, with the plaster casts", dz: "馆藏与石膏像藏品展" }
+      { t: "A Nation of Artists", s: "2026-04-12", e: "2027-09-05", d: "Three centuries of American art co-presented with the Philadelphia Museum of Art, including Jasper Johns's Flag.", dz: "与费城艺术博物馆联合展出，含 Jasper Johns《Flag》" },
+      { t: "To Be Continued…", s: "2026-08-27", e: "2027-03-08", d: "Mary Cassatt's unfinished paintings, examined for what they reveal about her working methods.", dz: "Mary Cassatt 未完成画作，审视其创作方法" },
+      { t: "Kati Gegenheimer: We've Only Just Begun", e: "2026-12-31", d: "Contemporary work by Kati Gegenheimer on view in PAFA's Morris Gallery.", dz: "Morris Gallery 展出的当代新作" },
+      { t: "Fred Wilson: THE MASTER PLAN…", e: "2027-04-04", d: "Twenty-two photogravures by Fred Wilson built from architectural floor plans, in the Works on Paper Gallery.", dz: "22 件照相凹版作品，取材建筑平面图" },
+      { t: "Proof Testing: PrintLab Residency at Brandywine", s: "2026-06-18", e: "2027-02-15", d: "Prints made during a PrintLab residency at Brandywine, exploring experimental printmaking techniques.", dz: "Brandywine PrintLab 驻地项目实验版画" },
+      { t: "In This Community: Arnab Gan Choudhury", s: "2026-08-06", e: "2026-10-12", d: "Work by Arnab Gan Choudhury on view in the School of Fine Arts Gallery.", dz: "School of Fine Arts Gallery 展出的个人作品" },
+      { t: "In This Academy / Cast Collection", s: "2026-06-25", e: "2027-04-26", d: "A collection display pairing PAFA's permanent-collection holdings with its historic plaster cast collection.", dz: "馆藏作品与历史石膏像藏品并置展示" }
     ] },
   { n: "ICA (Institute of Contemporary Art, Penn)", nz: "宾大当代艺术研究所", a: "118 S 36th St",
-    h: "Closed for installation until Sep 25; from Sep 26, Wed–Sun 11–6, Thu until 8",
-    hz: "布展闭馆至 9/25；9/26 起周三–周日 11–18，周四至 20", p: "Free", pz: "免费",
+    h: "Wed–Sun 11–6, Thu until 8", hz: "周三–周日 11–18，周四至 20", p: "Free", pz: "免费",
     u: "https://icaphila.org/exhibitions/", free: true,
-    flag: "Closed for reinstallation until Sep 25", flagz: "换展闭馆至 9/25",
     shows: [
       { t: "The Condition of Being Near", s: "2026-09-26", e: "2027-02-21", d: "A group show on land, solidarity and the politics of belonging", dz: "土地、团结与归属政治的群展" },
       { t: "Wilmer Wilson IV: SKIRL!", s: "2026-09-26", e: "2027-02-21", d: "American identity and urban space, seen through the gray squirrel", dz: "以灰松鼠看美国身份与城市空间" },
@@ -87,8 +85,8 @@ CITIES.push({
     h: "Wed–Fri 12–6, Sat–Sun 12–5", hz: "周三–五 12–18，周六日 12–17", p: "Free, $10 donation suggested",
     pz: "免费，建议捐赠 $10", u: "https://fabricworkshopandmuseum.org/exhibitions/", free: true,
     shows: [
-      { t: "Jesse Krimes: Elegy Quilts", s: "2026-05-01", e: "2026-11-01", d: "Large-scale quilts as elegy", dz: "大型挽歌拼布" },
-      { t: "You Stretched Diagonally Across It: Contemporary Tapestry", s: "2026-07-16", e: "2027-01-03", d: "Contemporary tapestry installations", dz: "当代挂毯装置" }
+      { t: "Jesse Krimes: Elegy Quilts", s: "2026-05-01", e: "2026-11-01", d: "Quilts made from incarcerated people's clothing, meditating on memory and home; debuts the collaborative quilt Riverside.", dz: "以受刑者衣物制成的拼布，首展合作作品《Riverside》" },
+      { t: "You Stretched Diagonally Across It: Contemporary Tapestry", s: "2026-07-16", e: "2027-01-03", d: "Group exhibition of contemporary tapestry and fiber-based installation works by multiple artists.", dz: "多位艺术家的当代挂毯与纤维装置联展" }
     ] },
   { n: "Woodmere Art Museum", nz: "伍德米尔美术馆", a: "9201 Germantown Ave (Chestnut Hill)",
     h: "Wed–Sun 10–5", hz: "周三–周日 10–17", p: "Adults $15; free on Sundays", pz: "成人 $15；周日免费",
@@ -107,8 +105,7 @@ CITIES.push({
     h: "Mon–Thu 9–9:30, Fri 9–8, Sat 9–3:30", hz: "周一–四 9–21:30，周五 9–20，周六 9–15:30", p: "Free",
     pz: "免费", u: "https://fleisher.org/calendar/", free: true,
     shows: [
-      { t: "2026 Faculty Fellowship Exhibition", s: "2026-08-31", e: "2026-09-26", d: "Benjamin Fedosky and David Heshmatpour", dz: "Benjamin Fedosky 与 David Heshmatpour" },
-      { t: "Annual Faculty Exhibition", s: "2026-10-13", e: "2026-11-19", d: "The annual group show of the teaching faculty", dz: "教师年度联展" }
+      { t: "Annual Faculty Exhibition", s: "2026-10-13", e: "2026-11-19", d: "Fleisher's annual juried group show of its teaching faculty, spanning sculpture, printmaking, ceramics, painting, drawing and photography.", dz: "教师年度联展，涵盖雕塑、版画、陶艺、绘画与摄影" }
     ] },
   { n: "Philadelphia's Magic Gardens", nz: "魔法花园", a: "1020 South St",
     h: "Wed–Mon 11–6", hz: "周三–周一 11–18", p: "Adults $15, students $12; often sells out, book ahead",
@@ -122,16 +119,16 @@ CITIES.push({
     h: "Mon–Fri 11–5:30, Sat–Sun 11–5", hz: "周一–五 11–17:30，周六日 11–17", p: "Free", pz: "免费",
     u: "https://www.theclaystudio.org/exhibitions", free: true,
     shows: [
-      { t: "Operation Mud", s: "2026-09-10", e: "2026-10-31", d: "First-year work from the ceramics workshop for veterans", dz: "退伍军人陶艺工作坊首年作品" },
-      { t: "Small Favors 2026", s: "2026-10-08", e: "2027-01-03", d: "The 20th edition of the miniature show, around 400 pieces", dz: "第 20 届微型作品展，约 400 件" }
+      { t: "Operation Mud", s: "2026-09-10", e: "2026-10-31", d: "First-year ceramics work from a studio workshop and residency program for military veterans.", dz: "退伍军人陶艺工作坊与驻留项目首年作品" },
+      { t: "Small Favors 2026", s: "2026-10-08", e: "2026-12-31", d: "20th-anniversary edition of the studio's miniature-works show, roughly 400 pieces from juried and invited artists.", dz: "第 20 届微型作品展，评选与邀请作者约 400 件" }
     ] },
   { n: "Museum for Art in Wood", nz: "木艺美术馆", a: "141 N 3rd St",
     h: "Wed–Sun 12–5", hz: "周三–周日 12–17", p: "Free", pz: "免费",
     u: "https://museumforartinwood.org/exhibitions/", free: true,
     shows: [
-      { t: "Out of Place: Windgate Residency 2026", s: "2026-08-07", e: "2026-10-25", d: "Six international residents on migration and belonging", dz: "六位国际驻地艺术家谈迁徙与归属" },
-      { t: "A Room of Their Own", s: "2026-05-01", e: "2026-10-18", d: "Carved still lifes and the spaces artists work in", dz: "木雕静物与创作空间" },
-      { t: "Donna Dodson: Match of the Matriarchs", s: "2026-11-06", e: "2027-03-21", d: "An interactive set of 32 life-size carved chess pieces", dz: "32 件真人尺寸木雕棋子的互动装置" }
+      { t: "Out of Place: Windgate Residency 2026", s: "2026-08-07", e: "2026-10-25", d: "Six international artist fellows from a two-month wood-art residency, on migration and belonging.", dz: "六位国际驻地艺术家谈迁徙与归属" },
+      { t: "A Room of Their Own", s: "2026-05-01", e: "2026-10-18", d: "Carved still-life sculpture examining the creative interior and the spaces where artists work.", dz: "木雕静物，探讨创作者的内心世界与工作空间" },
+      { t: "Donna Dodson: Match of the Matriarchs", s: "2026-11-06", e: "2027-03-21", d: "An interactive, life-size wood-carved chess set of 32 pieces by sculptor Donna Dodson.", dz: "32 件真人尺寸木雕棋子的互动装置" }
     ] },
   { n: "Arthur Ross Gallery (Penn)", nz: "宾大阿瑟·罗斯画廊", a: "220 S 34th St, inside the Fisher Fine Arts Library",
     h: "Mon–Thu 11–6, Fri–Sun 12–5", hz: "周一–四 11–18，周五–日 12–17", p: "Free", pz: "免费",
@@ -151,8 +148,8 @@ CITIES.push({
     h: "Mon–Sat 11–5", hz: "周一–六 11–17", p: "Free", pz: "免费",
     u: "https://moore.edu/the-galleries-at-moore/about/current-exhibitions/", free: true,
     shows: [
-      { t: "e bond '96", s: "2026-09-19", e: "2026-11-07", d: "In the alumni gallery", dz: "校友画廊" },
-      { t: "Michelle Angela Ortiz: STORIES OF US", s: "2026-10-10", e: "2026-12-05", d: "A large solo show by the Philadelphia muralist", dz: "费城壁画家的大型个展" }
+      { t: "e bond '96", s: "2026-09-19", e: "2026-11-07", d: "Solo alumni exhibition titled 'Language Studies' by artist e bond, class of 1996, in the Alumni Gallery.", dz: "校友画廊个展《Language Studies》，96 届校友 e bond" },
+      { t: "Michelle Angela Ortiz: STORIES OF US", s: "2026-10-10", e: "2026-12-05", d: "Career-spanning solo show by Philadelphia muralist Michelle Angela Ortiz on family, immigration and community.", dz: "费城壁画家的大型个展，谈家庭、移民与社区" }
     ] },
   { n: "La Salle University Art Museum", nz: "拉萨尔大学艺术博物馆", a: "1900 W Olney Ave",
     h: "By appointment", hz: "预约参观", p: "Free", pz: "免费", u: "https://artcollection.lasalle.edu/",
@@ -221,11 +218,10 @@ CITIES.push({
       { t: "Nihad Dukhan - Unbroken Lineages I", s: "2026-10-02", e: "2026-10-15", d: "Islamic calligraphy by master calligrapher Nihad Dukhan, from classical forms to contemporary work", dz: "书法大师 Nihad Dukhan 的伊斯兰书法，从古典写法到当代创作" }
     ] },
   { n: "Leonard Pearlstein Gallery, Drexel University", nz: "德雷塞尔大学伦纳德·珀尔斯坦画廊", a: "3401 Filbert Street, URBN Annex",
-    h: "Follows Drexel's academic calendar; no weekly hours are posted — call 215.895.2548 before visiting",
-    hz: "随德雷塞尔大学学期安排开放，网站未公布固定时间；出行前请致电 215.895.2548 确认", p: "Free", pz: "免费",
+    h: "Tue–Fri 12–5, Sat 12–6",
+    hz: "周二–周五 12–17，周六 12–18", p: "Free", pz: "免费",
     u: "https://drexel.edu/pearlsteingallery/", free: true,
     shows: [
-      { t: "Lunar Retreat", s: "2026-09-09", e: "2026-09-20", d: "Ticketed FringeArts performance installation on the Moon slowly drifting away from Earth", dz: "Fringe 艺术节售票演出装置，以月球缓慢远离地球为题" },
       { t: "Escape > Control > Play: The Art of the Video Game", s: "2026-10-13", e: "2026-12-12", d: "Playable video games shown as art by artists, designers and historians; opens Oct 15 with a reception", dz: "可试玩的电子游戏展，艺术家、设计师与历史学者参与；10 月 15 日开幕酒会" }
     ] },
   { n: "Frances M. Maguire Art Museum, Saint Joseph's University", nz: "圣约瑟夫大学弗朗西丝·M·马奎尔艺术博物馆", a: "50 Lapsley Lane",
@@ -256,7 +252,7 @@ CITIES.push({
     flagz: "位于 Swarthmore，乘 SEPTA Media/Wawa 线距市中心约 25 分钟",
     shows: [
       { t: "The Black West in Color", s: "2026-09-03", e: "2026-10-11", d: "Contemporary artists on Black Western heritage, identity, representation and memory in America", dz: "当代艺术家呈现美国黑人西部传统、身份与记忆" },
-      { t: "Beneath the elm tree's shade: Landscapes from the Swarthmore College Art Collection", s: "2026-10-18", e: "2026-12-23", d: "More than twenty landscape paintings from the college collection, many recently conserved", dz: "学院藏品中二十余幅风景画，多件近期完成修复" }
+      { t: "Beneath the elm tree's shade: Landscapes from the Swarthmore College Art Collection", s: "2026-10-18", e: "2026-12-13", d: "More than twenty landscape paintings from the college collection, many recently conserved", dz: "学院藏品中二十余幅风景画，多件近期完成修复" }
     ] },
   { n: "Villanova University Art Gallery", nz: "维拉诺瓦大学艺术画廊", a: "800 East Lancaster Avenue, Connelly Center, 2nd Floor",
     h: "Mon–Fri 8–7, Sat–Sun 11–7; the gallery follows Connelly Center hours, which change between terms, so check before visiting",
@@ -288,9 +284,6 @@ CITIES.push({
     flagz: "因 I-95 CAP 施工，现场停车受限；建议步行、骑行 Delaware River Trail、搭公共交通或网约车",
     shows: [
       { t: "Paul Ramírez Jonas' Let Freedom Ring", s: "2026-06-04", e: "2026-11-01", d: "A bell tower plays a patriotic anthem and stops; visitors ring the last note themselves", dz: "钟塔奏爱国歌曲却停在最后一音，由观众亲手敲响" },
-      { t: "The Ben Franklin Bridge at 100: Photographs by James B. Abbott", s: "2026-07-03", e: "2026-09-27", d: "Four decades of photographs of the bridge, its anchorage interior and the changing waterfront", dz: "四十年间拍摄的富兰克林大桥、桥墩内部与变迁中的水岸" },
-      { t: "20/20 Photo Festival at Cherry Street Pier", s: "2026-09-04", e: "2026-09-27", d: "Contemporary photography exhibitions and a photo book fair, free to attend", dz: "当代摄影展与摄影书市，免费参加" },
-      { t: "Termite TV's and PhillyCAM's Collaborative Film + Exhibition: “Mending”", s: "2026-09-04", e: "2026-09-27", d: "Eighteen short films by 21 media artists on repair, healing and reconnection", dz: "21 位影像艺术家的 18 部短片，主题为修补与重连" },
       { t: "Proximity: A Street Photography Exhibition at Cherry Street Pier", sText: "Opens October 2", sTextz: "10 月 2 日开幕", eText: "Through November 1", eTextz: "至 11 月 1 日", d: "Street photography shown in the pier's public hall", dz: "码头公共大厅内的街头摄影展" }
     ] },
   { n: "Al-Bustan Seeds of Culture", nz: "阿尔布斯坦文化之种", a: "310 West Master Street, Unit 2",
@@ -388,9 +381,8 @@ CITIES.push({
     flag: "Small club gallery — hours follow the workshop schedule, so call before visiting",
     flagz: "小型俱乐部画廊，开放时间随工作坊安排而变，前往前请先致电",
     shows: [
-      { t: "Transitions", s: "2026-09-01", e: "2026-09-24", d: "All-media group show on the theme of transition, personal to cosmic", dz: "以「转变」为题的综合媒材群展，从个人到宇宙" },
-      { t: "Jeannie Moberly: The Comprehensivist", s: "2026-09-01", e: "2026-09-24", d: "Solo show by a member artist working across several fields at once", dz: "会员艺术家个展，作品横跨多个领域" },
-      { t: "Dare To Be Dada, In the Vitrine at the Plastic Club", s: "2026-09-01", e: "2026-10-29", d: "Rolling Dada-inspired show in the club's street vitrine, with work added through the run", dz: "俱乐部临街展柜中的达达风格滚动展，展期内持续加入新作" }
+      { t: "Dare To Be Dada, In the Vitrine at the Plastic Club", s: "2026-09-01", e: "2026-10-29", d: "Rolling Dada-inspired show in the club's street vitrine, with work added through the run", dz: "俱乐部临街展柜中的达达风格滚动展，展期内持续加入新作" },
+      { t: "American Color Print Society 86th Annual Fall Exhibition", s: "2026-11-01", e: "2026-11-25", d: "Juried fine-art print exhibition hosted at the club, open to members and non-member print submissions", dz: "美国彩色版画协会第 86 届秋季评选展" }
     ] },
   { n: "Temple Judea Museum", nz: "犹大圣殿博物馆", a: "8339 Old York Road",
     h: "Mon–Fri 9–5, and Friday evenings before services", hz: "周一–周五 9–17；周五晚礼拜前开放", p: "Free",
@@ -433,9 +425,7 @@ CITIES.push({
     u: "https://newhopearts.org/exhibitions/", free: true,
     flag: "In New Hope, about 60 minutes from Center City — beyond the usual range; the gallery is on the second floor and opens weekends only",
     flagz: "位于 New Hope，距市中心约 60 分钟，已超出常规范围；展厅在二楼，仅周末开放",
-    shows: [
-      { t: "Liberty and Its Shadows: Reflecting on America at 250", s: "2026-08-29", e: "2026-10-04", d: "Juried show of about 40 regional artists on the country at 250, with the student project Men Without Shoes", dz: "约 40 位本地艺术家的评审展，回应建国 250 年，并展出学生项目 Men Without Shoes" }
-    ] },
+    shows: [] },
   { n: "Markeim Arts Center", nz: "马凯姆艺术中心", a: "104 Walnut Street",
     h: "Tue–Fri 1–5", hz: "周二–周五 13–17", p: "Gallery admission free", pz: "展厅免费参观",
     u: "https://markeimartscenter.org/", free: true,
@@ -525,7 +515,7 @@ CITIES.push({
     flagz: "位于新泽西 Glassboro，距市中心约 35 分钟",
     shows: [
       { t: "Diane Burko: Extraction, A Dialogue of Extremes", s: "2026-08-24", e: "2026-10-17", d: "Paintings and photographs on climate change and Amazon deforestation, built from scientific data", dz: "以科学数据为底、关于气候变化与亚马逊毁林的绘画与摄影" },
-      { t: "Eco-Social Realism", sText: "Nov 2", sTextz: "11 月 2 日", eText: "Dec 19", eTextz: "12 月 19 日", d: "Group show on ecology and social realism; opening reception November 5, 5–7 PM", dz: "生态与社会现实主义群展，11 月 5 日 17:00–19:00 开幕酒会" },
+      { t: "Eco-Social Realism", sText: "Nov 2", sTextz: "11 月 2 日", eText: "Dec 19", eTextz: "12 月 19 日", d: "Group show on ecology and social realism; opening reception November 5, 5-7 PM", dz: "生态与社会写实主题群展，11 月 5 日开幕酒会" },
       { t: "Margarita Cabrera: Space in Between", sText: "Jan 19", sTextz: "1 月 19 日", eText: "March 13", eTextz: "3 月 13 日", d: "Solo show by Margarita Cabrera at the High Street gallery", dz: "玛格丽塔·卡布雷拉个展，位于高街馆" },
       { t: "Eileen Neff: Through That Which Is Seen", sText: "March 29", sTextz: "3 月 29 日", eText: "May 22", eTextz: "5 月 22 日", d: "Solo show by Philadelphia artist Eileen Neff at the High Street gallery", dz: "费城艺术家 Eileen Neff 个展，位于高街馆" }
     ] },
@@ -560,7 +550,6 @@ CITIES.push({
     free: true, flag: "In Blue Bell, about 35 minutes from Center City",
     flagz: "位于 Blue Bell，距市中心约 35 分钟",
     shows: [
-      { t: "Montgomery County Guild of Professional Artists: 30th Anniversary Exhibition", s: "2026-09-01", e: "2026-09-26", d: "Members of the county's professional artists' guild mark the group's thirtieth year", dz: "本县职业艺术家协会成立三十周年会员展" },
       { t: "A House with Cosmic Roots", s: "2026-10-05", e: "2026-12-05", d: "Solo exhibition of work by artist Kate Leibrand", dz: "艺术家 Kate Leibrand 个展" },
       { t: "Beneath the Bark: Montco Woodworking", s: "2027-01-19", e: "2027-02-13", d: "Woodwork by David Washington and other makers working in Montgomery County", dz: "David Washington 等本地木作创作者的作品展" },
       { t: "40th Annual Touch the Future High School Art Exhibition", s: "2027-02-28", e: "2027-04-01", d: "Statewide high school art show run by the Pennsylvania State Education Association", dz: "宾州教育协会主办的全州高中生艺术展，第 40 届" },
@@ -594,7 +583,6 @@ CITIES.push({
     u: "https://www.dccc.edu/art-gallery", free: true,
     flag: "In Media, about 30 minutes from Center City", flagz: "位于 Media，距市中心约 30 分钟",
     shows: [
-      { t: "A.F.A. Foundations Exhibition", s: "2026-09-10", e: "2026-10-09", d: "Work from the college's foundation-level art courses and A.F.A. degree programs", dz: "学院基础课程与 A.F.A. 学位学生作品展" },
       { t: "Meredith Sellers: Window/Frame", s: "2026-10-26", e: "2026-12-04", d: "Solo exhibition by artist Meredith Sellers; artist talk and reception November 5", dz: "艺术家 Meredith Sellers 个展；11 月 5 日有艺术家讲座与开幕活动" },
       { t: "Regional High School Art Exhibition", s: "2027-01-06", e: "2027-02-05", d: "Annual show of work by high school students from the surrounding region", dz: "周边地区高中生年度艺术展" }
     ] },
@@ -618,10 +606,8 @@ CITIES.push({
     u: "https://rosemont.edu/upcoming-exhibitions/", free: true,
     flag: "In Rosemont, about 30 minutes from Center City", flagz: "位于 Rosemont，距市中心约 30 分钟",
     shows: [
-      { t: "The Space of Desire", s: "2026-07-23", e: "2026-08-24", d: "Solo exhibition by artist Adrienne Jenkins; closed in late August", dz: "艺术家 Adrienne Jenkins 个展，8 月下旬已闭展" },
-      { t: "Then and Now", s: "2026-08-27", e: "2026-09-28", d: "Solo exhibition by artist Tim Hawkesworth, free and open to the public", dz: "艺术家 Tim Hawkesworth 个展，免费向公众开放" },
-      { t: "Alumni Exhibit", s: "2026-10-01", e: "2026-11-09", d: "Group show of work by Rosemont College art alumni", dz: "罗斯蒙特学院艺术专业校友群展" },
-      { t: "Larry Spaid Exhibit", s: "2026-11-12", e: "2026-12-14", d: "Solo exhibition by artist Larry Spaid", dz: "艺术家 Larry Spaid 个展" }
+      { t: "Alumni Exhibit", s: "2026-10-01", e: "2026-11-09", d: "Group show of work by Rosemont College art alumni, currently on view in the gallery", dz: "罗斯蒙特学院艺术系校友联展" },
+      { t: "Larry Spaid Exhibit", s: "2026-11-12", e: "2026-12-14", d: "Solo exhibition by artist Larry Spaid, opening after the alumni show closes", dz: "艺术家 Larry Spaid 个展" }
     ] },
   { n: "Holy Family University Art Gallery", nz: "圣家大学美术馆", a: "9801 Frankford Ave",
     h: "Hours not published; contact the gallery before visiting", hz: "开放时间未公布，参观前请先联系画廊",
@@ -633,7 +619,7 @@ CITIES.push({
     flag: "In Aston, about 35 minutes from Center City; the gallery sometimes closes for events, so call ahead",
     flagz: "位于 Aston，距市中心约 35 分钟；画廊有时因活动闭馆，建议先致电确认",
     shows: [
-      { t: "Delaware Valley Art League", s: "2026-09-03", e: "2026-10-20", d: "Work by 36 Art League members in oil, watercolour, pastel, collage and graphite", dz: "36 位艺术联盟会员的油画、水彩、色粉、拼贴与素描作品" }
+      { t: "Delaware Valley Art League", s: "2026-09-03", e: "2026-10-20", d: "Work by 36 Art League members in oil, watercolor, pastel, acrylic, collage and graphite", dz: "特拉华谷艺术联盟 36 位成员的油画、水彩、粉彩等作品" }
     ] },
   { n: "Barbara Crawford Gallery, Springside Chestnut Hill Academy", nz: "斯普林塞德栗山学院芭芭拉·克劳福德画廊", a: "500 W. Willow Grove Ave",
     h: "Open during school hours; call ahead", hz: "学校上课时间开放；建议先致电确认", p: "Free", pz: "免费",
@@ -671,8 +657,8 @@ CITIES.push({
     flagz: "距市中心约 40 分钟",
     shows: [
       { t: "Journey Through a Jug: Decoding Design", s: "2025-09-09", e: "2026-11-01", d: "One ceramic jug unpacked piece by piece to show how objects carry meaning", dz: "从一只陶壶拆解器物设计的含义" },
-      { t: "Challenging Masterpieces: Art and Identity in American Furniture", s: "2026-09-26", e: "2027-05-02", d: "American furniture reconsidered through who made it and who it was made for", dz: "重新审视美国家具的制作者与使用者" },
-      { t: "At Home At Winterthur", eText: "Ongoing", eTextz: "长期", d: "The du Pont family's rooms shown as a lived-in house of American decorative arts", dz: "以居家视角呈现杜邦家族的装饰艺术宅邸" },
+      { t: "Challenging Masterpieces: Art and Identity in American Furniture", s: "2026-09-26", e: "2027-05-02", d: "American furniture reconsidered through who made it and who it was made for, for the museum's 75th anniversary", dz: "从制作者与使用者身份重新审视美国家具，纪念博物馆 75 周年" },
+      { t: "At Home At Winterthur", s: "2026-05-23", eText: "Ongoing", eTextz: "长期", d: "A major installation exploring Winterthur as estate, home, workplace and center for decorative arts and conservation", dz: "大型常设展，呈现温特图尔作为宅邸、工作地与文物保护中心的历史" },
       { t: "Conversations with the Collection", eText: "Ongoing", eTextz: "长期", d: "Rotating pairings drawn from the decorative arts collection", dz: "馆藏装饰艺术的轮换对照陈列" },
       { t: "Wonders of the Small Wonder", s: "2027-02-27", e: "2028-01-09", d: "Delaware-made objects and the state's craft traditions", dz: "特拉华本地器物与工艺传统" }
     ] },
@@ -687,7 +673,7 @@ CITIES.push({
       { t: "Pyle and the Pre-Raphaelites", s: "2026-09-05", e: "2027-01-24", d: "Howard Pyle's illustration hung against the museum's British Pre-Raphaelite holdings", dz: "派尔插画与馆藏前拉斐尔派并置" },
       { t: "Lisa Bradley: Beyond Luminosity", s: "2026-09-19", e: "2027-01-17", d: "Paintings built from layered veils of colour", dz: "以层层色纱构成的绘画" },
       { t: "Walls of Resistance: Art as Activism", s: "2026-09-23", e: "2026-10-25", d: "A short run of protest art and community organising", dz: "短期展出的抗争艺术与社区行动" },
-      { t: "Transcendent: Landscapes of the Hudson River School", s: "2026-10-10", e: "2027-01-10", d: "Nineteenth-century American landscape painting", dz: "十九世纪美国风景画" },
+      { t: "Transcendent: Landscapes of the Hudson River School", s: "2026-10-10", e: "2027-01-10", d: "Nineteenth-century American landscape paintings viewed through the Transcendentalist idea of nature as spiritual", dz: "19 世纪美国风景画，以超验主义自然观为线索" },
       { t: "Pre-Raphaelite Powerhouse: The Bancroft Bequest", s: "2027-02-13", e: "2027-08-08", d: "The Bancroft gift that made this the largest Pre-Raphaelite collection outside Britain", dz: "班克罗夫特捐赠的前拉斐尔派收藏" }
     ] },
   { n: "The Delaware Contemporary", nz: "特拉华当代艺术中心", a: "200 South Madison Street",
@@ -700,12 +686,10 @@ CITIES.push({
     flagz: "位于特拉华州 Wilmington，距市中心约 30 分钟",
     shows: [
       { t: "Our Sun Is Rising — Our Sun Is Setting", s: "2026-08-07", e: "2027-01-03", d: "Group show of Delaware artists", dz: "特拉华本地艺术家群展" },
-      { t: "Tree Watching", s: "2026-06-05", e: "2026-11-29", d: "Group show guest curated by Maleke Glee", dz: "由客座策展人 Maleke Glee 策划的群展" },
+      { t: "Tree Watching", s: "2026-06-05", e: "2026-11-29", d: "Group show guest curated by Maleke Glee, the first chapter of a year-long project called Hush Arbor", dz: "客座策展群展，为期一年项目 Hush Arbor 首章" },
       { t: "Self, Realized", eText: "Currently on view", eTextz: "正在展出", d: "Group show of the centre's artists-in-residence, curated by Amber M Chacana", dz: "驻场艺术家群展，由 Amber M Chacana 策划" },
       { t: "I Thought I Would _______ By Now", s: "2026-06-05", e: "2026-11-29", d: "Solo exhibition by Elizabeth Bergeland", dz: "Elizabeth Bergeland 个展" },
-      { t: "We Were Always Here", s: "2026-08-07", e: "2027-02-28", d: "Group show of indigenous artists of the Eastern Woodlands", dz: "东部林地原住民艺术家群展" },
-      { t: "Newark High School Student Exhibition", s: "2026-07-24", e: "2026-10-02", d: "Artwork by students from Newark High School", dz: "Newark 高中学生作品展" },
-      { t: "We Can Use The Rain", s: "2026-08-07", e: "2026-09-27", d: "Solo exhibition of Larissa Ranbom", dz: "Larissa Ranbom 个展" }
+      { t: "We Were Always Here", s: "2026-08-07", e: "2027-02-28", d: "Group show of indigenous artists of the Eastern Woodlands", dz: "东部林地原住民艺术家群展" }
     ] },
   { n: "Rose Valley Museum at Thunderbird Lodge", nz: "玫瑰谷博物馆（雷鸟居）", a: "41 Rose Valley Road",
     h: "Select weekends only; otherwise by appointment", hz: "仅在指定周末开放；其余时间需预约",
@@ -740,9 +724,7 @@ CITIES.push({
     h: "Sat–Sun 2–6 and by appointment; First Friday receptions 6–10",
     hz: "周六–周日 14–18，另可预约；每月第一个周五开幕酒会 18–22", p: "Free", pz: "免费",
     u: "https://www.tigerstrikesasteroid.com/", free: true,
-    shows: [
-      { t: "Eggs Milk Butter", s: "2026-08-08", e: "2026-09-19", d: "Current show in the Philadelphia space of the artist-run TSA network", dz: "艺术家自营 TSA 网络费城空间的当期展览" }
-    ] },
+    shows: [] },
   { n: "Fjord", nz: "Fjord 画廊", a: "1720 N. 5th Street, G2",
     h: "Sat 1–5 or by appointment", hz: "周六 13–17，或预约参观", p: "Free", pz: "免费",
     u: "https://fjordspace.com/Exhibitions", free: true,
@@ -753,8 +735,7 @@ CITIES.push({
     h: "Wed–Fri 12–8, Sat–Sun 10–6; closed Mon–Tue", hz: "周三–周五 12–20，周六–周日 10–18；周一、周二闭馆",
     p: "Free", pz: "免费", u: "https://secondstatepress.org/", free: true,
     shows: [
-      { t: "Welcome to Parlor", s: "2026-08-13", e: "2026-09-27", d: "Gallery show in the non-profit printmaking studio's exhibition space", dz: "非营利版画工作室展厅的当期展览" },
-      { t: "2026 Member Print Exchange", s: "2026-09-05", e: "2026-10-04", d: "Prints traded among studio members, hung together", dz: "工作室会员互换的版画集中展出" }
+      { t: "Chance Encounter", s: "2026-10-08", e: "2026-11-29", d: "Juried open-call group show on community and chance, part of the Collective Futures project", dz: "开放征件群展，探讨社区与偶然，Collective Futures 项目之一" }
     ] },
   { n: "The Village of Arts and Humanities", nz: "艺术与人文村", a: "2544 Germantown Avenue",
     h: "Mon–Fri 10–5", hz: "周一–周五 10–17", p: "Free", pz: "免费", u: "https://www.villagearts.org/",
@@ -765,14 +746,7 @@ CITIES.push({
     p: "Free; to reach the upper floors sign in and pass security at the Northeast Visitor's Entrance",
     pz: "免费；上楼层需在东北角游客入口登记并过安检", u: "https://www.creativephl.org/exhibitions/current/", free: true,
     shows: [
-      { t: "A Federal Job in the Arts – CETA and Philadelphia in the 1970s", s: "2026-08-03", e: "2026-10-02", d: "In Room 116: how a 1970s federal jobs programme paid Philadelphia artists", dz: "116 室：1970 年代联邦就业计划如何雇佣费城艺术家" },
-      { t: "Art of the Handwritten Word", s: "2026-08-03", e: "2026-09-25", d: "Lettering and calligraphy, second floor near the Mayor's offices", dz: "字体与书法作品，二楼市长办公室附近" },
-      { t: "Philly Youth City Council: Art for Social Justice", s: "2026-08-14", e: "2026-10-02", d: "Work by the city's youth council on social justice themes, third floor", dz: "青少年市议会的社会公义主题作品，三楼" },
-      { t: "Fresh Perspectives", s: "2026-08-17", e: "2026-10-02", d: "Group show on the fourth floor, northeast corner", dz: "四楼东北角的群展" },
-      { t: "Passport Through the Caribbean: Art & Artifacts Representing Caribbean Life Through the Four Pillars", s: "2026-08-21", e: "2026-10-02", d: "Art and objects of Caribbean life, first floor southwest corner", dz: "加勒比生活的艺术与实物，一楼西南角" },
-      { t: "Founders of Philadelphia Sports", s: "2026-06-25", e: "2026-10-30", d: "Display cases on the first floor near voter registration", dz: "一楼选民登记处旁的展柜陈列" },
-      { t: "Evolution / Revolution – Mural Arts C2L-PHL Program", s: "2026-08-14", e: "2026-08-28", d: "Mural Arts programme work on the fifth floor, northeast corner", dz: "壁画艺术项目作品，五楼东北角" },
-      { t: "Philadelphia – America 250 City Art Poster Project", s: "2026-06-12", e: "2026-08-28", d: "Commissioned posters for the country's 250th anniversary, second floor", dz: "为建国 250 周年委约的海报，二楼" }
+      { t: "Founders of Philadelphia Sports", s: "2026-06-25", e: "2026-10-30", d: "Display cases on the first floor near voter registration", dz: "一楼选民登记处旁的展柜陈列" }
     ] },
   { n: "Cheltenham Center for the Arts", nz: "切尔滕纳姆艺术中心", a: "439 Ashbourne Road",
     h: "Mon–Fri 10–5", hz: "周一–周五 10–17", p: "Free", pz: "免费",
@@ -788,7 +762,7 @@ CITIES.push({
     flagz: "位于 Haverford，距市中心约 30 分钟；自 Haverford 车站步行约 10 分钟",
     shows: [
       { t: "Artists Equity: The Big Works Show", s: "2026-09-10", e: "2026-10-24", d: "Large-scale pieces by members of the Philadelphia Artists Equity group", dz: "费城 Artists Equity 成员的大尺幅作品" },
-      { t: "Suminagashi: Ink, Water & Presence", s: "2026-09-10", e: "2026-10-17", d: "Japanese floating-ink marbling on paper", dz: "日本墨流技法的纸上作品" },
+      { t: "Suminagashi: Ink, Water & Presence", s: "2026-09-10", e: "2026-10-17", d: "Japanese floating-ink marbling on paper by students of Ursula Majer's workshops", dz: "Ursula Majer 工作坊学员的日本墨流纸艺" },
       { t: "23rd Annual Betsy Meyer Memorial Exhibition", s: "2026-11-14", e: "2026-12-18", d: "The centre's annual curated show of regional contemporary artists", dz: "艺术中心一年一度的地区当代艺术策展" }
     ] },
   { n: "Wayne Art Center", nz: "韦恩艺术中心", a: "413 Maplewood Avenue",
@@ -796,10 +770,8 @@ CITIES.push({
     pz: "免费", u: "https://wayneart.org/exhibitions/", free: true,
     flag: "In Wayne, about 35 minutes from Center City", flagz: "位于 Wayne，距市中心约 35 分钟",
     shows: [
-      { t: "Wayne Art Center 2026 Faculty Exhibition", s: "2026-09-08", e: "2026-10-03", d: "Work by the artists who teach in the centre's studios", dz: "中心各工作室授课艺术家的作品" },
-      { t: "2026 Fall Members Juried Exhibition", s: "2026-09-08", e: "2026-10-03", d: "Juried selection from the centre's member artists", dz: "会员艺术家作品的评审入选展" },
       { t: "Philadelphia Water Color Society: 126th International Exhibition of Works on Paper", s: "2026-10-14", e: "2026-11-14", d: "The watercolour society's international juried show of works on paper", dz: "水彩学会的国际评审纸上作品展" },
-      { t: "CraftForms 2026, 31st International Juried Exhibition of Contemporary Fine Craft", s: "2026-12-06", e: "2027-01-23", d: "The centre's long-running international contemporary craft survey", dz: "中心长期举办的国际当代工艺大展" },
+      { t: "CraftForms 2026, 31st International Juried Exhibition of Contemporary Fine Craft", s: "2026-12-06", e: "2027-01-23", d: "The centre's long-running international contemporary craft survey, juried by Robert K. Liu & Patrick Benesh-Liu", dz: "中心长年国际当代工艺评选展，第 31 届" },
       { t: "Made in Philadelphia, A Celebration of Contemporary Craft", s: "2026-12-06", e: "2027-01-23", d: "Contemporary craft by Philadelphia-area makers, shown alongside CraftForms", dz: "费城地区工艺创作，与 CraftForms 同期展出" },
       { t: "Attraction to Abstraction 2026", s: "2026-12-06", e: "2027-01-23", d: "Abstract painting and works on paper", dz: "抽象绘画与纸上作品" }
     ] },
@@ -809,15 +781,15 @@ CITIES.push({
     flag: "In Collingswood, NJ, about 20 minutes from Center City on PATCO",
     flagz: "位于新泽西州 Collingswood，乘 PATCO 距市中心约 20 分钟",
     shows: [
-      { t: "Big Ink", s: "2026-09-08", e: "2026-10-30", d: "Large woodblock prints pulled on a portable press by invited artists", dz: "受邀艺术家用便携压印机印制的大幅木刻版画" }
+      { t: "Big Ink", s: "2026-09-08", e: "2026-10-30", d: "Large woodblock prints pulled on a portable press by invited artists", dz: "受邀艺术家用便携压印机印制的大幅木刻版画" },
+      { t: "Tom Gaines", s: "2026-09-12", e: "2026-10-28", d: "Exhibition of work by artist Tom Gaines on view in the Collingswood gallery", dz: "艺术家 Tom Gaines 作品展，Collingswood 分馆" },
+      { t: "Written By Us", s: "2026-09-12", e: "2026-10-28", d: "Group exhibition centered on text- and narrative-based artwork at the Collingswood gallery", dz: "以文本与叙事为核心的群展，Collingswood 分馆" }
     ] },
   { n: "Chester County Art Association", nz: "切斯特县艺术协会", a: "100 North Bradford Avenue",
     h: "Mon–Fri 10–5, Sat 11–4", hz: "周一–周五 10–17，周六 11–16", p: "Free", pz: "免费",
     u: "https://www.chestercountyarts.org/west-chester-galleries.html", free: true,
     flag: "In West Chester, about 45 minutes from Center City", flagz: "位于 West Chester，距市中心约 45 分钟",
     shows: [
-      { t: "Hue of Memories II", s: "2026-09-10", e: "2026-10-01", d: "A group show curated by Jie Deng in the Allinson Gallery", dz: "由 Jie Deng 策划的群展，位于 Allinson 展厅" },
-      { t: "Plant Portraits", s: "2026-09-10", e: "2026-10-01", d: "Botanical drawings by the Philadelphia Society of Botanical Illustrators", dz: "费城植物插画协会会员的植物绘画" },
       { t: "Members Show", s: "2026-10-08", e: "2026-10-28", d: "The association's juried members show, judged by Randel Graham", dz: "协会会员评审展，由 Randel Graham 评选" },
       { t: "Remember That Time", s: "2026-10-08", e: "2026-10-28", d: "A solo show by Karen McCool in the Huston Gallery", dz: "Karen McCool 个展，位于 Huston 展厅" },
       { t: "Bostelle, Freeland, & Haggerty", s: "2026-11-05", e: "2026-12-02", d: "Three Brandywine-area painters hung together", dz: "三位 Brandywine 地区画家的联展" },
@@ -830,9 +802,8 @@ CITIES.push({
     p: "Free", pz: "免费", u: "https://artfusion19464.org/exhibits/", free: true,
     flag: "In Pottstown, about 50 minutes from Center City", flagz: "位于 Pottstown，距市中心约 50 分钟",
     shows: [
-      { t: "Summer Camp Showcase", s: "2026-08-29", e: "2026-09-19", d: "Work made by children in the centre's summer camp sessions", dz: "夏令营学员的作品展" },
-      { t: "Anno Artem at ArtFusion", s: "2026-09-26", e: "2026-11-07", d: "A group show in the community art centre's main gallery", dz: "社区艺术中心主展厅的群展" },
-      { t: "Tiny Tidings", s: "2026-11-14", e: "2027-01-09", d: "Small-format holiday show; opening party Friday December 4, 6–8pm", dz: "小幅作品节日展；12 月 4 日 18–20 时开幕派对" }
+      { t: "Anno Artem at ArtFusion", s: "2026-09-26", e: "2026-11-07", d: "Group show by the Anno Artem artist collective in the centre's main gallery, reception October 23", dz: "Anno Artem 艺术家团体联展，10 月 23 日开幕酒会" },
+      { t: "Tiny Tidings", s: "2026-11-14", e: "2027-01-09", d: "Small-format holiday group show with an opening/upcycle party reception the evening of December 4", dz: "小尺幅节日主题联展，12 月 4 日开幕兼手作升级派对" }
     ] },
   { n: "Camden FireWorks", nz: "卡姆登烟火艺术中心", a: "1813 South Broadway",
     h: "Sat–Sun 12–5, or by appointment", hz: "周六–周日 12–17，或预约参观", p: "Free", pz: "免费",
@@ -845,7 +816,9 @@ CITIES.push({
     flag: "In Cadwalader Park, Trenton, NJ, about 50 minutes from Center City",
     flagz: "位于新泽西特伦顿 Cadwalader 公园，距市中心约 50 分钟",
     shows: [
-      { t: "Mercer County Photography 2026", s: "2026-09-11", e: "2026-10-11", d: "Biennial juried show for photographers who live, work or study in Mercer County", dz: "面向默瑟县摄影师的双年评审展" }
+      { t: "Mercer County Photography 2026", s: "2026-09-11", e: "2026-10-11", d: "Biennial juried show for photographers who live, work or study in Mercer County, NJ", dz: "双年评选展，面向居住、工作或求学于默瑟郡的摄影师" },
+      { t: "2026 Trenton's Christmas Past: The Slinky", d: "Annual holiday-themed exhibit; this year's edition centers on the Slinky toy and Trenton department-store history", dz: "年度节日主题展，聚焦 Slinky 弹簧玩具与特伦顿百货史" },
+      { t: "Celebrating America 250: Revolutionary Memorabilia from the TMS Collection", d: "Display of Revolutionary War-era memorabilia drawn from the museum's own collection, tied to America's 250th", dz: "馆藏独立战争纪念品展，呼应建国 250 周年" }
     ] },
   { n: "The Gallery at Lower Bucks Campus", nz: "下巴克斯校区画廊", a: "1304 Veterans Highway",
     h: "Hours not published; call 215-968-8425 before visiting", hz: "未公布开放时间；参观前请致电 215-968-8425",
@@ -874,21 +847,14 @@ CITIES.push({
     flag: "In New Hope, Bucks County, about 60 minutes from Center City; the mill opens only while an exhibition is running",
     flagz: "位于巴克斯县 New Hope，距市中心约 60 分钟；磨坊仅在展览期间开放",
     shows: [
-      { t: "97th Juried Art Show", s: "2026-09-26", e: "2026-11-01", d: "The association's annual juried show of regional art, open daily 1 to 5", dz: "协会年度地区艺术评审展，每日 13–17 开放" },
-      { t: "Art Quilters Celebrate Independence", s: "2026-11-15", e: "2026-12-13", d: "SAQA touring exhibition of contemporary art quilts", dz: "SAQA 当代艺术拼布巡回展" }
+      { t: "97th Juried Art Show", s: "2026-09-26", e: "2026-11-01", d: "The association's 97th annual juried exhibition of regional art, open daily 1 to 5pm", dz: "协会第 97 届年度评选展，每日 13:00–17:00 开放" },
+      { t: "Art Quilters Celebrate Independence", s: "2026-11-15", e: "2026-12-13", d: "SAQA-PA touring exhibition of contemporary art quilts marking the US 250th anniversary, juried show", dz: "SAQA-PA 巡展，当代艺术拼布纪念建国 250 周年" }
     ] }
 ]},
 
 { g: "Science & Medicine", gz: "科学与医学",
-  note: "The Academy of Natural Sciences closes its public galleries for good on September 30, which makes it the most urgent visit in the city.",
-  notez: "自然科学院 9 月 30 日永久关闭公共展区，是全城最紧的一个。", items: [
-  { n: "Academy of Natural Sciences", nz: "自然科学院", a: "1900 Benjamin Franklin Pkwy",
-    h: "Fri–Sun 10–5", hz: "周五–周日 10–17", p: "Adults $22", pz: "成人 $22",
-    u: "https://ansp.org/exhibits/", flag: "Public galleries close permanently on September 30",
-    flagz: "9 月 30 日永久关闭公共展区",
-    shows: [
-      { t: "Botany of Nations", s: "2026-03-28", e: "2026-09-30", d: "Indigenous plant knowledge and Lewis & Clark specimens; travels to Minnesota after the closure", dz: "原住民植物知识与 Lewis & Clark 标本；闭馆后巡展至明尼苏达" }
-    ] },
+  note: "From the Franklin Institute's big-ticket exhibits to teaching arboretums and small nature centers across the suburbs. The Mütter Museum anchors the group with shows on 250 years of Philadelphia medicine.",
+  notez: "从富兰克林研究所的大型特展，到郊区的教学树木园与自然中心。穆特博物馆的系列展览串起费城 250 年医学史。", items: [
   { n: "Mütter Museum", nz: "穆特博物馆", a: "19 S 22nd St",
     h: "Wed–Mon 10–5; Tue 3–8 through Oct 27", hz: "周三–周一 10–17；周二 15–20（至 10/27）",
     p: "Adults $25, students $20; special exhibitions included", pz: "成人 $25，学生 $20；特展含在门票内",
@@ -904,10 +870,9 @@ CITIES.push({
     h: "Wed–Sat 10–5", hz: "周三–六 10–17", p: "Free", pz: "免费",
     u: "https://www.sciencehistory.org/visit/exhibitions/", free: true,
     shows: [
-      { t: "Flash! Bang! Boom! A History of Fireworks", s: "2026-04-10", e: "2027-07-31", d: "Where fireworks came from and how they work, for America 250", dz: "烟花的起源与科学，America 250" },
-      { t: "Take Me Out to the Lab", e: "2026-10-31", d: "How science changed baseball", dz: "科学如何改变棒球" },
-      { t: "Philadelphia: Workshop of the World", e: "2026-09-30", d: "The industrial firms that built Philadelphia; the museum lists only \"through September\"", dz: "塑造费城的工业公司；官网写\"至 9 月\"" },
-      { t: "First-Class Flora (outdoors)", eText: "Through April 2027", eTextz: "至 2027 年 4 月", d: "Medicinal plants on postage stamps", dz: "药用植物邮票" }
+      { t: "Flash! Bang! Boom! A History of Fireworks", s: "2026-04-10", e: "2027-07-31", d: "Major exhibition on the global history and science of fireworks, mounted for America's 250th anniversary", dz: "烟花的全球历史与科学，纪念建国 250 周年大展" },
+      { t: "Take Me Out to the Lab", e: "2026-10-31", d: "Small ExhibitLab display on how modern science and technology have shaped the game of baseball", dz: "小型展览，讲述现代科技如何塑造棒球运动" },
+      { t: "First-Class Flora (outdoors)", eText: "Through April 2027", eTextz: "至 2027 年 4 月", d: "Outdoor facade display of medicinal-plant postage stamps drawn from a chemist's personal stamp collection", dz: "户外外墙展示，药用植物主题邮票，取自一位化学家的个人收藏" }
     ] },
   { n: "The Franklin Institute", nz: "富兰克林研究所", a: "222 N 20th St",
     h: "Daily 9:30–5", hz: "每天 9:30–17", p: "Adults $29", pz: "成人 $29",
@@ -990,9 +955,7 @@ CITIES.push({
     p: "Free; free parking and free drop-in tours", pz: "免费；停车免费，另有免费随到随参加的导览",
     u: "https://www.scottarboretum.org/", free: true,
     flag: "In Swarthmore, about 25 minutes from Center City", flagz: "位于 Swarthmore，距市中心约 25 分钟",
-    shows: [
-      { t: "Ohara School of Ikebana Exhibition", s: "2026-09-18", e: "2026-09-19", d: "Two-day display of Ohara-school Japanese flower arranging, free to view", dz: "小原流日本花道作品两日展，免费参观" }
-    ] },
+    shows: [] },
   { n: "Haverford College Arboretum", nz: "哈弗福德学院树木园", a: "370 Lancaster Ave",
     h: "Daily dawn to dusk, every day of the year except Commencement Day in May",
     hz: "每日 日出至日落，全年开放；仅 5 月毕业典礼当日闭园",
@@ -1079,10 +1042,8 @@ CITIES.push({
     flag: "In Devon, about 35 minutes from Center City; the gallery occasionally closes for programmes or rentals, call 610-647-8870 first",
     flagz: "位于 Devon，距市中心约 35 分钟；画廊偶因活动或场地出租关闭，建议先致电 610-647-8870 确认",
     shows: [
-      { t: "Jenkins Florilegium", s: "2026-03-28", e: "2026-09-20", d: "Botanical paintings of plants growing at Jenkins by three regional artists", dz: "三位本地画家为园中植物所作的博物画" },
-      { t: "Graphite Reveries", s: "2026-02-12", e: "2026-09-20", d: "Graphite drawings by Gregory Brellochs, presented with Werring Contemporary", dz: "Gregory Brellochs 的石墨素描，与 Werring Contemporary 合作呈现" },
-      { t: "The Art of Identification", s: "2026-09-26", e: "2027-01-10", d: "Chris Swisher's photographs of plants and wildlife, made as identification studies", dz: "Chris Swisher 以物种识别为题的动植物摄影" },
-      { t: "Dreamscapes: Night Photography", s: "2026-09-26", e: "2027-01-10", d: "Riley Callow's night landscape photographs; reception Sunday 27 September, 2–4", dz: "Riley Callow 的夜间风景摄影；9 月 27 日 14–16 举行开幕酒会" }
+      { t: "The Art of Identification", s: "2026-09-26", e: "2027-01-10", d: "Chris Swisher's photographs of plants and wildlife, made as identification studies, shown in the Education Center gallery", dz: "Chris Swisher 植物与野生动物摄影，教育中心画廊展出" },
+      { t: "Dreamscapes: Night Photography", s: "2026-09-26", e: "2027-01-10", d: "Riley Callow's night-landscape photographs, shown in the library, with a September 27 opening reception", dz: "Riley Callow 夜景摄影，图书馆展出，9 月 27 日开幕酒会" }
     ] },
   { n: "Henry Botanic Garden", nz: "亨利植物园", a: "801 Stony Lane",
     h: "By appointment only; one-hour guided tours, book at least a week ahead",
@@ -1326,8 +1287,8 @@ CITIES.push({
     h: "Weekdays", hz: "工作日", p: "Free", pz: "免费", u: "https://librarycompany.org/calendar-2/",
     free: true,
     shows: [
-      { t: "Philadelphia's Radical Revolution: From the Stamp Act to the Federal Constitution", s: "2026-05-18", e: "2026-10-09", d: "How craftsmen and artisans drove the Revolution", dz: "工匠与手艺人如何推动革命" },
-      { t: "Serious Fun: The Robert Staples Metamorphic Collection", s: "2026-11-05", d: "Movable paper from before 1920; opening lecture at 5:30", dz: "1920 年前的可动纸艺；开幕讲座 17:30" }
+      { t: "Philadelphia's Radical Revolution: From the Stamp Act to the Federal Constitution", s: "2026-05-18", e: "2026-10-09", d: "Explores how craftsmen, artisans, and tradespeople helped drive Philadelphia's revolutionary political transformation.", dz: "探讨工匠与手艺人如何推动费城的革命性政治变革" },
+      { t: "Serious Fun: The Robert Staples Metamorphic Collection", s: "2026-11-05", d: "Displays movable paper mechanisms and books made before 1920, with an opening lecture at 5:30.", dz: "1920 年前的活动机关纸艺与书籍，开幕讲座 17:30" }
     ] },
   { n: "Historical Society of Pennsylvania", nz: "宾夕法尼亚历史学会", a: "1300 Locust St",
     h: "Tue/Thu/Fri 10–4, Wed 1–7", hz: "周二/四/五 10–16，周三 13–19", p: "Free", pz: "免费",
@@ -1340,9 +1301,8 @@ CITIES.push({
     h: "Mon–Thu 9–8, Fri–Sat 9–5", hz: "周一–四 9–20，周五六 9–17", p: "Free", pz: "免费",
     u: "https://libwww.freelibrary.org/calendar/type/exhibitions", free: true,
     shows: [
-      { t: "Philadelphia: For the People", s: "2026-05-02", e: "2027-01-02", d: "250 years of Philadelphians building a city that serves its people", dz: "250 年间费城人如何建设一座为人民服务的城市" },
-      { t: "Coltrane's Philadelphia", e: "2026-11-14", d: "Coltrane's centenary and the city he worked in", dz: "Coltrane 百年与他的费城" },
-      { t: "Dollars to Donuts: Katie Strachan", e: "2026-10-13", d: "Ceramics drawn from Pennsylvania German Fraktur", dz: "受宾州德裔 Fraktur 启发的陶瓷" }
+      { t: "Philadelphia: For the People", s: "2026-05-02", e: "2027-01-02", d: "Marks 250 years of Philadelphians organizing to build a city that serves its own people.", dz: "纪念费城人组织建设为民服务之城 250 年" },
+      { t: "Coltrane's Philadelphia", e: "2026-11-14", d: "Marks John Coltrane's centennial through artifacts tied to the city where he lived and worked.", dz: "纪念 John Coltrane 百年诞辰，展出其费城生活相关文物" }
     ] },
   { n: "Penn Libraries", nz: "宾大图书馆", a: "Van Pelt and other libraries",
     h: "With a PennCard", hz: "凭 PennCard", p: "Free", pz: "免费",
@@ -1375,8 +1335,8 @@ CITIES.push({
     h: "Tue–Fri 10–6, Sat–Sun 10–4", hz: "周二–五 10–18，周六日 10–16", p: "Ticketed separately", pz: "另购票",
     u: "https://www.simeonemuseum.org/events/",
     shows: [
-      { t: "Foxbody: The People's Mustang", s: "2026-10-10", e: "2026-10-25", d: "The 1979–93 Fox-platform Mustang", dz: "1979–93 Fox 平台野马" },
-      { t: "AMC: Rebel Spirit", sText: "Opens in December", sTextz: "12 月开幕", d: "American Motors performance cars", dz: "American Motors 性能车" }
+      { t: "Foxbody: The People's Mustang", s: "2026-10-10", e: "2026-10-25", d: "Celebrates the 1979–93 Fox-platform Mustang with original, modified, and competition cars from owners.", dz: "庆祝 1979–93 年 Fox 平台野马，车主原装、改装与赛用车" },
+      { t: "AMC: Rebel Spirit", sText: "Opens in December", sTextz: "12 月开幕", d: "Showcases American Motors performance cars, from the Ambassador to the Gremlin X.", dz: "美国汽车公司性能车展，从 Ambassador 到 Gremlin X" }
     ] },
   { n: "Fairmount Water Works Interpretive Center", nz: "费尔蒙水厂展示中心", a: "640 Waterworks Dr",
     h: "Wed–Sat 10–5", hz: "周三–六 10–17", p: "Free", pz: "免费",
@@ -1412,8 +1372,7 @@ CITIES.push({
     p: "Free; suggested donation $5 per person or $10 per family", pz: "免费；建议捐赠每人 $5，家庭 $10",
     u: "https://www.amphilsoc.org/museum/exhibitions", free: true,
     shows: [
-      { t: "These Truths: The Declarations of Independence", s: "2026-04-10", e: "2027-01-03", d: "The chair Jefferson wrote the Declaration in, plus early printings by Binns and Stone and a first Common Sense", dz: "杰斐逊起草《独立宣言》时所坐的椅子，以及宾斯、斯通等早期印本与初版《常识》" },
-      { t: "Contours of American Mathematics", s: "2026-07-20", e: "2026-09-18", d: "Small lobby display in Library Hall on how mathematics grew in America, from APS collections", dz: "图书馆大厅小型陈列，以馆藏讲述美国数学的发展" }
+      { t: "These Truths: The Declarations of Independence", s: "2026-04-10", e: "2027-01-03", d: "Major America 250 show of early Declaration printings, Jefferson's writing chair, and a first Common Sense.", dz: "建国 250 周年大展，早期《独立宣言》印本、杰斐逊写字椅与初版《常识》" }
     ] },
   { n: "The Athenæum of Philadelphia", nz: "费城雅典娜图书馆", a: "219 South 6th Street",
     h: "Mon 9–7, Tue 9–5, Wed 10–5, Thu–Fri 9–5, Sat 10–3; closed Sundays",
@@ -1922,7 +1881,7 @@ CITIES.push({
     flag: "In Haddonfield, about 25 minutes from Center City and walkable from the PATCO station",
     flagz: "位于 Haddonfield，距市中心约 25 分钟，可由 PATCO 车站步行前往",
     shows: [
-      { t: "Haddonfield Through the Ages: Our Former Mayors", s: "2026-09-02", e: "2026-10-15", d: "Nineteen mayors in chronological order, with a period map and census figures", dz: "19 位历任镇长照片按年代排列，另有旧地图与人口普查数据" }
+      { t: "Haddonfield Through the Ages: Our Former Mayors", s: "2026-09-02", e: "2026-10-15", d: "Nineteen framed mayoral portraits shown chronologically with a historic borough map and population figures", dz: "19 幅历任镇长肖像，配历史地图与人口数据按年陈列" }
     ] },
   { n: "Barclay Farmstead Museum", nz: "巴克莱农庄博物馆", a: "209 Barclay Lane",
     h: "Wed 12–4, March–November; first Sunday of the month 1–4", hz: "3–11 月周三 12–16；每月第一个周日 13–16",
@@ -2138,8 +2097,7 @@ CITIES.push({
     hz: "帕克韦中心馆周一–周四 9–20，周五、周六 9–17，周日闭馆；三楼善本部开放时间更短", p: "Free; guided tours free", pz: "免费；导览亦免费",
     u: "https://libwww.freelibrary.org/locations/departments/rare-book-department", free: true,
     shows: [
-      { t: "Well Read, Well Loved, Well Used: Evidence of Readership in the Modified Book", sText: "Opens October 1, 2026", sTextz: "2026 年 10 月 1 日开幕", d: "Books marked, annotated and altered by the people who read them, from the rare book collection", dz: "善本藏品中被读者批注、修改过的书籍" },
-      { t: "Dollars to Donuts", e: "2026-08-29", d: "Ceramic works drawing on Pennsylvania German Fraktur and devotional manuscripts", dz: "取材自宾州德裔 Fraktur 与祈祷手稿传统的陶艺作品" }
+      { t: "Well Read, Well Loved, Well Used: Evidence of Readership in the Modified Book", s: "2026-10-01", e: "2027-04-17", d: "Books bearing inscriptions, annotations and missing pages, explored as physical evidence of past readers' habits", dz: "题记、批注与缺页，作为读者使用痕迹的实物证据" }
     ] },
   { n: "Print and Picture Collection, Free Library of Philadelphia", nz: "费城自由图书馆版画与图片收藏部", a: "1901 Vine Street",
     h: "2nd Floor West Gallery open during Parkway Central Library hours (Mon–Thu 9–8, Fri–Sat 9–5, closed Sun); use of the collection itself is by appointment",
@@ -2615,7 +2573,7 @@ CITIES.push({
     flag: "Cash, check or PayPal only — credit and debit cards are not accepted.",
     flagz: "仅收现金、支票或 PayPal，不接受信用卡与借记卡。",
     shows: [
-      { t: "An \"Historic\" Art Exhibition", s: "2026-09-18", e: "2026-09-18", d: "One-evening exhibition and sale by 12 Philadelphia artists for the Committee of 1926 centenary", dz: "12 位费城艺术家的一晚展售，纪念 1926 委员会成立百年" }
+      { t: "From Invisible to Invincible: Honoring the Art of Color", s: "2026-09-19", e: "2026-11-08", d: "Twelve Philadelphia artists exhibit and sell work marking the centennial of the Committee of 1926", dz: "12 位费城艺术家展售作品，纪念 1926 年委员会百年" }
     ] },
   { n: "Laurel Hill Mansion", nz: "月桂山庄园", a: "3487 Edgley Drive, East Fairmount Park",
     h: "Thu–Sun 10–4, guided tours; last tour begins at 3", hz: "周四–周日 10–16，导览参观；最后一场 15:00 开始",
@@ -2711,11 +2669,8 @@ CITIES.push({
     flag: "Parts of the grounds are closed for construction; check \"The Morris in Progress\" before travelling",
     flagz: "部分园区因施工关闭，出发前请查看 “The Morris in Progress” 页面",
     shows: [
-      { t: "Garden Railway: Revolutionary Philly", sText: "On view now", sTextz: "正在展出", e: "2026-09-30", d: "Quarter-mile model railway winding past miniature Philadelphia landmarks built from bark, twigs and stone", dz: "四分之一英里模型铁路，穿行于树皮石材搭建的费城微缩地标" },
-      { t: "Exuberant Blooms", sText: "On view now", sTextz: "正在展出", e: "2026-09-30", d: "Eight paisley-shaped beds of massed seasonal flowers set among structures built from reclaimed pruned wood", dz: "八块佩斯利形花床密植时令花卉，间以修枝木料搭建的构筑物" },
-      { t: "Plants from the Colonial Era", sText: "On view now", sTextz: "正在展出", e: "2026-09-30", d: "Self-guided route through plants that grew in the Philadelphia area in the colonial period", dz: "自助路线，沿途介绍殖民时期费城地区的植物" },
-      { t: "Holiday Garden Railway", sText: "From November 22", sTextz: "11 月 22 日起", eText: "Through December 30", eTextz: "至 12 月 30 日", d: "The garden railway relit for winter, a third of a mile of track strung with lights, open daily 10–4", dz: "园艺铁路冬季点灯，三分之一英里轨道缀满灯串，每日 10–16 开放" },
-      { t: "Out on a Limb", sText: "On view now", sTextz: "正在展出", eText: "Permanent", eTextz: "常设", d: "Canopy walkway 50 feet up in the treetops, with a suspended rope bridge and a giant bird's nest", dz: "50 英尺高的树冠步道，设悬索桥与巨型鸟巢" }
+      { t: "Holiday Garden Railway", sText: "From November 22", sTextz: "11 月 22 日起", eText: "Through December 30", eTextz: "至 12 月 30 日", d: "Garden railway relit for winter, a third of a mile of lighted track, open daily afternoons", dz: "冬季重新点亮的花园小火车，轨道长约三分之一英里，每日午后开放" },
+      { t: "Out on a Limb", sText: "On view now", sTextz: "正在展出", eText: "Permanent", eTextz: "常设", d: "Elevated canopy walkway fifty feet up with a suspended rope bridge and a giant bird's nest", dz: "离地 50 英尺的树冠步道，含悬索桥与巨型鸟巢造景" }
     ] },
   { n: "The Woodlands", nz: "伍德兰兹庄园", a: "4000 Woodland Avenue",
     h: "Grounds daily, dawn to dusk; mansion by appointment or during public events; office Mon–Fri 9–5",
@@ -2788,9 +2743,8 @@ CITIES.push({
     flag: "In Kennett Square, about 50 minutes southwest; timed tickets are required and members must also reserve Fridays–Sundays after 3",
     flagz: "位于 Kennett Square，距市中心约 50 分钟；须预约分时票，会员周五–周日 15:00 后也需预约",
     shows: [
-      { t: "Festival of Fountains", s: "2026-05-08", e: "2026-09-27", d: "Daily fountain shows in the Main Fountain Garden, with illuminated performances on summer evenings", dz: "主喷泉花园每日水舞表演，夏夜有灯光喷泉场次" },
-      { t: "Chrysanthemum Festival", s: "2026-10-16", e: "2026-11-15", d: "Trained chrysanthemum forms through the historic conservatories, including the Thousand Bloom", dz: "历史温室内的造型菊展，含千朵菊" },
-      { t: "A Longwood Christmas", s: "2026-11-20", e: "2027-01-10", d: "Decorated conservatory and outdoor light displays, on a separate and higher holiday ticket", dz: "温室布置与户外灯饰，需另购较贵的圣诞季门票" }
+      { t: "Chrysanthemum Festival", s: "2026-10-16", e: "2026-11-15", d: "Thousands of trained chrysanthemums fill the historic conservatories, including a large flowering arch", dz: "千株造型菊花布满历史温室，含大型菊花拱门" },
+      { t: "A Longwood Christmas", s: "2026-11-20", e: "2027-01-10", d: "Conservatory and outdoor holiday light displays, sold on a separate, higher-priced seasonal ticket", dz: "温室与户外节日灯光展，需另购季节性门票" }
     ] },
   { n: "Wharton Esherick Museum", nz: "沃顿·埃谢里克博物馆", a: "1520 Horseshoe Trail",
     h: "Wed–Sun, guided tours at 10, 11, 1 and 2, by advance reservation; closed January and February",
@@ -2801,8 +2755,8 @@ CITIES.push({
     flag: "In Malvern, about 45 minutes west of Center City. Visits are by guided tour only, capped at 8 guests, and must be reserved and paid for in advance — walk-ins are not accommodated.",
     flagz: "位于 Malvern，距市中心约 45 分钟车程。只能参加导览，每团限 8 人，须提前预订并付款，不接待现场访客。",
     shows: [
-      { t: "Breaking Ground: WEM's 32nd Annual Juried Woodworking Exhibition", s: "2026-06-18", e: "2026-09-20", d: "Juried woodworking show of 26 contemporary artists; the four prize winners are on view in the Visitor Center.", dz: "26 位当代木作艺术家的评审展，四位获奖者作品在访客中心展出。" },
-      { t: "Imprint 2026: Groundbreaking", eText: "Current exhibition", eTextz: "当前展览", d: "The museum's 18th annual high school printmaking competition, on the theme Groundbreaking.", dz: "第 18 届高中生版画比赛展，主题为「破土」。" }
+      { t: "Imprint 2026: Groundbreaking", eText: "Current exhibition", eTextz: "当前展览", d: "18th annual juried high school printmaking competition from five counties, themed on the studio's centennial", dz: "第 18 届高中版画评选展，五郡参与，呼应工作室百年" },
+      { t: "All the Time in the World", s: "2026-10-01", e: "2026-12-30", d: "New ceramic works by 2026 artist-in-residence Jennifer Johnson, inspired by Esherick's studio and grounds", dz: "2026 年驻馆艺术家 Jennifer Johnson 陶艺新作，取材故居与庭院" }
     ] },
   { n: "Chestnut Hill Conservancy", nz: "栗树山保护协会", a: "8708 Germantown Avenue",
     h: "Exhibits Fri–Sat 10–4; office Mon–Fri 9–5, Sat 10–4",
@@ -2916,7 +2870,7 @@ CITIES.push({
     flag: "In Perkasie, about 60 minutes from Center City — beyond the usual range; the house is seen by docent-led tour only",
     flagz: "位于 Perkasie，距市中心约 60 分钟，已超出常规范围；仅限讲解员导览参观",
     shows: [
-      { t: "Pieced Together: American Quilts Across Generations", s: "2026-06-08", e: "2026-10-18", d: "163 years of American quilts hung through the writer's own rooms", dz: "跨越 163 年的美国被面，布置在作家故居各房间" }
+      { t: "Pieced Together: American Quilts Across Generations", s: "2026-06-08", e: "2026-10-18", d: "163 years of American quilts, from utilitarian 19th-century pieces to contemporary art quilts, shown through the house", dz: "163 年美国拼布史，从 19 世纪实用品到当代艺术拼布" }
     ] },
   { n: "Moland House", nz: "莫兰德故居", a: "1641 Old York Road",
     h: "Guided tours 1–4 on the 2nd and 4th Sundays April–October; 2nd Sunday only November–March",
@@ -3153,8 +3107,8 @@ CITIES.push({
 
   closed: [
     { n: "Academy of Natural Sciences public galleries", nz: "自然科学院公共展区",
-      d: "Closing permanently on September 30, 2026; research and collections continue",
-      dz: "2026 年 9 月 30 日起永久关闭，研究与收藏继续" },
+      d: "Closed permanently on September 30, 2026; research and collections continue",
+      dz: "已于 2026 年 9 月 30 日永久关闭，研究与收藏继续" },
     { n: "Faith and Liberty Discovery Center", nz: "信仰与自由探索中心",
       d: "Closed March 2024",
       dz: "2024 年 3 月关闭" },
