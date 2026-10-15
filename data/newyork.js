@@ -178,8 +178,6 @@ CITIES.push({
     flag: "Both summer exhibitions closed on September 13, 2026; the next exhibition opens October 9, so gallery space is limited in between.",
     flagz: "两个夏季展览已于 2026 年 9 月 13 日结束；下一个展览 10 月 9 日开幕，其间可看内容有限。",
     shows: [
-      { t: "Self-Made: A Century of Inventing Artists", s: "2026-04-10", e: "2026-09-13", d: "Questions what 'self-taught artist' has meant in the United States since 1900", dz: "追问二十世纪以来美国如何定义自学艺术家" },
-      { t: "Folk Nation: Crafting Patriotism in the United States", s: "2026-04-10", e: "2026-09-13", d: "Collection works linking vernacular art to American national feeling, for the semiquincentennial", dz: "借建国 250 周年，梳理民间艺术与美国国家情感的关联" },
       { t: "Locating Girlhood: Place and Identity in Early American “Schoolgirl” Art", s: "2026-10-09", e: "2027-02-28", d: "Needlework and ornamental art made by American girls in the 1700s and 1800s", dz: "十八、十九世纪美国女孩制作的刺绣与装饰艺术" }
     ] },
   { n: "New Museum", nz: "新美术馆", a: "235 Bowery",
@@ -289,7 +287,6 @@ CITIES.push({
     pz: "票价依节目而定；另设低价票计划", u: "https://theshed.org/program",
     shows: [
       { t: "The Zora Project", eText: "Ongoing", eTextz: "长期", d: "Multi-part programme of works responding to the writer Zora Neale Hurston", dz: "围绕作家佐拉·尼尔·赫斯顿展开的多部分项目" },
-      { t: "Doug Aitken: Lightscape", s: "2026-06-25", e: "2026-09-13", d: "Doug Aitken's large-scale film installation, shown with live music performances", dz: "道格·艾特肯的大型影像装置，配合现场音乐演出" },
       { t: "Open Call", eText: "Ongoing", eTextz: "长期", d: "Commissions by early-career New York artists, shown across the building", dz: "面向纽约新锐艺术家的委约项目，在馆内多处呈现" }
     ] },
   { n: "Poster House", nz: "海报之家", a: "119 West 23rd Street",
@@ -487,9 +484,7 @@ CITIES.push({
   { n: "Wallach Art Gallery, Columbia University", nz: "哥伦比亚大学沃拉克艺术馆", a: "Lenfest Center for the Arts, 615 West 129th Street",
     h: "Wed–Sun 12–6", hz: "周三–周日 12–18", p: "Free", pz: "免费",
     u: "https://wallach.columbia.edu/exhibitions", free: true,
-    shows: [
-      { t: "Children's Art Carnival in Harlem: The Making of Contemporary Artists", s: "2026-06-26", e: "2026-09-13", d: "The Harlem art school founded in 1969 and the artists who came out of it", dz: "1969 年创办的哈莱姆儿童艺术学校及其培养的艺术家" }
-    ] },
+    shows: [] },
   { n: "Grey Art Museum, New York University", nz: "纽约大学格雷艺术博物馆", a: "18 Cooper Square",
     h: "Tue 11–6, Wed 11–8, Thu–Fri 11–6, Sat 11–5; closed Sun–Mon",
     hz: "周二 11–18，周三 11–20，周四、周五 11–18，周六 11–17；周日与周一闭馆",
@@ -1773,10 +1768,7 @@ CITIES.push({
     u: "https://www.fluxfactory.org/events/", free: true,
     flag: "Exhibitions and programmes are often at Flux IV, 56-21 2nd Street, not the 29th Street address",
     flagz: "展览与活动常在 Flux IV（56-21 2nd Street），并非 29th Street 地址",
-    shows: [
-      { t: "Itinerant Signal Institute (Rite of Spring)", s: "2026-08-06", e: "2026-08-30", d: "Residency exhibition on signals and transmission, shown at the Flux IV space", dz: "驻地展览，以信号与传输为题，在 Flux IV 空间展出" },
-      { t: "502 Bad Gateway: Error Is Shadow", s: "2026-08-06", e: "2026-08-30", d: "Group show treating digital error messages as material for artworks", dz: "群展，把数字错误信息当作创作材料" }
-    ] },
+    shows: [] },
   { n: "Socrates Sculpture Park", nz: "苏格拉底雕塑公园", a: "32-01 Vernon Boulevard",
     h: "Daily 9–sunset", hz: "每日 9:00 至日落", p: "Free", pz: "免费",
     u: "https://socratessculpturepark.org/exhibitions/", free: true,
@@ -1981,8 +1973,6 @@ CITIES.push({
     hz: "周二–周五 11–18；7 月 4 日至 9 月 12 日周六不开放", p: "Free", pz: "免费",
     u: "https://www.penandbrush.org/exhibitions/", free: true,
     shows: [
-      { t: "The Now After: What We're Left With", s: "2026-04-30", e: "2026-09-12", d: "Group show by women artists on what is left standing after upheaval", dz: "女性艺术家群展，关于动荡之后留下什么" },
-      { t: "Christine L. Mace: Through the Lens", s: "2026-07-09", e: "2026-09-12", d: "Solo hang of Christine L. Mace's photographic work", dz: "克里斯汀·L·梅斯摄影作品个展" },
       { t: "DEBORAH BUCK: NEW JEWELS", s: "2026-10-01", e: "2027-02-01", d: "New jewellery and small objects by the painter and designer Deborah Buck", dz: "画家兼设计师 Deborah Buck 的新首饰与小型器物" }
     ] },
   { n: "National Association of Women Artists (N.A.W.A. Gallery)", nz: "全美女性艺术家协会画廊", a: "15 Gramercy Park South, Suite 301",
@@ -2045,8 +2035,7 @@ CITIES.push({
     flag: "Enter from either 547 West 27th Street or 548 West 28th Street — same building",
     flagz: "可从 547 West 27th Street 或 548 West 28th Street 进入，同一栋楼",
     shows: [
-      { t: "Wo Schiffman: Light as Air", s: "2026-09-08", e: "2026-09-26", d: "Solo show by a gallery member, the co-op's autumn opener", dz: "成员个展，本季秋季首档" },
-      { t: "Connecting Moments", s: "2026-08-04", e: "2026-08-22", d: "Summer group show of work by gallery members", dz: "夏季成员群展" }
+      { t: "Wo Schiffman: Light as Air", s: "2026-09-08", e: "2026-09-26", d: "Solo show by a gallery member, the co-op's autumn opener", dz: "成员个展，本季秋季首档" }
     ] },
   { n: "Viridian Artists", nz: "维里迪安艺术家画廊", a: "548 West 28th Street, Suite 632",
     h: "Tue–Sat 12–6, and by appointment", hz: "周二–周六 12–18，也可预约", p: "Free", pz: "免费",
@@ -2145,8 +2134,6 @@ CITIES.push({
     flag: "Exhibitions run in two spaces: the main gallery at 441 West 26th Street and Guild Gallery II at 119 9th Avenue",
     flagz: "展览分设两处：441 West 26th Street 的主展厅，以及 119 9th Avenue 的 Guild Gallery II",
     shows: [
-      { t: "The 28th Annual Community Art Jam", s: "2026-07-10", e: "2026-09-01", d: "Open community show at the 26th Street gallery, all levels of experience welcome", dz: "26 街展厅的社区公开展，不限创作经验" },
-      { t: "RASA: A Collaboration", s: "2026-07-09", e: "2026-09-09", d: "Collaborative project shown at Guild Gallery II on 9th Avenue", dz: "第九大道 Guild Gallery II 的合作项目展" },
       { t: "Many Ways of Being", s: "2026-09-10", e: "2026-11-05", d: "Group exhibition in the main gallery on 26th Street", dz: "26 街主展厅的群展" },
       { t: "One Dozen Eggs & Other Stories", s: "2026-09-17", e: "2026-11-11", d: "Exhibition at Guild Gallery II, the second space on 9th Avenue", dz: "第二展厅 Guild Gallery II 的展览，位于第九大道" }
     ] },
@@ -2198,9 +2185,7 @@ CITIES.push({
     pz: "免费", u: "https://www.dieudonne.org/exhibitions", free: true,
     flag: "Gallery visits are by appointment only, requested 2–3 business days ahead; you are then sent a Brooklyn Navy Yard entry pass",
     flagz: "参观须提前 2–3 个工作日预约，确认后会收到布鲁克林海军船坞的入场通行证",
-    shows: [
-      { t: "2025 Workspace Residency Exhibition", s: "2026-06-29", e: "2026-09-11", d: "Handmade paper works by the four 2025 Workspace residents, new to the medium", dz: "四位 2025 年 Workspace 驻地艺术家初次尝试手工纸的作品" }
-    ] },
+    shows: [] },
   { n: "Studio 10", nz: "十号工作室画廊", a: "56 Bogart Street",
     h: "Fri–Sun 1–6, and by appointment", hz: "周五–周日 13–18，亦可预约", p: "Free", pz: "免费",
     u: "https://www.studio10bogart.com/pages/exhibitions_current.php", free: true,
@@ -2245,8 +2230,6 @@ CITIES.push({
     shows: [
       { t: "Impact: The End of the Age of Dinosaurs", d: "A before-and-after look at the asteroid impact that ended the dinosaurs", dz: "小行星撞击前后地球生命的对比展示" },
       { t: "For the Win: Objects of Sports Excellence", d: "Seventy objects of athletic greatness from more than fifteen sports", dz: "来自十五项以上运动的七十件体育珍品" },
-      { t: "Goal Zone", s: "2026-05-18", e: "2026-09-13", d: "Soccer simulators and table-top challenges, tied to the World Cup", dz: "配合世界杯的足球模拟器与桌上挑战" },
-      { t: "The Changing Museum", s: "2025-06-18", e: "2026-09-13", d: "How this museum has represented cultures, past, present and future", dz: "本馆如何呈现各地文化的过去、现在与未来" },
       { t: "Invisible Worlds", eText: "Long-term", eTextz: "长期", d: "A 360-degree immersive room in the Gilder Center; extra ticket needed", dz: "吉尔德中心的 360 度沉浸空间，需另购票" },
       { t: "Encounters in the Milky Way", eText: "Long-term", eTextz: "长期", d: "The Hayden Planetarium space show on worlds in our solar system", dz: "海登天文馆太空秀，讲述太阳系中的各个天体" },
       { t: "Davis Family Butterfly Vivarium", eText: "Permanent", eTextz: "常设", d: "A year-round walk-through gallery with about eighty butterfly species", dz: "全年开放的步入式蝴蝶馆，约八十个品种" }
@@ -2329,7 +2312,6 @@ CITIES.push({
       { t: "Growing America", s: "2026-07-04", e: "2026-10-18", d: "A Mertz Library show on plants and the making of the United States", dz: "梅尔茨图书馆展览：植物与美国的形成" },
       { t: "Dig! Plant! Grow! Pollinator Pals", s: "2026-09-01", e: "2026-09-27", d: "Family activities about bees, butterflies and other pollinators", dz: "关于蜜蜂、蝴蝶等传粉者的亲子活动" },
       { t: "Before New York: A Traveling Pop-Up Exhibition", s: "2026-04-25", e: "2026-11-15", d: "A pop-up on the landscape Henry Hudson met in 1609, touring city sites", dz: "巡回快闪展，重现 1609 年哈德逊所见的自然景观" },
-      { t: "Summer of Moomin", s: "2026-05-23", e: "2026-09-13", d: "Tove Jansson's Moomin characters sited around the grounds", dz: "托芙·扬松笔下的姆明角色散布园中" },
       { t: "Holiday Train Show", s: "2026-11-14", e: "2027-01-10", d: "Model trains running past New York landmarks built from bark and seeds", dz: "模型火车穿行于树皮与种子制成的纽约地标之间" }
     ] },
   { n: "Brooklyn Botanic Garden", nz: "布鲁克林植物园", a: "990 Washington Avenue",
@@ -2935,9 +2917,7 @@ CITIES.push({
   { n: "Interference Archive", nz: "干预档案馆", a: "314 Seventh Street",
     h: "Mon 6–9, Fri 1–6, Sat–Sun 12–5", hz: "周一 18–21，周五 13–18，周六–周日 12–17", p: "Free", pz: "免费",
     u: "https://interferencearchive.org/", free: true,
-    shows: [
-      { t: "an unbreakable human thread", s: "2026-06-12", e: "2026-09-13", d: "Movement posters, zines and ephemera tracing Puerto Rico's colonial history", dz: "以运动海报、小志与档案梳理波多黎各殖民史" }
-    ] },
+    shows: [] },
   { n: "Lesbian Herstory Archives", nz: "女同志历史档案馆", a: "484 14th Street",
     h: "By appointment only; available slots posted monthly", hz: "仅限预约，可约时段每月公布",
     p: "Free; donations welcome", pz: "免费；欢迎捐赠", u: "https://lesbianherstoryarchives.org/calendar/",
@@ -3899,7 +3879,6 @@ CITIES.push({
     shows: [
       { t: "Andrea Modica: Italian Story", s: "2026-09-12", e: "2027-02-20", d: "Thirty-nine platinum prints from four decades of Modica's travels in Italy", dz: "莫迪卡四十年意大利旅行的 39 幅铂金印相" },
       { t: "New Eyes on Alice Austen", eText: "Permanent", eTextz: "常设", d: "The house's core display of Austen's life and photographs, updated with recent scholarship", dz: "常设展：奥斯汀的生平与摄影，依新近研究更新" },
-      { t: "Radical Botany: The Politics of Flowers", s: "2026-06-06", e: "2026-08-22", d: "Contemporary photographers using flowers to address colonial history, gender and class", dz: "当代摄影以花为题，触及殖民史、性别与阶级" },
       { t: "Lost Body", d: "Outdoor installation by Shaun Krupa on the body and the environment", dz: "肖恩·克鲁帕的户外装置，关于身体与环境" }
     ] },
   { n: "Historic Richmond Town", nz: "里士满镇历史村", a: "441 Clarke Avenue",

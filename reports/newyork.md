@@ -1,16 +1,285 @@
 # Weekly refresh — New York
 
-- Scanned: 2026-09-17
+- Scanned: 2026-10-15
 - Venues: 504
-- Exhibitions after pruning: 818
+- Exhibitions after pruning: 806
 - Checked-on date moved: no
 - Tab counts corrected: none needed
 
-## Pages that changed since last week — re-read these (0)
+## Pages that changed since last week — re-read these (270)
 
-_none_
+- [Whitney Museum of American Art](https://whitney.org/exhibitions)
+- [The Frick Collection](https://www.frick.org/exhibitions)
+- [Neue Galerie New York](https://www.neuegalerie.org/exhibitions)
+- [The Jewish Museum](https://thejewishmuseum.org/exhibitions)
+- [Cooper Hewitt, Smithsonian Design Museum](https://www.cooperhewitt.org/exhibitions/)
+- [Museum of Arts and Design](https://madmuseum.org/exhibitions)
+- [American Folk Art Museum](https://folkartmuseum.org/exhibitions/)
+- [The Museum at FIT](https://www.fitnyc.edu/museum/exhibitions/index.php)
+- [Japan Society Gallery](https://japansociety.org/gallery/)
+- [International Center of Photography](https://www.icp.org/exhibitions)
+- [Swiss Institute](https://swissinstitute.net/exhibitions)
+- [Poster House](https://posterhouse.org/exhibitions/)
+- [Leslie-Lohman Museum of Art](https://leslielohman.org/exhibitions)
+- [apexart](https://apexart.org/exhibitions.php)
+- [The Kitchen](https://thekitchen.org/on-view/)
+- [Center for Architecture](https://www.centerforarchitecture.org/exhibitions/)
+- [Queens Museum](https://queensmuseum.org/whats-on/)
+- [SculptureCenter](https://www.sculpture-center.org/exhibitions/)
+- [BRIC House](https://bricartsmedia.org/events/exhibitions/)
+- [Museum of Contemporary African Diasporan Arts (MoCADA)](https://mocada.org/explore/)
+- [Pioneer Works](https://pioneerworks.org/exhibitions)
+- [Amant](https://www.amant.org/programs)
+- [Center for Book Arts](https://centerforbookarts.org/exhibitions)
+- [White Columns](https://whitecolumns.org/exhibitions-programming/)
+- [Storefront for Art and Architecture](https://storefront.nyc/program/)
+- [Smack Mellon](https://www.smackmellon.org/exhibitions/)
+- [Bronx Documentary Center](https://www.bronxdoc.org/bronx-documentary-center/exhibits/current-exhibits/)
+- [Hunter College Art Galleries](https://huntercollegeartgalleries.org/calendar)
+- [Pratt Manhattan Gallery](https://www.pratt.edu/about/exhibitions/pratt-manhattan-gallery/)
+- [The Amie and Tony James Gallery, CUNY Graduate Center](https://jamesgallery.gc.cuny.edu/)
+- [Dr. Bernard Heller Museum](https://huc.edu/public-programs-events/museums/dr-bernard-heller-museum-in-new-york/)
+- [The Grolier Club](https://www.grolierclub.org/Default.aspx?p=DynamicModule&pageid=384826&ssid=322447&vnf=1)
+- [The National Arts Club](https://www.nacnyc.org/arts-and-programs/exhibitions)
+- [AKC Museum of the Dog](https://museumofthedog.org/visit/exhibitions/)
+- [Sugar Hill Children's Museum of Art & Storytelling](https://www.sugarhillmuseum.org/now-on-view)
+- [Aperture](https://aperture.org/exhibitions/)
+- [PARTICIPANT INC](https://www.participantinc.org/seasons)
+- [The Clemente Soto Velez Cultural and Educational Center](https://www.theclementecenter.org/exhibitions)
+- [EFA Project Space](https://www.studios-efanyc.org/exhibitions)
+- [The Painting Center](https://www.thepaintingcenter.org/exhibitions2026)
+- [New York Studio School Gallery](https://nyss.org/exhibitions/)
+- [Phyllis Harriman Mason Gallery, Art Students League of New York](https://www.artstudentsleague.org/exhibitions)
+- [Renee & Chaim Gross Foundation](https://www.rcgrossfoundation.org/exhibitions)
+- [LMCC's Arts Center at Governors Island](https://lmcc.net/lmcc-arts-center-at-governors-island/)
+- [Onassis ONX](https://www.onx.studio/)
+- [UrbanGlass](https://urbanglass.org/events)
+- [NARS Foundation](https://www.narsfoundation.org/exhibitions/current-and-upcoming-exhibitions)
+- [Brooklyn Waterfront Artists Coalition](https://www.bwac.org/current-exhibits)
+- [Residency Unlimited](https://residencyunlimited.org/programs/)
+- [e-flux](https://www.e-flux.com/events/)
+- [Cultural Museum of African Art (Eric Edwards Collection)](https://cmaaeec.org/)
+- [Jacques Marchais Museum of Tibetan Art](https://www.tibetanmuseum.org/visit)
+- [Austrian Cultural Forum New York](https://acfny.org/exhibitions/)
+- [L'Alliance New York (FIAF Gallery)](https://lallianceny.org/)
+- [The Korea Society](https://www.koreasociety.org/arts-culture/)
+- [China Institute Gallery](https://chinainstitute.org/gallery-exhibitions/)
+- [Tibet House US](https://thus.org/nyc-cultural-center/)
+- [Nicholas Roerich Museum](https://www.roerich.org/)
+- [Godwin-Ternbach Museum](https://gtmuseum.org/)
+- [Shirley Fiterman Art Center](https://www.bmcc.cuny.edu/sfac/)
+- [QCC Art Gallery](https://artgallery.qcc.cuny.edu/)
+- [Kingsborough Art Museum](https://kccartmuseum.org/)
+- [Grace Gallery](https://www.citytech.cuny.edu/)
+- [SVA Chelsea Gallery](https://sva.edu/about/sva-gallery-exhibitions)
+- [SVA Flatiron Gallery](https://sva.edu/about/sva-gallery-exhibitions)
+- [41 Cooper Gallery](https://cooper.edu/events-and-exhibitions)
+- [Arthur A. Houghton Jr. Gallery, The Cooper Union](https://cooper.edu/events-and-exhibitions/exhibitions)
+- [Art Gallery at Pace University](https://www.pace.edu/dyson/life-dyson/art-gallery)
+- [Barbara Walters Gallery, Sarah Lawrence College](https://www.sarahlawrence.edu/news-events/events/exhibits.html)
+- [Paul Robeson Galleries](https://expressnewark.org/exhibitions/)
+- [George Segal Gallery](https://inside.montclair.edu/departments/university-galleries/exhibitions/)
+- [Visual Arts Gallery, Kean Jersey City](https://galleries.kean.edu/exhibitions)
+- [Hudson River Museum](https://www.hrm.org/exhibitions/)
+- [Blue Door Art Center](https://bluedoorartcenter.org/gallery/)
+- [Union Church of Pocantico Hills](https://hudsonvalley.org/historic-sites/union-church-of-pocantico-hills/)
+- [Rye Arts Center](https://www.ryeartscenter.org/exhibitions)
+- [Clay Art Center](https://www.clayartcenter.org/)
+- [Edward Hopper House Museum & Study Center](https://www.edwardhopperhouse.org/)
+- [Rockland Center for the Arts](https://rocklandartcenter.org/current-exhibitions/current-exhibitions.html)
+- [Nassau County Museum of Art](https://nassaumuseum.org/exhibitions/)
+- [Flinn Gallery](https://flinngallery.org/)
+- [Drawing Rooms](https://www.drawingrooms.org/)
+- [Montclair State University Galleries](https://inside.montclair.edu/departments/university-galleries)
+- [James Rose Center](https://www.jamesrosecenter.org/)
+- [Visual Arts Center of New Jersey](https://www.artcenternj.org/exhibitions/current-exhibitions-2/)
+- [Queens College Art Center](https://www.qc.cuny.edu/academics/soa/queens-college-art-center/)
+- [205 Hudson Gallery](http://www.205hudsongallery.org/calendar)
+- [Hunter East Harlem Gallery](https://www.huntereastharlemgallery.org/)
+- [80WSE Gallery](https://80wse.org/)
+- [Tisch 8th Floor Photo Gallery](https://tisch.nyu.edu/photo/events)
+- [Macy Art Gallery](https://www.macyartgallery.com/)
+- [Hazel and Robert H. Siegel Gallery, Higgins Hall](https://www.pratt.edu/about/exhibitions/)
+- [SVA Gramercy Gallery](https://sva.edu/events/search/type/Exhibition)
+- [The Art and Design Gallery at FIT](https://www.fitnyc.edu/life-at-fit/campus/gallery/index.php)
+- [Adelphi University Art Exhibitions (Klapper Gallery and Swirbul Library Gallery)](https://www.adelphi.edu/libraries/collections-archives/art-exhibitions/gallery-hours-locations/)
+- [Amelie A. Wallace Gallery](https://www.oldwestbury.edu/school-arts-and-sciences/visual-arts/amelie-wallace-gallery)
+- [Firehouse Plaza Art Gallery](https://www.ncc.edu/campusinformation/collegeservices/firehouse_gallery.shtml)
+- [Richard and Dolly Maass Gallery](https://www.purchase.edu/academics/art-and-design/exhibitions-and-public-programs/richard-and-dolly-maass-gallery/)
+- [WCC Art Gallery](https://www.wccartgallery.com/)
+- [William Paterson University Galleries, Ben Shahn Center for the Visual Arts](https://www.wpunj.edu/cohss/departments/art/)
+- [Karl and Helen Burger Gallery](https://galleries.kean.edu/)
+- [Nancy Dryfoos Gallery](https://galleries.kean.edu/)
+- [Kresge and Pascal Galleries](https://www.ramapo.edu/berriecenter/art-galleries/)
+- [Selden Rodman Gallery of Popular Arts](https://www.ramapo.edu/berriecenter/art-galleries/)
+- [The Korn Gallery](https://drew.edu/academics/art/the-korn-gallery/)
+- [Sculpture Space NYC](https://www.sculpturespacenyc.com/exhibitions)
+- [Culture Lab LIC (The Plaxall Gallery)](https://www.culturelablic.org/current-exhibitions)
+- [Flux Factory](https://www.fluxfactory.org/events/)
+- [Socrates Sculpture Park](https://socratessculpturepark.org/exhibitions/)
+- [Materials for the Arts Gallery](https://www.materialsforthearts.org/)
+- [Jamaica Center for Arts & Learning (JCAL)](https://jcal.org/current-exhibitions)
+- [Bronx River Art Center](https://www.bronxriverart.org/gallery)
+- [BronxArtSpace](http://www.bronxartspace.com/upcoming)
+- [Andrew Freedman Home](https://www.theafh.org/events)
+- [Casita Maria Center for Arts & Education](https://www.casitamaria.org/gallery)
+- [The Nippon Gallery at The Nippon Club](https://www.nipponclub.org/activity_exhibition/?lang=en)
+- [Taller Boricua Gallery](https://tallerboricua.org/)
+- [The Interchurch Center Galleries](https://www.interchurch-center.org/arts-and-music)
+- [Janet Hennessey Dilenschneider Gallery, The Sheen Center for Thought & Culture](https://www.sheencenter.org/venues/detail/janet-hennessey-dilenschneider-gallery)
+- [Milton Resnick and Pat Passlof Foundation](https://www.resnickpasslof.org/)
+- [Emily Harvey Foundation](https://www.emilyharveyfoundation.org/pages/home.html)
+- [Soho Photo Gallery](https://www.sohophoto.com/)
+- [Baxter St at the Camera Club of New York](https://www.baxterst.org/exhibitions)
+- [Lower East Side Printshop](https://printshop.org/exhibitions/)
+- [Pen + Brush](https://www.penandbrush.org/exhibitions/)
+- [Blue Mountain Gallery](https://www.bluemountaingallery.org/)
+- [Bowery Gallery](https://bowerygallery.org/)
+- [Ceres Gallery](https://ceresgallery.org/exhibitions/)
+- [Pleiades Gallery](https://www.pleiadesgallery.com/exhibitions)
+- [Atlantic Gallery](https://atlanticgallery.org/exhibitions/)
+- [55 Mercer Street Gallery](https://www.55mercerstreetgallery.com/)
+- [Amos Eno Gallery](https://www.amoseno.org/current)
+- [Underdonk](https://www.underdonk.com/exhibitions)
+- [Taller Boricua Galleries](https://tallerboricua.org/exhibitions)
+- [Anthology Film Archives](https://www.anthologyfilmarchives.org/visit/gallery)
+- [SVA Galleries (School of Visual Arts)](https://sva.edu/about/sva-gallery-exhibitions)
+- [The Center Gallery, The LGBT Community Center](https://gaycenter.org/culture/)
+- [Open Source Gallery](https://open-source-gallery.org/exhibitions/)
+- [Ortega y Gasset Projects](https://www.oygprojects.com/current)
+- [440 Gallery](https://440gallery.com/exhibitions/current)
+- [Triangle Arts Association](https://www.triangleartsnyc.org/programs)
+- [Dieu Donné](https://www.dieudonne.org/exhibitions)
+- [Tiger Strikes Asteroid New York](https://www.tigerstrikesasteroid.com/)
+- [The Laundromat Project](https://laundromatproject.org/)
+- [Textile Arts Center](https://textileartscenter.com/tac-gallery/)
+- [New York Hall of Science](https://nysci.org/exhibits/)
+- [National Museum of Mathematics (MoMath)](https://momath.org/composite-gallery/)
+- [Children's Museum of Manhattan](https://cmom.org/experiences/)
+- [New York Botanical Garden](https://www.nybg.org/whats-on/)
+- [Brooklyn Botanic Garden](https://www.bbg.org/visit/calendar/category/168)
+- [Wave Hill](https://www.wavehill.org/discover/arts/exhibitions)
+- [Bronx Children's Museum](https://www.bxcm.org/exhibits1)
+- [Greenburgh Nature Center](https://naturecentergb.org/)
+- [Cradle of Aviation Museum](https://www.cradleofaviation.org/history/exhibits/)
+- [Long Island Children's Museum](https://www.licm.org/exhibits/)
+- [Van Vleck House & Gardens](https://montclairfoundation.org/)
+- [Thomas Edison National Historical Park](https://www.nps.gov/edis/index.htm)
+- [Alley Pond Environmental Center](https://www.alleypond.org/)
+- [Clay Pit Ponds State Park Preserve Interpretive Center](https://parks.ny.gov/visit/nature-centers/clay-pit-ponds-interpretive-center)
+- [Charles A. Dana Discovery Center](https://www.centralparknyc.org/locations/charles-a-dana-discovery-center)
+- [Belvedere Castle](https://www.centralparknyc.org/locations/belvedere-castle)
+- [Museum of the City of New York](https://www.mcny.org/exhibitions)
+- [New York Public Library, Stephen A. Schwarzman Building](https://www.nypl.org/events/exhibitions)
+- [Museum of Chinese in America](https://www.mocanyc.org/calendar/)
+- [Museum at Eldridge Street](https://www.eldridgestreet.org/exhibitions/)
+- [National September 11 Memorial & Museum](https://www.911memorial.org/visit/museum/exhibitions)
+- [Intrepid Museum](https://intrepidmuseum.org/exhibitions/temporary-exhibitions/)
+- [New York Transit Museum](https://www.nytransitmuseum.org/exhibits/)
+- [The Ukrainian Museum](https://www.theukrainianmuseum.org/museum-exhibitions/)
+- [Fraunces Tavern Museum](https://www.frauncestavernmuseum.org/current-exhibitions)
+- [Jackie Robinson Museum](https://www.jackierobinsonmuseum.org/visit/exhibitions/)
+- [Center for Jewish History](https://www.cjh.org/exhibits/exhibitions)
+- [American Sephardi Federation](https://americansephardi.org/exhibitions/)
+- [The Bernard Museum of Judaica at Temple Emanu-El](https://emanuelnyc.org/adult-engagement/learning/bernard-museum-of-judaica/)
+- [Ukrainian Institute of America](https://ukrainianinstitute.org/events/list/)
+- [General Society of Mechanics and Tradesmen of the City of New York](https://generalsociety.org/)
+- [The Paley Center for Media (Paley Museum)](https://www.paleycenter.org/events/)
+- [The City Reliquary](https://www.cityreliquary.org/)
+- [Waterfront Museum](https://waterfrontmuseum.org/events/)
+- [Interference Archive](https://interferencearchive.org/)
+- [Coney Island Museum](https://www.coneyislandmuseum.org/)
+- [The Jewish Children's Museum](https://www.jcm.museum/exploring-jewish-life/)
+- [Brooklyn Navy Yard Center at BLDG 92](https://www.brooklynnavyyard.org/events-exhibitions/)
+- [The Noble Maritime Collection](https://noblemaritime.org/visit)
+- [Saint Paul's Church National Historic Site](https://www.nps.gov/sapa/planyourvisit/index.htm)
+- [Scandinavia House: The Nordic Center in America](https://www.scandinaviahouse.org/exhibitions/)
+- [Instituto Cervantes New York](https://nyork.cervantes.es/en/culture_spanish/culture_spanish.htm)
+- [New York Transit Museum Gallery Annex at Grand Central](https://www.nytransitmuseum.org/exhibits/)
+- [Castle Clinton National Monument](https://www.nps.gov/cacl/index.htm)
+- [Leo Baeck Institute](https://www.lbi.org/exhibitions/)
+- [The Malcolm X and Dr. Betty Shabazz Memorial and Educational Center](https://theshabazzcenter.org/plan-your-visit/)
+- [Think!Chinatown](https://www.thinkchinatown.org/happenings)
+- [Józef Piłsudski Institute of America](https://www.pilsudski.org/en/)
+- [Casa Belvedere, The Italian Cultural Foundation](https://casa-belvedere.org/events/)
+- [Washington Irving's Sunnyside](https://hudsonvalley.org/historic-sites/washington-irvings-sunnyside/)
+- [Old Westbury Gardens](https://www.oldwestburygardens.org/plan-your-visit/)
+- [Old Bethpage Village Restoration](https://oldbethpagevillagerestoration.org/)
+- [Raynham Hall Museum](https://raynhamhallmuseum.org/exhibitions/)
+- [Sagamore Hill National Historic Site](https://www.nps.gov/sahi/index.htm)
+- [Holocaust Memorial & Tolerance Center of Nassau County](https://www.hmtcli.org/museum)
+- [Joysetta & Julius Pearse African American Museum of Nassau County](https://www.nassaucountyny.gov/2934/African-American-Museum-and-Center-for-A)
+- [Paterson Museum](https://www.patersonnj.gov/department/index.php?structureid=16)
+- [Montclair History Center](https://www.montclairhistory.org/)
+- [Fort Lee Historic Park](https://njpalisades.org/fortlee/)
+- [Puffin Cultural Forum](https://www.puffinculturalforum.org/)
+- [Ridgewood Historical Society / The Schoolhouse Museum](https://www.ridgewoodhistoricalsociety.org/)
+- [Nutley Museum](https://www.nutleyhistoricalsociety.org/)
+- [Grover Cleveland Birthplace State Historic Site](https://dep.nj.gov/parksandforests/state-park/grover-cleveland-birthplace/)
+- [Boxwood Hall State Historic Site](https://dep.nj.gov/parksandforests/state-park/boxwood-hall/)
+- [Liberty Hall Museum](https://libertyhall.kean.edu/visit/)
+- [Macculloch Hall Historical Museum](https://maccullochhall.org/exhibits/)
+- [Harriet and Kenneth Kupferberg Holocaust Center](https://khc.qcc.cuny.edu/blog/exhibit/)
+- [Rare Book & Manuscript Library](https://library.columbia.edu/libraries/rbml.html)
+- [Herb Lubalin Study Center of Design and Typography](https://cooper.edu/events-and-exhibitions/exhibitions)
+- [NYSID Gallery, New York School of Interior Design](https://www.nysid.edu/exhibitions)
+- [Liberty Hall Academic Center Gallery](https://galleries.kean.edu/)
+- [Bronx Music Hall (Bronx Music Heritage Center)](https://bronxmusichall.org/)
+- [Belmont Library and Enrico Fermi Cultural Center](https://www.nypl.org/locations/belmont)
+- [The Kosciuszko Foundation](https://thekf.org/event/)
+- [Hungarian House of New York](https://www.hungarianhouse.org/)
+- [American Hungarian Library and Historical Society](https://www.hungarianlibrary.org/)
+- [Philippine Center New York](https://philippinecenterny.com/)
+- [Caribbean Cultural Center African Diaspora Institute](https://www.cccadi.org/)
+- [Center for Puerto Rican Studies (Centro), Hunter College](https://centropr.hunter.cuny.edu/)
+- [Irish Arts Center](https://irishartscenter.org/event/array-collective)
+- [John Street United Methodist Church Museum](https://johnstreetchurch.org/museum/)
+- [The New York Public Library for the Performing Arts](https://www.nypl.org/locations/lpa)
+- [The New York Society Library](https://www.nysoclib.org/exhibitions)
+- [NYC Municipal Archives (Department of Records and Information Services)](https://www.nyc.gov/site/records/exhibits-education/exhibits.page)
+- [The Burke Library at Union Theological Seminary](https://library.columbia.edu/libraries/burke.html)
+- [Haiti Cultural Exchange](https://haiticulturalx.org/events/)
+- [Langston Hughes Community Library and Cultural Center](https://www.queenslibrary.org/locations/langston-hughes)
+- [Fireboat John J. Harvey](https://www.1931fireboat.org/)
+- [Bowne & Co. Stationers](https://southstreetseaportmuseum.org/bowne-co-stationers/)
+- [United Nations Headquarters Visitor Centre](https://www.un.org/en/exhibits/page/now-view)
+- [New York Academy of Medicine](https://nyam.org/library-resources/library-collections/)
+- [Roosevelt Island Historical Society Visitor Center Kiosk](https://rihs.us/visitor-center-kiosk/)
+- [Four Freedoms Park Conservancy](https://www.fdrfourfreedomspark.org/)
+- [PortSide NewYork / Tanker MARY A. WHALEN](https://portsidenewyork.org/tankertime)
+- [El Taller Latino Americano](https://tallerlatino.org/exhibitions)
+- [The Latinx Project at NYU](https://www.latinxproject.nyu.edu/exhibitions)
+- [Van Alen Institute](https://www.vanalen.org/projects/)
+- [Merchant's House Museum](https://merchantshouse.org/visit/)
+- [Dyckman Farmhouse Museum](https://dyckmanfarmhouse.org/exhibitions/2025-2/)
+- [Wyckoff House Museum](https://wyckoffmuseum.org/visit/)
+- [Louis Armstrong House Museum](https://www.louisarmstronghouse.org/events/)
+- [Alice Austen House](https://aliceausten.org/exhibitions/)
+- [The Green-Wood Cemetery](https://www.green-wood.com/art/)
+- [Bowne House](https://www.bownehouse.org/tour)
+- [King Manor Museum](https://www.kingmanor.org/current-exhibit)
+- [Lewis H. Latimer House Museum](https://www.lewislatimerhouse.org/exhibitions)
+- [Queens County Farm Museum](https://www.queensfarm.org/visit/)
+- [Edgar Allan Poe Cottage](https://bronxhistoricalsociety.org/poe-cottage)
+- [Museum of Bronx History at the Valentine-Varian House](https://bronxhistoricalsociety.org/museum)
+- [Van Cortlandt House Museum](https://www.vchm.org/visit.html)
+- [Vander Ende-Onderdonk House](https://onderdonkhouse.org/plan-a-visit)
+- [Old Quaker Meeting House (Flushing Friends Meeting)](https://flushingfriends.org/history/40-2/)
+- [Bayside Historical Society](https://www.baysidehistorical.org/exhibits)
+- [Philipse Manor Hall State Historic Site](https://www.philipsemanorhall.com/plan-your-visit)
+- [Philipsburg Manor](https://hudsonvalley.org/historic-sites/philipsburg-manor/)
+- [Van Cortlandt Manor](https://hudsonvalley.org/historic-sites/van-cortlandt-manor/)
+- [Thomas Paine Cottage Museum](https://www.thomaspainecottage.org/)
+- [Rye Historical Society / Square House Museum](https://www.ryehistory.org/)
+- [DeWint House](https://en.wikipedia.org/wiki/DeWint_House)
+- [Sands Point Preserve (Hempstead House, Castle Gould, Falaise)](https://www.sandspointpreserveconservancy.org/education/mansion-tours/)
+- [Coe Hall at Planting Fields Arboretum](https://plantingfields.org/)
+- [Greenwich Historical Society](https://greenwichhistory.org/exhibitions/)
+- [Museum of Jersey City History at the Apple Tree House](https://www.mjchistory.com/)
+- [Bergen County Historical Society / Historic New Bridge Landing](https://www.bergencountyhistory.org/)
+- [Blackwell House](https://rihs.us/landmark-structures/blackwell-house/)
 
-## Unreachable (72)
+## Unreachable (76)
 
 - [The Metropolitan Museum of Art](https://www.metmuseum.org/exhibitions) — 429
 - [The Museum of Modern Art](https://www.moma.org/calendar/exhibitions) — 403
@@ -20,11 +289,13 @@ _none_
 - [Park Avenue Armory](https://www.armoryonpark.org/season-events/current-season/) — 403
 - [The Shed](https://theshed.org/program) — no response fetch failed
 - [Brooklyn Museum](https://www.brooklynmuseum.org/exhibitions) — 429
+- [The Bronx Museum of the Arts](https://bronxmuseum.org/exhibitions/) — 500
 - [Newhouse Center for Contemporary Art](https://snug-harbor.org/things-to-do/museums-and-galleries/newhouse-center/) — 403
 - [The Morgan Library & Museum](https://www.themorgan.org/exhibitions) — 403
 - [Wallach Art Gallery, Columbia University](https://wallach.columbia.edu/exhibitions) — 403
 - [Society of Illustrators / Museum of American Illustration](https://societyillustrators.org/exhibitions/) — 403
 - [The Africa Center](https://theafricacenter.org/exhibitions) — no response fetch failed
+- [Sheila C. Johnson Design Center](https://parsons.edu/sheilacjohnsondesigncenter/exhibitions/) — no response fetch failed
 - [Printed Matter](https://www.printedmatter.org/programs/exhibitions) — 404
 - [Cuchifritos Gallery + Project Space](https://artistsallianceinc.org/cuchifritos-gallery-project-space/) — 403
 - [Fountain House Gallery](https://fountainhousegallery.org/exhibitions) — 403
@@ -45,212 +316,175 @@ _none_
 - [Broadway Windows](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/broadway-windows.html) — 405
 - [Gallery Space at Wagner](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/gallery-space-at-wagner.html) — 405
 - [ITP Gallery](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/itp-gallery.html) — 405
+- [New York Academy of Art Exhibitions Gallery](https://nyaa.edu/exhibitions-gallery/) — 403
 - [Knockdown Center](https://knockdown.center/) — 429
 - [Cathedral Church of Saint John the Divine](https://www.stjohndivine.org/art-ideas/current-exhibitions) — 403
 - [The Arsenal Gallery](https://www.nycgovparks.org/art-and-antiquities/arsenal-gallery) — 405
+- [Penumbra Foundation](https://www.penumbrafoundation.org/exhibition-space-current) — 404
 - [National Association of Women Artists (N.A.W.A. Gallery)](https://thenawa.org/exhibitions/) — 403
-- [First Street Gallery](https://www.firststreetgallery.org/exhibitions) — no response timeout
 - [Bullet Space](https://www.bulletspace.org/) — 403
 - [Milton Weill Art Gallery at The 92nd Street Y](https://www.92ny.org/art-gallery) — 404
 - [Hudson Guild Gallery](https://hudsonguild.org/events) — no response fetch failed
+- [FiveMyles](https://fivemyles.org/programs-1) — 404
 - [American Museum of Natural History](https://www.amnh.org/exhibitions) — 403
 - [New York Chinese Scholar's Garden](https://snug-harbor.org/gardens/new-york-chinese-scholars-garden/) — 403
 - [Blue Heron Nature Center](https://www.nycgovparks.org/parks/blue-heron-park/facilities/nature-centers) — 405
 - [Prospect Park Audubon Center at the Boathouse](https://prospectpark.org/visit-the-park/places-to-go/audubon-center/) — 403
 - [Salt Marsh Nature Center at Marine Park](https://www.nycgovparks.org/parks/marine-park) — 405
+- [New York Historical](https://www.nyhistory.org/exhibitions) — 403
 - [Schomburg Center for Research in Black Culture](https://www.nypl.org/locations/schomburg/exhibitions) — 404
 - [Lower East Side Tenement Museum](https://www.tenement.org/tours/) — 403
 - [Museum of Jewish Heritage – A Living Memorial to the Holocaust](https://mjhnyc.org/exhibitions/) — 403
 - [National Museum of the American Indian – New York](https://americanindian.si.edu/visit/newyork) — 403
 - [Museum of the Moving Image](https://movingimage.org/whats-on/exhibitions/) — 403
-- [Center for Brooklyn History](https://www.bklynlibrary.org/cbh/projects/exhibitions) — 403
 - [YIVO Institute for Jewish Research](https://yivo.org/Exhibitions) — 201
 - [Museum of Reclaimed Urban Space (MoRUS)](https://www.morusnyc.org/exhibits/) — 404
 - [American Irish Historical Society](https://www.aihs.org/) — 403
 - [Living Torah Museum](https://www.thelivingtorahmuseum.com/) — no response fetch failed
+- [Morbid Anatomy](https://www.morbidanatomy.org/library) — 404
 - [Czech Center New York](https://new-york.czechcentres.cz/en/program) — 403
 - [Rose Museum](https://www.carnegiehall.org/About/Building-Overview/Rose-Museum) — no response fetch failed
-- [Hastings Historical Society](https://www.hastingshistoricalsociety.org/) — no response fetch failed
 - [Polish American Museum](https://www.polishamericanmuseum.org/) — no response fetch failed
 - [King Juan Carlos I of Spain Center](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/KJC_Center.html) — 405
 - [Casa Italiana Zerilli-Marimò](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/casa-italiana-zerilli-marimo-gallery.html) — 405
 - [Deutsches Haus at NYU](https://as.nyu.edu/deutscheshaus.html) — 405
 - [La Maison Française](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/la-maison-francaise.html) — 405
-- [A/P/A Institute at NYU Gallery](https://apa.nyu.edu/exhibitions/) — 202
 - [The Clive Davis Gallery](https://www.nyu.edu/life/arts-culture-and-entertainment/galleries/galleries-and-sites/The-Clive-Davis-Gallery.html) — 405
 - [CUNY Dominican Studies Institute Gallery](https://www.ccny.cuny.edu/dsi/exhibits) — 403
 - [Basilica of St. Patrick's Old Cathedral - Catacombs](https://catacombsbycandlelight.com/) — no response fetch failed
 - [Poets House](https://poetshouse.org/programs-events/exhibitions/) — 403
-- [Brooklyn Public Library, Central Library](https://www.bklynlibrary.org/exhibitions) — 403
+- [Queens Public Library, Central Library](https://www.queenslibrary.org/locations/central) — no response timeout
 - [Lefferts Historic House](https://www.prospectpark.org/visit-the-park/places-to-go/lefferts-historic-house/) — 403
 - [Snug Harbor Cultural Center & Botanical Garden](https://snug-harbor.org/visit/) — 403
+- [Oyster Bay Historical Society (Earle-Wightman House)](https://www.oysterbayhistorical.org/exhibitions.html) — 404
 
-## Redirected — the link in the data may be out of date (59)
+## Redirected — the link in the data may be out of date (7)
 
-- MoMA PS1: https://www.momaps1.org/programs → https://www.momaps1.org/en/programs
-- The Studio Museum in Harlem: https://studiomuseum.org/exhibitions → https://www.studiomuseum.org/exhibitions
-- The Drawing Center: https://www.drawingcenter.org/exhibitions → https://drawingcenter.org/exhibitions
-- Hispanic Society Museum & Library: https://hispanicsociety.org/exhibitions/ → https://hispanicsociety.org/whats-on/exhibitions/
-- The Noguchi Museum: https://www.noguchi.org/museum/exhibitions/ → https://www.noguchi.org/museum/exhibitions/current/
-- Print Center New York: https://printcenternewyork.org/exhibitions → https://www.printcenternewyork.org/exhibitions
-- Americas Society Art Gallery: https://www.as-coa.org/visual-arts → https://www.as-coa.org/art
-- Bard Graduate Center Gallery: https://www.bgc.bard.edu/gallery → https://www.bgc.bard.edu/exhibitions/25/about
-- Flushing Town Hall: https://www.flushingtownhall.org/gallery → https://www.flushingtownhall.org/venue-details/34/gallery
-- American Academy of Arts and Letters: https://artsandletters.org/exhibitions/ → https://www.artsandletters.org/exhibitions/
-- A.I.R. Gallery: https://www.airgallery.org/exhibitions-home → https://www.airgallery.org/current
-- Recess: https://www.recessart.org/projects → https://www.recessart.org/explore
-- Skylight Gallery at Bedford Stuyvesant Restoration Corporation: https://restorationplaza.org/arts-culture/ → https://restorationplaza.org/what-we-do/arts-culture/
-- Ildiko Butler Gallery: http://fordhamuniversitygalleries.com/home.html → https://fordhamuniversitygalleries.com/home.html
-- Derfner Judaica Museum and The Art Collection at RiverSpring Living: https://www.riverspringliving.org/derfner-judaica-museum/ → https://www.riverspringliving.org/
-- Institute for Public Architecture: https://www.instituteforpublicarchitecture.org/ → https://instituteforpublicarchitecture.org/
-- The Newark Museum of Art: https://www.newarkmuseumart.org/exhibitions/ → https://newarkmuseumart.org/learn/exhibitions/
-- The Newark Public Library: https://npl.org/exhibits/ → https://www.npl.org/exhibits/
-- Paul Robeson Galleries at Express Newark: https://www.expressnewark.org/paul-robeson-galleries → https://expressnewark.org/
-- Mana Contemporary: https://www.manacontemporary.com/exhibitions/ → https://www.manacontemporary.com/exhibition/exhibitions-2012-keith-haring/
-- The Art School at Old Church: https://tasoc.org/gallery/ → https://www.tasoc.org/gallery
-- Morris Museum: https://morrismuseum.org/exhibitions/ → https://morrismuseum.org/on-view/current
-- New York Academy of Art Exhibitions Gallery: https://www.nyaa.edu/exhibitions/ → https://nyaa.edu/exhibitions-gallery/
-- Art Lab: https://artlabsi.com/about/gallery → https://artlabsi.com/gallery-exhibitions/
-- Viridian Artists: https://www.viridianartists.com/exhibitions → https://www.viridianartists.com/current-show
-- Field Projects: https://www.fieldprojectsgallery.com/exhibitions → https://www.fieldprojectsgallery.com/past
-- Gallery 456 (Chinese American Arts Council): https://www.gallery456.org/ → http://www.caacarts.org/
-- SVA Galleries (School of Visual Arts): https://www.sva.edu/about/sva-gallery-exhibitions → https://sva.edu/about/sva-gallery-exhibitions
-- Brooklyn Children's Museum: https://www.brooklynkids.org/exhibits/ → https://www.brooklynkids.org/exhibit-type/permanent/
-- Staten Island Children's Museum: https://sichildrensmuseum.org/exhibits/ → https://sichildrensmuseum.org/interactive-childrens-exhibits/
-- Stamford Museum & Nature Center: https://stamfordmuseum.org/exhibitions/ → https://www.stamfordmuseum.org/exhibitions-and-adults/
-- Liberty Science Center: https://lsc.org/exhibitions → https://lsc.org/explore/exhibitions
-- Aviation Hall of Fame & Museum of New Jersey: https://www.njahof.org/ → https://njahof.org/
-- The Skyscraper Museum: https://skyscraper.org/exhibitions/ → https://www.skyscraper.org/exhibitions/
-- Mmuseumm: https://mmuseumm.com/ → https://www.mmuseumm.com/
-- African Burial Ground National Monument: https://www.nps.gov/afbg/ → https://www.nps.gov/afbg/index.htm
-- Federal Hall National Memorial: https://www.nps.gov/feha/ → https://www.nps.gov/feha/index.htm
-- Coney Island History Project: https://www.coneyislandhistory.org/exhibition-center → https://www.coneyislandhistory.org/exhibit-center-and-wonder-gallery
-- Harbor Defense Museum: https://harbordefensemuseum.com/ → https://www.harbordefensemuseum.com/
-- Amud Aish Memorial Museum: https://amudaish.org/exhibit → https://www.amudaish.org/exhibit
-- Morbid Anatomy: https://morbidanatomy.org/library → https://www.morbidanatomy.org/library
-- American Jewish Historical Society: https://ajhs.org/exhibits/ → https://ajhs.org/exhibitions-programs/exhibitions/
-- Jay Heritage Center: https://www.jayheritagecenter.org/ → https://jayheritagecenter.org/
-- Hoboken Historical Museum: https://www.hobokenmuseum.org/exhibitions/ → https://hobokenmuseum.org/exhibitions-page/current-exhibitions-page/current-exhibitions-main-gallery-page/
-- The Hermitage Museum: https://thehermitage.org/ → https://www.thehermitage.org/
-- The Point CDC: https://thepoint.org/visual-arts/ → https://www.thepoint.org/visual-arts/
-- Italian American Museum: https://www.italianamericanmuseum.org/exhibitions → https://www.italianamericanmuseum.org/exhibitions-and-collections/
-- St. Paul's Chapel: https://trinitychurchnyc.org/visit/st-pauls-chapel → https://trinitychurchnyc.org/visit-history/places/st-pauls-chapel
-- Congregation Shearith Israel (The Spanish and Portuguese Synagogue): https://www.shearithisrael.org/content/tours → https://www.shearithisrael.org/about/tours/
-- Morris-Jumel Mansion: https://www.morrisjumel.org/exhibitions → https://morrisjumel.org/exhibitions/
-- Bartow-Pell Mansion Museum: https://www.bartowpellmansionmuseum.org/exhibitions/ → https://www.bartowpellmansionmuseum.org/visit/exhibitions/
-- Historic Richmond Town: https://www.historicrichmondtown.org/exhibitions → https://www.historicrichmondtown.org/onlineexhibits
-- Mount Vernon Hotel Museum & Garden: https://mvhm.org/visit/ → https://mvhm.org/visit-the-garden/
-- Queens Botanical Garden: https://queensbotanical.org/visit/ → https://queensbotanical.org/
-- Lyndhurst Mansion: https://www.lyndhurst.org/exhibitions/ → https://lyndhurst.org/exhibitions/
-- Kykuit, the Rockefeller Estate: https://hudsonvalley.org/historic-sites/kykuit/ → https://hudsonvalley.org/historic-sites/kykuit-the-rockefeller-estate/
-- Oyster Bay Historical Society (Earle-Wightman House): https://oysterbayhistorical.org/exhibitions.html → https://www.oysterbayhistorical.org/exhibitions.html
-- Proprietary House: https://theproprietaryhouse.org/ → https://www.theproprietaryhouse.org/
-- Dey Mansion Washington's Headquarters: https://www.deymansion.org/ → https://seepassaiccounty.org/dey-mansion/
+- Bronx River Art Center: https://www.bronxriverart.org/gallery → https://www.bronxriverart.org/gallery-upcoming
+- The Interchurch Center Galleries: https://www.interchurch-center.org/arts-and-music → https://www.interchurch-center.org/arts
+- Open Source Gallery: https://open-source-gallery.org/exhibitions/ → https://open-source-gallery.org/exhibitions-opencall/
+- Long Island Children's Museum: https://www.licm.org/exhibits/ → https://www.licm.org/current-exhibits/
+- Hastings Historical Society: https://www.hastingshistoricalsociety.org/ → https://hastingshistoricalsociety.org/
+- Joysetta & Julius Pearse African American Museum of Nassau County: https://www.nassaucountyny.gov/2934/African-American-Museum-and-Center-for-A → https://www.nassaucountyny.gov/2934/Joysetta-and-Julius-Pearse-African-Ameri
+- Edgar Allan Poe Cottage: https://bronxhistoricalsociety.org/poe-cottage → https://poecottage.org/
 
-## Dropped, closed over a month ago (1)
+## Dropped, closed over a month ago (17)
 
-- Ceres Gallery Friends Expo (closed 2026-08-15)
+- Self-Made: A Century of Inventing Artists (closed 2026-09-13)
+- Folk Nation: Crafting Patriotism in the United States (closed 2026-09-13)
+- Doug Aitken: Lightscape (closed 2026-09-13)
+- Children's Art Carnival in Harlem: The Making of Contemporary Artists (closed 2026-09-13)
+- Itinerant Signal Institute (Rite of Spring) (closed 2026-08-30)
+- 502 Bad Gateway: Error Is Shadow (closed 2026-08-30)
+- The Now After: What We're Left With (closed 2026-09-12)
+- Christine L. Mace: Through the Lens (closed 2026-09-12)
+- Connecting Moments (closed 2026-08-22)
+- The 28th Annual Community Art Jam (closed 2026-09-01)
+- RASA: A Collaboration (closed 2026-09-09)
+- 2025 Workspace Residency Exhibition (closed 2026-09-11)
+- Goal Zone (closed 2026-09-13)
+- The Changing Museum (closed 2026-09-13)
+- Summer of Moomin (closed 2026-09-13)
+- an unbreakable human thread (closed 2026-09-13)
+- Radical Botany: The Politics of Flowers (closed 2026-08-22)
 
-## Closing within 30 days — confirm before they vanish (98)
+## Closing within 30 days — confirm before they vanish (95)
 
-- e-flux: Rehearsal Behavior. I: Chantal Akerman and Shirley Clarke (closes 2026-09-17)
-- Materials for the Arts Gallery: Lucky Finds: Second Chances (closes 2026-09-17)
-- Stamford Art Association: Artist Pop-Up Show (closes 2026-09-18)
-- e-flux: Rehearsal Behavior. II: Yvonne Rainer (closes 2026-09-19)
-- SVA Gramercy Gallery: Brad Holland: Making It Personal (closes 2026-09-19)
-- Leslie-Lohman Museum of Art: Rocío García: The Object of Power is Power (closes 2026-09-20)
-- Hoboken Historical Museum: Hoboken Photography (closes 2026-09-20)
-- Queens Botanical Garden: Twin Urns (closes 2026-09-20)
-- e-flux: Art and Theory Today: Readings from the Index (closes 2026-09-22)
-- QCC Art Gallery: The Art of Central Africa: Forms & Traditions (closes 2026-09-23)
-- New York Academy of Art Exhibitions Gallery: 2026 Chubb Fellows Exhibition (closes 2026-09-23)
-- Richard and Dolly Maass Gallery: Emily Janowick: Long Walk (closes 2026-09-23)
-- e-flux: Planetary Afterimages: After The Short Century (closes 2026-09-24)
-- NARS Foundation: …and the Cosmos returns to claim its place (closes 2026-09-25)
-- Austrian Cultural Forum New York: The ALBERTINA Museum: Celebrating 250 Years (closes 2026-09-25)
-- QCC Art Gallery: Visual Archaeology (closes 2026-09-25)
-- NYC Municipal Archives (Department of Records and Information Services): Revisiting the World of Tomorrow: The 1964-65 World's Fair (closes 2026-09-25)
-- Rye Historical Society / Square House Museum: Crafted in America Exhibit (closes 2026-09-25)
-- Park Avenue Armory: The Cherry Orchard (closes 2026-09-26)
-- The Painting Center: Megan Marlatt: Myths and Mummers (closes 2026-09-26)
-- The Painting Center: Jane Zweibel: Dreams in Action (closes 2026-09-26)
-- Austrian Cultural Forum New York: Dietmar Feichtinger: Architecture of Connection (closes 2026-09-26)
-- First Street Gallery: MUSINGS | What is Seen and What is Not Part I (closes 2026-09-26)
-- Atlantic Gallery: Wo Schiffman: Light as Air (closes 2026-09-26)
-- Viridian Artists: A WORLD UNTO ITSELF (closes 2026-09-26)
-- 55 Mercer Street Gallery: Bryna Silbert and the Space Between (closes 2026-09-26)
-- 55 Mercer Street Gallery: Passengers (closes 2026-09-26)
-- Louis Armstrong House Museum: The Corona Collection (closes 2026-09-26)
-- Cooper Hewitt, Smithsonian Design Museum: Made in America: The Industrial Photography of Christopher Payne (closes 2026-09-27)
-- The Drawing Center: Certainly an Act: Works on Paper by Pope.L (closes 2026-09-27)
-- The Drawing Center: Drawing Connections: Student Exhibition (closes 2026-09-27)
-- Leslie-Lohman Museum of Art: Soft Spaces: Evan Paul English and Leasho Johnson (closes 2026-09-27)
-- AKC Museum of the Dog: Dog Days of Summer: Member Art Competition (closes 2026-09-27)
-- LMCC's Arts Center at Governors Island: Leslie Wayne: The Unintended Blues (closes 2026-09-27)
-- LMCC's Arts Center at Governors Island: The Tempestry Project (closes 2026-09-27)
-- Residency Unlimited: Something's Glitching in the House (closes 2026-09-27)
-- Arthur A. Houghton Jr. Gallery, The Cooper Union: What Else Could It Mean? (closes 2026-09-27)
-- Culture Lab LIC (The Plaxall Gallery): Hidden Stories: The Secret Language of Still Life & Floriography (closes 2026-09-27)
-- Tiger Strikes Asteroid New York: Rock, Stone, Steel and Rope (closes 2026-09-27)
-- New York Botanical Garden: Dig! Plant! Grow! Pollinator Pals (closes 2026-09-27)
-- The City Reliquary: Views from the Skeletal City (closes 2026-09-27)
-- Old Bethpage Village Restoration: 2026 Long Island Fair (closes 2026-09-27)
-- International Center of Photography: Yves Saint Laurent and Photography (closes 2026-09-28)
-- International Center of Photography: Photobooks USA 2000–25 (closes 2026-09-28)
-- SVA Flatiron Gallery: Building Books. Corraini Edizioni: Children, Art, Design, and Everything Else (closes 2026-09-28)
-- Janet Hennessey Dilenschneider Gallery, The Sheen Center for Thought & Culture: A Man For All Media: Through the Eyes of Archbishop Sheen (closes 2026-09-29)
-- Macy Art Gallery: September Primer (closes 2026-09-30)
-- The Nippon Gallery at The Nippon Club: Keen Vision — A Legacy of Susan Tosk (closes 2026-09-30)
-- Residency Unlimited: Eva Aeppli – Cheers for life, cheers for death (closes 2026-10-01)
-- Fraunces Tavern Museum: Path to Liberty: The Emergence of a Nation - Orders, Discipline and Daily Life (closes 2026-10-01)
-- Center for Brooklyn History: New York City History Day Showcase (closes 2026-10-01)
-- Rye Arts Center: Julia iSabel: The Image of a Sound (closes 2026-10-03)
-- Prince Street Gallery: MARCIE BRONKAR (closes 2026-10-03)
-- Blue Mountain Gallery: BFF's Real and Imaginary (closes 2026-10-03)
-- Bowery Gallery: Hearne Pardee: Landscaping (closes 2026-10-03)
-- Ceres Gallery: Elizabeth Downer Riker – The Understory (closes 2026-10-03)
-- Ceres Gallery: Jane Seavers – Visions of a World on Fire (closes 2026-10-03)
-- Pleiades Gallery: Ellen Bradshaw: Every Street Has a Story (closes 2026-10-03)
-- Casa Belvedere, The Italian Cultural Foundation: Bearing Witness — An Era In Retrospect (closes 2026-10-03)
-- The Museum of Modern Art: Peggy Weil: Core Memory (closes 2026-10-04)
-- Museum of Arts and Design: OUT of the Jewelry Box (closes 2026-10-04)
-- The Morgan Library & Museum: Tarot! Renaissance Symbols, Modern Visions (closes 2026-10-04)
-- Onassis ONX: What Remains (closes 2026-10-04)
-- A.I.R. Gallery: Inevitable, inveterate (closes 2026-10-04)
-- A.I.R. Gallery: La Cosecha (The Harvest) (closes 2026-10-04)
-- A.I.R. Gallery: between the skin and flesh, a thing (closes 2026-10-04)
-- Hudson River Museum: Teens Seen: Art Showcase (closes 2026-10-04)
-- Edward Hopper House Museum & Study Center: James Prosek: Memory, Trees & Shadows (closes 2026-10-04)
-- Underdonk: Lars van Dooren: with psychic unmaking (closes 2026-10-04)
-- New York Historical: Betye Saar's Black Dolls (closes 2026-10-04)
-- The City Reliquary: I Appreciate You (closes 2026-10-04)
-- Center for Puerto Rican Studies (Centro), Hunter College: Afterlives of San Juan Hill (closes 2026-10-04)
-- Queens Botanical Garden: The Color of Sunlight (closes 2026-10-04)
-- National Association of Women Artists (N.A.W.A. Gallery): When Words are Not Enough (closes 2026-10-05)
-- Westbeth Gallery: Imprints of Becoming: Traces, Temporalities, and the Unfixed Paradise (closes 2026-10-07)
-- International Studio & Curatorial Program: Hans Rosenström: Conspirare (closes 2026-10-09)
-- International Studio & Curatorial Program: Bryan Fernandez: En tránsito (closes 2026-10-09)
-- Cathedral Church of Saint John the Divine: Gaia (closes 2026-10-09)
-- Bronx River Art Center: Internal Anchor (closes 2026-10-10)
-- Museum of Arts and Design: 2025 Burke Prize: Hai-Wen Lin (closes 2026-10-11)
-- Museum of Contemporary African Diasporan Arts (MoCADA): Pitch Black: Haiti and Congo Revisited (closes 2026-10-11)
-- Amos Eno Gallery: Samantha Jones: Residual Worlds (closes 2026-10-11)
-- Open Source Gallery: Sáandlaanaay: The 7th Time (closes 2026-10-11)
-- 440 Gallery: Catherine Orrok: "Collateral Blessings" (closes 2026-10-11)
-- 440 Gallery: “Whispers of the Natural World”: Bunge, Chuse, Destaing, Plenefisch (closes 2026-10-11)
-- Wave Hill: Tarik Jeremiah Brown: Hush Harbor (closes 2026-10-11)
-- Wave Hill: Camille Cooper: SHOWPIECE (closes 2026-10-11)
-- NYU Special Collections Gallery: Brenda Berkman and the Women of Ground Zero Pop-Up Exhibition (closes 2026-10-11)
-- Museum of Arts and Design: Alice Riehl's Porcelain Florilegium (closes 2026-10-12)
-- Museum of the City of New York: Another Wonderland (closes 2026-10-12)
-- Kingsborough Art Museum: Reflections 2026: Annual Art Faculty Exhibition (closes 2026-10-14)
-- Kresge and Pascal Galleries: Translucence of Time: Jonathan Lipkin (closes 2026-10-14)
 - Garibaldi-Meucci Museum: Art of Legend and Light (closes 2026-10-16)
 - Clay Art Center: Functional Fall: Handled With Care (closes 2026-10-17)
 - SVA Gramercy Gallery: HERE: (closes 2026-10-17)
 - 55 Mercer Street Gallery: Presence (closes 2026-10-17)
 - Field Projects: Re.tangle | Climate Disrupt (closes 2026-10-17)
 - SVA Galleries (School of Visual Arts): HERE: (closes 2026-10-17)
+- Park Avenue Armory: Music for 18 Musicians: Staged Variations (closes 2026-10-18)
+- Abrons Arts Center: everyday royalty: An Exhibition of Artists Across Henry Street Settlement (closes 2026-10-18)
+- New York Studio School Gallery: This Heat: Brenda Goodman, Steve DiBenedetto, and Bendix Harms (closes 2026-10-18)
+- Phyllis Harriman Mason Gallery, Art Students League of New York: Instructor Salon 2026 (closes 2026-10-18)
+- Brooklyn Waterfront Artists Coalition: EXCLAIM! (closes 2026-10-18)
+- Brooklyn Waterfront Artists Coalition: One Year Later: New Work, New Perspectives (closes 2026-10-18)
+- New York Botanical Garden: Flower Power (closes 2026-10-18)
+- New York Botanical Garden: Art & Photography of the '60s (closes 2026-10-18)
+- New York Botanical Garden: Growing America (closes 2026-10-18)
+- Wave Hill: Noormah Jamal: Blooms (closes 2026-10-18)
+- Residency Unlimited: Borrowed Skin (closes 2026-10-21)
+- The Art Gallery at the College of Staten Island: Subtle Subversions: The Art of Patricia Espinosa (closes 2026-10-22)
+- Stamford Art Association: Latin American & Caribbean Celebration & Art Exhibition (closes 2026-10-22)
+- apexart: Weaving a Day, Mourning a Life (closes 2026-10-24)
+- White Columns: Mieko Meguro: Works, New York, 2009-2026 (closes 2026-10-24)
+- White Columns: Eric Spencer: Words on my Mind (closes 2026-10-24)
+- White Columns: Juliette Collet: Bobbie Cadet in the Court of the Ladybugs (closes 2026-10-24)
+- The Painting Center: Kathleen Beausoleil: Meet at The Ferris Wheel (closes 2026-10-24)
+- The Painting Center: Ellen Starr Lyon: Nesting Rituals (closes 2026-10-24)
+- Recess: The Khajistan Institute for Advanced Research and Necessary Development (closes 2026-10-24)
+- Korean Cultural Center New York (Gallery Korea): Tchah Sup Kim: The Key to a New World (closes 2026-10-24)
+- SVA Flatiron Gallery: BFA Fine Arts Exhibition 2026 (closes 2026-10-24)
+- Art Gallery at Pace University: La Vaughn Belle: For the Love of Fragile Things (closes 2026-10-24)
+- BronxArtSpace: Vandals to Vanguard (closes 2026-10-24)
+- First Street Gallery: MUSINGS | What is Seen and What is Not Part II (closes 2026-10-24)
+- SVA Galleries (School of Visual Arts): BFA Fine Arts Exhibition 2026 (closes 2026-10-24)
+- Dyckman Farmhouse Museum: Soon Come, Likkle More (closes 2026-10-24)
+- The Morgan Library & Museum: Hujar: Contact (closes 2026-10-25)
+- PARTICIPANT INC: TYLER CALA WILLIAMS, ELASTIC SYNAPSE (closes 2026-10-25)
+- Pelham Art Center: Beneath the Visible (closes 2026-10-25)
+- Morris Museum: Thaddeus Mosley: American Treasure (closes 2026-10-25)
+- Art Lab: The First Faculty & Student Exhibition (closes 2026-10-25)
+- Brooklyn Botanic Garden: Ancestral Ecologies (closes 2026-10-25)
+- Brooklyn Botanic Garden: Block by Block (closes 2026-10-25)
+- Brooklyn Botanic Garden: Block by Block: Streetscapes (closes 2026-10-25)
+- Brooklyn Botanic Garden: Brooklyn's Greening Heroes (closes 2026-10-25)
+- New York Historical: Revolutionary Women (closes 2026-10-25)
+- New York Historical: Remembering September 11, 2001: 25 Years Later (closes 2026-10-25)
+- Historical Society of Rockland County: Rockland and the Revolution: A 250th Anniversary Exploration (closes 2026-10-25)
+- Historical Society of Rockland County: 1832 Jacob Blauvelt House (closes 2026-10-25)
+- The Interchurch Center Galleries: Pause, Remember, Reflect: 9/11 Art Exhibition (closes 2026-10-28)
+- Janet Hennessey Dilenschneider Gallery, The Sheen Center for Thought & Culture: Queens of Memory - An Ethereal Journey, inspired by Gabriela Mistral (closes 2026-10-29)
+- Anya and Andrew Shiva Gallery: Uneven Geographies (closes 2026-10-30)
+- SVA Chelsea Gallery: A Vivid Blur (closes 2026-10-30)
+- SVA Galleries (School of Visual Arts): A Vivid Blur (closes 2026-10-30)
+- 41 Cooper Gallery: Guild & Greyshkul (closes 2026-10-31)
+- Paul Robeson Galleries: ON PURPOSE (closes 2026-10-31)
+- Paul Robeson Galleries at Express Newark: ON PURPOSE (closes 2026-10-31)
+- Prince Street Gallery: RANI CARSON / FLAVIA BACARELLA (closes 2026-10-31)
+- Pleiades Gallery: Beth Cody: Gesturing In the Abstract Countryside (closes 2026-10-31)
+- Poets House: Pierre Joris Notebooks (closes 2026-10-31)
+- Poster House: Reading Under Fire: Arming Minds & Hearts During Wartime (closes 2026-11-01)
+- Poster House: From Monarchy to Modernity: Travel, Identity, & the Czechoslovak First Republic 1918–1938 (closes 2026-11-01)
+- Hispanic Society Museum & Library: Uptown Visions (closes 2026-11-01)
+- Hispanic Society Museum & Library: A Collection Without Borders (closes 2026-11-01)
+- Hispanic Society Museum & Library: Esperanza Cortés: Embroidered Allegories (closes 2026-11-01)
+- The Africa Center: Lines of Survival: Living, Adapting, Imagining Tomorrow (closes 2026-11-01)
+- AKC Museum of the Dog: 47th Annual AKC Publications Photo Contest Winners (closes 2026-11-01)
+- Aperture: Aperture Loves New York (closes 2026-11-01)
+- UrbanGlass: Confluence (closes 2026-11-01)
+- UrbanGlass: Krist Lee: The In-Between (closes 2026-11-01)
+- The Art and Design Gallery at FIT: Soil to Surface (closes 2026-11-01)
+- Culture Lab LIC (The Plaxall Gallery): Form & Function: The Art of Graphic Design (closes 2026-11-01)
+- Socrates Sculpture Park: Homecoming: John Morse (closes 2026-11-01)
+- Ortega y Gasset Projects: The Tower (closes 2026-11-01)
+- Brooklyn Navy Yard Center at BLDG 92: Public Art Along Flushing Avenue (closes 2026-11-01)
+- Jay Heritage Center: Analogue Sites (closes 2026-11-01)
+- Lyndhurst Mansion: Lost & Found Exhibition (closes 2026-11-01)
+- Queens Museum: New York Proud: A Portrait of New York City (closes 2026-11-02)
+- Hudson Guild Gallery: Many Ways of Being (closes 2026-11-05)
+- The Arsenal Gallery: New Dendrology (closes 2026-11-06)
+- Czech Center New York: Visit Czechoslovakia! The Stories of Czech and Slovak Travel Posters (closes 2026-11-06)
+- The New York Public Library for the Performing Arts: Martha Graham: The Mother of Psychological Dance (closes 2026-11-07)
+- The Kitchen: Instrument Object (closes 2026-11-08)
+- Howl! Happening: An Arturo Vega Project: POST MORE BILLS (closes 2026-11-08)
+- Nassau County Museum of Art: Louis Comfort Tiffany: Artist of the Gilded Age (closes 2026-11-08)
+- Morris Museum: Emblems of America (closes 2026-11-08)
+- The Ukrainian Museum: The Ground Shifts Beneath Our Feet | Zhanna Kadyrova (closes 2026-11-08)
+- The Ukrainian Museum: A Living Canvas: The Ukrainian Museum At 50 (closes 2026-11-08)
+- Hungarian House of New York: Recap1956: Through the Lens of John Sadovy (closes 2026-11-08)
+- Van Cortlandt Manor: The Great Jack O'Lantern Blaze (closes 2026-11-08)
+- Baxter St at the Camera Club of New York: Milk Teeth (closes 2026-11-11)
+- Baxter St at the Camera Club of New York: Where To, From Here (closes 2026-11-11)
+- Hudson Guild Gallery: One Dozen Eggs & Other Stories (closes 2026-11-11)
+- Lower East Side Printshop: Making Strange (closes 2026-11-13)
+- Van Alen Institute: Open Access: Exploring 130 Years of American Design (closes 2026-11-13)
+- Swiss Institute: SI OFFSITE | Rafał Skoczek: Kino Drift (closes 2026-11-14)
+- The Grolier Club: Henry Wessel: Photographs and Books (closes 2026-11-14)
+- SVA Gramercy Gallery: BFA Photography and Video Exhibition 2026 (closes 2026-11-14)
 
 ## No exhibition on file (180)
 
