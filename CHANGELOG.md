@@ -2,6 +2,27 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-10-15 (New York)
+
+`scripts/rotation.js` named New York as this week's city, and `data/newyork.js` had the oldest `updated` date (September 17) of the four files, confirming it. `reports/newyork.md` existed but was itself from that same September 17 scan — the mechanical refresh has not re-run for New York since (its workflow runs have fired in the afternoon UTC each Thursday rather than the documented 11:00, and simply hadn't reached New York again by the time this session started), so the report's "closing within 30 days" window (Sept 17–Oct 17) was four weeks stale rather than fresh.
+
+As in recent weeks, this session's network egress proxy blocked all direct outbound HTTPS — not just to museum domains, but to unrelated control domains (`example.com`, `google.com`) and to the `r.jina.ai` workaround, confirming a blanket environment network policy rather than per-site blocking. `WebFetch` failed on every URL with a DNS error for the same reason. The three-fetches-then-search procedure in the brief was therefore unusable as written; all verification this week came from `WebSearch` alone, which runs through separate infrastructure and did resolve.
+
+**Redirects (59) applied directly from the report**, with no fetch needed: the mechanical scan had already followed each one and recorded the current target, so `u` was updated to the new URL for all 59 flagged venues (MoMA PS1, Studio Museum, The Drawing Center, Hispanic Society, Noguchi Museum, and 54 others — see the data diff).
+
+**Exhibitions added (5, all with museum-stated dates confirmed via WebSearch):**
+- Museum of Jewish Heritage: "Will These Words Reach You? The Underground Archive of the Warsaw Ghetto" (Sept 18 – Feb 14, 2027) and "A Statue for Liberty: Inventing an Icon" (Oct 25, 2026 – Mar 19, 2027), both dated from the museum's own announcements.
+- Museum of the Moving Image: "Seeing the Cinema: Photographic Visions of Movie Theaters" (Oct 10, 2026 – Mar 21, 2027), dated from the museum's fall press release.
+- National Museum of the American Indian – New York: "Ancestral Connections" and "Jeffrey Veregge: Of Gods and Heroes", both long-running/ongoing per the Smithsonian's own exhibitions listing; the file previously showed only two of this venue's four current shows.
+
+**Spot-checked, found already accurate, no change needed:** The Metropolitan Museum of Art, The Museum of Modern Art, Brooklyn Museum (three new fall shows already on file), Whitney Museum, Guggenheim, El Museo del Barrio, Asia Society Museum, Park Avenue Armory, New York Historical. These sampled correctly against current WebSearch results, which is some evidence the file was already in good shape going into this week.
+
+**Checked and left as-is pending a successor (no invented date):** Cooper Hewitt's "Made in America" (Christopher Payne) has closed (Sept 27 or Oct 4, sources disagree) with no announced successor found; Cathedral of St. John the Divine's "Gaia" closed Oct 9 with no extension or successor found. Both stay on file — neither is yet 30 days past closing, and the mechanical scan prunes on that schedule rather than this pass doing it by hand.
+
+**Could not verify this week:** Society of Illustrators, Judd Foundation, Lower East Side Tenement Museum, Museum of Arts and Design, The Morgan Library & Museum, International Center of Photography — WebSearch returned only stale, conflicting, or undated secondary sources for these, so nothing was changed. Beyond these, the report's full unreachable (72), closing-within-30-days (98), no-exhibition-on-file (180) and no-closing-date (120) tiers were not worked through venue by venue; at New York's scale (504 venues) that is several weeks of budget on its own, and this pass prioritized the redirects (cheap and fully confirmed) and a sample of the venues most visitors would notice. The rest are left exactly as on file — a known limitation, not a guess.
+
+The page copy's `note`/`notez` was rewritten out of the stale "September is changeover season" framing (that changeover has already happened) to reflect what is still true going into November: Neue Galerie's construction closure and the Whitney Biennial's partial closure. New York's `updated` date is bumped to October 15, 2026; the other three cities' dates are untouched. `npm test` (validator + smoke test) passes.
+
 ## 2026-10-08 (Philadelphia)
 
 `scripts/rotation.js` named Philadelphia as this week's city, and `data/philadelphia.js` had the oldest `updated` date (September 14) of the four files, confirming it. However `reports/philadelphia.md` did not exist — the mechanical scan has only ever run for Boston, New York and Washington (`state/scan.json` has no `philadelphia` key), so this week's 11:00 UTC refresh either hasn't fired yet or hasn't been pointed at Philadelphia. Triggering it manually was not possible (`workflow_dispatch` returned 403, insufficient permission), so this pass worked directly from the data file: every exhibition already past its own listed closing date, or closing within 30 days of today, was pulled out as the priority list — 63 of the city's 392 venues, standing in for the report's "changed/unreachable" and "closing within 30 days" categories.

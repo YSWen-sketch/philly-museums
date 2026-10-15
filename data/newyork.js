@@ -18,13 +18,13 @@ CITIES.push({
   nz: "纽约",
 
   // Set by the weekly reconciliation.
-  updated: "September 17, 2026",
-  updatedz: "2026 年 9 月 17 日",
+  updated: "October 15, 2026",
+  updatedz: "2026 年 10 月 15 日",
 
   lede: "Spread across all five boroughs, from the Met and MoMA down to one-room nonprofits in Brooklyn and Queens. Several of the biggest museums are pay-what-you-wish for New York State residents only, so read the admission line before you go.",
   ledez: "遍布五个区，从大都会、MoMA 到布鲁克林和皇后区只有一间屋子的非营利空间。有几家大馆的随意付费只对纽约州居民开放，出发前请先看票价一栏。",
-  note: "September is changeover season: the New Museum, Poster House, SculptureCenter, Storefront and the Museum at FIT all reopen in the second half of the month. Neue Galerie is closed until November 12.",
-  notez: "9 月是换展季：新美术馆、Poster House、SculptureCenter、Storefront 与 FIT 博物馆都在下半月重开；Neue Galerie 闭馆至 11 月 12 日。",
+  note: "Neue Galerie remains closed for a multi-phase building project; all galleries reopen November 12 with a 25th-anniversary show. The Whitney Biennial is only partly on view as later-opening solo shows take over its galleries.",
+  notez: "Neue Galerie 因分阶段建筑工程仍然闭馆，全部展厅将于 11 月 12 日携建馆二十五周年特展重开；惠特尼双年展因展厅陆续被稍后开幕的个展占用，目前仅部分展区开放。",
 
   groups: [
 { g: "Art", gz: "艺术",
@@ -62,7 +62,7 @@ CITIES.push({
     ] },
   { n: "MoMA PS1", nz: "现代艺术博物馆 PS1 分馆", a: "22-25 Jackson Avenue",
     h: "Thu–Mon 12–6, Sat from 10; closed Tue and Wed", hz: "周四–周一 12–18，周六 10 点开门；周二、周三闭馆",
-    p: "Free admission for all", pz: "全部免费入场", u: "https://www.momaps1.org/programs", free: true,
+    p: "Free admission for all", pz: "全部免费入场", u: "https://www.momaps1.org/en/programs", free: true,
     flag: "Closed Monday, September 28, reopening Thursday, October 1. Advance online reservations are unavailable Friday, September 25 through Sunday, September 27; walk-up admission only, on a limited basis.",
     flagz: "9 月 28 日（周一）闭馆，10 月 1 日（周四）重新开放；9 月 25 日至 27 日不接受网上预约，仅限现场排队且名额有限。",
     shows: [
@@ -201,7 +201,7 @@ CITIES.push({
   { n: "The Studio Museum in Harlem", nz: "哈莱姆工作室博物馆", a: "144 West 125th Street",
     h: "Wed–Sun 11–6, Fri until 9; closed Mon–Tue", hz: "周三–周日 11–18，周五至 21；周一、周二闭馆",
     p: "Pay what you can: adults $16, seniors, students and visitors with disabilities $9; free 16 and under; free every Sunday",
-    pz: "随意付费：成人 $16，长者、学生与残障访客 $9；16 岁以下免费；每周日免费", u: "https://studiomuseum.org/exhibitions",
+    pz: "随意付费：成人 $16，长者、学生与残障访客 $9；16 岁以下免费；每周日免费", u: "https://www.studiomuseum.org/exhibitions",
     shows: [
       { t: "Geometries", s: "2026-09-10", e: "2027-01-31", d: "Group show treating geometry as a language, with Alma Thomas, Jack Whitten and Julie Mehretu", dz: "以几何为语言的群展，含阿尔玛·托马斯、杰克·惠滕、朱莉·梅赫图" },
       { t: "Through Motion and Repose: Expanding the Walls 2026", e: "2027-01-31", d: "Photographs by the teenagers in the museum's Expanding the Walls programme", dz: "馆内青少年摄影项目学员的作品展" },
@@ -251,7 +251,7 @@ CITIES.push({
     ] },
   { n: "The Drawing Center", nz: "素描中心", a: "35 Wooster Street",
     h: "Wed–Sun 12–6; closed Mon–Tue", hz: "周三–周日 12–18；周一、周二闭馆", p: "Free", pz: "免费",
-    u: "https://www.drawingcenter.org/exhibitions", free: true,
+    u: "https://drawingcenter.org/exhibitions", free: true,
     shows: [
       { t: "Certainly an Act: Works on Paper by Pope.L", e: "2026-09-27", d: "Drawings and works on paper by the American artist Pope.L", dz: "美国艺术家 Pope.L 的素描与纸上作品" },
       { t: "Drawing Connections: Student Exhibition", e: "2026-09-27", d: "Drawings made by students in the Drawing Center's education programme", dz: "素描中心教育项目学员的作品展" },
@@ -357,7 +357,7 @@ CITIES.push({
     h: "Museum Thu–Sun 12–5; library Thu–Sat 12–3:30", hz: "博物馆 周四–周日 12–17；图书馆 周四–周六 12–15:30",
     p: "Free; suggested donation adults $15, NY/NJ/CT residents $10, students and seniors $5, under 10 free; a free timed ticket must be reserved in advance",
     pz: "免费；建议捐赠成人 $15，纽约、新泽西、康州居民 $10，学生与老年人 $5，10 岁以下免费；须提前预约免费定时票",
-    u: "https://hispanicsociety.org/exhibitions/", free: true,
+    u: "https://hispanicsociety.org/whats-on/exhibitions/", free: true,
     flag: "Visitor access is limited to the ground floor while accessibility work continues elsewhere in the building",
     flagz: "因无障碍改造，参观仅限一层展厅",
     shows: [
@@ -411,7 +411,7 @@ CITIES.push({
     h: "Wed–Sun 11–6, last entry 5:30", hz: "周三–周日 11–18，最晚入场 17:30",
     p: "Adults $16; seniors and students $6; free under 12, NYC public school students and SNAP cardholders; free on the first Friday of every month",
     pz: "成人 $16；老年人与学生 $6；12 岁以下、纽约市公立学校学生及 SNAP 持卡者免费；每月第一个周五免费",
-    u: "https://www.noguchi.org/museum/exhibitions/",
+    u: "https://www.noguchi.org/museum/exhibitions/current/",
     shows: [
       { t: "Light and Stone: Revisiting Noguchi's 1986 Venice Biennale", s: "2026-05-06", e: "2027-05-09", d: "Revisits the presentation Noguchi made for the 1986 Venice Biennale", dz: "重现野口勇 1986 年威尼斯双年展的展陈" },
       { t: "No Ordinary Light: Akari at 75", s: "2026-11-04", d: "Seventy-five years of Noguchi's Akari paper light sculptures", dz: "野口勇 Akari 纸质光雕七十五年" },
@@ -501,7 +501,7 @@ CITIES.push({
     ] },
   { n: "Print Center New York", nz: "纽约版画中心", a: "535 West 24th Street",
     h: "Wed–Sat 12–6", hz: "周三–周六 12–18", p: "Free", pz: "免费",
-    u: "https://printcenternewyork.org/exhibitions", free: true,
+    u: "https://www.printcenternewyork.org/exhibitions", free: true,
     flag: "Fall exhibitions open September 17; galleries are between shows until then",
     flagz: "秋季展览 9 月 17 日开幕，此前为换展期",
     shows: [
@@ -554,7 +554,7 @@ CITIES.push({
     shows: [] },
   { n: "Americas Society Art Gallery", nz: "美洲协会艺术画廊", a: "680 Park Avenue",
     h: "Wed–Sat 11–6", hz: "周三–周六 11–18", p: "Free", pz: "免费",
-    u: "https://www.as-coa.org/visual-arts", free: true,
+    u: "https://www.as-coa.org/art", free: true,
     shows: [
       { t: "Telenovela", s: "2026-09-09", e: "2027-03-27", d: "Group show on the melodrama of Latin American television serials", dz: "以拉美电视连续剧的通俗剧为题的群展" },
       { t: "Flag Series: Katalina Iturralde, Banner Series 1, 2026", s: "2026-09-03", e: "2027-04-18", d: "A commissioned banner shown outside on the building's facade", dz: "委约创作的旗帜作品，展于建筑外立面" },
@@ -586,7 +586,7 @@ CITIES.push({
     h: "Tue 11–5, Wed 11–6, Thu 11–5, Fri 11–8, Sat–Sun 11–5, closed Mondays; closed between exhibitions",
     hz: "周二 11–17，周三 11–18，周四 11–17，周五 11–20，周六、周日 11–17；周一闭馆；展览之间闭馆",
     p: "Adults $15, seniors $12, students $6; free all day Fridays; free for NYC Culture Pass holders",
-    pz: "成人 $15，长者 $12，学生 $6；周五全天免费；纽约文化通行证持有者免费", u: "https://www.bgc.bard.edu/gallery",
+    pz: "成人 $15，长者 $12，学生 $6；周五全天免费；纽约文化通行证持有者免费", u: "https://www.bgc.bard.edu/exhibitions/25/about",
     flag: "The gallery is closed until September 18, 2026, when the next exhibition opens",
     flagz: "展览馆闭馆至 2026 年 9 月 18 日，届时新展开幕",
     shows: [
@@ -608,7 +608,7 @@ CITIES.push({
     ] },
   { n: "Flushing Town Hall", nz: "法拉盛市政厅艺术中心", a: "137-35 Northern Blvd, Flushing",
     h: "Gallery hours are not published; call ahead", hz: "官网未公布展厅开放时间，建议先致电确认", p: "Not published",
-    pz: "未公布", u: "https://www.flushingtownhall.org/gallery",
+    pz: "未公布", u: "https://www.flushingtownhall.org/venue-details/34/gallery",
     shows: [] },
   { n: "Dr. Bernard Heller Museum", nz: "伯纳德·海勒博士博物馆", a: "One West Fourth Street",
     h: "Mon–Thu 9–6:30", hz: "周一–周四 9:00–18:30",
@@ -651,7 +651,7 @@ CITIES.push({
   { n: "American Academy of Arts and Letters", nz: "美国艺术与文学学会", a: "633 West 155th Street",
     h: "Galleries reopen September 26, 2026; daily hours not posted online. Closed New Year's Day, July 4, Thanksgiving and December 25",
     hz: "展厅 2026 年 9 月 26 日重新开放，每日时间未公布；元旦、7 月 4 日、感恩节及 12 月 25 日闭馆", p: "Free", pz: "免费",
-    u: "https://artsandletters.org/exhibitions/", free: true,
+    u: "https://www.artsandletters.org/exhibitions/", free: true,
     flag: "Galleries are closed for installation and reopen September 26, 2026",
     flagz: "展厅正在布展，2026 年 9 月 26 日重新开放",
     shows: [
@@ -869,7 +869,7 @@ CITIES.push({
     ] },
   { n: "A.I.R. Gallery", nz: "A.I.R. 画廊", a: "155 Plymouth Street",
     h: "Wed–Sun 12–6", hz: "周三–周日 12–18", p: "Free", pz: "免费",
-    u: "https://www.airgallery.org/exhibitions-home", free: true,
+    u: "https://www.airgallery.org/current", free: true,
     flag: "Due to move to Manhattan's West Village in early 2027 — check the address before travelling",
     flagz: "预计 2027 年初迁往曼哈顿西村，出发前请确认地址",
     shows: [
@@ -941,7 +941,7 @@ CITIES.push({
     ] },
   { n: "Recess", nz: "Recess 艺术空间", a: "46 Washington Avenue",
     h: "Thu–Sat 12–5", hz: "周四–周六 12–17", p: "Free", pz: "免费",
-    u: "https://www.recessart.org/projects", free: true,
+    u: "https://www.recessart.org/explore", free: true,
     shows: [
       { t: "The Khajistan Institute for Advanced Research and Necessary Development", s: "2026-09-19", e: "2026-10-24", d: "Project by Khajistan, an archive of art and media from silenced communities", dz: "Khajistan 的项目，收集被噤声群体的艺术与媒体资料" }
     ] },
@@ -952,7 +952,7 @@ CITIES.push({
     shows: [] },
   { n: "Skylight Gallery at Bedford Stuyvesant Restoration Corporation", nz: "天窗画廊（贝德福德-斯泰弗森特复兴公司）", a: "1368 Fulton Street, 3rd Floor",
     h: "Wed–Fri 11–6, Sat 1–6", hz: "周三–周五 11–18，周六 13–18", p: "Free", pz: "免费",
-    u: "https://restorationplaza.org/arts-culture/", free: true,
+    u: "https://restorationplaza.org/what-we-do/arts-culture/", free: true,
     flag: "The parent organisation's website no longer lists the gallery — call 718-636-6949 to confirm it is open and what is on before travelling",
     flagz: "母机构官网已不再列出该画廊——出发前请致电 718-636-6949 确认是否开放及当前展览",
     shows: [] },
@@ -1102,7 +1102,7 @@ CITIES.push({
     ] },
   { n: "Ildiko Butler Gallery", nz: "伊尔迪科·巴特勒画廊", a: "113 West 60th Street",
     h: "Daily 9–9, closed University holidays", hz: "每日 9–21，学校假期闭馆", p: "Free", pz: "免费",
-    u: "http://fordhamuniversitygalleries.com/home.html", free: true,
+    u: "https://fordhamuniversitygalleries.com/home.html", free: true,
     flag: "On the lower level of Fordham's Lowenstein Center, past the lobby security desk on the left",
     flagz: "位于福特汉姆 Lowenstein 中心地下层，经大堂安检台后左侧",
     shows: [
@@ -1222,7 +1222,7 @@ CITIES.push({
     ] },
   { n: "Derfner Judaica Museum and The Art Collection at RiverSpring Living", nz: "德夫纳犹太文物博物馆与 RiverSpring Living 艺术收藏", a: "5901 Palisade Avenue",
     h: "Sun–Thu 10:30–4:30 (could not be confirmed — see note)", hz: "周日–周四 10:30–16:30（未能核实，见备注）",
-    p: "Free", pz: "免费", u: "https://www.riverspringliving.org/derfner-judaica-museum/", free: true,
+    p: "Free", pz: "免费", u: "https://www.riverspringliving.org/", free: true,
     flag: "The museum's web page has been taken down — phone RiverSpring Living to confirm it is open before travelling to Riverdale",
     flagz: "博物馆网页已下线，前往 Riverdale 前请致电 RiverSpring Living 确认是否开放",
     shows: [] },
@@ -1230,7 +1230,7 @@ CITIES.push({
     h: "No regular hours; the Block House opens on announced [Open] Block House days",
     hz: "无固定开放时间；Block House 仅在公布的开放日开门",
     p: "Free; a Governors Island ferry ticket is needed to reach it", pz: "免费；需另购前往总督岛的渡轮票",
-    u: "https://www.instituteforpublicarchitecture.org/", free: true,
+    u: "https://instituteforpublicarchitecture.org/", free: true,
     flag: "On Governors Island, reached only by ferry; opens on scattered announced dates and has ten steps at the entrance with no step-free access",
     flagz: "位于总督岛，仅能乘渡轮抵达；只在公布的零星日期开放，入口有十级台阶，无无障碍通道",
     shows: [
@@ -1391,7 +1391,7 @@ CITIES.push({
     h: "Thu–Sun 12–5; closed Mon–Wed", hz: "周四–周日 12–17；周一至周三闭馆",
     p: "General admission $10; seniors, teachers and students $8; free for Newark residents, members, active military and veterans",
     pz: "普通门票 $10；长者、教师与学生 $8；纽瓦克居民、会员、现役军人与退伍军人免费",
-    u: "https://www.newarkmuseumart.org/exhibitions/",
+    u: "https://newarkmuseumart.org/learn/exhibitions/",
     flag: "In Newark, NJ, about 25 minutes by NJ Transit from Penn Station; on-site parking is closed for construction and the planetarium is shut for maintenance until September 30, 2026",
     flagz: "位于新泽西 Newark，从宾州车站乘 NJ Transit 约 25 分钟；馆内停车场因施工关闭，天文馆维护至 2026 年 9 月 30 日",
     shows: [
@@ -1405,7 +1405,7 @@ CITIES.push({
   { n: "The Newark Public Library", nz: "纽瓦克公共图书馆", a: "5 Washington Street",
     h: "Main library Mon 9–5:30, Tue–Thu 9–8:30, Fri–Sat 9–5:30; closed Sundays; service ends 15 minutes before closing",
     hz: "总馆周一 9–17:30，周二–周四 9–20:30，周五–周六 9–17:30；周日闭馆；闭馆前 15 分钟停止服务", p: "Free", pz: "免费",
-    u: "https://npl.org/exhibits/", free: true,
+    u: "https://www.npl.org/exhibits/", free: true,
     flag: "In Newark, NJ, about 25 minutes by NJ Transit from Penn Station",
     flagz: "位于新泽西 Newark，从宾州车站乘 NJ Transit 约 25 分钟",
     shows: [
@@ -1413,7 +1413,7 @@ CITIES.push({
     ] },
   { n: "Paul Robeson Galleries at Express Newark", nz: "快线纽瓦克保罗·罗伯逊画廊", a: "54 Halsey Street",
     h: "Mon–Wed 12–5, Thu 12–8; Fri–Sat by appointment", hz: "周一–周三 12–17，周四 12–20；周五、周六需预约",
-    p: "Free", pz: "免费", u: "https://www.expressnewark.org/paul-robeson-galleries", free: true,
+    p: "Free", pz: "免费", u: "https://expressnewark.org/", free: true,
     flag: "In Newark, NJ, about 25 minutes from Midtown via Penn Station and NJ Transit",
     flagz: "位于新泽西 Newark，经宾州车站乘 NJ Transit 约 25 分钟",
     shows: [
@@ -1426,7 +1426,7 @@ CITIES.push({
   { n: "Mana Contemporary", nz: "玛娜当代艺术中心", a: "888 Newark Avenue",
     h: "Open hours are posted per exhibition rather than weekly; check the events calendar before going",
     hz: "开放时段按展览逐次公布，并非固定周历；出发前请先查看活动日历", p: "Free", pz: "免费",
-    u: "https://www.manacontemporary.com/exhibitions/", free: true,
+    u: "https://www.manacontemporary.com/exhibition/exhibitions-2012-keith-haring/", free: true,
     flag: "In Jersey City, NJ, a ten-minute walk from Journal Square PATH; the campus opens only on posted days, so check before travelling",
     flagz: "位于新泽西泽西城，距 Journal Square PATH 站步行约 10 分钟；园区仅在公布的日子开放，出发前务必确认",
     shows: [
@@ -1485,7 +1485,7 @@ CITIES.push({
   { n: "The Art School at Old Church", nz: "老教堂艺术学校", a: "561 Piermont Road",
     h: "Mikhail Zakin Gallery Mon–Fri 10–5, Sat 10–3, while an exhibition is up",
     hz: "Mikhail Zakin 画廊展期内 周一–周五 10–17，周六 10–15", p: "Not published on the site", pz: "官网未标明票价",
-    u: "https://tasoc.org/gallery/",
+    u: "https://www.tasoc.org/gallery",
     flag: "In Demarest, NJ, about 40 minutes from Midtown by car; the gallery keeps hours only while an exhibition is installed",
     flagz: "位于新泽西州 Demarest，距中城约 40 分钟车程；画廊仅在展期内开放",
     shows: [] },
@@ -1513,7 +1513,7 @@ CITIES.push({
     h: "Wed–Sun 11–5, closed Mon and Tue", hz: "周三–周日 11–17，周一、周二闭馆",
     p: "Adults $12; seniors, students under 25 with ID and ages 3–17 $8; members, under 3 and active military plus 5 family members free",
     pz: "成人 $12；长者、持证 25 岁以下学生与 3–17 岁 $8；会员、3 岁以下、现役军人及 5 名家属免费",
-    u: "https://morrismuseum.org/exhibitions/",
+    u: "https://morrismuseum.org/on-view/current",
     flag: "In Morristown, NJ, about 55 minutes on NJ Transit Midtown Direct plus a short ride from the station",
     flagz: "位于新泽西 Morristown，从宾州车站乘 NJ Transit Midtown Direct 约 55 分钟，下车后还需短途接驳",
     shows: [
@@ -1654,7 +1654,7 @@ CITIES.push({
     ] },
   { n: "New York Academy of Art Exhibitions Gallery", nz: "纽约艺术学院展览画廊", a: "111 Franklin Street",
     h: "Not published — check before visiting", hz: "未公布，出行前请查询官网", p: "Free", pz: "免费",
-    u: "https://www.nyaa.edu/exhibitions/", free: true,
+    u: "https://nyaa.edu/exhibitions-gallery/", free: true,
     shows: [
       { t: "2026 Chubb Fellows Exhibition", s: "2026-08-24", e: "2026-09-23", d: "New paintings and sculpture by three post-graduate fellows of the Academy", dz: "学院三位博士后驻留研究员的新绘画与雕塑" }
     ] },
@@ -1857,7 +1857,7 @@ CITIES.push({
     ] },
   { n: "Art Lab", nz: "艺术实验室", a: "1000 Richmond Terrace, Building H",
     h: "Mon–Thu 10–8, Fri–Sun 10–5", hz: "周一–周四 10–20，周五–周日 10–17", p: "Free", pz: "免费",
-    u: "https://artlabsi.com/about/gallery", free: true,
+    u: "https://artlabsi.com/gallery-exhibitions/", free: true,
     flag: "On the Snug Harbor campus in Building H; Chapel Road there is partly closed on weekdays into mid-2027",
     flagz: "位于 Snug Harbor 园区 H 楼；园内 Chapel Road 工作日部分封闭，将持续至 2027 年年中",
     shows: [
@@ -2050,7 +2050,7 @@ CITIES.push({
     ] },
   { n: "Viridian Artists", nz: "维里迪安艺术家画廊", a: "548 West 28th Street, Suite 632",
     h: "Tue–Sat 12–6, and by appointment", hz: "周二–周六 12–18，也可预约", p: "Free", pz: "免费",
-    u: "https://www.viridianartists.com/exhibitions", free: true,
+    u: "https://www.viridianartists.com/current-show", free: true,
     shows: [
       { t: "A WORLD UNTO ITSELF", s: "2026-09-08", e: "2026-09-26", d: "Current show at this artist-run member gallery, with a closing reception on September 26", dz: "艺术家自营会员画廊的当期展览，9 月 26 日办闭幕酒会" }
     ] },
@@ -2080,13 +2080,13 @@ CITIES.push({
     ] },
   { n: "Field Projects", nz: "田野计划画廊", a: "526 West 26th Street, Suite 807",
     h: "Thu–Sat 12–6, or by appointment", hz: "周四–周六 12–18，也可预约", p: "Free", pz: "免费",
-    u: "https://www.fieldprojectsgallery.com/exhibitions", free: true,
+    u: "https://www.fieldprojectsgallery.com/past", free: true,
     shows: [
       { t: "Re.tangle | Climate Disrupt", s: "2026-09-10", e: "2026-10-17", d: "Two-person show by Kiran Jandu and Anna Chapman, the gallery's 2026 climate fellowship artists", dz: "Kiran Jandu 与 Anna Chapman 双人展，二人为画廊 2026 年气候驻留获选者" }
     ] },
   { n: "Gallery 456 (Chinese American Arts Council)", nz: "456 画廊（美华艺术协会）", a: "456 Broadway, 3rd Floor",
     h: "Hours not published online; call ahead", hz: "官网未公布开放时间，建议先电话确认", p: "Free", pz: "免费",
-    u: "https://www.gallery456.org/", free: true,
+    u: "http://www.caacarts.org/", free: true,
     shows: [
       { t: "Mi Chen, Yan Wang: Temporary Storage", d: "Two-artist show; the reception was held on September 4", dz: "陈、王两位艺术家的联展，9 月 4 日举行酒会" }
     ] },
@@ -2115,7 +2115,7 @@ CITIES.push({
   { n: "SVA Galleries (School of Visual Arts)", nz: "视觉艺术学院画廊", a: "601 West 26th Street, 15th Floor",
     h: "Chelsea Tue–Sat 10–6; Gramercy and Flatiron Mon–Sat 10–6",
     hz: "切尔西馆 周二–周六 10–18；Gramercy 与 Flatiron 馆 周一–周六 10–18", p: "Free", pz: "免费",
-    u: "https://www.sva.edu/about/sva-gallery-exhibitions", free: true,
+    u: "https://sva.edu/about/sva-gallery-exhibitions", free: true,
     flag: "Three separate galleries: Chelsea 601 W 26th St, Gramercy 209 E 23rd St, Flatiron 133/141 W 21st St",
     flagz: "三处展厅分设：切尔西 601 W 26th St、Gramercy 209 E 23rd St、Flatiron 133/141 W 21st St",
     shows: [
@@ -2294,7 +2294,7 @@ CITIES.push({
   { n: "Brooklyn Children's Museum", nz: "布鲁克林儿童博物馆", a: "145 Brooklyn Avenue",
     h: "Wed–Sun 10–5, last entry 4:50; closed Mon–Tue", hz: "周三–周日 10–17，最晚入场 16:50；周一、周二闭馆",
     p: "$15 per person; free Thursdays 2–5", pz: "每人 $15；周四 14:00–17:00 免费",
-    u: "https://www.brooklynkids.org/exhibits/",
+    u: "https://www.brooklynkids.org/exhibit-type/permanent/",
     shows: [
       { t: "Summer Scramble", s: "2026-07-11", d: "A giant breakfast plate to climb, with a two-person fried-egg ride", dz: "巨型早餐盘攀爬区，含双人煎蛋乘骑" },
       { t: "Empire Skate of Mind", s: "2026-09-26", d: "Rooftop roller rink honouring Crown Heights' Empire Roller Rink", dz: "屋顶轮滑场，致敬皇冠高地的帝国轮滑场" },
@@ -2306,7 +2306,7 @@ CITIES.push({
   { n: "Staten Island Children's Museum", nz: "史泰登岛儿童博物馆", a: "1000 Richmond Terrace, Building M",
     h: "Wed–Sun 10–5; members-only hour Wed–Fri 9–10", hz: "周三–周日 10–17；周三–周五 9–10 会员专属时段",
     p: "Adults $10, children $10; free for children under 1 and for members",
-    pz: "成人 $10，儿童 $10；1 岁以下及会员免费", u: "https://sichildrensmuseum.org/exhibits/",
+    pz: "成人 $10，儿童 $10；1 岁以下及会员免费", u: "https://sichildrensmuseum.org/interactive-childrens-exhibits/",
     flag: "Closed September 9–18, 2026 for the annual Fall Fix-Up.",
     flagz: "2026 年 9 月 9 日至 18 日因年度整修闭馆。",
     shows: [
@@ -2433,7 +2433,7 @@ CITIES.push({
     h: "Daily 9–5, last entry 4:30", hz: "每日 9–17，最后入场 16:30",
     p: "Adults 16+ $20; seniors, students and AARP members $18; veterans $10; free for members, under 2 and SNAP/EBT holders",
     pz: "16 岁以上成人 $20；长者、学生与 AARP 会员 $18；退伍军人 $10；会员、2 岁以下与 SNAP/EBT 持卡人免费",
-    u: "https://stamfordmuseum.org/exhibitions/",
+    u: "https://www.stamfordmuseum.org/exhibitions-and-adults/",
     flag: "In Stamford, CT — about 50 minutes by Metro-North plus a 15-minute drive north; the mansion galleries are closed for installation and reopen later in September",
     flagz: "位于康州 Stamford——Metro-North 约 50 分钟，再向北驾车约 15 分钟；宅邸展厅正在布展关闭，9 月晚些时候重开",
     shows: [
@@ -2445,7 +2445,7 @@ CITIES.push({
     h: "Hours change week to week — through September 2026 open weekends 10–5 and closed most weekdays; 10–6 from September 28",
     hz: "开放时间逐周变化——2026 年 9 月仅周末 10–17 开放，多数工作日闭馆；9 月 28 日起 10–18",
     p: "Timed tickets bought online; the adult price varies by date and is lower when booked at least a day ahead. Individual membership $85",
-    pz: "网上购买分时票；成人票价随日期浮动，提前至少一天购买更便宜。个人会员 $85", u: "https://lsc.org/exhibitions",
+    pz: "网上购买分时票；成人票价随日期浮动，提前至少一天购买更便宜。个人会员 $85", u: "https://lsc.org/explore/exhibitions",
     flag: "In Jersey City, NJ, about 35 minutes from Midtown by PATH plus light rail; closed most weekdays this autumn, so check the hours calendar before setting out",
     flagz: "位于新泽西泽西城，从中城乘 PATH 转轻轨约 35 分钟；今秋多数工作日闭馆，出发前请查看开放日历",
     shows: [
@@ -2467,7 +2467,7 @@ CITIES.push({
     h: "Wed–Sat, timed entry 10:30–12, 12:30–2 and 2–3:30; last admission 2:45",
     hz: "周三–周六，分时入场 10:30–12:00、12:30–14:00、14:00–15:30；最晚入场 14:45",
     p: "Adults $15, seniors 65+ $12, children 3–12 $12; free under 2",
-    pz: "成人 $15，65 岁以上长者 $12，3–12 岁儿童 $12；2 岁以下免费", u: "https://www.njahof.org/",
+    pz: "成人 $15，65 岁以上长者 $12，3–12 岁儿童 $12；2 岁以下免费", u: "https://njahof.org/",
     flag: "At Teterboro Airport in NJ, about 35 minutes from Midtown by car; the museum warns it may close at short notice for staffing, so book or call ahead",
     flagz: "位于新泽西州 Teterboro 机场，距中城约 35 分钟车程；馆方提示可能因人手临时闭馆，建议先预约或致电",
     shows: [] },
@@ -2598,7 +2598,9 @@ CITIES.push({
       { t: "The Holocaust: What Hate Can Do", eText: "Ongoing", eTextz: "常设", d: "The museum's core Holocaust history exhibition, with over 1,000 objects and survivor testimony", dz: "馆内核心大屠杀史展，逾千件实物与幸存者证言" },
       { t: "Courage to Act: Rescue in Denmark", eText: "Ongoing", eTextz: "常设", d: "The 1943 Danish rescue of Jews, built for visitors as young as nine", dz: "1943 年丹麦营救犹太人，面向九岁以上观众" },
       { t: "Art of Freedom: The Life & Work of Arthur Szyk", eText: "Ongoing", eTextz: "常设", d: "Illustrations and anti-fascist political cartoons by Polish-Jewish artist Arthur Szyk", dz: "波兰犹太艺术家 Arthur Szyk 的插画与反法西斯漫画" },
-      { t: "Andy Goldsworthy's Garden of Stones", eText: "Ongoing", eTextz: "常设", d: "An outdoor memorial garden of boulders with oak saplings growing out of them", dz: "户外纪念花园，巨石中长出橡树幼苗" }
+      { t: "Andy Goldsworthy's Garden of Stones", eText: "Ongoing", eTextz: "常设", d: "An outdoor memorial garden of boulders with oak saplings growing out of them", dz: "户外纪念花园，巨石中长出橡树幼苗" },
+      { t: "Will These Words Reach You? The Underground Archive of the Warsaw Ghetto", s: "2026-09-18", e: "2027-02-14", d: "Original material from the secret Oyneg Shabes archive buried in the Warsaw Ghetto", dz: "华沙隔都秘密埋藏的奥伊内格·沙巴斯档案实物展" },
+      { t: "A Statue for Liberty: Inventing an Icon", s: "2026-10-25", e: "2027-03-19", d: "A 35-minute virtual-reality walkthrough of the Statue of Liberty's design and construction", dz: "35 分钟 VR 体验，讲述自由女神像的设计与建造过程" }
     ] },
   { n: "Museum of Chinese in America", nz: "美国华人博物馆", a: "215 Centre Street",
     h: "Wed–Sat 11–6, Sun 11–4; closed Mon and Tue", hz: "周三–周六 11–18，周日 11–16；周一、周二闭馆",
@@ -2624,7 +2626,9 @@ CITIES.push({
     u: "https://americanindian.si.edu/visit/newyork", free: true,
     shows: [
       { t: "Infinity of Nations: Art and History in the Collections of the National Museum of the American Indian", eText: "Long-term", eTextz: "长期", d: "More than 700 objects surveying Native art and history across the Americas", dz: "逾 700 件展品，纵览美洲原住民艺术与历史" },
-      { t: "Native New York", eText: "Long-term", eTextz: "长期", d: "How Haudenosaunee, Lenape and Long Island Native nations shaped the region", dz: "豪德诺索尼、莱纳佩等原住民族如何塑造纽约" }
+      { t: "Native New York", eText: "Long-term", eTextz: "长期", d: "How Haudenosaunee, Lenape and Long Island Native nations shaped the region", dz: "豪德诺索尼、莱纳佩等原住民族如何塑造纽约" },
+      { t: "Ancestral Connections", eText: "Ongoing", eTextz: "长期", d: "Ten contemporary Native artists draw on heritage and tribal history to create new work", dz: "十位当代原住民艺术家取材传统与部落历史的新作" },
+      { t: "Jeffrey Veregge: Of Gods and Heroes", eText: "Ongoing", eTextz: "长期", d: "Site-specific illustrations by the Native artist framing the entrance to Infinity of Nations", dz: "原住民艺术家为 Infinity of Nations 入口创作的现场插画" }
     ] },
   { n: "National September 11 Memorial & Museum", nz: "国家九一一纪念馆与博物馆", a: "180 Greenwich Street",
     h: "Museum Wed–Mon 9–7, last entry 5:30, plus many Tuesdays; Memorial plaza daily 8–8",
@@ -2679,7 +2683,7 @@ CITIES.push({
   { n: "The Skyscraper Museum", nz: "摩天大楼博物馆", a: "39 Battery Place",
     h: "Wed–Sat 12–6", hz: "周三–周六 12–18",
     p: "Free; all visitors except members should book a timed ticket, though walk-ins are welcome",
-    pz: "免费；除会员外建议预约定时票，也接受现场入场", u: "https://skyscraper.org/exhibitions/", free: true,
+    pz: "免费；除会员外建议预约定时票，也接受现场入场", u: "https://www.skyscraper.org/exhibitions/", free: true,
     shows: [
       { t: "The Invention of Park Avenue", d: "How burying the rail yards at Grand Central created an avenue and the real estate along it", dz: "中央车站铁道入地如何造出公园大道与沿线地产" }
     ] },
@@ -2691,6 +2695,7 @@ CITIES.push({
     shows: [
       { t: "Overexposed: Art, Technology, and the Body", s: "2026-03-14", e: "2027-01-03", d: "Sixteen artists plus a century of research films on X-rays, scanning and looking inside the body", dz: "十六位艺术家与百年研究影片，谈 X 光、扫描与透视人体" },
       { t: "Site Interruptions", s: "2026-07-02", e: "2027-07-25", d: "Artist commissions placed on the museum's homepage and in unexpected spots in the building", dz: "艺术家受邀创作，散布于官网首页与馆内意想不到的角落" },
+      { t: "Seeing the Cinema: Photographic Visions of Movie Theaters", s: "2026-10-10", e: "2027-03-21", d: "Photographs of movie theaters as architecture and cultural space, by four photographers", dz: "四位摄影师镜头下的电影院建筑与文化空间" },
       { t: "Behind the Screen", eText: "Ongoing", eTextz: "长期", d: "The museum's core gallery on how moving images are made, marketed and shown", dz: "常设主展厅，讲述影像的制作、行销与放映" },
       { t: "The Jim Henson Exhibition: Imagination Unlimited", eText: "Ongoing", eTextz: "长期", d: "More than 300 puppets, sketches and props from Jim Henson's film and television work", dz: "逾 300 件吉姆·亨森的木偶、手稿与道具" }
     ] },
@@ -2858,7 +2863,7 @@ CITIES.push({
     shows: [] },
   { n: "Mmuseumm", nz: "Mmuseumm 微型博物馆", a: "4 Cortlandt Alley",
     h: "Sat–Sun 11–6; visible through the windows at any hour", hz: "周六–周日 11–18；其余时间可透过橱窗观看",
-    p: "Free; donations welcome", pz: "免费；欢迎捐赠", u: "https://mmuseumm.com/", free: true,
+    p: "Free; donations welcome", pz: "免费；欢迎捐赠", u: "https://www.mmuseumm.com/", free: true,
     shows: [
       { t: "Modern Rubble", d: "Fragments of war rubble gathered internationally, shown as object journalism", dz: "来自各地的战争瓦砾碎片，以实物新闻方式陈列" }
     ] },
@@ -2870,7 +2875,7 @@ CITIES.push({
     flagz: "2026 年 9 月馆方网站无法访问，出发前请致电 (646) 340-8341 确认是否开放",
     shows: [] },
   { n: "African Burial Ground National Monument", nz: "非洲人墓地国家纪念地", a: "26 Wall Street",
-    h: "Wed–Sun 10–4", hz: "周三–周日 10–16", p: "Free", pz: "免费", u: "https://www.nps.gov/afbg/",
+    h: "Wed–Sun 10–4", hz: "周三–周日 10–16", p: "Free", pz: "免费", u: "https://www.nps.gov/afbg/index.htm",
     free: true,
     flag: "The visitor center is operating inside Federal Hall at 26 Wall Street, not at 290 Broadway; the outdoor Ancestral Chamber memorial remains on Duane Street behind 290 Broadway",
     flagz: "游客中心暂设于华尔街 26 号联邦厅内，不在百老汇 290 号；室外祖先祭祀室纪念碑仍在 Duane 街",
@@ -2878,7 +2883,7 @@ CITIES.push({
   { n: "Federal Hall National Memorial", nz: "联邦厅国家纪念堂", a: "26 Wall Street",
     h: "Mon–Fri 10–5, closed weekends", hz: "周一–周五 10–17，周末闭馆",
     p: "Free; ranger-led tours also free, at 10 and 2", pz: "免费；讲解员导览亦免费，每日 10:00 与 14:00",
-    u: "https://www.nps.gov/feha/", free: true,
+    u: "https://www.nps.gov/feha/index.htm", free: true,
     flag: "George Washington's inaugural Bible is on tour and is not currently on display",
     flagz: "华盛顿就职典礼所用《圣经》正在外借巡展，暂不展出",
     shows: [] },
@@ -2952,7 +2957,7 @@ CITIES.push({
     ] },
   { n: "Coney Island History Project", nz: "康尼岛历史项目", a: "3059 West 12th Street",
     h: "Sat–Sun 1–7, through October 11", hz: "周六–周日 13–19，开放至 10 月 11 日", p: "Free", pz: "免费",
-    u: "https://www.coneyislandhistory.org/exhibition-center", free: true,
+    u: "https://www.coneyislandhistory.org/exhibit-center-and-wonder-gallery", free: true,
     flag: "Seasonal weekend-only exhibition centre under the Wonder Wheel; the 2026 season ends October 11",
     flagz: "季节性开放，位于奇观转轮下方，仅周末开放；2026 季于 10 月 11 日结束",
     shows: [
@@ -2962,7 +2967,7 @@ CITIES.push({
     ] },
   { n: "Harbor Defense Museum", nz: "海港防御博物馆", a: "230 Sheridan Loop, Fort Hamilton",
     h: "Mon–Fri 10–4; closed weekends and federal holidays", hz: "周一–周五 10–16；周末与联邦假日闭馆", p: "Free",
-    pz: "免费", u: "https://harbordefensemuseum.com/", free: true,
+    pz: "免费", u: "https://www.harbordefensemuseum.com/", free: true,
     flag: "Inside an active Army base: visitors 18 and over need a state or federal photo ID and must enter at the 101st Street gate. Call 718-630-4349 first — unannounced closures happen",
     flagz: "位于现役陆军基地内：18 岁以上访客须出示州或联邦签发的带照片证件，并从 101 街大门进入。出发前请致电 718-630-4349 确认——临时闭馆时有发生",
     shows: [] },
@@ -2975,7 +2980,7 @@ CITIES.push({
   { n: "Amud Aish Memorial Museum", nz: "阿穆德·艾什纪念博物馆", a: "5923 Strickland Avenue",
     h: "Mon–Thu 10–3, by appointment", hz: "周一–周四 10–15，须预约",
     p: "Admission not published; arrange a visit by phone or email", pz: "官网未公布票价；请电话或邮件预约参观",
-    u: "https://amudaish.org/exhibit",
+    u: "https://www.amudaish.org/exhibit",
     flag: "Visits by appointment only — call 718-759-6200 ext. 1506 or email info@amudaish.org before travelling",
     flagz: "仅接受预约参观——出发前请致电 718-759-6200 转 1506 或发邮件至 info@amudaish.org",
     shows: [] },
@@ -2995,7 +3000,7 @@ CITIES.push({
     ] },
   { n: "Morbid Anatomy", nz: "病态解剖（Morbid Anatomy）", a: "254 36th Street, Building 2, Room C251",
     h: "Most weekends; check the events page for the specific dates", hz: "多数周末开放；具体日期见官网活动页面",
-    p: "Free", pz: "免费", u: "https://morbidanatomy.org/library", free: true,
+    p: "Free", pz: "免费", u: "https://www.morbidanatomy.org/library", free: true,
     flag: "Reopens September 25, 2026; inside Industry City, Building 2, Room C251 — no appointment needed",
     flagz: "2026 年 9 月 25 日重新开放；位于 Industry City 2 号楼 C251 室，无需预约",
     shows: [
@@ -3141,7 +3146,7 @@ CITIES.push({
   { n: "American Jewish Historical Society", nz: "美国犹太历史学会", a: "15 West 16th Street",
     h: "Mon–Wed 9:30–4:30, Thu 9:30–8, Fri 10–2, Sun 11–5; closed Saturdays",
     hz: "周一–周三 9:30–16:30，周四 9:30–20，周五 10–14，周日 11–17；周六闭馆", p: "Free", pz: "免费",
-    u: "https://ajhs.org/exhibits/", free: true,
+    u: "https://ajhs.org/exhibitions-programs/exhibitions/", free: true,
     flag: "Exhibitions are inside the Center for Jewish History; also closed on major Jewish and national holidays",
     flagz: "展厅位于犹太历史中心内；犹太与美国主要节日亦闭馆",
     shows: [
@@ -3211,7 +3216,7 @@ CITIES.push({
     h: "Grounds daily dawn to dusk; Jay Estate Gardens Sun 10–5 and Thu 10–2, closed major holidays",
     hz: "园区每日日出至日落；杰伊庄园花园周日 10–17、周四 10–14，重大节日闭园",
     p: "Free to walk the grounds and gardens; parking free; some programs ticketed",
-    pz: "园区与花园免费开放，停车免费；部分活动需另行购票", u: "https://www.jayheritagecenter.org/", free: true,
+    pz: "园区与花园免费开放，停车免费；部分活动需另行购票", u: "https://jayheritagecenter.org/", free: true,
     flag: "The 1838 Jay Mansion is closed for restoration in 2026 — only the grounds, gardens and outdoor installations can be seen. In Rye, about 40 minutes on Metro-North from Grand Central.",
     flagz: "1838 年杰伊宅邸 2026 年因修缮关闭，仅园区、花园与户外装置可参观。位于 Rye，从中央车站乘 Metro-North 约 40 分钟。",
     shows: [
@@ -3325,7 +3330,7 @@ CITIES.push({
   { n: "Hoboken Historical Museum", nz: "霍博肯历史博物馆", a: "1301 Hudson Street",
     h: "Tue–Thu 2–7, Fri 1–5, Sat–Sun 12–5", hz: "周二–周四 14–19，周五 13–17，周六–周日 12–17",
     p: "Adults $5; free for children and members", pz: "成人 $5；儿童与会员免费",
-    u: "https://www.hobokenmuseum.org/exhibitions/",
+    u: "https://hobokenmuseum.org/exhibitions-page/current-exhibitions-page/current-exhibitions-main-gallery-page/",
     flag: "In Hoboken, NJ, about 20 minutes by PATH from 33rd Street",
     flagz: "位于新泽西 Hoboken，从 33rd Street 乘 PATH 约 20 分钟",
     shows: [
@@ -3362,7 +3367,7 @@ CITIES.push({
     h: "Guided house tours Fri–Sun at 1:15, 2:15 and 3:15; grounds daily 9–5",
     hz: "宅邸导览 周五–周日 13:15、14:15、15:15；园区每日 9–17",
     p: "Grounds free; house-tour tickets sold online, price not published on the site",
-    pz: "园区免费；宅邸导览需在线购票，官网未标明价格", u: "https://thehermitage.org/",
+    pz: "园区免费；宅邸导览需在线购票，官网未标明价格", u: "https://www.thehermitage.org/",
     flag: "In Ho-Ho-Kus, NJ, about 45 minutes from Midtown by car",
     flagz: "位于新泽西州 Ho-Ho-Kus，距中城约 45 分钟车程",
     shows: [] },
@@ -3548,7 +3553,7 @@ CITIES.push({
     shows: [] },
   { n: "The Point CDC", nz: "尖角社区发展中心", a: "940 Garrison Avenue",
     h: "Mon–Fri 10–6, closed weekends", hz: "周一–周五 10–18，周末闭馆", p: "Free", pz: "免费",
-    u: "https://thepoint.org/visual-arts/", free: true,
+    u: "https://www.thepoint.org/visual-arts/", free: true,
     flag: "Building hours only; no separate gallery hours, so call ahead to confirm the exhibition space is open",
     flagz: "仅有大楼开放时间，展厅无独立时段；前往前请致电确认",
     shows: [] },
@@ -3638,7 +3643,7 @@ CITIES.push({
   { n: "Italian American Museum", nz: "意大利裔美国人博物馆", a: "151 Mulberry Street",
     h: "Thu–Sat 12–5; Tue–Thu by appointment", hz: "周四–周六 12–17；周二–周四需预约",
     p: "Adults $15; seniors 62+, students, military and educators $10; children free",
-    pz: "成人 $15；62 岁以上、学生、军人与教师 $10；儿童免费", u: "https://www.italianamericanmuseum.org/exhibitions",
+    pz: "成人 $15；62 岁以上、学生、军人与教师 $10；儿童免费", u: "https://www.italianamericanmuseum.org/exhibitions-and-collections/",
     shows: [
       { t: "The Italian American Experience", eText: "Permanent", eTextz: "常设", d: "The museum's permanent display: five interactive sections and thousands of artifacts", dz: "博物馆常设展：五个互动单元与数千件展品" },
       { t: "Sicilian Theater in Little Italy: The Return of the Manteo Puppets", d: "Thirty-two life-size marionettes carved by Agrippino Manteo for Mulberry Street shows", dz: "Agrippino Manteo 为穆尔贝里街演出雕刻的 32 具真人大小木偶" },
@@ -3648,7 +3653,7 @@ CITIES.push({
   { n: "St. Paul's Chapel", nz: "圣保罗小教堂", a: "209 Broadway",
     h: "Daily 8:30–6; Sun 8:30–4:30", hz: "每日 8:30–18；周日 8:30–16:30",
     p: "Free; security screening at the door", pz: "免费；入口有安检",
-    u: "https://trinitychurchnyc.org/visit/st-pauls-chapel", free: true,
+    u: "https://trinitychurchnyc.org/visit-history/places/st-pauls-chapel", free: true,
     shows: [] },
   { n: "John Street United Methodist Church Museum", nz: "约翰街联合卫理公会教堂博物馆", a: "44 John Street",
     h: "Tue–Fri, all day; tours on request", hz: "周二–周五全天开放；导览需预约", p: "Always free", pz: "始终免费",
@@ -3668,7 +3673,7 @@ CITIES.push({
     h: "Free guided tour the 2nd Wednesday of the month at 5:45pm, about 45 minutes; private group tours by arrangement",
     hz: "每月第二个周三 17:45 提供免费导览，约 45 分钟；团体可另行预约",
     p: "Free, $5 donation suggested; private groups $150 flat for up to 25 people",
-    pz: "免费，建议每人捐 $5；团体包场 $150（上限 25 人）", u: "https://www.shearithisrael.org/content/tours",
+    pz: "免费，建议每人捐 $5；团体包场 $150（上限 25 人）", u: "https://www.shearithisrael.org/about/tours/",
     free: true,
     flag: "No walk-in access — the sanctuary is seen on the monthly tour or by appointment; security screening, no large bags",
     flagz: "不接受随到参观，须参加每月导览或预约；入口安检，勿带大包",
@@ -3829,7 +3834,7 @@ CITIES.push({
     hz: "修缮期间宅邸工作日闭馆；罗杰·莫里斯公园每日 10–17；导览步行团周六 10:30 与 13:30（每月第二个周六无 13:30 场），须提前预约",
     p: "Guided walking tour $25, $20 per person for groups of 6 or more; park free; free for active military, veterans, AAM members and museum members. Self-guided mansion visits ($10 adults, under 12 free) are suspended during the restoration",
     pz: "导览步行团 $25，6 人以上团体每人 $20；公园免费；现役军人、退伍军人、AAM 会员与本馆会员免费。修缮期间自助参观（成人 $10，12 岁以下免费）暂停",
-    u: "https://www.morrisjumel.org/exhibitions",
+    u: "https://morrisjumel.org/exhibitions/",
     flag: "The mansion is closed on weekdays for a roof and exterior restoration and interior tours are suspended; reopening is expected in fall 2026. Only the park and the reservation-only Saturday walking tour are running.",
     flagz: "宅邸因屋顶与外墙修缮工作日闭馆，室内参观暂停，预计 2026 年秋季重开；目前仅公园开放，并有须预约的周六步行导览。",
     shows: [
@@ -3862,7 +3867,7 @@ CITIES.push({
     hz: "周三、周六、周日 12–16，导览 12:15、13:15、14:15、15:15；花园与庭园每日 8:30 至黄昏；感恩节、圣诞节与元旦闭馆",
     p: "Adults $15, seniors 65+ and students $12; members free; groups of ten or more by advance reservation",
     pz: "成人 $15，65 岁以上长者与学生 $12；会员免费；10 人以上团体须提前预约",
-    u: "https://www.bartowpellmansionmuseum.org/exhibitions/",
+    u: "https://www.bartowpellmansionmuseum.org/visit/exhibitions/",
     flag: "Three floors and no lift, with five steps up to the entrance; walk-ins are welcome during open hours but the interior is seen on the scheduled guided tours.",
     flagz: "建筑三层且无电梯，入口有五级台阶；开放时间内可现场入场，室内参观按固定场次导览进行。",
     shows: [
@@ -3901,7 +3906,7 @@ CITIES.push({
     h: "Wed–Sun 11–4; Jan–Mar Fri–Sun 11–4", hz: "周三–周日 11–16；1–3 月周五–周日 11–16",
     p: "Adults $8; seniors and students $6; children 4–11 $5; free Thu 2–4 May–Dec with reservation",
     pz: "成人 $8；长者与学生 $6；4–11 岁儿童 $5；5–12 月周四 14:00–16:00 免费（需预约）",
-    u: "https://www.historicrichmondtown.org/exhibitions",
+    u: "https://www.historicrichmondtown.org/onlineexhibits",
     flag: "Closed the first two weeks of January and the week before Labor Day",
     flagz: "1 月前两周及劳动节前一周闭馆",
     shows: [] },
@@ -4029,7 +4034,7 @@ CITIES.push({
     h: "Mon–Tue 10:15–4:30, Wed 11:15–4:30, Thu–Fri 10:15–1:30; closed weekends",
     hz: "周一–周二 10:15–16:30，周三 11:15–16:30，周四–周五 10:15–13:30；周末闭馆",
     p: "Adults $15; seniors and students 16+ $12; under 12 free; garden only $5",
-    pz: "成人 $15；老人与 16 岁以上学生 $12；12 岁以下免费；仅花园 $5", u: "https://mvhm.org/visit/",
+    pz: "成人 $15；老人与 16 岁以上学生 $12；12 岁以下免费；仅花园 $5", u: "https://mvhm.org/visit-the-garden/",
     flag: "Closes without notice for private programs; call or email ahead to confirm it is open",
     flagz: "有时因私人活动临时闭馆，前往前请致电或发邮件确认",
     shows: [] },
@@ -4096,7 +4101,7 @@ CITIES.push({
     hz: "4–10 月周二–周日 8:00–18:00；11–3 月周二–周日 8:00–16:30；周一闭园",
     p: "Adults $6, seniors 62+ and students $4, children 4–12 $2; under 4 free; free admission December 16–March 31",
     pz: "成人 $6，62 岁以上长者与学生 $4，4–12 岁儿童 $2；4 岁以下免费；12 月 16 日至 3 月 31 日免费",
-    u: "https://queensbotanical.org/visit/",
+    u: "https://queensbotanical.org/",
     shows: [
       { t: "The Color of Sunlight", s: "2026-04-11", e: "2026-10-04", d: "Sarah Field Sonnenberg's oil paintings in the Visitor & Administration Building gallery", dz: "Sarah Field Sonnenberg 油画个展，位于游客与行政楼展厅" },
       { t: "Twin Urns", s: "2026-03-29", e: "2026-09-20", d: "Chloe Seibert's two ceramic urns where visitors leave written wishes to be composted", dz: "Chloe Seibert 的两只陶罐，访客写下心愿后堆肥处理" },
@@ -4133,7 +4138,7 @@ CITIES.push({
     hz: "4 月至 12 月园区每日 9–17；宅邸导览周四–周一 10–16 整点出发；周二与周三闭馆",
     p: "Fall Classic Mansion Tour: adults $29, seniors, students, AAA and military $27, youth 6–16 $22, 5 and under $10; a daily grounds pass is sold separately",
     pz: "秋季经典宅邸导览：成人 $29，长者、学生、AAA 与军人 $27，6–16 岁 $22，5 岁以下 $10；园区日票另售",
-    u: "https://www.lyndhurst.org/exhibitions/",
+    u: "https://lyndhurst.org/exhibitions/",
     flag: "In Tarrytown, about 40 minutes on the Metro-North Hudson Line from Grand Central; the mansion can only be seen on a guided tour and tours fill up, so book ahead",
     flagz: "位于 Tarrytown，从中央车站乘 Metro-North 哈德逊线约 40 分钟；宅邸仅能随导览参观且常售罄，建议提前订票",
     shows: [
@@ -4155,7 +4160,7 @@ CITIES.push({
     ] },
   { n: "Kykuit, the Rockefeller Estate", nz: "凯库特：洛克菲勒庄园", a: "381 North Broadway (tours depart Philipsburg Manor)",
     h: "Tours on hiatus for all of 2026", hz: "2026 全年暂停导览", p: "No tickets on sale for 2026",
-    pz: "2026 年不售票", u: "https://hudsonvalley.org/historic-sites/kykuit/",
+    pz: "2026 年不售票", u: "https://hudsonvalley.org/historic-sites/kykuit-the-rockefeller-estate/",
     flag: "Closed: tours are on hiatus for 2026 and will be run by the Rockefeller Brothers Fund afterwards, with no reopening date announced. About 45 minutes by Metro-North to Philipse Manor plus a shuttle.",
     flagz: "闭门：2026 全年暂停导览，之后改由洛克菲勒兄弟基金会运营，尚未公布重开日期。乘 Metro-North 到 Philipse Manor 约 45 分钟，再转接驳车。",
     shows: [] },
@@ -4222,7 +4227,7 @@ CITIES.push({
   { n: "Oyster Bay Historical Society (Earle-Wightman House)", nz: "牡蛎湾历史学会（厄尔-怀特曼故居）", a: "20 Summit Street",
     h: "Tue–Fri 10–2, Sat 11–3; closed Sunday and Monday, or by appointment",
     hz: "周二–周五 10–14，周六 11–15；周日、周一闭馆，或需预约", p: "Admission not stated on the society's site",
-    pz: "官网未公布票价", u: "https://oysterbayhistorical.org/exhibitions.html",
+    pz: "官网未公布票价", u: "https://www.oysterbayhistorical.org/exhibitions.html",
     flag: "In Oyster Bay, about 50 minutes from Midtown by car", flagz: "位于 Oyster Bay，距中城约 50 分钟车程",
     shows: [] },
   { n: "Greenwich Historical Society", nz: "格林尼治历史学会", a: "47 Strickland Road",
@@ -4262,13 +4267,13 @@ CITIES.push({
   { n: "Proprietary House", nz: "总督官邸（Proprietary House）", a: "149 Kearny Avenue",
     h: "Normally tours Sundays at 1, 2 and 3, Wednesdays by reservation — suspended while the house is closed",
     hz: "平时周日 13:00、14:00、15:00 导览，周三需预约；闭馆期间暂停", p: "Not published", pz: "未公布票价",
-    u: "https://theproprietaryhouse.org/",
+    u: "https://www.theproprietaryhouse.org/",
     flag: "Closed for renovation — the museum says it will not reopen until late 2026, so check before travelling. In Perth Amboy, NJ, about 50 minutes on NJ Transit from Penn Station",
     flagz: "因整修闭馆，馆方称 2026 年底前不会重开，出发前请务必先确认。位于新泽西 Perth Amboy，从宾州车站乘 NJ Transit 约 50 分钟",
     shows: [] },
   { n: "Dey Mansion Washington's Headquarters", nz: "戴伊宅邸：华盛顿司令部", a: "199 Totowa Road",
     h: "Wed–Sun 10–5", hz: "周三–周日 10–17", p: "Adults $5; children 7–17 $3; under 6 free",
-    pz: "成人 $5；7–17 岁儿童 $3；6 岁以下免费", u: "https://www.deymansion.org/",
+    pz: "成人 $5；7–17 岁儿童 $3；6 岁以下免费", u: "https://seepassaiccounty.org/dey-mansion/",
     flag: "In Wayne, NJ, about 45 minutes from Midtown by car; tours run on the hour and tickets are normally bought online in advance",
     flagz: "位于新泽西 Wayne，距中城约 45 分钟车程；导览每整点一场，门票通常需提前网购",
     shows: [] },
