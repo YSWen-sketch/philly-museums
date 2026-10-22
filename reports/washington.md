@@ -1,31 +1,128 @@
 # Weekly refresh — Washington
 
-- Scanned: 2026-09-24
+- Scanned: 2026-10-22
 - Venues: 222
-- Exhibitions after pruning: 333
+- Exhibitions after pruning: 332
 - Checked-on date moved: no
 - Tab counts corrected: none needed
 
-## Pages that changed since last week — re-read these (0)
+## Pages that changed since last week — re-read these (100)
 
-_none_
+- [The Phillips Collection](https://www.phillipscollection.org/exhibitions)
+- [Art Museum of the Americas](https://museum.oas.org/)
+- [Glenstone Museum](https://www.glenstone.org/exhibitions/)
+- [Howard University Gallery of Art](https://finearts.howard.edu/gallery-art/exhibitions)
+- [Transformer](https://www.transformerdc.org/exhibitions-1)
+- [IA&A at Hillyer](https://athillyer.org/all-exhibitions/)
+- [Mexican Cultural Institute](https://instituteofmexicodc.org/)
+- [Dupont Underground](https://dupontunderground.org/)
+- [District of Columbia Arts Center](https://www.dcartscenter.org/exhibitions-menu)
+- [Gillespie Gallery of Art](https://www.masonexhibitions.org/exhibitions)
+- [Joan Hisaoka Healing Arts Gallery](https://smithcenter.org/art-gallery/)
+- [King Street Gallery](https://www.montgomerycollege.edu/academics/departments/visual-performing-arts-tpss/gallery-performance-studio-spaces.html)
+- [Mason Exhibitions Arlington](https://www.masonexhibitions.org/exhibitions)
+- [McLean Project for the Arts](https://www.mpaart.org/exhibitions)
+- [Montpelier Arts Center](https://www.pgparks.com/facilities/montpelier-arts-center)
+- [Phillips@THEARC](https://www.phillipscollection.org/thearc)
+- [Sarah Silberman Art Gallery](https://www.montgomerycollege.edu/academics/departments/art-rockville/silberman-gallery.html)
+- [Fisher Art Gallery, Rachel M. Schlesinger Concert Hall and Arts Center](https://www.nvcc.edu/student-life/arts/schlesinger-center/galleries/index.html)
+- [Takoma Park Community Center Galleries](https://takomaparkmd.gov/1479/Art-Exhibition-Series)
+- [National Children's Museum](https://nationalchildrensmuseum.org/explore/exhibits)
+- [United States Botanic Garden](https://www.usbg.gov/visit/exhibits)
+- [Brookside Gardens](https://montgomeryparks.org/parks-and-trails/brookside-gardens/)
+- [Children's Science Center Lab](https://www.childsci.org/plan-your-visit/hours-admission)
+- [College Park Aviation Museum](https://www.pgparks.com/facilities/college-park-aviation-museum)
+- [Frying Pan Farm Park](https://www.fairfaxcounty.gov/parks/frying-pan-park)
+- [Gulf Branch Nature Center](https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Nature-Centers/Gulf-Branch-Nature-Center-Park)
+- [Hidden Oaks Nature Center](https://www.fairfaxcounty.gov/parks/hidden-oaks)
+- [Huntley Meadows Park](https://www.fairfaxcounty.gov/parks/huntley-meadows)
+- [KID Museum](https://kid-museum.org/visit/)
+- [Long Branch Nature Center](https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Locations/Nature-Centers/Long-Branch-Nature-Center)
+- [Meadowlark Botanical Gardens](https://www.novaparks.com/parks/meadowlark-botanical-gardens)
+- [NASA Goddard Space Flight Center Visitor Center](https://www.nasa.gov/goddard/visitor-center/)
+- [Patuxent Research Refuge National Wildlife Visitor Center](https://www.fws.gov/refuge/patuxent-research/visit-us)
+- [Potomac Overlook Regional Park Nature Center](https://www.novaparks.com/parks/potomac-overlook-regional-park)
+- [River Farm](https://ahsgardening.org/visit-river-farm/)
+- [National Inventors Hall of Fame Museum](https://www.invent.org/museum/plan-your-visit)
+- [National Wildlife Visitor Center, Patuxent Research Refuge](https://www.fws.gov/refuge/patuxent-research/visit-us)
+- [Locust Grove Nature Center](https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/locust-grove-nature-center/)
+- [Croydon Creek Nature Center](https://www.rockvillemd.gov/places/croydon-creek-nature-center/)
+- [Brookside Nature Center](https://montgomeryparks.org/parks-and-trails/brookside-nature-center/)
+- [Turner Farm Park Roll-Top Observatory](https://www.fairfaxcounty.gov/parks/turner-farm)
+- [Hidden Pond Nature Center](https://www.fairfaxcounty.gov/parks/hidden-pond)
+- [Folger Shakespeare Library](https://www.folger.edu/visit/exhibitions/)
+- [Planet Word](https://planetwordmuseum.org/exhibits/)
+- [Museum of the Bible](https://www.museumofthebible.org/current-exhibits)
+- [DC History Center](https://dchistory.org/current-exhibits/)
+- [African American Civil War Museum](https://afroamcivilwar.org/)
+- [Go-Go Museum & Café](https://www.gogomuseumcafe.com/)
+- [National Law Enforcement Museum](https://nleomf.org/museum/exhibits/)
+- [Department of the Interior Museum](https://www.doi.gov/interiormuseum/exhibitions)
+- [Alexandria Archaeology Museum](https://www.alexandriava.gov/Archaeology)
+- [Alexandria Black History Museum](https://www.alexandriava.gov/BlackHistory)
+- [Arlington Historical Museum](https://arlhist.org/arlington-historical-musem/)
+- [Friendship Firehouse Museum](https://www.alexandriava.gov/FriendshipFirehouse)
+- [German-American Heritage Museum of the USA](https://gahmusa.org/)
+- [Historic Blenheim and the Civil War Interpretive Center](https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Historic-Blenheim-Tours-and-History)
+- [Howard University Museum at the Moorland-Spingarn Research Center](https://msrc.howard.edu/)
+- [Military Women's Memorial](https://womensmemorial.org/)
+- [Museum of the Palestinian People](https://mpp-dc.org/exhibitions/)
+- [National Capital Trolley Museum](https://www.dctrolley.org/)
+- [National Museum of American Diplomacy](https://diplomacy.state.gov/exhibits/)
+- [National Museum of American Jewish Military History](https://nmajmh.org/)
+- [National Museum of the United States Army](https://www.thenmusa.org/exhibits/)
+- [Saint John Paul II National Shrine](https://www.jp2shrine.org/visit/)
+- [Stabler-Leadbeater Apothecary Museum](https://www.alexandriava.gov/Apothecary)
+- [Supreme Court of the United States](https://www.supremecourt.gov/visiting/exhibition.aspx)
+- [Alexandria History Museum at The Lyceum](https://www.alexandriava.gov/Lyceum)
+- [The People's House: A White House Experience](https://www.thepeopleshouse.org/visit)
+- [Arlington National Cemetery Welcome Center](https://www.arlingtoncemetery.mil/Explore/Welcome-Center)
+- [Washington Monument](https://www.nps.gov/wamo/planyourvisit/index.htm)
+- [Thomas Jefferson Memorial](https://www.nps.gov/thje/planyourvisit/index.htm)
+- [Bowie Railroad Museum](https://www.cityofbowie.org/293/Bowie-Railroad-Museum)
+- [Historic Takoma](https://historictakoma.org/)
+- [Historic Blenheim and Civil War Interpretive Center](https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Historic-Blenheim-Tours-and-History)
+- [Hillwood Estate, Museum & Gardens](https://hillwoodmuseum.org/exhibitions)
+- [President Woodrow Wilson House](https://woodrowwilsonhouse.org/exhibitions/)
+- [Heurich House Museum](https://heurichhouse.org/pages/exhibits)
+- [Historic Huntley](https://www.fairfaxcounty.gov/parks/historic-huntley)
+- [Josiah Henson Museum & Park](https://montgomeryparks.org/parks-and-trails/josiah-henson-museum-and-park/)
+- [Montpelier Mansion](https://www.pgparks.com/facilities/montpelier-historic-site-museum)
+- [Oakley Cabin African American Museum & Park](https://montgomeryparks.org/parks-and-trails/oakley-cabin-african-american-museum-park/)
+- [Old Korean Legation Museum](https://oldkoreanlegation.org/)
+- [Old Stone House](https://www.nps.gov/places/old-stone-house.htm)
+- [Ratcliffe-Allison-Pozer House](https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Ratcliffe-Allison-Pozer-House)
+- [Riversdale House Museum](https://www.pgparks.com/facilities/riversdale-historic-site-museum)
+- [Sully Historic Site](https://www.fairfaxcounty.gov/parks/sully-historic-site)
+- [Surratt House Museum](https://www.pgparks.com/facilities/surratt-historic-site-museum)
+- [The Octagon Museum](https://architectsfoundation.org/the-octagon/)
+- [Surratt Historic Site & Museum](https://www.pgparks.com/facilities/surratt-historic-site-museum)
+- [Murray-Dick-Fawcett House](https://www.alexandriava.gov/MDFHouse)
+- [Colvin Run Mill](https://www.fairfaxcounty.gov/parks/colvin-run-mill)
+- [Arts Club of Washington (James Monroe House)](https://artsclubofwashington.org/arts-club-galleries/)
+- [Ratcliffe-Allison-Pozer House & Kitty Pozer Garden](https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Ratcliffe-Allison-Pozer-House)
+- [Ellanor C. Lawrence Park (Walney Visitor Center)](https://www.fairfaxcounty.gov/parks/eclawrence/tour)
+- [Frying Pan Farm Park (Kidwell Farm)](https://www.fairfaxcounty.gov/parks/frying-pan-park/kidwell)
+- [Lucy Burns Museum at the Workhouse Arts Center](https://www.workhousearts.org/lorton-prison-museum)
+- [Glenview Mansion](https://www.rockvillemd.gov/places/glenview-mansion-art-gallery/)
+- [Montpelier Mansion / Montpelier Historic Site](https://www.pgparks.com/facilities/montpelier-historic-site-museum)
+- [Ridgeley Rosenwald School Historic Site & Museum](https://www.pgparks.com/facilities/ridgeley-rosenwald-school)
+- [Poplar Hill on His Lordship's Kindness](https://poplarhillonhlk.com/)
 
-## Unreachable (38)
+## Unreachable (37)
 
 - [Hirshhorn Museum and Sculpture Garden](https://hirshhorn.si.edu/exhibitions/) — 403
 - [National Portrait Gallery](https://npg.si.edu/exhibitions) — 403
 - [National Museum of African Art](https://africa.si.edu/exhibitions/) — 403
 - [National Museum of Asian Art](https://asia.si.edu/exhibitions/) — 403
 - [National Gallery of Art](https://www.nga.gov/exhibitions) — 403
-- [Rubell Museum DC](https://rubellmuseum.org/exhibitions-dc) — 403
 - [The John F. Kennedy Center for the Performing Arts](https://www.kennedy-center.org/whats-on/explore-by-genre/exhibits/) — 403
 - [American University Museum at the Katzen Arts Center](https://www.american.edu/cas/museum/) — 403
-- [Georgetown University Art Galleries](https://guartgalleries.org/) — no response fetch failed
 - [Salve Regina Gallery, The Catholic University of America](https://architecture.catholic.edu/exhibitions/index.html) — 403
-- [Museum of Contemporary Art Arlington](https://mocaarlington.org/exhibitions/) — 202
 - [STABLE](https://www.stablearts.org/) — 404
 - [IDB ArtLAC Gallery](https://www.iadb.org/en/who-we-are/topics/art-and-culture/latin-american-caribbean-art-exhibitions) — 403
 - [Linda K. Jordan Gallery](https://gallaudet.edu/art-and-media-design/linda-k-jordan-gallery/) — 403
+- [Liszt Institute - Hungarian Cultural Center Washington](https://culture.hu/us/washington) — no response fetch failed
 - [Middle East Institute Arts and Culture Center](https://www.mei.edu/arts-culture) — 403
 - [Pyramid Atlantic Art Center](https://pyramidatlanticartcenter.org/the-gallery/) — 403
 - [SPAIN arts & culture](https://www.spainculture.us/) — 403
@@ -47,76 +144,46 @@ _none_
 - [National Museum of the United States Navy](https://www.history.navy.mil/content/history/museums/nmusn/visit-the-museum.html) — no response fetch failed
 - [Smithsonian Institution Building](https://www.si.edu/museums/smithsonian-institution-building) — 403
 - [Bureau of Engraving and Printing Tour and Visitor Center](https://www.bep.gov/washington-dc-tour-and-visitor-center) — no response timeout
-- [NRA National Firearms Museum](https://www.nramuseum.org/museums/national-firearms-museum.aspx) — 404
 - [Dumbarton Oaks Research Library and Collection](https://www.doaks.org/visit/museum/exhibitions) — 403
+- [Tudor Place Historic House & Garden](https://tudorplace.org/visit/plan-your-visit-2/) — 404
 - [DAR Museum](https://www.dar.org/museum/exhibitions) — 403
+- [The Octagon](https://architectsfoundation.org/the-octagon/visiting/) — 404
 
-## Redirected — the link in the data may be out of date (31)
+## Redirected — the link in the data may be out of date (1)
 
-- National Museum of Women in the Arts: https://nmwa.org/exhibitions/ → https://nmwa.org/whats-on/exhibitions/
-- The Kreeger Museum: https://www.kreegermuseum.org/exhibitions → https://www.kreegermuseum.org/exhibitions/view/current
-- Washington Project for the Arts: https://www.wpadc.org/exhibitions → https://wpadc.org/exhibitions/
-- Meridian International Center: https://www.meridian.org/ → https://meridian.org/
-- Torpedo Factory Art Center: https://torpedofactory.org/target-gallery/ → https://torpedofactory.org/partners/target-gallery/
-- National Air and Space Museum: https://airandspace.si.edu/exhibitions → https://airandspace.si.edu/whats-on/exhibitions
-- National Geographic Museum of Exploration: https://moe.nationalgeographic.org/exhibitions-experiences → https://moe.nationalgeographic.org/en/exhibitions-experiences
-- Steven F. Udvar-Hazy Center: https://airandspace.si.edu/exhibitions → https://airandspace.si.edu/whats-on/exhibitions
-- National Archives Museum: https://visit.archives.gov/exhibits → https://visit.archives.gov/whats-on/explore-exhibits
-- United States Holocaust Memorial Museum: https://www.ushmm.org/information/exhibitions → https://www.ushmm.org/information/exhibitions/museum-exhibitions
-- National Building Museum: https://www.nbm.org/exhibitions/ → https://nbm.org/exhibitions/
-- Lillian and Albert Small Capital Jewish Museum: https://capitaljewishmuseum.org/exhibitions/ → https://capitaljewishmuseum.org/calendar/?all_exhibitions=1
-- Freeman Store and Museum: https://www.historicviennainc.org/ → https://historicviennainc.org/
-- Historic Blenheim and the Civil War Interpretive Center: https://www.fairfaxva.gov/government/historic-resources/historic-blenheim → https://www.fairfaxva.gov/Fun-Facilities/Cultural-Arts-and-History/Historic-Blenheim-Tours-and-History
-- Laurel Museum: https://laurelhistoricalsociety.org/exhibits/ → https://www.laurelhistoricalsociety.org/exhibits.html
-- Martin Luther King Jr. Memorial Library: https://www.dclibrary.org/exhibits → https://www.dclibrary.org/using-the-library/public-art-exhibits
-- National Guard Memorial Museum: https://www.ngef.org/national-guard-memorial-museum/ → https://ngef.org/national-guard-memorial-museum/
-- Sandy Spring Slave Museum & African Art Gallery: https://sandyspringslavemuseum.org/ → https://www.sandyspringslavemuseum.org/
-- Washington National Cathedral: https://cathedral.org/visit/ → https://cathedral.org/visit-tour/
-- Reston Museum: https://www.restonmuseum.org/exhibitions → https://www.restonmuseum.org/current-exhibitions
-- Tudor Place Historic House & Garden: https://tudorplace.org/visit/plan-your-visit/ → https://tudorplace.org/visit/plan-your-visit-2/
-- Anderson House: https://www.americanrevolutioninstitute.org/exhibitions/ → https://www.americanrevolutioninstitute.org/exhibitions-overview/
-- O Museum in the Mansion: https://www.omuseum.org/ → https://www.omuseum.org/visit
-- Lee-Fendall House Museum & Garden: https://www.leefendallhouse.org/ → https://leefendallhouse.org/
-- Marietta House Museum: https://www.pgparks.com/facilities/marietta-house-museum → https://www.pgparks.com/facilities/marietta-historic-site-museum
-- Surratt House Museum: https://www.pgparks.com/facilities/surratt-house-museum → https://www.pgparks.com/facilities/surratt-historic-site-museum
-- U.S. Department of State Diplomatic Reception Rooms: https://diplomaticrooms.state.gov/ → https://www.diplomaticrooms.state.gov/
-- Woodlawn & Frank Lloyd Wright's Pope-Leighey House: https://www.woodlawnpopeleighey.org/visit → https://www.woodlawnpopeleighey.org/tourinformation
-- L. Ron Hubbard House: https://www.lronhubbard.org/heritage-sites/dc.html → https://www.lronhubbard.org/landmark-sites/dc.html
-- Hyattstown Mill Arts Project: https://www.hyattstownmill.org/visit → https://www.hyattstownmill.org/visit-hmap/
-- McCrillis Gardens: https://www.montgomeryparks.org/parks-and-trails/mccrillis-gardens/ → https://montgomeryparks.org/parks-and-trails/mccrillis-house-gardens/
+- NRA National Firearms Museum: https://nramuseum.org/museums/national-firearms-museum → https://www.nramuseum.org/museums/national-firearms-museum
 
-## Dropped, closed over a month ago (0)
+## Dropped, closed over a month ago (3)
 
-_none_
+- Tomorrow the Sun Will Rise (closed 2026-09-20)
+- Birth of a Torii 鳥居の生まれ (closed 2026-09-13)
+- The Butterfly Experience at Brookside Gardens (closed 2026-09-07)
 
-## Closing within 30 days — confirm before they vanish (24)
+## Closing within 30 days — confirm before they vanish (21)
 
-- IA&A at Hillyer: Auction on the Alley 2026 (closes 2026-09-24)
-- District of Columbia Arts Center: Fallin from the Uppercut… (closes 2026-09-25)
-- Sarah Silberman Art Gallery: 57th Annual Rockville and Germantown Faculty and Staff Exhibition (closes 2026-09-25)
-- Glen Echo Park: Yield 1 (closes 2026-09-26)
-- Arts Club of Washington (James Monroe House): September 2026 Exhibit (closes 2026-09-26)
-- Arts Club of Washington (James Monroe House): Sabina Puppo and Karen Schulz (closes 2026-09-26)
-- National Museum of Asian Art: Into the Waters with Senju and Bingyi: Two Contemporary Paintings (closes 2026-09-27)
-- National Museum of Women in the Arts: Burnished: Pueblo Pottery at NMWA (closes 2026-09-27)
-- Martin Luther King Jr. Memorial Library: Diasporacity (closes 2026-09-27)
-- Glen Echo Park: Natural Progressions (closes 2026-09-27)
-- Glen Echo Park: In Search of Lost Time (closes 2026-09-27)
-- Glenview Mansion: The World As We View It (closes 2026-10-02)
-- Dupont Underground: Veiled Ladies (closes 2026-10-04)
-- Dupont Underground: Skin of Discomfort (closes 2026-10-04)
-- Pyramid Atlantic Art Center: Ruminations: Our Stories in Paper (closes 2026-10-04)
-- DC History Center: Hometown DC (closes 2026-10-05)
-- Martin Luther King Jr. Memorial Library: hometown DC (closes 2026-10-06)
-- Museum of the Bible: From the Vault: Art About America (closes 2026-10-11)
-- Dumbarton Oaks Research Library and Collection: Hestia Fragmented (closes 2026-10-11)
-- United States Botanic Garden: America's State Flowers: An America250 Celebration (closes 2026-10-12)
-- Reston Museum: The Golden Standard: 50 Years of Timeless Service (closes 2026-10-12)
-- National Portrait Gallery: Best Laid Plans: Unrealized Projects from the Archives of American Art (closes 2026-10-18)
-- Art Museum of the Americas: Passport to Patriotism: 250 Years of Diplomacy (closes 2026-10-18)
 - Martin Luther King Jr. Memorial Library: Concopia (closes 2026-10-22)
+- District of Columbia Arts Center: Double Exposure (closes 2026-10-30)
+- Sarah Silberman Art Gallery: Provisional Futures: Building as Revision (closes 2026-10-30)
+- Arts Club of Washington (James Monroe House): October 2026 Exhibit (closes 2026-10-31)
+- Hirshhorn Museum and Sculpture Garden: Revolutions: Art from the Hirshhorn Collection, 1860–1960 (closes 2026-11-01)
+- Montpelier Arts Center: Unearthing Foundations, Hispanic Heritage Month Exhibition (closes 2026-11-01)
+- Montpelier Arts Center: Dandelion Black Women Artists (closes 2026-11-01)
+- Montpelier Mansion: The African Odyssey Exhibition (closes 2026-11-01)
+- Montpelier Mansion / Montpelier Historic Site: The African Odyssey Exhibition (closes 2026-11-01)
+- Woodlawn & Pope-Leighey House: Wandering Geometry, Gathered Light (closes 2026-11-02)
+- Hirshhorn Museum and Sculpture Garden: Yoshitomo Nara: Sentinels of Stillness (closes 2026-11-07)
+- The George Washington University Museum and The Textile Museum: Generations D.C. (closes 2026-11-07)
+- The George Washington University Museum and The Textile Museum: Revolutionary Echoes in Washington (closes 2026-11-07)
+- McLean Project for the Arts: (Not) Strictly Painting 15 (closes 2026-11-07)
+- Smithsonian American Art Museum: Shahzia Sikander: The Last Post (closes 2026-11-08)
+- The Phillips Collection: Creative Aging (closes 2026-11-08)
+- Phillips@THEARC: Creative Aging (closes 2026-11-08)
+- Gillespie Gallery of Art: As You Were (closes 2026-11-11)
+- IDB ArtLAC Gallery: GameChangers: The Field's Pulse Meets the Gallery (closes 2026-11-13)
+- Transformer: The Kaleidoscope Effect (closes 2026-11-20)
+- Mason Exhibitions Arlington: What Remains? (closes 2026-11-21)
 
-## No exhibition on file (118)
+## No exhibition on file (116)
 
 - Howard University Gallery of Art
 - Salve Regina Gallery, The Catholic University of America
@@ -162,7 +229,6 @@ _none_
 - Planet Word
 - African American Civil War Museum
 - Go-Go Museum & Café
-- National Deaf Life Museum
 - Ford's Theatre
 - National Law Enforcement Museum
 - Freeman Store and Museum
@@ -175,7 +241,6 @@ _none_
 - National Capital Trolley Museum
 - National Cryptologic Museum
 - National Guard Memorial Museum
-- National Museum of the United States Navy
 - Saint John Paul II National Shrine
 - Sandy Spring Slave Museum & African Art Gallery
 - Smithsonian Institution Building

@@ -116,7 +116,6 @@ CITIES.push({
     pz: "成人 $20；62 岁以上 $15；学生与教师 $10；军人 $12；18 岁及以下免费；每月第三个周四 17:00–20:00 免费",
     u: "https://www.phillipscollection.org/exhibitions",
     shows: [
-      { t: "Tomorrow the Sun Will Rise", s: "2026-08-01", e: "2026-09-20", d: "A juried special exhibition of contemporary work chosen by competition", dz: "经评审遴选的当代作品特展" },
       { t: "Creative Aging", s: "2026-08-15", e: "2026-11-08", d: "A community exhibition of work made by older adults in the museum's programs", dz: "社区展览，展出长者在馆内课程中的创作" },
       { t: "Avery, Gottlieb & Rothko: By the Sea", s: "2026-10-24", e: "2027-01-24", d: "Seaside paintings by Milton Avery, Adolph Gottlieb and Mark Rothko", dz: "埃弗里、戈特利布与罗斯科的海滨题材绘画" },
       { t: "Beauford Delaney: So Much Love and Beauty", s: "2027-02-27", e: "2027-05-23", d: "Paintings by the American modernist Beauford Delaney", dz: "美国现代主义画家博福德·德莱尼绘画展" },
@@ -474,9 +473,7 @@ CITIES.push({
     free: true,
     flag: "In Old Town Alexandria, about 25 minutes from downtown DC; nothing is announced after 13 September 2026, so check before travelling",
     flagz: "位于亚历山德里亚老城，距市中心约 25 分钟；2026 年 9 月 13 日之后尚无展览公布，出行前请确认",
-    shows: [
-      { t: "Birth of a Torii 鳥居の生まれ", s: "2026-07-30", e: "2026-09-13", d: "Rebecca J. White's work built around the form of the Japanese torii gate", dz: "Rebecca J. White 以日本鸟居形制为题的作品" }
-    ] },
+    shows: [] },
   { n: "SPAIN arts & culture", nz: "西班牙艺术与文化中心", a: "2801 16th Street NW",
     h: "Hours vary by exhibition; most events need an advance RSVP", hz: "开放时间随展览而定；多数活动需提前预约",
     p: "Free", pz: "免费", u: "https://www.spainculture.us/", free: true,
@@ -591,7 +588,6 @@ CITIES.push({
     flag: "In Wheaton, about 35 minutes from downtown DC; the two ticketed seasonal shows use timed entry and sell out",
     flagz: "位于 Wheaton，距华盛顿市中心约 35 分钟；两个收费季节展采用定时入场，常售罄",
     shows: [
-      { t: "The Butterfly Experience at Brookside Gardens", s: "2026-04-01", e: "2026-09-07", d: "Hundreds of live butterflies from the Americas, Africa and Asia in a heated conservatory", dz: "温室内数百只来自美洲、非洲与亚洲的活体蝴蝶" },
       { t: "Garden of Lights", s: "2026-11-20", e: "2027-01-03", d: "The winter light display through the gardens, timed entry from 5pm", dz: "冬季园区灯光展，17:00 起定时入场" }
     ] },
   { n: "Children's Science Center Lab", nz: "儿童科学中心实验馆", a: "11948 Fair Oaks Mall",
