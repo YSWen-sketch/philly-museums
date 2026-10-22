@@ -1810,7 +1810,7 @@ CITIES.push({
     shows: [
       { t: "September 2026 Exhibit", s: "2026-09-04", e: "2026-09-26", d: "Members' show by Lucretia Dewey Tanner and Meme Austin in the Spilsbury Gallery", dz: "Spilsbury 展厅会员展，展出 Tanner 与 Austin 的作品" },
       { t: "Sabina Puppo and Karen Schulz", e: "2026-09-26", d: "Downstairs galleries show curated by Brandon Fortune, closing alongside the Spilsbury members' show", dz: "楼下展厅展览，由 Brandon Fortune 策划，与 Spilsbury 会员展同期闭展" },
-      { t: "October 2026 Exhibit", s: "2026-10-02", e: "2026-10-31", d: "Month-long show across the Monroe and Spilsbury galleries; artists not yet named online", dz: "门罗展厅与 Spilsbury 展厅的月度展；参展艺术家尚未公布" }
+      { t: "October 2026 Exhibit", s: "2026-10-02", e: "2026-10-31", d: "Month-long show: Sheila Flanders and Samantha Lee Shelton in the Spilsbury Gallery, Cheryl Bearss and Anna Katalkina downstairs in the Monroe galleries", dz: "门罗与 Spilsbury 展厅月度展：Spilsbury 展厅展出 Flanders 与 Shelton 作品，楼下门罗展厅展出 Bearss 与 Katalkina 作品" }
     ] },
   { n: "The White House", nz: "白宫", a: "1600 Pennsylvania Ave NW",
     h: "Self-guided tours generally Tue–Sat, excluding federal holidays", hz: "自助参观通常为 周二–周六，联邦假日除外",
