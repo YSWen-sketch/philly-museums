@@ -18,8 +18,8 @@ CITIES.push({
   nz: "华盛顿",
 
   // Set by the weekly reconciliation.
-  updated: "September 24, 2026",
-  updatedz: "2026 年 9 月 24 日",
+  updated: "October 22, 2026",
+  updatedz: "2026 年 10 月 22 日",
 
   lede: "Most of the big museums cost nothing to enter. The Smithsonian roster alone fills several days, and the list also takes in the embassies, university galleries and historic houses around it.",
   ledez: "大馆多数免费入场。光是史密森尼各馆就够逛好几天，清单里还收了周边的使馆、大学画廊与历史宅邸。",
@@ -938,7 +938,8 @@ CITIES.push({
       { t: "The Megiddo Mosaic: Foundations of Faith", s: "2025-07-25", e: "2026-12-31", d: "A third-century mosaic floor excavated at Megiddo; free, no admission ticket needed", dz: "米吉多出土的三世纪马赛克地面；免费，无需门票" },
       { t: "From the Vault: Art About America", s: "2026-05-01", e: "2026-10-11", d: "Colonial-era portraits and prints marking the nation's 250th anniversary", dz: "殖民时期肖像与版画，纪念建国 250 周年" },
       { t: "The Bible in Times of War", s: "2026-07-03", e: "2027-02-28", d: "Military Bibles and the stories of the American soldiers who carried them", dz: "军用《圣经》与携带它们的美国士兵的故事" },
-      { t: "Sacred Liberty", s: "2026-07-03", e: "2027-02-28", d: "The Bible's influence on the founding generation's ideas of liberty; free to all visitors", dz: "《圣经》对建国一代自由观念的影响；对所有访客免费" }
+      { t: "Sacred Liberty", s: "2026-07-03", e: "2027-02-28", d: "The Bible's influence on the founding generation's ideas of liberty; free to all visitors", dz: "《圣经》对建国一代自由观念的影响；对所有访客免费" },
+      { t: "Revealing the Hidden: Byzantine Icons from Thessaloniki and Patmos", s: "2026-11-05", e: "2027-02-28", d: "Byzantine icons from monasteries in Thessaloniki and Patmos, rarely lent outside Greece", dz: "塞萨洛尼基与帕特莫斯修道院的拜占庭圣像，鲜少离境展出" }
     ] },
   { n: "Lillian and Albert Small Capital Jewish Museum", nz: "莉莲与阿尔伯特·斯莫尔首都犹太博物馆", a: "575 3rd St NW",
     h: "Wed–Sun 10–5; closed Mon–Tue", hz: "周三–周日 10–17；周一、周二闭馆",
@@ -977,7 +978,9 @@ CITIES.push({
   { n: "National Deaf Life Museum", nz: "国家聋人生活博物馆", a: "Chapel Hall, Gallaudet University, 800 Florida Ave NE",
     h: "Mon–Fri 10–4", hz: "周一–周五 10–16", p: "Free", pz: "免费", u: "https://gallaudet.edu/museum/",
     free: true,
-    shows: [] },
+    shows: [
+      { t: "We, Native Deaf People, Are Still Here!", sText: "October 2024", sTextz: "2024 年 10 月", eText: "December 2026", eTextz: "2026 年 12 月", d: "An exhibit on Deaf Native American history and culture", dz: "聋人美洲原住民历史与文化展" }
+    ] },
   { n: "Ford's Theatre", nz: "福特剧院", a: "511 10th St NW",
     h: "Open daily, timed entry every half hour 9–4:30", hz: "每日开放，9:00–16:30 每半小时一场定时入场",
     p: "Free timed tickets; $5 per ticket to reserve in advance ($4.50 for groups of 20+); free same-day tickets at the box office from 8:30 am",
@@ -1217,7 +1220,9 @@ CITIES.push({
     free: true,
     flag: "Inside the Washington Navy Yard: photo ID required, and visitors without a DoD credential must clear the Visitor Control Center at 11th and O Streets SE (weekdays 6–3:30, seven business days' notice for weekend access)",
     flagz: "位于 Washington Navy Yard 军事基地内：需带照片证件；无国防部证件者须经 11th 与 O Street SE 的访客中心办理（工作日 6:00–15:30，周末入内需提前 7 个工作日申请）",
-    shows: [] },
+    shows: [
+      { t: "Nation and Navy: The American Revolution", s: "2026-07-29", eText: "No closing date announced", eTextz: "闭展日期未公布", d: "New exhibit on the Navy's role in the Revolutionary War, opened for the Navy's 250th year", dz: "海军建军 250 周年新展，讲述海军在独立战争中的角色" }
+    ] },
   { n: "Saint John Paul II National Shrine", nz: "圣若望保禄二世国家朝圣地", a: "3900 Harewood Road NE",
     h: "Mon–Fri 10–3:30, Sat–Sun 10–5", hz: "周一–周五 10–15:30，周六–周日 10–17", p: "Free", pz: "免费",
     u: "https://www.jp2shrine.org/visit/", free: true,
@@ -1421,7 +1426,7 @@ CITIES.push({
     ] },
   { n: "NRA National Firearms Museum", nz: "美国全国步枪协会国家枪械博物馆", a: "11250 Waples Mill Rd",
     h: "Daily 9–4; closed Christmas Day", hz: "每日 9–16；圣诞节闭馆", p: "Free", pz: "免费",
-    u: "https://www.nramuseum.org/museums/national-firearms-museum.aspx", free: true,
+    u: "https://nramuseum.org/museums/national-firearms-museum", free: true,
     flag: "Inside NRA headquarters in Fairfax, VA, about 40 minutes from downtown DC",
     flagz: "位于弗吉尼亚州 Fairfax 的 NRA 总部大楼内，距市中心约 40 分钟",
     shows: [] },
