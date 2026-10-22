@@ -107,7 +107,6 @@ CITIES.push({
     h: "Daily 10–5; closed Dec 25 and Jan 1", hz: "每日 10–17；12 月 25 日与 1 月 1 日闭馆", p: "Free",
     pz: "免费", u: "https://www.nga.gov/exhibitions", free: true,
     shows: [
-      { t: "Dear America: Artists Explore the American Experience", s: "2026-04-11", e: "2026-09-20", d: "More than 100 works on paper on American land, community and freedom", dz: "逾百件纸上作品，围绕美国的土地、社群与自由" },
       { t: "American Icon: The US Flag in Art", s: "2026-06-06", e: "2026-12-06", d: "Over 30 works showing how artists have used the US flag since the late 1800s", dz: "三十余件作品，看艺术家自 19 世纪末起如何使用美国国旗" }
     ] },
   { n: "The Phillips Collection", nz: "菲利普斯收藏馆", a: "1600 21st St NW",
