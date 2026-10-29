@@ -71,8 +71,6 @@ CITIES.push({
       { t: "Cynthia Daignault: Valley", s: "2026-08-27", e: "2027-01-18", d: "Landscape paintings by the American painter", dz: "美国画家笔下的风景绘画" },
       { t: "Leilah Babirye: Embaga ya Naki ne Naki (Wedding of Naki and Naki)", s: "2026-08-27", e: "2027-01-18", d: "Sculpture by the Ugandan-born artist on queer identity and kinship", dz: "乌干达裔艺术家关于酷儿身份与亲缘的雕塑" },
       { t: "Caroline Monnet: Man-made Land", s: "2025-09-25", e: "2027-03-21", d: "Work by the Anishinaabe-French artist using building materials and land", dz: "阿尼什纳比裔法籍艺术家以建材与土地为题的作品" },
-      { t: "Collection Spotlight: Nari Ward", s: "2026-04-14", e: "2026-09-20", d: "A focused display of works by Nari Ward from the collection", dz: "馆藏纳里·沃德作品专题陈列" },
-      { t: "Lucy Raven: Rounds", s: "2026-05-21", e: "2026-09-27", d: "Film installation at the ICA Watershed in East Boston", dz: "东波士顿 Watershed 分馆的影像装置" },
       { t: "90 YEARS", s: "2026-10-15", e: "2027-03-07", d: "Collection exhibition marking the ICA's ninetieth anniversary", dz: "纪念 ICA 建馆九十周年的馆藏展" }
     ] },
   { n: "Harvard Art Museums", nz: "哈佛艺术博物馆", a: "32 Quincy Street",
@@ -166,7 +164,6 @@ CITIES.push({
     p: "Adults $25, seniors $23, students $15; free under 16; free for Salem residents",
     pz: "成人 $25，老年人 $23，学生 $15；16 岁以下免费；塞勒姆居民免费", u: "https://www.pem.org/exhibitions",
     shows: [
-      { t: "Knowing Nature: Stories of the Boreal Forest", e: "2026-09-27", d: "Contemporary Indigenous and Nordic art about the northern forest", dz: "关于北方针叶林的当代原住民与北欧艺术" },
       { t: "LEGO Recreations of PEM's Historic Houses", sText: "August 2026", sTextz: "2026 年 8 月", eText: "November 2026", eTextz: "至 2026 年 11 月", d: "Models of the museum's historic houses built from LEGO bricks", dz: "用乐高积木搭建的博物馆历史建筑模型" },
       { t: "Pressing Importance: Salem and the Declaration of Independence", e: "2027-07-25", d: "How a Salem printer helped spread the Declaration of Independence in 1776", dz: "1776 年塞勒姆印刷商如何传播《独立宣言》" },
       { t: "Beyond the Broom: Salem Short Films", eText: "Through August 2027", eTextz: "至 2027 年 8 月", d: "Short films by local makers about Salem beyond the witch trials", dz: "本地创作者的短片，讲述女巫审判之外的塞勒姆" },
@@ -244,7 +241,6 @@ CITIES.push({
     flag: "Two separate gallery addresses: FPAC Art Space, 70A Sleeper Street, and the Gallery at Atlantic Wharf, 290 Congress Street",
     flagz: "两处展场：FPAC Art Space（70A Sleeper Street）与 Atlantic Wharf 画廊（290 Congress Street）",
     shows: [
-      { t: "Distillations", s: "2026-07-21", e: "2026-09-25", d: "Juried show of FPAC member artists at the Gallery at Atlantic Wharf, 290 Congress Street", dz: "FPAC 会员评选展，位于 Atlantic Wharf 画廊（290 Congress Street）" },
       { t: "Repeat/Repeat", s: "2026-09-11", e: "2026-11-20", d: "Four artists whose drawing, stitching and cutting build up over months, at the FPAC Art Space", dz: "四位艺术家以反复描画、缝缀与切割构成的作品，于 FPAC Art Space" },
       { t: "2026 Fort Point Open Studios", s: "2026-10-16", e: "2026-10-18", d: "Artists in four warehouse buildings open their studios, with galleries and pop-up shows between them", dz: "四栋仓库建筑内的艺术家开放工作室，沿途还有画廊与临时展" }
     ] },
@@ -263,24 +259,19 @@ CITIES.push({
     u: "https://www.icaboston.org/ica-watershed/", free: true,
     flag: "Seasonal East Boston space: the 2026 season runs May 21–Sep 27 and is weekends-only from Sep 12. Reach it by ICA water shuttle (timed tickets, free with museum admission) or the Blue Line to Maverick",
     flagz: "东波士顿季节性展场：2026 年 5 月 21 日至 9 月 27 日开放，9 月 12 日起仅周末。可乘 ICA 水上摆渡（定时票，含在美术馆门票内）或蓝线至 Maverick 站",
-    shows: [
-      { t: "Lucy Raven: Rounds", s: "2026-05-21", e: "2026-09-27", d: "US premieres of Hardpan, a rotating kinetic light sculpture, and the moving-image work Murderers Bar", dz: "《Hardpan》旋转动能灯光雕塑与影像作品《Murderers Bar》的美国首展" }
-    ] },
+    shows: [] },
   { n: "Kniznick Gallery", nz: "克尼兹尼克画廊（布兰迪斯大学女性研究中心）", a: "515 South Street",
     h: "Mon–Thu 10–4 in the academic year", hz: "学年期间 周一–周四 10–16", p: "Free", pz: "免费",
     u: "https://www.brandeis.edu/wsrc/kniznick-gallery/", free: true,
     flag: "On the Brandeis campus in Waltham, about 25 minutes from Boston; academic-year only, and hours shift in summer",
     flagz: "位于 Waltham 的布兰迪斯校园，距波士顿约 25 分钟；仅学年期间开放，暑期时间另有调整",
-    shows: [
-      { t: "Cutaway", s: "2026-06-17", e: "2026-09-24", d: "Five artists on boundaries and containers, in beadwork, cast biological media, cross stitch and silk kites", dz: "五位艺术家以串珠、生物翻模、十字绣与丝绸风筝探讨边界与容器" }
-    ] },
+    shows: [] },
   { n: "LexArt (Lexington Arts & Crafts Society)", nz: "列克星敦工艺美术协会（LexArt）", a: "130 Waltham Street",
     h: "Gallery Tue–Sun 11–5; office Mon–Fri 9–5", hz: "画廊 周二–周日 11–17；办公室 周一–周五 9–17", p: "Free",
     pz: "免费", u: "https://www.lexart.org/exhibits-events", free: true,
     flag: "In Lexington, about 30 minutes from Boston; the old lacsma.org address no longer belongs to the society",
     flagz: "位于 Lexington，距波士顿约 30 分钟；原 lacsma.org 域名已不属于协会",
     shows: [
-      { t: "Op-Eds: Messages to America", s: "2026-09-05", e: "2026-09-27", d: "Area artists offering a commentary on the state of the nation", dz: "本地艺术家对国家现状的评论式作品" },
       { t: "Metal+Art: Contemporary Jewelry & Objects by Metalwerx Artists", s: "2026-10-03", e: "2026-10-25", d: "Jewellery and small metal objects by studio-mates, faculty and staff of Metalwerx", dz: "Metalwerx 工作室成员与师资的首饰及金属小件" },
       { t: "MINHWA - Korean Folk Painting", s: "2026-11-07", e: "2026-11-22", d: "The Korean Cultural Society of Boston's thirteenth annual folk-painting show", dz: "波士顿韩国文化协会第十三届民画年展" }
     ] },
@@ -289,14 +280,7 @@ CITIES.push({
     u: "https://marbleheadarts.org/current/", free: true,
     flag: "In Marblehead, about 35 minutes north of Boston, in the historic King Hooper Mansion",
     flagz: "位于 Marblehead 的历史建筑 King Hooper Mansion，距波士顿以北约 35 分钟",
-    shows: [
-      { t: "Unbound Abstractions", s: "2026-08-08", e: "2026-09-19", d: "Lucia Balinbin's mixed-media abstractions built from layered surfaces", dz: "Lucia Balinbin 的综合材料抽象作品，层层叠加的画面" },
-      { t: "Antique Hunting With Bob", s: "2026-08-08", e: "2026-09-19", d: "Annette Sykes photographs made on long drives to antique shops", dz: "Annette Sykes 在古董店长途寻访途中拍摄的照片" },
-      { t: "Expression of Gravity", s: "2026-08-08", e: "2026-09-19", d: "Jessica Murdock's figure drawings in dry media on tinted paper", dz: "Jessica Murdock 在色纸上以干性媒材绘制的人物素描" },
-      { t: "Shorelines: Deconstructing Water, Light and Land", s: "2026-08-08", e: "2026-09-19", d: "Chris Mailler's paintings of the North Shore where sky, sea and shore meet", dz: "Chris Mailler 描绘北岸海天与陆地交界的绘画" },
-      { t: "Driftwood Art - Gifts from the Sea", s: "2026-08-08", e: "2026-09-19", d: "Richard Honan's beach-glass mosaics and driftwood collages", dz: "Richard Honan 的海玻璃马赛克与浮木拼贴" },
-      { t: "The Spirit of '76", s: "2026-08-08", e: "2026-09-19", d: "Themed group show on patriotic subjects, open to association members", dz: "以爱国主题为题的会员群展" }
-    ] },
+    shows: [] },
   { n: "Mary L. Fifield Art Gallery", nz: "玛丽·L·菲菲尔德艺术画廊", a: "250 New Rutherford Avenue",
     h: "Mon–Fri 12–4", hz: "周一–周五 12–16", p: "Free", pz: "免费", u: "https://www.bhcc.edu/artgallery/",
     free: true,
@@ -337,8 +321,6 @@ CITIES.push({
     flagz: "位于 Beverly，距波士顿以北约 35 分钟；展览分布于四处空间，其中 301 Cabot Street 的 Frame 301 为 24 小时临街橱窗",
     shows: [
       { t: "Campbell McLean: War-Birds & Adverts", s: "2026-07-13", e: "2026-10-03", d: "Site-specific installation in the 24-hour streetside window at Frame 301, 301 Cabot Street", dz: "Frame 301（301 Cabot Street）24 小时橱窗中的现场装置" },
-      { t: "Reflections in the Long Night", s: "2026-07-15", e: "2026-09-25", d: "Group show in the Carol Schlosberg Gallery, the space given to alumni, faculty and visiting artists", dz: "Carol Schlosberg 画廊群展，该空间面向校友、教师与客座艺术家" },
-      { t: "Four Voices in Silk", s: "2026-08-20", e: "2026-09-24", d: "Textile show in the Library Gallery inside the Paul M. Scott Library", dz: "Paul M. Scott 图书馆内 Library Gallery 的丝织作品展" },
       { t: "Sunday at the Nut House", s: "2026-09-08", e: "2026-11-14", d: "Three artists who drew from the model with Maurice Sendak in Connecticut between 2004 and 2007", dz: "三位艺术家 2004–2007 年间与 Maurice Sendak 在康州共同写生的作品" },
       { t: "Andrew Mowbray: New Heraldic Ordinaries", s: "2026-10-12", e: "2026-11-21", d: "Solo show in the Carol Schlosberg Gallery, opening after the current group exhibition closes", dz: "Carol Schlosberg 画廊个展，接续当前群展" }
     ] },
@@ -373,15 +355,12 @@ CITIES.push({
   { n: "The Gallery at Atlantic Wharf", nz: "大西洋码头画廊", a: "290 Congress Street",
     h: "Daily 7–10", hz: "每日 7–22", p: "Free", pz: "免费",
     u: "https://www.fortpointarts.org/gallery-at-atlantic-wharf/", free: true,
-    shows: [
-      { t: "Distillations", s: "2026-07-21", e: "2026-09-25", d: "Juried group show of Fort Point Arts Community members whose work comes out of paring back", dz: "Fort Point 艺术社区会员评选群展，作品皆出自做减法的创作过程" }
-    ] },
+    shows: [] },
   { n: "The Umbrella Arts Center", nz: "雨伞艺术中心", a: "40 Stow Street",
     h: "Daily 10–9", hz: "每日 10–21", p: "Free", pz: "免费",
     u: "https://www.theumbrellaarts.org/exhibitions", free: true,
     flag: "In Concord, about 40 minutes from Boston", flagz: "位于 Concord，距波士顿约 40 分钟",
     shows: [
-      { t: "In Residence", s: "2026-08-19", e: "2026-09-16", d: "Work made on site by three resident artists, Katie Fee, Sayako Hiroi and Ivo Makianich", dz: "三位驻场艺术家 Katie Fee、Sayako Hiroi 与 Ivo Makianich 的现场创作" },
       { t: "Whorl", s: "2026-09-19", e: "2027-02-26", d: "Multimedia installation by Debra Fleury filling the stairwell Vertical Gallery", dz: "Debra Fleury 的多媒体装置，占满楼梯间的垂直画廊" },
       { t: "On Being Human", s: "2026-09-18", e: "2026-12-20", d: "Mosaic panels by Cynthia Fisher in the Allie Kussin Gallery", dz: "Cynthia Fisher 的马赛克镶嵌作品，展于 Allie Kussin 画廊" },
       { t: "Menjunje/Amalgamation", s: "2026-09-23", e: "2026-11-16", d: "Shelly \"Lola\" Freund on language and identity, in the Wedge Gallery", dz: "Shelly \"Lola\" Freund 以语言与身份为题，展于 Wedge 画廊" },
@@ -420,9 +399,7 @@ CITIES.push({
   { n: "Wiesner Student Art Gallery", nz: "麻省理工学院维斯纳学生艺术画廊", a: "Stratton Student Center Room W20-209, 84 Massachusetts Avenue",
     h: "Daily 9–9", hz: "每日 9–21", p: "Free", pz: "免费",
     u: "https://arts.mit.edu/start/wiesner-student-art-gallery/", free: true,
-    shows: [
-      { t: "Submerged", s: "2026-09-02", e: "2026-09-25", d: "Jonathan Nelson imagines fungi waking under MIT's foundations on former tidal flats", dz: "Jonathan Nelson 想象真菌在建于潮滩之上的 MIT 地基下苏醒" }
-    ] },
+    shows: [] },
   { n: "Johnson-Kulukundis Family Gallery, Harvard Radcliffe Institute", nz: "哈佛拉德克利夫学院约翰逊-库鲁昆迪斯家族画廊", a: "Byerly Hall, 8 Garden Street",
     h: "Mon–Sat 12–5", hz: "周一–周六 12–17", p: "Free", pz: "免费",
     u: "https://www.radcliffe.harvard.edu/events-and-exhibitions", free: true,
@@ -436,7 +413,6 @@ CITIES.push({
     flag: "Open to Harvard ID holders; other visitors should apply for access or contact the library before coming",
     flagz: "持哈佛证件者可直接进入；其他访客需先申请通行或联系图书馆",
     shows: [
-      { t: "Artists' Magazines and Newspapers: Alternative Spaces for Art in the 1960s and 70s", e: "2026-09-28", d: "Artist-run magazines and papers that served as galleries in print", dz: "艺术家自办杂志与报纸，充当纸上展场" },
       { t: "Remembering Yayoi Kusama", e: "2026-09-30", d: "Reading-room display of material on Kusama from the special collections", dz: "阅览室展出草间弥生相关特藏资料" }
     ] },
   { n: "Crossings Gallery, Harvard Ed Portal", nz: "交汇画廊（哈佛教育门户）", a: "224 Western Avenue",
@@ -463,9 +439,7 @@ CITIES.push({
   { n: "MIT Wiesner Student Art Gallery", nz: "麻省理工威斯纳学生艺术画廊", a: "84 Massachusetts Avenue, Building W20, Room 209",
     h: "Daily 9–9", hz: "每日 9–21", p: "Free", pz: "免费",
     u: "https://arts.mit.edu/start/wiesner-student-art-gallery/", free: true,
-    shows: [
-      { t: "Submerged", s: "2026-09-02", e: "2026-09-25", d: "Jonathan Nelson's installation on the fungi and timber piles under MIT's made ground", dz: "Jonathan Nelson 以麻省理工填海地基下的木桩与真菌为题的装置" }
-    ] },
+    shows: [] },
   { n: "Keller Gallery, MIT Department of Architecture", nz: "凯勒画廊（麻省理工建筑系）", a: "77 Massachusetts Avenue, Building 7, Room 408",
     h: "Mon–Sat 9–6", hz: "周一–周六 9–18", p: "Free", pz: "免费", u: "https://architecture.mit.edu/news",
     free: true, flag: "Between shows — no autumn 2026 exhibition has been announced",
@@ -536,21 +510,15 @@ CITIES.push({
   { n: "Godine Family Gallery", nz: "马萨诸塞艺术设计学院戈丁家族画廊", a: "North Hall, 1st floor, 621 Huntington Avenue",
     h: "Open during college hours, weekdays; academic year only", hz: "学院开放时间内工作日开放；仅学年期间",
     p: "Free", pz: "免费", u: "https://massart.edu/galleries/", free: true,
-    shows: [
-      { t: "THE GODINE GALLERY ARCHIVES", s: "2026-09-02", e: "2026-09-18", d: "The student-run gallery opens its season with 20 years of its own exhibition history", dz: "学生自营画廊以自身二十年展览史作为开季展" }
-    ] },
+    shows: [] },
   { n: "Doran Gallery", nz: "马萨诸塞艺术设计学院多兰画廊", a: "Design and Media Center, 1st floor, 621 Huntington Avenue",
     h: "Mon–Fri 11–5, and by appointment; academic year only", hz: "周一–周五 11–17，亦可预约；仅学年期间",
     p: "Free", pz: "免费", u: "https://massart.edu/galleries/", free: true,
-    shows: [
-      { t: "Spaces of Departure - Faculty Exhibition", s: "2026-08-21", e: "2026-09-23", d: "Work by six MassArt faculty made on 2022–24 sabbaticals; shared with the Arnheim Gallery", dz: "六位教师 2022–24 年学术休假期间的作品，与阿恩海姆画廊同场展出" }
-    ] },
+    shows: [] },
   { n: "Arnheim Gallery", nz: "马萨诸塞艺术设计学院阿恩海姆画廊", a: "South Hall, 1st floor, 621 Huntington Avenue",
     h: "Mon–Fri 10–5; academic year only", hz: "周一–周五 10–17；仅学年期间", p: "Free", pz: "免费",
     u: "https://massart.edu/galleries/", free: true,
-    shows: [
-      { t: "Spaces of Departure - Faculty Exhibition", s: "2026-08-21", e: "2026-09-23", d: "Work by six MassArt faculty made on 2022–24 sabbaticals; shared with the Doran Gallery", dz: "六位教师 2022–24 年学术休假期间的作品，与多兰画廊同场展出" }
-    ] },
+    shows: [] },
   { n: "Brant Gallery", nz: "马萨诸塞艺术设计学院布兰特画廊", a: "South Hall, 1st floor, 621 Huntington Avenue",
     h: "Mon–Fri 10–5; academic year only", hz: "周一–周五 10–17；仅学年期间", p: "Free", pz: "免费",
     u: "https://massart.edu/galleries/", free: true,
@@ -558,9 +526,7 @@ CITIES.push({
   { n: "Frances Euphemia Thompson Gallery", nz: "马萨诸塞艺术设计学院弗朗西丝·尤菲米娅·汤普森画廊", a: "Tower Building, 11th floor, 621 Huntington Avenue",
     h: "Mon–Fri 9–5; academic year only", hz: "周一–周五 9–17；仅学年期间", p: "Free", pz: "免费",
     u: "https://massart.edu/galleries/", free: true,
-    shows: [
-      { t: "little drops of water, little grains of sand...", s: "2026-08-31", e: "2026-09-18", d: "Sandy Colameta's works on childhood memory and how time passing feels bittersweet", dz: "Sandy Colameta 关于童年记忆与时光流逝之苦甜的作品" }
-    ] },
+    shows: [] },
   { n: "Student Life Gallery", nz: "马萨诸塞艺术设计学院学生生活画廊", a: "Kennedy Building, 2nd floor, 621 Huntington Avenue",
     h: "Mon–Fri 10–6; academic year only", hz: "周一–周五 10–18；仅学年期间", p: "Free", pz: "免费",
     u: "https://massart.edu/galleries/", free: true,
@@ -643,7 +609,6 @@ CITIES.push({
     u: "https://www.montserrat.edu/galleries/", free: true,
     flag: "In Beverly, about 40 minutes from Boston", flagz: "位于 Beverly，距波士顿约 40 分钟",
     shows: [
-      { t: "Reflections in the Long Night", s: "2026-07-15", e: "2026-09-25", d: "Group show on queer experience, organised through the galleries' curatorial mentorship programme", dz: "关于酷儿经验的群展，由画廊策展培养计划学员策划" },
       { t: "Andrew Mowbray: New Heraldic Ordinaries", s: "2026-10-12", e: "2026-11-21", d: "Quilt-like panels and invented family crests built from Tyvek house wrap", dz: "用 Tyvek 建筑防水布做成的类被面拼贴与自创家徽" }
     ] },
   { n: "Frame 301 Gallery", nz: "Frame 301 街边画廊", a: "301 Cabot Street",
@@ -664,9 +629,7 @@ CITIES.push({
     h: "Open during library hours", hz: "图书馆开放时间内开放", p: "Free", pz: "免费",
     u: "https://www.montserrat.edu/galleries/", free: true,
     flag: "In Beverly, about 40 minutes from Boston", flagz: "位于 Beverly，距波士顿约 40 分钟",
-    shows: [
-      { t: "Four Voices in Silk", s: "2026-08-20", e: "2026-09-24", d: "Hand-painted silk by four artists of Ten Pound Studio in Gloucester, using resist and dye methods", dz: "格洛斯特 Ten Pound 工作室四位艺术家以防染与染色法手绘的丝绸" }
-    ] },
+    shows: [] },
   { n: "Spencer Presentation Gallery", nz: "恩迪科特学院斯宾塞展示画廊", a: "Walter J. Manninen Center for the Arts, 376 Hale Street",
     h: "By appointment only; closed holidays and school breaks", hz: "仅限预约参观；节假日及学校假期闭馆", p: "Free",
     pz: "免费",
@@ -742,7 +705,6 @@ CITIES.push({
     pz: "成人 $24，1–15 岁儿童 $24；1 岁以下免费", u: "https://bostonchildrensmuseum.org/exhibits-and-programs/exhibits/",
     flag: "Closed September 8–17, 2026 for annual maintenance", flagz: "2026 年 9 月 8–17 日因年度维护闭馆",
     shows: [
-      { t: "Sweet Ritual", s: "2026-06-27", e: "2026-09-07", d: "Drawings and paintings of American sweets by Soojin Kim, in The Gallery", dz: "Soojin Kim 以美式甜点为题的绘画，于 The Gallery 展出" },
       { t: "The Pigeon Comes to Boston! A Mo Willems Exhibit", s: "2026-09-19", e: "2027-01-03", d: "Interactive exhibit built on Mo Willems' Pigeon and Elephant and Piggie books", dz: "根据 Mo Willems《别让鸽子开巴士》与小象小猪绘本打造的互动展" }
     ] },
   { n: "Harvard Museum of Natural History", nz: "哈佛自然历史博物馆", a: "26 Oxford Street",
@@ -1132,7 +1094,6 @@ CITIES.push({
     pz: "成人 $15，学生与长者 $5；18 岁以下及会员免费", u: "https://www.armenianmuseum.org/current-exhibitions",
     shows: [
       { t: "Arshile Gorky: Redrawing Community and Connections", s: "2025-12-12", e: "2026-09-29", d: "The Abstract Expressionist painter seen through his circles and Armenian ties", dz: "从人际圈与亚美尼亚渊源重看抽象表现主义画家高尔基" },
-      { t: "Father", s: "2026-05-29", e: "2026-09-13", d: "Diana Markosian's US debut: photography, video and archives on family and memory", dz: "Diana Markosian 美国首展：以摄影、录像与档案讲述家庭与记忆" },
       { t: "Karsh: Celebrating Humanity", eText: "Ongoing", eTextz: "持续展出", d: "Portrait photographs by the Armenian-Canadian photographer Yousuf Karsh", dz: "亚美尼亚裔加拿大摄影师优素福·卡什的肖像摄影" },
       { t: "The Armenian Genocide", eText: "Ongoing", eTextz: "持续展出", d: "Standing gallery on the 1915 Armenian Genocide and its aftermath", dz: "关于 1915 年亚美尼亚种族灭绝及其后果的常设展厅" },
       { t: "Armenia: Art, Culture, Eternity", eText: "Ongoing", eTextz: "持续展出", d: "A survey of Armenian art and material culture drawn from the collection", dz: "取自馆藏的亚美尼亚艺术与物质文化综览" }
@@ -1209,9 +1170,7 @@ CITIES.push({
     u: "https://concordlibrary.org/events/exhibitions/art-galleries", free: true,
     flag: "In Concord, about 35 minutes from Boston; galleries are open during library hours",
     flagz: "位于 Concord，距波士顿约 35 分钟；展厅在图书馆开放时间内开放",
-    shows: [
-      { t: "Celebrating the Art of Edward Waldo Emerson", s: "2026-07-30", e: "2026-09-10", d: "Paintings and sketchbooks by Ralph Waldo Emerson's son, from the library's Special Collections", dz: "爱默生之子的画作与速写本，取自图书馆特藏" }
-    ] },
+    shows: [] },
   { n: "Concord Museum", nz: "康科德博物馆", a: "53 Cambridge Turnpike",
     h: "Tue–Sun 10–4; open Monday holidays", hz: "周二–周日 10–16；周一公共假日开放",
     p: "Adults $16, seniors and students $13, youth 6–17 $8; free under 6 and for NARM members; $2 with EBT/WIC/ConnectorCare for up to four people",
@@ -1416,10 +1375,7 @@ CITIES.push({
     pz: "成人 $10；12 岁及以下儿童、会员、EBT 持卡人及一名同行者免费", u: "https://www.neqm.org/exhibitions",
     flag: "In Lowell, about 45 minutes from Boston; pairs with the Lowell mill sites",
     flagz: "位于 Lowell，距波士顿约 45 分钟；可与 Lowell 纺织厂群一并参观",
-    shows: [
-      { t: "Commemorative American Quilts: Selections from the Centennial, Bicentennial and Beyond", s: "2026-06-30", e: "2026-09-26", d: "Quilts made to mark American anniversaries, from the 1876 Centennial onward", dz: "为美国各届周年纪念制作的拼布被，自 1876 年百年纪念起" },
-      { t: "Commemorative Quilts from the Permanent Collection", s: "2026-06-30", e: "2026-09-26", d: "Commemorative quilts drawn from the museum's own holdings", dz: "选自馆藏的纪念主题拼布被" }
-    ] },
+    shows: [] },
   { n: "Norman B. Leventhal Map & Education Center", nz: "诺曼·B·莱文索地图与教育中心", a: "700 Boylston Street",
     h: "Tue, Thu, Fri, Sat 11–5; Wed 1–7; Sun 1–5; closed Mondays",
     hz: "周二、周四、周五、周六 11–17；周三 13–19；周日 13–17；周一闭馆", p: "Free", pz: "免费",
@@ -1501,7 +1457,6 @@ CITIES.push({
     flag: "In Lexington, about 30 minutes from Boston; Saturday opening is only on scheduled dates",
     flagz: "位于 Lexington，距波士顿约 30 分钟；周六仅在指定日期开放",
     shows: [
-      { t: "Mapping Change in North America, 1755-1834", s: "2025-09-15", e: "2026-09-26", d: "Maps charting shifting borders and settlement across early North America", dz: "记录北美早期疆界与拓殖变迁的地图" },
       { t: "Nothing Short of Independence: Selections from the Library & Archives", s: "2026-04-06", e: "2026-10-16", d: "Revolutionary-era printed documents and manuscripts from the library's holdings", dz: "馆藏独立战争时期的印刷文献与手稿" },
       { t: "Protest & Promise: The American Revolution in Lexington", eText: "Ongoing", eTextz: "持续展出", d: "How ordinary Lexington townspeople came to face British regulars in 1775", dz: "1775 年列克星敦普通居民如何直面英军" },
       { t: "Looking Back, Moving Forward: Fifty Years of Collecting", eText: "Ongoing", eTextz: "持续展出", d: "Fifty years of acquisitions across the museum's American history collections", dz: "馆藏美国史文物五十年收藏回顾" },
@@ -2275,14 +2230,7 @@ CITIES.push({
     u: "https://marbleheadarts.org/", free: true,
     flag: "In Marblehead, about 40–45 minutes north; the 1728 mansion houses the Marblehead Arts Association's galleries and the work in them is for sale",
     flagz: "位于 Marblehead，距市中心约 40–45 分钟；1728 年宅邸现为 Marblehead 艺术协会展厅，展品出售",
-    shows: [
-      { t: "Unbound Abstractions", s: "2026-08-08", e: "2026-09-19", d: "Abstract paintings by Lucia Balinbin in one of the mansion's period rooms", dz: "Lucia Balinbin 的抽象绘画个展" },
-      { t: "Antique Hunting With Bob", s: "2026-08-08", e: "2026-09-19", d: "Annette Sykes paints the flea markets and antique shops she visits", dz: "Annette Sykes 画笔下的跳蚤市场与古董店" },
-      { t: "Expression of Gravity", s: "2026-08-08", e: "2026-09-19", d: "Work by Jessica Murdock about weight, balance and how things fall", dz: "Jessica Murdock 关于重量、平衡与坠落的作品" },
-      { t: "Driftwood Art – Gifts from the Sea", s: "2026-08-08", e: "2026-09-19", d: "Richard Honan builds pieces from driftwood collected on North Shore beaches", dz: "Richard Honan 用北岸海滩漂流木制作的作品" },
-      { t: "Shorelines: Deconstructing Water, Light and Land", s: "2026-08-08", e: "2026-09-19", d: "Chris Mailler's coastal paintings pulling water and light apart", dz: "Chris Mailler 拆解水、光与陆地的海岸绘画" },
-      { t: "The Spirit of '76", s: "2026-08-08", e: "2026-09-19", d: "Members' group show made for the Revolution's 250th anniversary year", dz: "会员群展，为美国独立 250 周年而作" }
-    ] },
+    shows: [] },
   { n: "Beauport, the Sleeper-McCann House", nz: "博普特：斯利珀-麦肯宅邸", a: "75 Eastern Point Boulevard",
     h: "Tue–Sat 10–5, late May to mid-October; guided tour only, tours on the hour, last tour at 4",
     hz: "5 月下旬至 10 月中旬，周二–周六 10:00–17:00；仅随导览参观，每逢整点出发，末场 16:00",

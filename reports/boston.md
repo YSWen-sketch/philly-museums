@@ -1,55 +1,183 @@
 # Weekly refresh — Boston
 
-- Scanned: 2026-10-01
+- Scanned: 2026-10-29
 - Venues: 284
-- Exhibitions after pruning: 333
+- Exhibitions after pruning: 295
 - Checked-on date moved: no
 - Tab counts corrected: none needed
 
-## Pages that changed since last week — re-read these (29)
+## Pages that changed since last week — re-read these (156)
 
 - [Museum of Fine Arts, Boston](https://www.mfa.org/exhibitions)
-- [Isabella Stewart Gardner Museum](https://www.gardnermuseum.org/exhibitions)
 - [Institute of Contemporary Art, Boston](https://www.icaboston.org/exhibitions/)
+- [Harvard Art Museums](https://harvardartmuseums.org/exhibitions)
 - [MIT List Visual Arts Center](https://listart.mit.edu/exhibitions)
 - [Carpenter Center for the Visual Arts](https://carpenter.center/exhibitions)
 - [MassArt Art Museum](https://maam.massart.edu/exhibitions)
 - [Boston University Art Galleries](https://www.bu.edu/art/exhibitions/)
-- [Davis Museum at Wellesley College](https://www1.wellesley.edu/davismuseum/whats-on/current)
 - [deCordova Sculpture Park and Museum](https://thetrustees.org/program/decordova-exhibitions/)
 - [Peabody Essex Museum](https://www.pem.org/exhibitions)
+- [Gallery 360, Northeastern University](https://camd.northeastern.edu/center-for-the-arts/gallery-360/)
 - [Emerson Contemporary / Media Art Gallery](https://emersoncontemporary.org/)
 - [Gallery 263](https://gallery263.org/exhibitions)
+- [Museum of Bad Art](https://museumofbadart.org)
+- [RSM Art Gallery, Bentley University](https://www.bentley.edu/library/art-gallery)
+- [Public Library of Brookline](https://www.brooklinelibrary.org/events/exhibits/)
+- [Fort Point Arts Community](https://www.fortpointarts.org/events-calendar/)
+- [ICA Watershed](https://www.icaboston.org/ica-watershed/)
+- [LexArt (Lexington Arts & Crafts Society)](https://www.lexart.org/exhibits-events)
+- [Menino Arts Center](https://www.hpaa-mac.org/exhibits/)
+- [Montserrat College of Art Galleries](https://www.montserrat.edu/exhibitions-events/galleries/)
+- [Quincy Art Association](https://www.quincyartma.org/exhibitions)
+- [Somerville Public Library (Gallery @ SPL)](https://somervillepubliclibrary.org/adults/gallery-spl/)
+- [Suffolk University Gallery](https://sites.suffolk.edu/gallery/)
+- [The Gallery at Atlantic Wharf](https://www.fortpointarts.org/gallery-at-atlantic-wharf/)
+- [The Umbrella Arts Center](https://www.theumbrellaarts.org/exhibitions)
+- [Trustman Art Gallery, Simmons University](https://trustman.simmons.edu/)
+- [Wiesner Student Art Gallery](https://arts.mit.edu/start/wiesner-student-art-gallery/)
+- [Johnson-Kulukundis Family Gallery, Harvard Radcliffe Institute](https://www.radcliffe.harvard.edu/events-and-exhibitions)
+- [Harvard Fine Arts Library](https://library.harvard.edu/visit/exhibitions)
+- [Harvard ArtLab](https://artlab.harvard.edu/events/)
+- [MIT Wiesner Student Art Gallery](https://arts.mit.edu/start/wiesner-student-art-gallery/)
+- [Keller Gallery, MIT Department of Architecture](https://architecture.mit.edu/news)
+- [808 Gallery, Boston University](https://www.bu.edu/cfa/news/bu-art-galleries/)
+- [Bapst Library Exhibits, Boston College](https://library.bc.edu/exhibits/)
+- [Huret & Spector Gallery](https://emersoncontemporary.org/exhibitions/)
+- [Godine Family Gallery](https://massart.edu/galleries/)
+- [Doran Gallery](https://massart.edu/galleries/)
+- [Arnheim Gallery](https://massart.edu/galleries/)
+- [Brant Gallery](https://massart.edu/galleries/)
+- [Frances Euphemia Thompson Gallery](https://massart.edu/galleries/)
+- [Student Life Gallery](https://massart.edu/galleries/)
+- [Raizes Gallery, Lunder Arts Center, Lesley University](https://lesley.edu/events)
+- [Roberts Gallery, Lunder Arts Center, Lesley University](https://lesley.edu/events)
+- [Gallery 5](https://www.emmanuel.edu/academics/academic-study/schools/school-humanities-social-sciences/undergraduate-programs/art/gallery-5)
+- [RSM Art Gallery](https://www.bentley.edu/library/art-gallery)
+- [Hollister Gallery](https://www.babson.edu/)
+- [Carney Gallery](https://www.regiscollege.edu/about-regis/fine-arts-center/upcoming-events-and-exhibitions)
+- [Montserrat Gallery](https://www.montserrat.edu/galleries/)
+- [Carol Schlosberg Gallery](https://www.montserrat.edu/galleries/)
+- [Frame 301 Gallery](https://www.montserrat.edu/galleries/)
+- [Bare Gallery](https://www.montserrat.edu/galleries/)
+- [Paul M. Scott Library Gallery](https://www.montserrat.edu/galleries/)
+- [Spencer Presentation Gallery](https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/spencer-presentation-gallery)
+- [Carol Grillo Gallery](https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/carol-grillo-gallery)
+- [Heftler Visiting Artist Gallery](https://www.endicott.edu/about/arts-culture/manninen-center-for-the-arts/heftler-visiting-artist-gallery)
+- [Winfisky Gallery, Salem State University](https://www.salemstate.edu/winfiskygallery)
+- [Whistler House Museum of Art](https://whistlerhouse.org/exhibits/parker-gallery-exhibits/)
+- [New England Aquarium](https://www.neaq.org/exhibits/)
+- [Boston Children's Museum](https://bostonchildrensmuseum.org/exhibits-and-programs/exhibits/)
 - [Metropolitan Waterworks Museum](https://waterworksmuseum.org)
+- [Blue Hills Trailside Museum](https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/blue-hills-trailside-museum)
 - [Charles River Museum of Industry & Innovation](https://www.charlesrivermuseum.org)
+- [Blue Hill Observatory & Science Center](https://bluehill.org/visit/)
+- [Boston Nature Center and Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/boston-nature-center)
+- [Broadmoor Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/broadmoor)
+- [Drumlin Farm Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/drumlin-farm)
+- [Garden in the Woods](https://www.nativeplanttrust.org/visit/garden-woods/)
+- [Habitat Education Center and Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/habitat)
+- [Ipswich River Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/ipswich-river)
+- [Moose Hill Wildlife Sanctuary](https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/moose-hill)
+- [Mount Auburn Cemetery](https://mountauburn.org/art/)
+- [The Gardens at Elm Bank](https://masshort.org/the-garden/visit/)
+- [Wellesley College Botanic Gardens](https://www.wellesley.edu/wcbg)
+- [MIT Media Lab Galleries](https://www.media.mit.edu/about/visiting-the-lab/)
 - [Boston Public Library](https://www.bpl.org/current-exhibitions/)
-- [Massachusetts Historical Society](https://www.masshist.org/exhibitions)
-- [Boston Tea Party Ships & Museum](https://www.bostonteapartyship.com/)
+- [Boston Athenaeum](https://bostonathenaeum.org/whats-on/exhibitions/)
+- [Museum of African American History](https://maah.org/exhibitions/)
+- [USS Constitution Museum](https://ussconstitutionmuseum.org/exhibits/)
+- [Old State House](https://revolutionaryspaces.org/explore/exhibits/)
+- [Old South Meeting House](https://revolutionaryspaces.org/explore/exhibits/)
+- [Edward M. Kennedy Institute for the United States Senate](https://emkinstitute.org/)
 - [The West End Museum](https://thewestendmuseum.org/exhibits/)
 - [Vilna Shul, Boston's Center for Jewish Culture](https://vilnashul.org)
+- [The Mary Baker Eddy Library](https://www.marybakereddylibrary.org/exhibits/)
 - [Somerville Museum](https://www.somervillemuseum.org/exhibitions)
+- [Armenian Museum of America](https://www.armenianmuseum.org/current-exhibitions)
 - [Larz Anderson Auto Museum](https://www.larzanderson.org/exhibits)
+- [American Ancestors / New England Historic Genealogical Society](https://fhe.americanancestors.org/)
+- [American Heritage Museum](https://www.americanheritagemuseum.org/exhibits/)
+- [Concord Free Public Library](https://concordlibrary.org/events/exhibitions/art-galleries)
+- [Congregational Library & Archives](https://congregationallibrary.org/exhibitions)
+- [Dorchester Historical Society](https://www.dorchesterhistoricalsociety.org/)
+- [Faneuil Hall](https://www.nps.gov/bost/learn/historyculture/fh.htm)
+- [Fruitlands Museum](https://thetrustees.org/place/fruitlands-museum/)
+- [Houghton Library](https://library.harvard.edu/libraries/houghton)
+- [John J. Burns Library](https://libguides.bc.edu/burns/visit/exhibits)
+- [Maliotis Cultural Center](https://maliotis.hchc.edu/exhibitions/)
+- [Medford Historical Society & Museum](https://medfordhistorical.org/visit/)
+- [Minute Man National Historical Park](https://www.nps.gov/mima/planyourvisit/index.htm)
+- [Paul S. Russell, MD Museum of Medical History and Innovation](https://www.massgeneral.org/museum)
+- [Salem Maritime National Historic Site](https://www.nps.gov/sama/planyourvisit/basicinfo.htm)
+- [Schlesinger Library, Radcliffe Institute](https://www.radcliffe.harvard.edu/schlesinger-library)
+- [Spellman Museum of Stamps & Postal History](https://spellmanmuseum.org/)
+- [USS Cassin Young](https://www.nps.gov/bost/learn/historyculture/usscassinyoung.htm)
+- [Salem Maritime National Historical Park](https://www.nps.gov/sama/planyourvisit/placestogo.htm)
+- [Salem Witch Museum](https://salemwitchmuseum.com/visit/)
+- [Salem 1630: Pioneer Village](https://www.pioneervillagesalem.org/visiting)
+- [Concord Free Public Library Special Collections](https://concordlibrary.org/special-collections)
+- [Minute Man Visitor Center](https://www.nps.gov/mima/planyourvisit/minute-man-visitor-center.htm)
+- [Lexington Depot](https://www.lexingtonhistory.org/the-depot)
+- [Wayland Museum & Historical Society](https://www.waylandmuseum.org/museum/)
+- [Bedford Historical Society Museum](https://www.bedfordmahistory.org/)
+- [Lia and William Poorvu Gallery, Schlesinger Library](https://www.radcliffe.harvard.edu/events-and-exhibitions)
+- [Harvard University Archives Exhibits, Pusey Library](https://library.harvard.edu/visit/exhibitions)
+- [Lamont Library Exhibitions, Harvard Library](https://library.harvard.edu/visit/exhibitions)
+- [Harvard Law School Library Historical & Special Collections (Caspersen Room)](https://hls.harvard.edu/library/historical-special-collections/exhibits)
+- [Maihaugen Gallery, MIT Libraries](https://libraries.mit.edu/exhibits/)
+- [Howard Gotlieb Archival Research Center](https://www.bu.edu/library/gotlieb-center/exhibitions-from-the-gotlieb-center/)
+- [Boston College Libraries Galleries, Thomas P. O'Neill Jr. Library](https://library.bc.edu/exhibits/)
+- [Boott Cotton Mills Museum](https://www.nps.gov/lowe/planyourvisit/boott-cotton-mills-museum.htm)
 - [Paul Revere House](https://www.paulreverehouse.org)
 - [Old North Church & Historic Site](https://oldnorth.com/visit/)
-- [Gibson House Museum](https://www.thegibsonhouse.org/visit)
-- [Shirley-Eustis House](https://www.shirleyeustishouse.org/tours)
 - [Longfellow House-Washington's Headquarters National Historic Site](https://www.nps.gov/long/planyourvisit/guidedtours.htm)
-- [Frederick Law Olmsted National Historic Site](https://www.nps.gov/frla/planyourvisit/hours.htm)
 - [John Fitzgerald Kennedy National Historic Site](https://www.nps.gov/jofi/planyourvisit/index.htm)
-- [Adams National Historical Park](https://www.nps.gov/adam/planyourvisit/hours.htm)
+- [Forbes House Museum](https://www.forbeshousemuseum.org/current-exhibits)
+- [Buckman Tavern](https://www.lexingtonhistory.org/buckman-tavern)
+- [Historic Beverly](https://historicbeverly.net/)
+- [Long Hill](https://thetrustees.org/place/long-hill/)
+- [Longfellow's Wayside Inn](https://www.wayside.org/museum-rooms)
+- [Louisa May Alcott's Orchard House](https://louisamayalcott.org/visit)
+- [Munroe Tavern](https://www.lexingtonhistory.org/munroe-tavern)
+- [Ropes Mansion](https://www.pem.org/historic-houses/ropes-mansion)
+- [Royall House and Slave Quarters](https://www.royallhouse.org/visit/)
+- [The House of the Seven Gables](https://www.7gables.org/visit/)
+- [The Old Manse](https://thetrustees.org/place/the-old-manse/)
+- [The Wayside: Home of Authors](https://www.nps.gov/mima/learn/historyculture/thewayside.htm)
+- [William Hickling Prescott House](https://nscdama.org/properties/william-hickling-prescott-house/)
+- [Ropes Mansion and Garden](https://www.pem.org/visit/tours/salem-walking-tours/ropes-mansion-self-guided-tour)
+- [The Pickering House](https://www.pickeringfoundation.org/tours-events)
+- [Derby House](https://www.nps.gov/sama/planyourvisit/placestogo.htm)
+- [Narbonne House](https://www.nps.gov/sama/planyourvisit/placestogo.htm)
+- [Hamilton Hall](https://www.hamiltonhall.org/audio-tour)
+- [Glen Magna Farms](https://glenmagnafarms.org/public-access/)
+- [Jeremiah Page House](https://www.danvershistory.org/visit-us/historic-houses/)
+- [John Cabot House](https://historicbeverly.net/properties/the-john-cabot-house/)
+- [Hammond Castle Museum](https://hammondcastle.org/exhibits/)
+- [Walden Pond State Reservation](https://www.mass.gov/locations/walden-pond-state-reservation)
+- [The Robbins House](https://www.robbinshouse.org/visit-the-robbins-house/)
+- [Colonel James Barrett House](https://www.nps.gov/mima/learn/historyculture/colonel-james-barrett-house.htm)
+- [Captain William Smith House](https://www.nps.gov/mima/planyourvisit/placestogo.htm)
+- [The Wayside Inn Grist Mill](https://wayside.org/the-grist-mill/)
+- [Redstone School](https://wayside.org/your-visit)
+- [Jason Russell House & Smith Museum](https://arlingtonhistorical.org/jason-russell-house/)
+- [Job Lane Farm Museum](https://www.bedfordmahistory.org/job-lane-farm-museum)
+- [Dorothy Quincy Homestead](https://nscdama.org/properties/dorothy-quincy-homestead/)
+- [Abigail Adams Birthplace](https://abigailadamsbirthplace.org/)
 
-## Unreachable (50)
+## Unreachable (51)
 
 - [Rose Art Museum](https://www.brandeis.edu/rose/exhibitions/index.html) — 403
+- [Boston Center for the Arts / Mills Gallery](https://bostonarts.org/venue/mills-gallery/) — no response timeout
+- [Museum of the National Center of Afro-American Artists](https://ncaaa.org/) — no response fetch failed
 - [Kniznick Gallery](https://www.brandeis.edu/wsrc/kniznick-gallery/) — 403
 - [Marblehead Arts Association](https://marbleheadarts.org/current/) — 403
 - [Mary L. Fifield Art Gallery](https://www.bhcc.edu/artgallery/) — no response fetch failed
-- [Mosesian Center for the Arts](https://www.mosesianarts.org/gallery) — 404
+- [Mosesian Center for the Arts](https://www.mosesianarts.org/gallery) — 403
 - [Crossings Gallery, Harvard Ed Portal](https://edportal.harvard.edu/crossings-gallery) — 403
 - [Gallery 224, Ceramics Program, Office for the Arts at Harvard](https://ofa.fas.harvard.edu/ceramics/Gallery_224) — 403
 - [Dreitzer Gallery, Spingold Theater Center](https://www.brandeis.edu/fine-arts/events/exhibitions.html) — 403
 - [Bunker Hill Community College Art Gallery](https://www.bhcc.edu/artgallery/) — no response fetch failed
-- [Museum of Science](https://www.mos.org/explore/exhibits) — 403
 - [Harvard Museum of Natural History](https://hmnh.harvard.edu/exhibitions) — 403
 - [MIT Museum](https://mitmuseum.mit.edu/exhibitions) — 429
 - [Harvard Collection of Historical Scientific Instruments](https://chsi.harvard.edu/exhibitions) — 403
@@ -61,37 +189,37 @@
 - [John F. Kennedy Presidential Library and Museum](https://www.jfklibrary.org/visit-museum/exhibits) — 403
 - [Peabody Museum of Archaeology & Ethnology](https://peabody.harvard.edu/exhibitions) — 403
 - [Harvard Museum of the Ancient Near East](https://hmane.harvard.edu/exhibitions) — 403
+- [Boston Tea Party Ships & Museum](https://www.bostonteapartyship.com/) — no response fetch failed
 - [The Sports Museum](https://www.sportsmuseum.org) — 403
 - [Cambridge Public Library](https://www.cambridgema.gov/cpl/programsandevents) — 404
-- [Concord Museum](https://www.concordmuseum.org/whats-on/) — 403
 - [Dedham Museum & Archive](https://www.dedhammuseum.org/learn/exhibits/) — 403
-- [Fort Warren, Georges Island](https://www.bostonharborislands.org/georges-island/) — 403
 - [Goethe-Institut Boston](https://www.goethe.de/ins/us/en/sta/bos/ver.html) — 403
-- [King's Chapel](https://www.kings-chapel.org/history/visit-kings-chapel) — 403
-- [Longyear Museum](https://www.longyear.org/visit/) — 403
 - [Marblehead Museum](https://marbleheadmuseum.org/exhibits/) — no response timeout
-- [Scottish Rite Masonic Museum & Library](https://www.srmml.org/exhibitions/) — 403
-- [Trinity Church in the City of Boston](https://www.trinitychurchboston.org/tours) — 403
+- [Norman B. Leventhal Map & Education Center](https://www.leventhalmap.org/exhibitions/) — no response fetch failed
 - [Grand Army of the Republic & Civil War Museum](https://marbleheadmuseum.org/civil-war-museum/) — no response timeout
+- [Sudbury Historical Society Museum](https://www.sudbury01776.org/) — no response fetch failed
 - [Weston Historical Society](https://www.westonhistory.org/) — no response fetch failed
+- [Cyrus Dallin Art Museum](https://dallin.org/visit/) — no response fetch failed
 - [Harvard Divinity School Library (Andover-Harvard Theological Library)](https://library.hds.harvard.edu/exhibits) — 403
 - [Robert D. Farber University Archives & Special Collections](https://www.brandeis.edu/library/archives/events/index.html) — 403
 - [Otis House](https://www.historicnewengland.org/property/otis-house/) — 403
 - [Nichols House Museum](https://www.nicholshousemuseum.org/visit/) — no response fetch failed
 - [Gropius House](https://www.historicnewengland.org/property/gropius-house/) — 403
 - [Eustis Estate](https://www.historicnewengland.org/property/eustis-estate/) — 403
+- [Gore Place](https://goreplace.org/whats-on/mansion-tour-1) — no response fetch failed
 - [Boardman House](https://www.historicnewengland.org/property/boardman-house/) — 403
 - [Jackson Homestead and Museum](https://www.newtonma.gov/government/historic-newton/visit-museum/jackson-homestead-and-museum) — 403
 - [Lyman Estate](https://www.historicnewengland.org/property/lyman-estate/) — 403
 - [Phillips House](https://www.historicnewengland.org/property/phillips-house/) — 403
 - [Pierce House](https://www.historicnewengland.org/property/pierce-house/) — 403
+- [Thoreau Farm](https://thoreaufarm.org/visit/) — no response fetch failed
 - [United First Parish Church](https://unitedfirstparishchurch.org/historic-tours) — no response fetch failed
 - [Jeremiah Lee Mansion](https://marbleheadmuseum.org/hours/) — no response timeout
 - [King Hooper Mansion](https://marbleheadarts.org/) — 403
 - [Beauport, the Sleeper-McCann House](https://www.historicnewengland.org/property/beauport-sleeper-mccann-house/) — 403
 - [Historical Society of Watertown](https://www.historicalsocietyofwatertownma.org/) — no response fetch failed
 
-## Redirected — the link in the data may be out of date (42)
+## Redirected — the link in the data may be out of date (45)
 
 - Boston University Art Galleries: https://www.bu.edu/art/exhibitions/ → https://www.bu.edu/cfa/news/bu-art-galleries/
 - Davis Museum at Wellesley College: https://www1.wellesley.edu/davismuseum/whats-on/current → https://www.wellesley.edu/davismuseum/art
@@ -112,6 +240,7 @@
 - Frame 301 Gallery: https://www.montserrat.edu/galleries/ → https://www.montserrat.edu/exhibitions-events/galleries/
 - Bare Gallery: https://www.montserrat.edu/galleries/ → https://www.montserrat.edu/exhibitions-events/galleries/
 - Paul M. Scott Library Gallery: https://www.montserrat.edu/galleries/ → https://www.montserrat.edu/exhibitions-events/galleries/
+- Museum of Science: https://www.mos.org/explore/exhibits → https://www.mos.org/visit/exhibits
 - Boston Nature Center and Wildlife Sanctuary: https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/boston-nature-center → https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/boston-nature-center
 - Broadmoor Wildlife Sanctuary: https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/broadmoor → https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/broadmoor
 - Drumlin Farm Wildlife Sanctuary: https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/drumlin-farm → https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/drumlin-farm
@@ -122,8 +251,10 @@
 - The Gardens at Elm Bank: https://masshort.org/the-garden/visit/ → https://www.masshort.org/the-garden/visit/
 - Wellesley College Botanic Gardens: https://www.wellesley.edu/wcbg → https://www.wellesley.edu/about-us/offices-departments/wellesley-college-botanic-gardens
 - Koch Institute Public Galleries: https://ki.mit.edu/galleries → https://ki.mit.edu/about/galleries
+- Concord Museum: https://www.concordmuseum.org/whats-on/ → http://concordmuseum.org/whats-on/
 - Paul S. Russell, MD Museum of Medical History and Innovation: https://www.massgeneral.org/museum → https://www.massgeneralbrigham.org/
 - The Printing Office of Edes & Gill: https://www.oldnorth.com/clough-house/ → https://oldnorth.com/clough-house/
+- Trinity Church in the City of Boston: https://www.trinitychurchboston.org/tours → https://trinitychurchboston.org/tours/
 - Salem Witch Museum: https://salemwitchmuseum.com/visit/ → https://salemwitchmuseum.com/visit-about-the-salem-witch-museum/
 - Waltham Museum: https://www.walthammuseum.org/ → https://walthammuseum.org/
 - Needham History Center & Museum: https://needhamhistory.org/visit/ → https://needhamhistory.org/visit-rent/
@@ -136,37 +267,71 @@
 - The Wayside Inn Grist Mill: https://wayside.org/the-grist-mill/ → https://www.wayside.org/the-grist-mill
 - Redstone School: https://wayside.org/your-visit → https://www.wayside.org/your-visit
 
-## Dropped, closed over a month ago (1)
+## Dropped, closed over a month ago (38)
 
-- Field Studies (Symbiosis) (closed 2026-08-30)
+- Collection Spotlight: Nari Ward (closed 2026-09-20)
+- Lucy Raven: Rounds (closed 2026-09-27)
+- Knowing Nature: Stories of the Boreal Forest (closed 2026-09-27)
+- Distillations (closed 2026-09-25)
+- Lucy Raven: Rounds (closed 2026-09-27)
+- Cutaway (closed 2026-09-24)
+- Op-Eds: Messages to America (closed 2026-09-27)
+- Unbound Abstractions (closed 2026-09-19)
+- Antique Hunting With Bob (closed 2026-09-19)
+- Expression of Gravity (closed 2026-09-19)
+- Shorelines: Deconstructing Water, Light and Land (closed 2026-09-19)
+- Driftwood Art - Gifts from the Sea (closed 2026-09-19)
+- The Spirit of '76 (closed 2026-09-19)
+- Reflections in the Long Night (closed 2026-09-25)
+- Four Voices in Silk (closed 2026-09-24)
+- Distillations (closed 2026-09-25)
+- In Residence (closed 2026-09-16)
+- Submerged (closed 2026-09-25)
+- Artists' Magazines and Newspapers: Alternative Spaces for Art in the 1960s and 70s (closed 2026-09-28)
+- Submerged (closed 2026-09-25)
+- THE GODINE GALLERY ARCHIVES (closed 2026-09-18)
+- Spaces of Departure - Faculty Exhibition (closed 2026-09-23)
+- Spaces of Departure - Faculty Exhibition (closed 2026-09-23)
+- little drops of water, little grains of sand... (closed 2026-09-18)
+- Reflections in the Long Night (closed 2026-09-25)
+- Four Voices in Silk (closed 2026-09-24)
+- Sweet Ritual (closed 2026-09-07)
+- Father (closed 2026-09-13)
+- Celebrating the Art of Edward Waldo Emerson (closed 2026-09-10)
+- Commemorative American Quilts: Selections from the Centennial, Bicentennial and Beyond (closed 2026-09-26)
+- Commemorative Quilts from the Permanent Collection (closed 2026-09-26)
+- Mapping Change in North America, 1755-1834 (closed 2026-09-26)
+- Unbound Abstractions (closed 2026-09-19)
+- Antique Hunting With Bob (closed 2026-09-19)
+- Expression of Gravity (closed 2026-09-19)
+- Driftwood Art – Gifts from the Sea (closed 2026-09-19)
+- Shorelines: Deconstructing Water, Light and Land (closed 2026-09-19)
+- The Spirit of '76 (closed 2026-09-19)
 
-## Closing within 30 days — confirm before they vanish (25)
+## Closing within 30 days — confirm before they vanish (22)
 
-- Gallery 263: Myth to Ritual (closes 2026-10-03)
-- Montserrat College of Art Galleries: Campbell McLean: War-Birds & Adverts (closes 2026-10-03)
-- Frame 301 Gallery: Campbell McLean: War-Birds & Adverts (closes 2026-10-03)
-- Carpenter Center for the Visual Arts: No Slop, No Second Screen: Animation—the hard-won image (closes 2026-10-04)
-- deCordova Sculpture Park and Museum: Nature Sanctuary (closes 2026-10-04)
-- deCordova Sculpture Park and Museum: Zohra Opoku, Self-Portraits (closes 2026-10-04)
-- Suffolk University Gallery: Posters On View (closes 2026-10-08)
-- Carol Grillo Gallery: Express Yourself, Bloom (closes 2026-10-09)
-- RSM Art Gallery, Bentley University: This Exhibit is Closed (closes 2026-10-12)
-- Quincy Art Association: Quincy Public Schools Art Exhibit (closes 2026-10-12)
-- RSM Art Gallery: This Exhibit is Closed (closes 2026-10-12)
-- Carol Grillo Gallery: Helen Popinchalk, Bee Vision (closes 2026-10-16)
-- Scottish Rite Masonic Museum & Library: Nothing Short of Independence: Selections from the Library & Archives (closes 2026-10-16)
-- Harvard Art Museums: Pınar Öğrenci: Glück auf in Deutschland (closes 2026-10-18)
-- Fort Point Arts Community: 2026 Fort Point Open Studios (closes 2026-10-18)
-- Peabody Museum of Archaeology & Ethnology: Washington's Sash (closes 2026-10-18)
-- Crossings Gallery, Harvard Ed Portal: I AM (closes 2026-10-22)
-- Museum of Fine Arts, Boston: Community Arts Initiative: Can You Hear the City? (closes 2026-10-25)
-- LexArt (Lexington Arts & Crafts Society): Metal+Art: Contemporary Jewelry & Objects by Metalwerx Artists (closes 2026-10-25)
-- Goethe-Institut Boston: Pınar Öğrenci: Cemetery of the Nameless (closes 2026-10-25)
-- Lynn Museum & Historical Society: LYNN PRIDE ART GALLERY – “AUTHENTICALLY YOU” (closes 2026-10-26)
-- Lynn Museum & Arts Center: Authentically You (closes 2026-10-26)
 - Broadmoor Wildlife Sanctuary: Greetings from Nature: Recent Work by Natalia Broude (closes 2026-10-30)
 - Public Library of Brookline: Representing Unity: Vinfen's Gateway Arts (closes 2026-10-31)
 - Whistler House Museum of Art: KEROUAC: Beat and Counterculture Portraits (closes 2026-10-31)
+- Habitat Education Center and Wildlife Sanctuary: Art at Habitat: Otherworldly New England by Dianna Vosburg (closes 2026-11-01)
+- Boston Public Library: Lexicon (closes 2026-11-01)
+- Tufts University Art Galleries: SMFA at 150: Looking Back (closes 2026-11-08)
+- Barbara and Steve Grossman Gallery: SMFA at 150: Looking Back (closes 2026-11-08)
+- Montserrat College of Art Galleries: Sunday at the Nut House (closes 2026-11-14)
+- Montserrat Gallery: Sunday at the Nut House (closes 2026-11-14)
+- Raizes Gallery, Lunder Arts Center, Lesley University: Deconstructing Disability: Perspectives + Identities (closes 2026-11-15)
+- Eustis Estate: Myth and Memory: Stories of the American Revolution (closes 2026-11-15)
+- The Umbrella Arts Center: Menjunje/Amalgamation (closes 2026-11-16)
+- Fort Point Arts Community: Repeat/Repeat (closes 2026-11-20)
+- Menino Arts Center: Singular and Unique: A Monotype Guild of New England Open Members Hybrid Exhibition (closes 2026-11-20)
+- Menino Arts Center: On Second Thought: HPAA Members Juried Exhibition (closes 2026-11-20)
+- Heftler Visiting Artist Gallery: Corita Kent, Heroes & Sheroes (closes 2026-11-20)
+- Boston University Art Galleries: The Boston Printmakers 2026 North American Print Biennial (closes 2026-11-21)
+- Montserrat College of Art Galleries: Andrew Mowbray: New Heraldic Ordinaries (closes 2026-11-21)
+- 808 Gallery, Boston University: The Boston Printmakers 2026 North American Print Biennial (closes 2026-11-21)
+- Carol Schlosberg Gallery: Andrew Mowbray: New Heraldic Ordinaries (closes 2026-11-21)
+- LexArt (Lexington Arts & Crafts Society): MINHWA - Korean Folk Painting (closes 2026-11-22)
+- The Umbrella Arts Center: Disperse (closes 2026-11-23)
 
 ## No exhibition on file (143)
 
