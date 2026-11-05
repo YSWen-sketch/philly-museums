@@ -173,10 +173,7 @@ CITIES.push({
   { n: "Da Vinci Art Alliance", nz: "达芬奇艺术联盟", a: "704 Catharine Street",
     h: "Fri–Sat 11–6; Wed, Thu and Sun by appointment", hz: "周五–周六 11–18；周三、周四、周日需预约", p: "Free",
     pz: "免费", u: "https://davinciartalliance.org/current-exhibitions", free: true,
-    shows: [
-      { t: "Surrounds", s: "2026-09-01", e: "2026-09-20", d: "Theo Loftis's fellowship solo show of foraged plants, scents and liquids left to ferment and decay", dz: "洛夫蒂斯个展：采集来的植物、气味与液体在展期内持续发酵腐化" },
-      { t: "Props & Performance", s: "2026-09-01", e: "2026-09-20", d: "Group show of stage and screen props, puppetry and live performance by nine artists", dz: "九位艺术家的群展，聚焦舞台与影视道具、木偶及现场表演" }
-    ] },
+    shows: [] },
   { n: "InLiquid", nz: "InLiquid 艺术组织", a: "1400 North American Street, Gallery 108",
     h: "Wed–Sat 12–6; other times by appointment", hz: "周三–周六 12–18；其他时间需预约", p: "Free", pz: "免费",
     u: "https://www.inliquid.org/programming/inliquid-gallery", free: true,
@@ -214,7 +211,6 @@ CITIES.push({
     h: "Thu–Sat 11–5; Tue–Wed by appointment; closed Sun–Mon", hz: "周四–周六 11–17；周二、周三需预约；周日、周一闭馆",
     p: "Free", pz: "免费", u: "https://www.twelvegatesarts.org/gallery-exhibitions", free: true,
     shows: [
-      { t: "Umber Majeed: Digital Handicrafts", s: "2026-08-07", e: "2026-09-25", d: "Solo show by Pakistani-American artist Umber Majeed, curated by Sarah Burney", dz: "巴基斯坦裔美国艺术家 Umber Majeed 个展，Sarah Burney 策展" },
       { t: "Nihad Dukhan - Unbroken Lineages I", s: "2026-10-02", e: "2026-10-15", d: "Islamic calligraphy by master calligrapher Nihad Dukhan, from classical forms to contemporary work", dz: "书法大师 Nihad Dukhan 的伊斯兰书法，从古典写法到当代创作" }
     ] },
   { n: "Leonard Pearlstein Gallery, Drexel University", nz: "德雷塞尔大学伦纳德·珀尔斯坦画廊", a: "3401 Filbert Street, URBN Annex",
@@ -704,15 +700,11 @@ CITIES.push({
     h: "Sat 12–5 and by appointment", hz: "周六 12–17，另可预约",
     p: "Gallery free; the Elements programme is ticketed through FringeArts",
     pz: "画廊免费；Elements 项目通过 FringeArts 售票", u: "https://www.automatcollective.com/", free: true,
-    shows: [
-      { t: "Elements", s: "2026-09-09", e: "2026-09-27", d: "The gallery is rebuilt weekly around air, water, earth and fire, with performances", dz: "展厅每周依风、水、土、火重装一次，并有现场演出" }
-    ] },
+    shows: [] },
   { n: "Space 1026", nz: "Space 1026 艺术空间", a: "844 N. Broad Street",
     h: "No fixed gallery hours — most days roughly 12–8, ring the bell to be let in",
     hz: "无固定开放时间，多数日子约 12–20，按门铃入内", p: "Free", pz: "免费", u: "https://space1026.com/", free: true,
-    shows: [
-      { t: "DEEFORMA", s: "2026-09-04", e: "2026-09-25", d: "Sculptures by Lale Westvind, whose comics work turns into welded metal", dz: "Lale Westvind 的雕塑，把漫画语言转成焊接金属" }
-    ] },
+    shows: [] },
   { n: "Grizzly Grizzly", nz: "Grizzly Grizzly 画廊", a: "319 N. 11th Street, 2nd Floor",
     h: "Sat–Sun 2–6; First Fridays 6–9", hz: "周六–周日 14–18；每月第一个周五 18–21", p: "Free", pz: "免费",
     u: "https://grizzlygrizzly.com/", free: true,
@@ -834,7 +826,6 @@ CITIES.push({
     free: true, flag: "In Yardley, Bucks County, about 45 minutes from Center City",
     flagz: "位于巴克斯县 Yardley，距市中心约 45 分钟",
     shows: [
-      { t: "Members Show", s: "2026-09-11", e: "2026-09-27", d: "Annual show of work by the centre's member artists", dz: "中心会员艺术家的年度作品展" },
       { t: "Solo Show - Marta Jaramillo", s: "2026-10-09", e: "2026-10-11", d: "A three-day solo exhibition by Marta Jaramillo", dz: "Marta Jaramillo 为期三天的个展" },
       { t: "Fine Crafts Show", s: "2026-11-21", e: "2026-11-22", d: "Two-day show of handmade craft by regional makers", dz: "为期两天的地区手工艺展" },
       { t: "Small Works Market", s: "2026-12-04", e: "2026-12-19", d: "Holiday show of small-format work by member artists", dz: "会员艺术家小幅作品的节日展" }
@@ -1293,7 +1284,6 @@ CITIES.push({
     h: "Tue/Thu/Fri 10–4, Wed 1–7", hz: "周二/四/五 10–16，周三 13–19", p: "Free", pz: "免费",
     u: "https://hsp.org/exhibits", free: true,
     shows: [
-      { t: "Paths to Independence, 1765–1787", e: "2026-09-18", d: "141 objects, including a Dunlap broadside of the Declaration", dz: "141 件文物，含 Dunlap 版《独立宣言》" },
       { t: "The Changing Faces of Independence", sText: "Opens in October", sTextz: "10 月开幕", e: "2027-01-08", d: "Third-party dates; 19th-century immigrant and African American records", dz: "第三方日期；19 世纪移民与非裔美国人的文献" }
     ] },
   { n: "Free Library — Parkway Central", nz: "自由图书馆中央馆", a: "1901 Vine St",

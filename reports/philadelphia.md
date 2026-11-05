@@ -1,75 +1,284 @@
 # Weekly refresh — Philadelphia
 
-- Scanned: 2026-10-08
+- Scanned: 2026-11-05
 - Venues: 391
-- Exhibitions after pruning: 368
+- Exhibitions after pruning: 361
 - Checked-on date moved: no
-- Tab counts corrected: philadelphia 392 -> 391
+- Tab counts corrected: none needed
 
-## Pages that changed since last week — re-read these (0)
+## Pages that changed since last week — re-read these (200)
 
-_none_
+- [Philadelphia Museum of Art](https://www.philamuseum.org/exhibitions)
+- [Rodin Museum](https://www.philamuseum.org/rodin-museum/)
+- [Barnes Foundation](https://www.barnesfoundation.org/whats-on/exhibitions)
+- [PAFA (Pennsylvania Academy of the Fine Arts)](https://www.pafa.org/museum/exhibitions)
+- [The Fabric Workshop and Museum](https://fabricworkshopandmuseum.org/exhibitions/)
+- [Woodmere Art Museum](https://woodmeremuseum.org/experience/exhibitions)
+- [The Print Center](https://printcenter.org/current-exhibitions/)
+- [Fleisher Art Memorial](https://fleisher.org/calendar/)
+- [Philadelphia's Magic Gardens](https://www.phillymagicgardens.org/exhibitions/current-exhibition/)
+- [The Clay Studio](https://www.theclaystudio.org/exhibitions)
+- [Temple Contemporary (Tyler School of Art)](https://tyler.temple.edu/happening-tyler/temple-contemporary-gallery)
+- [The Galleries at Moore](https://moore.edu/the-galleries-at-moore/about/current-exhibitions/)
+- [Calder Gardens](https://caldergardens.org/on-view/)
+- [Da Vinci Art Alliance](https://davinciartalliance.org/current-exhibitions)
+- [InLiquid](https://www.inliquid.org/programming/inliquid-gallery)
+- [Icebox Project Space](https://www.iceboxprojectspace.com/)
+- [TILT Institute for the Contemporary Image](https://tiltinstitute.org/category/exhibitions/)
+- [Asian Arts Initiative](https://asianartsinitiative.org/programs/current-upcoming)
+- [Taller Puertorriqueño](https://tallerpr.org/on-view/)
+- [Twelve Gates Arts](https://www.twelvegatesarts.org/gallery-exhibitions)
+- [Leonard Pearlstein Gallery, Drexel University](https://drexel.edu/pearlsteingallery/)
+- [Villanova University Art Gallery](https://www.villanova.edu/university/art-gallery/exhibitions.html)
+- [Bryn Mawr College Special Collections](https://www.brynmawr.edu/research/special-collections/exhibitions-events)
+- [Cherry Street Pier](https://www.cherrystreetpier.com/events/)
+- [Al-Bustan Seeds of Culture](https://www.albustanseeds.org/exhibitions)
+- [Mt. Airy Art Garage](https://mtairyartgarage.org/exhibitions/)
+- [William Way LGBT Community Center](https://www.waygay.org/galleries)
+- [Abington Art Center](https://abingtonartcenter.org/gallery/exhibitions/)
+- [Glencairn Museum](https://www.glencairnmuseum.org/exhibitions)
+- [Allens Lane Art Center](https://allenslane.org/exhibitions/)
+- [Philadelphia Museum of Jewish Art](https://rodephshalom.org/philadelphia-museum-of-jewish-art/)
+- [Philadelphia Sketch Club](https://sketchclub.org/)
+- [The Plastic Club](https://plasticclub.org/exhibitions/)
+- [Historic Yellow Springs](https://yellowsprings.org/in-the-galleries/)
+- [Perkins Center for the Arts](https://perkinsarts.org/exhibitions/)
+- [Burrison Gallery](https://university-club.business-services.upenn.edu/burrison-gallery)
+- [Arcadia Exhibitions](https://www.arcadia.edu/exhibitions/)
+- [Philip and Muriel Berman Museum of Art](https://www.ursinus.edu/berman/)
+- [Knauer Art Gallery, West Chester University](https://www.wcupa.edu/arts-humanities/artdesign/exhibitionsevents.aspx)
+- [John H. Baker Art Gallery, West Chester University](https://www.wcupa.edu/arts-humanities/artdesign/exhibitionsevents.aspx)
+- [Hicks Art Center Gallery](https://hicksgallery.bucks.edu/)
+- [The Art Gallery at Delaware County Community College](https://www.dccc.edu/art-gallery)
+- [Marlin Art Gallery, Camden County College](https://www.camdencc.edu/arts/marlin-art-gallery/exhibits/)
+- [Patricia M. Nugent Gallery, Rosemont College](https://rosemont.edu/upcoming-exhibitions/)
+- [Holy Family University Art Gallery](https://holyfamilyartgallery.wordpress.com/)
+- [Grounds For Sculpture](https://www.groundsforsculpture.org/visit/)
+- [The Delaware Contemporary](https://decontemporary.org/exhibitions/)
+- [Rose Valley Museum at Thunderbird Lodge](https://rosevalleymuseum.org/)
+- [AUTOMAT Collective](https://www.automatcollective.com/)
+- [Space 1026](https://space1026.com/)
+- [Grizzly Grizzly](https://grizzlygrizzly.com/)
+- [Tiger Strikes Asteroid Philadelphia](https://www.tigerstrikesasteroid.com/)
+- [Second State Press](https://secondstatepress.org/)
+- [Art in City Hall](https://www.creativephl.org/exhibitions/current/)
+- [Cheltenham Center for the Arts](https://cheltenhamarts.org/exhibits)
+- [Main Line Art Center](https://mainlineart.org/exhibitions/)
+- [Wayne Art Center](https://wayneart.org/exhibitions/)
+- [Perkins Center for the Arts — Collingswood](https://perkinsarts.org/exhibitions/)
+- [Camden FireWorks](https://camdenfireworks.org/exhibitions)
+- [The Gallery at Lower Bucks Campus](https://www.bucks.edu/culture/thegalleryatlowerbuckscampus/)
+- [AOY Art Center](https://www.aoyarts.org/events)
+- [Phillips' Mill Community Association](https://www.phillipsmill.org/)
+- [Mütter Museum](https://muttermuseum.org/on-view/)
+- [Science History Institute](https://www.sciencehistory.org/visit/exhibitions/)
+- [The Franklin Institute](https://fi.edu/en/exhibits-experiences)
+- [Wagner Free Institute of Science](https://www.wagnerfreeinstitute.org/events)
+- [The Schuylkill Center for Environmental Education](https://schuylkillcenter.org/environmental-art/)
+- [The Discovery Center](https://www.discoveryphila.org/)
+- [John James Audubon Center at Mill Grove](https://www.audubon.org/john-james/explore/art-john-james-audubon-center)
+- [Ambler Arboretum of Temple University](https://ambler.temple.edu/arboretum/visit)
+- [Scott Arboretum & Gardens of Swarthmore College](https://www.scottarboretum.org/)
+- [New Jersey State Museum](https://www.nj.gov/state/museum/index.shtml)
+- [Briar Bush Nature Center](https://briarbush.org)
+- [Silver Lake Nature Center](https://www.silverlakenaturecenter.org)
+- [Churchville Nature Center](https://www.churchvillenaturecenter.org)
+- [Cusano Environmental Education Center, John Heinz National Wildlife Refuge at Tinicum](https://www.fws.gov/refuge/john-heinz-tinicum/visit-us)
+- [Riverbend Environmental Education Center](https://riverbendeec.org)
+- [Stoneleigh: a natural garden](https://natlands.org/stoneleigh)
+- [Bowman's Hill Wildflower Preserve](https://bhwp.org/visit/)
+- [Pennypack Ecological Restoration Trust](https://pennypacktrust.org)
+- [Palmyra Cove Nature Park](https://www.palmyracove.org)
+- [Rancocas Nature Center](https://www.rancocasnaturecenter.org)
+- [Edelman Fossil Park & Museum of Rowan University](https://www.efm.org)
+- [Ashland Nature Center](https://delawarenaturesociety.org/visit/ashland-nature-center/)
+- [DuPont Environmental Education Center](https://delawarenaturesociety.org/visit/dupont-environmental-education-center/)
+- [Delaware Children's Museum](https://www.delawarechildrensmuseum.org)
+- [Honey Hollow Nature Center](https://www.honeyhollownaturecenter.org)
+- [Brandywine Creek State Park Nature Center](https://www.destateparks.com/park/brandywine-creek/)
+- [Penn Museum](https://www.penn.museum/on-view/galleries-exhibitions)
+- [Weitzman National Museum of American Jewish History](https://theweitzman.org/exhibitions/)
+- [African American Museum in Philadelphia](https://aampmuseum.org/exhibitions)
+- [Independence Seaport Museum](https://www.phillyseaport.org/current-exhibits/)
+- [National Liberty Museum](https://www.libertymuseum.org/exhibits/)
+- [Library Company of Philadelphia](https://librarycompany.org/calendar-2/)
+- [American Swedish Historical Museum](https://www.americanswedish.org/exhibitions)
+- [Fairmount Water Works Interpretive Center](https://fairmountwaterworks.org/events/)
+- [Betsy Ross House](https://historicphiladelphia.org/betsy-ross-house/visit/)
+- [Fort Mifflin](https://fortmifflin.us/events/)
+- [The Athenæum of Philadelphia](https://philaathenaeum.org/exhibitions/)
+- [First Bank of the United States](https://www.nps.gov/inde/planyourvisit/firstbank.htm)
+- [Carpenters' Hall](https://www.carpentershall.org/)
+- [Elfreth's Alley Museum](https://www.elfrethsalley.org/)
+- [Arch Street Meeting House](https://www.historicasmh.org/)
+- [Masonic Temple, Library & Museum](https://pamasonictemple.org/)
+- [Charles L. Blockson Afro-American Collection](https://library.temple.edu/blockson)
+- [Presbyterian Historical Society](https://pcusa.org/about-pcusa/agencies-entities/life-witness/ministry-areas/historical-society)
+- [Grand Army of the Republic Civil War Museum & Archive](https://garmuslib.org/)
+- [Temple University Shoe Museum](https://podiatry.temple.edu/shoe-museum)
+- [The Historical Society of Frankford](https://thehistoricalsocietyoffrankford.org/)
+- [The Richard Allen Museum at Mother Bethel AME Church](https://motherbethel.org/museum)
+- [Historic St. George's Museum & Archives](https://www.hsgmuseum.org/)
+- [Congregation Mikveh Israel](https://www.mikvehisrael.org/museum)
+- [The Philadelphia Contributionship](https://1752.com/about-us/history/)
+- [Gazela of Philadelphia](https://www.philashipguild.org/)
+- [National Shrine of Saint Rita of Cascia](https://www.saintritashrine.org/visit)
+- [Pennypacker Mills](https://www.montgomerycountypa.gov/928/Pennypacker-Mills)
+- [The Mill at Anselma](https://anselmamill.org/visit/)
+- [National Iron & Steel Heritage Museum](https://steelmuseum.org/)
+- [Historic Waynesborough](https://www.philalandmarks.org/contact-visit)
+- [Mercer Museum](https://www.mercermuseum.org/exhibits/)
+- [Fonthill Castle](https://www.mercermuseum.org/about/fonthill-castle/)
+- [Moravian Pottery and Tile Works](https://www.buckscounty.gov/2164/Moravian-Pottery-and-Tile-Works)
+- [Historic Fallsington](https://www.historicfallsington.org/tours)
+- [Camden County Historical Society](https://www.cchsnj.org/)
+- [Barclay Farmstead Museum](https://www.cherryhill-nj.com/barclay)
+- [Paulsdale](https://www.alicepaul.org/whats-on/)
+- [Roebling Museum](https://roeblingmuseum.org/atthemuseum)
+- [Historic Smithville Park](https://www.smithvillemansion.org/tours/)
+- [DePace Sports Museum & Library](https://depacemuseum.org/)
+- [Marvin Samson Museum for the History of Pharmacy](https://www.sju.edu/pharmacymuseum/visit)
+- [Special Collections Research Center, Temple University Libraries](https://library.temple.edu/exhibitions)
+- [Cultural Heritage Gallery, Rosemont College](https://rosemont.edu/college/library/cultural-heritage-gallery/)
+- [Barbara Bates Center for the Study of the History of Nursing](https://www.nursing.upenn.edu/history/exhibits/)
+- [Independence Hall](https://www.nps.gov/inde/planyourvisit/independencehall.htm)
+- [Thaddeus Kosciuszko National Memorial](https://www.nps.gov/thko/index.htm)
+- [Gloria Dei (Old Swedes') Church National Historic Site](https://www.nps.gov/glde/index.htm)
+- [Special Collections Research Center, Charles Library, Temple University](https://library.temple.edu/exhibitions)
+- [Heritage Center at the Union League of Philadelphia](https://foundingforward.org/public-events-and-exhibits/exhibits/)
+- [Valley Forge National Historical Park Visitor Center](https://www.nps.gov/vafo/index.htm)
+- [Washington Memorial Chapel and the Justice Bell](https://www.wmchapel.org/)
+- [Hopewell Furnace National Historic Site](https://www.nps.gov/hofu/index.htm)
+- [Washington Crossing Historic Park](https://www.washingtoncrossingpark.org/plan-your-visit/)
+- [Old Barracks Museum](https://barracks.org/visit/)
+- [Historic Batsto Village](https://www.batstovillage.org/)
+- [Historic Whitesbog Village](https://whitesbog.org/)
+- [Camden County Historical Society (Pomona Hall)](https://www.cchsnj.org/)
+- [Hagley Museum and Library](https://www.hagley.org/plan-your-visit)
+- [Kalmar Nyckel Foundation and Copeland Maritime Center](https://www.kalmarnyckel.org/visit/)
+- [Fort Delaware State Park](https://destateparks.com/History/FortDelaware)
+- [Historic Trappe](https://historictrappe.org/visit/exhibitions/)
+- [The Stoogeum](https://stoogeum.com/visit/)
+- [Haverford Township Historical Society (Nitre Hall)](https://haverfordhistoricalsociety.org/contact/)
+- [Newtown Historic Association](https://www.newtownhistoric.org/)
+- [Byers' Choice Christmas Museum](https://www.byerschoice.com/pages/christmas-museum)
+- [Alice Paul Center for Gender Justice at Paulsdale](https://www.alicepaul.org/visit/)
+- [Holocaust Awareness Museum and Education Center](https://www.hamec.org/)
+- [Beth Sholom Synagogue](https://www.bethsholompreservation.org/guided-tours)
+- [Boyertown Museum of Historic Vehicles](https://boyertownmuseum.org/visit-the-museum/)
+- [Marshall Steam Museum at Auburn Heights Preserve](https://auburnheights.org/visit/)
+- [Historical Dental Museum, Kornberg School of Dentistry](https://dentistry.temple.edu/about/museum)
+- [B. Free Franklin Post Office and Postal Museum](https://www.nps.gov/inde/planyourvisit/hours.htm)
+- [Stenton](https://www.stenton.org/programs)
+- [Wyck / Johnson House / Bartram's Garden](https://wyck.org/programs-events/)
+- [Shofuso Japanese Cultural Center](https://japanphilly.org/shofuso/)
+- [Historic Strawberry Mansion](https://www.historicstrawberrymansion.org/)
+- [Laurel Hill Mansion](https://laurelhillmansion.org/)
+- [Lemon Hill Mansion](https://www.parkcharms.org/lemon-hill)
+- [Woodford Mansion](https://www.woodfordmansion.org/)
+- [Mount Pleasant](https://www.parkcharms.org/mount-pleasant)
+- [Ebenezer Maxwell Mansion](https://ebenezermaxwellmansion.org/)
+- [Historic RittenhouseTown](https://rittenhousetown.org/)
+- [Awbury Arboretum](https://awbury.org/)
+- [Morris Arboretum & Gardens of the University of Pennsylvania](https://www.morrisarboretum.org/see-do/seasonal-exhibitions)
+- [The Woodlands](https://www.woodlandsphila.org/visit)
+- [Glen Foerd](https://www.glenfoerd.org/)
+- [Hope Lodge](https://www.historichopelodge.org/new-events)
+- [Chanticleer Garden](https://www.chanticleergarden.org/)
+- [Longwood Gardens](https://longwoodgardens.org/)
+- [Pottsgrove Manor](https://www.montgomerycountypa.gov/930/Pottsgrove-Manor)
+- [The Speaker's House](https://historictrappe.org/visit/)
+- [Cairnwood Estate](https://cairnwood.org/activities/historic-tours/)
+- [William Brinton 1704 House](https://brintonfamily.org/)
+- [Thomas Leiper House](https://nphistory.org/leiperhouse)
+- [Pearl S. Buck House](https://pearlsbuck.org/visit/)
+- [Moland House](https://www.moland.org/)
+- [Parry Mansion Museum](https://www.newhopehistorical.org/house-tours)
+- [Walt Whitman House](https://dep.nj.gov/parksandforests/state-park/walt-whitman-house/)
+- [Peter Mott House](https://www.petermotthouse.org/)
+- [Red Bank Battlefield Park and the Whitall House](https://www.gloucestercountynj.gov/671/Red-Bank-Battlefield)
+- [Olde Stone House Village](https://www.oldestonehousehistoricvillage.org/)
+- [Ukrainian Heritage Studies Center & Museum, Manor College](https://manor.edu/about/ukraine/ukrainian-heritage-studies-center/)
+- [Daniel Boone Homestead](https://www.thedanielboonehomestead.org/)
+- [1719 William Trent House Museum](https://www.williamtrenthouse.org/)
+- [Nemours Estate](https://www.nemoursestate.org/visit)
+- [New Castle Court House Museum](https://history.delaware.gov/new-castle-court-house-museum/)
+- [Amstel House Museum](https://www.newcastlehistory.org/museums)
+- [Dutch House Museum](https://www.newcastlehistory.org/museums)
+- [Hale-Byrnes House](https://halebyrneshouse.org/)
+- [Gabreil Daveis Tavern House](https://glotwp.com/information/history-of-gloucester-township-nj/)
+- [Smithville Mansion](https://smithvillemansion.org/)
 
-## Unreachable (43)
+## Unreachable (55)
 
-- [Museum for Art in Wood](https://museumforartinwood.org/exhibitions/) — 403
+- [ICA (Institute of Contemporary Art, Penn)](https://icaphila.org/exhibitions/) — no response fetch failed
 - [La Salle University Art Museum](https://artcollection.lasalle.edu/) — 500
 - [Cantor Fitzgerald Gallery, Haverford College](https://www.haverford.edu/exhibitions-program) — 403
 - [List Gallery, Swarthmore College](https://www.swarthmore.edu/list-gallery) — 202
+- [Community Arts Center](https://communityartscenter.org/art-exhibition/) — no response fetch failed
 - [James A. Michener Art Museum](https://www.michenerartmuseum.org/exhibitions/) — 403
-- [New Hope Arts Center](https://newhopearts.org/exhibitions/) — no response fetch failed
+- [New Hope Arts Center](https://newhopearts.org/exhibitions/) — 404
+- [Charles Addams Fine Arts Gallery](https://www.design.upenn.edu/fine-arts/undergraduate/resources/charles-addams-fine-arts-gallery) — 403
+- [Harvey & Irwin Kroiz Gallery, Architectural Archives of the University of Pennsylvania](https://www.design.upenn.edu/architectural-archives/visiting) — 403
 - [Widener University Art Gallery](https://www.widener.edu/about/campus-community-resources/art-gallery) — 403
+- [Rowan University Art Gallery & Museum (RUMOCA)](https://www.rowan.edu/arts/museum/exhibitions/) — 404
+- [RUMOCA at Westby Hall](https://www.rowan.edu/arts/museum/exhibitions/) — 404
 - [Gilroy Roberts Gallery, Community College of Philadelphia](https://www.ccp.edu/gilroy-roberts-gallery) — 403
 - [Barbara Crawford Gallery, Springside Chestnut Hill Academy](https://www.sch.org/learn/arts/visual-arts) — 404
 - [Fisher Fine Arts Library](https://www.library.upenn.edu/exhibits) — 403
 - [Chester County Art Association](https://www.chestercountyarts.org/west-chester-galleries.html) — 404
-- [Trenton City Museum at Ellarslie](https://ellarslie.org/exhibitions/) — 403
+- [ArtFusion 19464](https://artfusion19464.org/exhibits/) — no response fetch failed
+- [Please Touch Museum](https://www.pleasetouchmuseum.org/exhibits/) — no response fetch failed
 - [Haverford College Arboretum](https://www.haverford.edu/arboretum) — 403
-- [Woodford Cedar Run Wildlife Refuge](https://www.cedarrun.org) — 403
-- [Museum of the American Revolution](https://www.amrevmuseum.org/at-the-museum/exhibits) — 403
-- [Historical Society of Pennsylvania](https://hsp.org/exhibits) — 403
+- [Delaware Museum of Nature and Science](https://www.delmns.org/exhibits/) — no response fetch failed
+- [Tyler Arboretum](https://tylerarboretum.org/special-events/) — no response fetch failed
+- [Camden Children's Garden](https://camdenchildrensgarden.org) — 403
+- [Mt. Cuba Center](https://mtcubacenter.org/visit/) — no response fetch failed
+- [The Delaware Center for Horticulture](https://thedch.org) — no response fetch failed
 - [Free Library — Parkway Central](https://libwww.freelibrary.org/calendar/type/exhibitions) — 403
 - [Penn Libraries](https://www.library.upenn.edu/exhibits) — 403
 - [The Drexel Collection (Rincliffe Gallery and others)](https://drexel.edu/drexel-founding-collection/exhibitions-events/exhibit) — 404
-- [Fireman's Hall Museum](https://www.firemanshallmuseum.org/hours-admission/) — 403
+- [Mario Lanza Museum](https://www.mariolanzainstitute.org/) — 502
 - [Romanian Folk Art Museum](https://www.philadelphiaromanianfolkartmuseum.com/) — no response fetch failed
 - [Old St. Joseph's Church](https://oldstjoseph.org/visit/) — 403
+- [Philadelphia Folklore Project](https://folkloreproject.org/our-work/exhibitions/) — no response fetch failed
 - [National Shrine of Saint John Neumann](https://stjohnneumann.org/visit/) — 403
-- [Chester County History Center](https://mycchc.org/changing-exhibits/) — 403
-- [Greenfield Hall](https://haddonfieldhistory.org/) — 403
-- [Gloucester County Historical Society Museum](https://www.gchsnj.org/museum/) — 403
+- [Historical Society of Montgomery County](https://hsmcpa.org/) — no response fetch failed
+- [Goschenhoppen Folklife Museum](https://goschenhoppen.org/red-mens-hall-museums/) — no response fetch failed
+- [Historic Sugartown](https://historicsugartown.org/hours-directions/) — no response fetch failed
+- [Chadds Ford Historical Society](https://chaddsfordhistory.org/visit/) — no response fetch failed
+- [Newlin Grist Mill](https://newlingristmill.org/visit/) — no response fetch failed
+- [Pennsylvania Veterans Museum](https://paveteransmuseum.org/museum/) — no response fetch failed
 - [American Indian Heritage Museum](https://powhatanrenape.com/) — no response fetch failed
 - [Quaker & Special Collections, Haverford College](https://www.haverford.edu/libraries/exhibits-program/current-exhibits) — 403
 - [Friends Historical Library of Swarthmore College](https://www.swarthmore.edu/friends-historical-library/visit-fhl) — 202
 - [Swarthmore College Peace Collection](https://www.swarthmore.edu/peace-collection) — 202
-- [Independence Visitor Center](https://www.phlvisitorcenter.com/) — 403
 - [United States Mint, Philadelphia](https://www.usmint.gov/about/tours-and-locations/philadelphia/tour-philadelphia-mint) — 403
 - [Rare Book Department, Free Library of Philadelphia](https://libwww.freelibrary.org/locations/departments/rare-book-department) — 403
 - [Print and Picture Collection, Free Library of Philadelphia](https://libwww.freelibrary.org/locations/departments/print-and-picture-collection) — 403
 - [Kislak Center for Special Collections, Rare Books and Manuscripts](https://www.library.upenn.edu/exhibits) — 403
 - [Fort Mott State Park](https://dep.nj.gov/parksandforests/parks/fort-mott-state-park/) — 403
 - [Rockwood Park & Museum](https://www.newcastlede.gov/431/Rockwood-Park-Museum) — 403
+- [Newtown Square Railroad Museum](https://www.newtownsquarerailroadmuseum.org/) — no response fetch failed
+- [Historical Society of the Phoenixville Area](https://hspa-pa.org/visit-our-museum/) — no response fetch failed
 - [History of Italian Immigration Museum](http://www.filitaliainternational.com/museum-main) — 500
-- [Philadelphia City Hall Tower and Visitor Center](https://www.phlvisitorcenter.com/CityHall) — 403
-- [Cliveden](https://cliveden.org/events-3/) — 403
-- [Wharton Esherick Museum](https://whartonesherickmuseum.org/programs/) — 403
-- [Chestnut Hill Conservancy](https://chconservancy.org/exhibits/) — 403
-- [Colonial Pennsylvania Farmstead](https://colonialfarmstead.org/visit/hours-and-admission/) — 403
+- [Horwitz-Wasserman Holocaust Memorial Plaza](https://www.philaholocaustmemorial.org/) — no response fetch failed
+- [First Troop Philadelphia City Cavalry Museum](https://firsttroop.com/contact-us/) — no response timeout
+- [The Museum of Nursing History](https://nursinghistory.org/tour-the-museum/) — no response fetch failed
+- [Red Bank Battlefield Park and the James and Ann Whitall House](https://www.gloucestercountynj.gov/1377/Red-Bank-Battlefield-Tours) — 404
 
-## Redirected — the link in the data may be out of date (67)
+## Redirected — the link in the data may be out of date (66)
 
 - The Fabric Workshop and Museum: https://fabricworkshopandmuseum.org/exhibitions/ → https://fabricworkshopandmuseum.org/exhibitions/current/
 - Woodmere Art Museum: https://woodmeremuseum.org/experience/exhibitions → https://woodmeremuseum.org/exhibitions
 - The Plastic Club: https://plasticclub.org/exhibitions/ → https://www.plasticclub.org/open-calls
-- Charles Addams Fine Arts Gallery: https://www.design.upenn.edu/fine-arts/undergraduate/resources/charles-addams-fine-arts-gallery → https://www.design.upenn.edu/resources/exhibition-spaces
 - The Art Gallery at Delaware County Community College: https://www.dccc.edu/art-gallery → https://www.dccc.edu/the-arts/art-gallery/
 - The Delaware Contemporary: https://decontemporary.org/exhibitions/ → https://www.decontemporary.org/exhibitions/
 - Grizzly Grizzly: https://grizzlygrizzly.com/ → https://www.grizzlygrizzly.com/
 - Second State Press: https://secondstatepress.org/ → https://www.secondstatepress.org/
 - The Village of Arts and Humanities: https://www.villagearts.org/ → https://villagearts.org/
 - Camden FireWorks: https://camdenfireworks.org/exhibitions → https://www.camdenfireworks.org/exhibitions
-- Please Touch Museum: https://www.pleasetouchmuseum.org/exhibits/ → https://www.pleasetouchmuseum.org/learn/exhibits/
-- Delaware Museum of Nature and Science: https://www.delmns.org/exhibits/ → https://delmns.org/exhibits/
+- Trenton City Museum at Ellarslie: https://ellarslie.org/exhibitions/ → https://www.ellarslie.org/exhibitions/
 - Briar Bush Nature Center: https://briarbush.org → https://www.briarbush.org/
 - Silver Lake Nature Center: https://www.silverlakenaturecenter.org → https://silverlakenaturecenter.org/
 - Riverbend Environmental Education Center: https://riverbendeec.org → https://www.riverbendeec.org/
@@ -79,12 +288,12 @@ _none_
 - Pennypack Environmental Center: https://www.phila.gov/parks-rec-finder/#/location/pennypack-environmental-center/56a8f83e7a8cee5e3a25af42 → https://www.phila.gov/parks-rec-finder/
 - Cobbs Creek Community Environmental Education Center: https://www.phila.gov/parks-rec-finder/#/location/cobbs-creek-community-environmental-center/5a3d82449a5c40071b510df5 → https://www.phila.gov/parks-rec-finder/
 - Fairmount Park Horticulture Center: https://www.phila.gov/parks-rec-finder/#/location/horticulture-center-centennial-arboretum/56a8f8797a8cee5e3a25b127 → https://www.phila.gov/parks-rec-finder/
-- Mt. Cuba Center: https://mtcubacenter.org/visit/ → https://mtcubacenter.org/visit/plan/
 - Delaware Children's Museum: https://www.delawarechildrensmuseum.org → https://delawarechildrensmuseum.org/
 - Weitzman National Museum of American Jewish History: https://theweitzman.org/exhibitions/ → https://theweitzman.org/exhibitionsandcollections/
 - African American Museum in Philadelphia: https://aampmuseum.org/exhibitions → https://www.aampmuseum.org/current-exhibitions.html
 - Eastern State Penitentiary: https://www.easternstate.org/explore/exhibits → https://easternstate.org/historic-site/included-with-admission/exhibits
 - National Liberty Museum: https://www.libertymuseum.org/exhibits/ → https://www.libertymuseum.org/exhibitions/
+- Historical Society of Pennsylvania: https://hsp.org/exhibits → https://hsp.org/explore/exhibits
 - Simeone Foundation Automotive Museum: https://www.simeonemuseum.org/events/ → https://simeonemuseum.org/2026-events/
 - Fort Mifflin: https://fortmifflin.us/events/ → https://www.fortmifflin.us/events/
 - The Historical Society of Frankford: https://thehistoricalsocietyoffrankford.org/ → https://www.thehistoricalsocietyoffrankford.org/
@@ -92,13 +301,13 @@ _none_
 - Pennypacker Mills: https://www.montgomerycountypa.gov/928/Pennypacker-Mills → https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/historic-sites/pennypacker-mills
 - Peter Wentz Farmstead: https://www.montgomerycountypa.gov/929/Peter-Wentz-Farmstead → https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/historic-sites/peter-wentz-farmstead
 - Amy B. Yerkes Hatboro History Museum: https://millbrooksociety.org/ → https://www.millbrooksociety.org/
+- Chester County History Center: https://mycchc.org/changing-exhibits/ → https://mycchc.org/exhibits/changing-exhibits/
 - The Mill at Anselma: https://anselmamill.org/visit/ → https://anselmamill.org/visit-historic-working-mill
-- Chadds Ford Historical Society: https://chaddsfordhistory.org/visit/ → https://chaddsfordhistory.org/visit-us/
 - Brandywine Battlefield Park: https://www.brandywinebattlefield.org/visit → https://www.brandywinebattlefield.org/visit-2/
-- Newlin Grist Mill: https://newlingristmill.org/visit/ → https://newlingristmill.org/visit-us/
 - Camden County Historical Society: https://www.cchsnj.org/ → https://cchsnj.org/
 - Battleship New Jersey Museum and Memorial: https://www.battleshipnewjersey.org/visit/ → https://battleshipnewjersey.org/visit/
 - Roebling Museum: https://roeblingmuseum.org/atthemuseum → https://www.roeblingmuseum.org/atthemuseum
+- Gloucester County Historical Society Museum: https://www.gchsnj.org/museum/ → https://www.gchsnj.org/about-us/
 - Heritage Glass Museum: https://heritageglassmuseum.com/ → https://www.heritageglassmuseum.org/
 - The Robert and Penny Fox Historic Costume Collection: https://drexel.edu/foxcollection/plan-visit/overview/ → https://drexel.edu/foxcollection/plan-visit
 - Special Collections Research Center, Temple University Libraries: https://library.temple.edu/exhibitions → https://library.temple.edu/
@@ -109,12 +318,13 @@ _none_
 - Old Swedes Historic Site: https://www.oldswedes.org/ → https://oldswedes.org/
 - Fort Delaware State Park: https://destateparks.com/History/FortDelaware → https://www.destateparks.com/park/fort-delaware/
 - Historic Trappe: https://historictrappe.org/visit/exhibitions/ → https://historictrappe.org/exhibitions/
-- Newtown Square Railroad Museum: https://www.newtownsquarerailroadmuseum.org/ → https://newtownsquarerailroadmuseum.org/
 - Newtown Historic Association: https://www.newtownhistoric.org/ → https://newtownhistoric.org/
 - Byers' Choice Christmas Museum: https://www.byerschoice.com/pages/christmas-museum → https://byerschoice.com/pages/christmas-museum
 - Holocaust Awareness Museum and Education Center: https://www.hamec.org/ → https://hamec.org/
 - Harold F. Pitcairn Wings of Freedom Aviation Museum: https://wingsoffreedommuseum.org/visit/ → https://wingsoffreedommuseum.org/plan-your-visit/
+- Boyertown Museum of Historic Vehicles: https://boyertownmuseum.org/visit-the-museum/ → https://boyertownmuseum.org/visit/
 - Chanticleer Garden: https://www.chanticleergarden.org/ → https://chanticleergarden.org/
+- Chestnut Hill Conservancy: https://chconservancy.org/exhibits/ → https://chconservancy.org/archives/exhibits/
 - Pottsgrove Manor: https://www.montgomerycountypa.gov/930/Pottsgrove-Manor → https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/historic-sites/pottsgrove-manor
 - Morgan Log House: https://morganloghouse.org/visit/ → https://www.morganloghouse.org/visit/
 - William Brinton 1704 House: https://brintonfamily.org/ → https://www.brintonfamily.org/
@@ -126,62 +336,63 @@ _none_
 - Quakertown Historical Society: https://quakertownhistoricalsociety.org/ → https://www.quakertownhistoricalsociety.org/
 - Smithville Mansion: https://smithvillemansion.org/ → https://www.smithvillemansion.org/
 
-## Dropped, closed over a month ago (2)
+## Dropped, closed over a month ago (7)
 
-- GET IN THE CAR WE'RE GOING DANCING (closed 2026-08-30)
-- Faith & Freedom (closed 2026-09-04)
+- Surrounds (closed 2026-09-20)
+- Props & Performance (closed 2026-09-20)
+- Umber Majeed: Digital Handicrafts (closed 2026-09-25)
+- Elements (closed 2026-09-27)
+- DEEFORMA (closed 2026-09-25)
+- Members Show (closed 2026-09-27)
+- Paths to Independence, 1765–1787 (closed 2026-09-18)
 
-## Closing within 30 days — confirm before they vanish (47)
+## Closing within 30 days — confirm before they vanish (43)
 
-- Theater Gallery, Montgomery County Community College: Mathemalchemy (closes 2026-10-09)
-- Library Company of Philadelphia: Philadelphia's Radical Revolution: From the Stamp Act to the Federal Constitution (closes 2026-10-09)
-- Allens Lane Art Center: In Community (closes 2026-10-10)
-- Philadelphia Museum of Art: Workshop of the World: Arts and Crafts in Philadelphia (closes 2026-10-11)
-- Philadelphia Museum of Art: Van Gogh's Sunflowers: A Symphony in Blue and Yellow (closes 2026-10-11)
-- List Gallery, Swarthmore College: The Black West in Color (closes 2026-10-11)
-- Trenton City Museum at Ellarslie: Mercer County Photography 2026 (closes 2026-10-11)
-- AOY Art Center: Solo Show - Marta Jaramillo (closes 2026-10-11)
-- Barnes Foundation: Just Us (closes 2026-10-12)
-- PAFA (Pennsylvania Academy of the Fine Arts): In This Community: Arnab Gan Choudhury (closes 2026-10-12)
-- Twelve Gates Arts: Nihad Dukhan - Unbroken Lineages I (closes 2026-10-15)
-- Greenfield Hall: Haddonfield Through the Ages: Our Former Mayors (closes 2026-10-15)
-- Community Arts Center: Along the Schuylkill: Patrick Connors and His Circle (closes 2026-10-16)
-- Community Arts Center: Maxine Burkholder (closes 2026-10-16)
-- Cheltenham Center for the Arts: Dumpster Divers: Past, Present, Future (closes 2026-10-16)
-- InLiquid: No Other Place to Go (closes 2026-10-17)
-- Rowan University Art Gallery & Museum (RUMOCA): Diane Burko: Extraction, A Dialogue of Extremes (closes 2026-10-17)
-- Main Line Art Center: Suminagashi: Ink, Water & Presence (closes 2026-10-17)
-- The Athenæum of Philadelphia: Discourse & Discovery: Places of Gathering in Philadelphia (closes 2026-10-17)
-- Museum for Art in Wood: A Room of Their Own (closes 2026-10-18)
-- Schwenkfelder Library & Heritage Center: Southeastern Pennsylvania Longrifles—The Early Years (closes 2026-10-18)
-- Pearl S. Buck House: Pieced Together: American Quilts Across Generations (closes 2026-10-18)
-- Abington Art Center: Faculty, Staff, and Member Show (closes 2026-10-19)
-- Abington Art Center: Art Behind Bars (closes 2026-10-19)
-- McNichol Art Gallery, Neumann University: Delaware Valley Art League (closes 2026-10-20)
-- North Hall Gallery, Montgomery County Community College: Sequential: Book Arts by Rowan K. Briggs (closes 2026-10-23)
-- Main Line Art Center: Artists Equity: The Big Works Show (closes 2026-10-24)
-- Museum for Art in Wood: Out of Place: Windgate Residency 2026 (closes 2026-10-25)
-- Delaware Art Museum: Walls of Resistance: Art as Activism (closes 2026-10-25)
-- Simeone Foundation Automotive Museum: Foxbody: The People's Mustang (closes 2026-10-25)
-- Perkins Center for the Arts — Collingswood: Tom Gaines (closes 2026-10-28)
-- Perkins Center for the Arts — Collingswood: Written By Us (closes 2026-10-28)
-- Chester County Art Association: Members Show (closes 2026-10-28)
-- Chester County Art Association: Remember That Time (closes 2026-10-28)
-- The Plastic Club: Dare To Be Dada, In the Vitrine at the Plastic Club (closes 2026-10-29)
-- Art in City Hall: Founders of Philadelphia Sports (closes 2026-10-30)
-- Perkins Center for the Arts — Collingswood: Big Ink (closes 2026-10-30)
-- The Clay Studio: Operation Mud (closes 2026-10-31)
-- Science History Institute: Take Me Out to the Lab (closes 2026-10-31)
-- Philadelphia Museum of Art: Americana: Photographs 1850–1950 (closes 2026-11-01)
-- The Fabric Workshop and Museum: Jesse Krimes: Elegy Quilts (closes 2026-11-01)
-- Cherry Street Pier: Paul Ramírez Jonas' Let Freedom Ring (closes 2026-11-01)
-- Winterthur Museum, Garden & Library: Journey Through a Jug: Decoding Design (closes 2026-11-01)
-- Grizzly Grizzly: In Other Words (closes 2026-11-01)
-- Phillips' Mill Community Association: 97th Juried Art Show (closes 2026-11-01)
 - The Galleries at Moore: e bond '96 (closes 2026-11-07)
 - ArtFusion 19464: Anno Artem at ArtFusion (closes 2026-11-07)
+- Philadelphia's Magic Gardens: Ivette Chaires: Living Through Death (closes 2026-11-08)
+- Glencairn Museum: The Sacred Art of Ethiopia (closes 2026-11-08)
+- Brandywine Museum of Art: Treasures from the Family: The Gift of Betsy James Wyeth (closes 2026-11-08)
+- Historic Strawberry Mansion: From Invisible to Invincible: Honoring the Art of Color (closes 2026-11-08)
+- Patricia M. Nugent Gallery, Rosemont College: Alumni Exhibit (closes 2026-11-09)
+- Penn Libraries: History of Medical Education at Penn (Holman Biotech Commons) (closes 2026-11-09)
+- The Drexel Collection (Rincliffe Gallery and others): Exploring National Anniversaries Through the Atwater Kent Collection (closes 2026-11-13)
+- Special Collections Research Center, Temple University Libraries: Lightness and Movement: Artifacts from the Kaxinawá (closes 2026-11-13)
+- Special Collections Research Center, Charles Library, Temple University: Lightness and Movement: Artifacts from the Kaxinawá (closes 2026-11-13)
+- The Print Center: Ron Tarver: The Long Ride Home (closes 2026-11-14)
+- Taller Puertorriqueño: EN SU SITIO / IN ITS PLACE: Antonio Fiol-Silva: architecture + urbanism (closes 2026-11-14)
+- Wayne Art Center: Philadelphia Water Color Society: 126th International Exhibition of Works on Paper (closes 2026-11-14)
+- Free Library — Parkway Central: Coltrane's Philadelphia (closes 2026-11-14)
+- Vox Populi: An Endless Meeting: Collective Process, Artistic Labor, and the Politics of Working Together (closes 2026-11-15)
+- Asian Arts Initiative: Black + Gold Artists Exchange Pop-Up Exhibition (closes 2026-11-15)
+- Longwood Gardens: Chrysanthemum Festival (closes 2026-11-15)
+- Fleisher Art Memorial: Annual Faculty Exhibition (closes 2026-11-19)
+- Penn Libraries: Nursing the Revolution (Fagin Hall, Bates Center) (closes 2026-11-20)
+- Barbara Bates Center for the Study of the History of Nursing: Nursing the Revolution (closes 2026-11-20)
+- TILT Institute for the Contemporary Image: Eco-Social Realism: Historic Mural Activations (closes 2026-11-21)
+- AOY Art Center: Fine Crafts Show (closes 2026-11-22)
+- Cliveden: Looking Glass: Radical Americana (closes 2026-11-22)
+- Philip and Muriel Berman Museum of Art: Emily Wells: Fever (closes 2026-11-24)
+- Philip and Muriel Berman Museum of Art: Rebecca Rutstein: Universal Nature (closes 2026-11-24)
+- Philip and Muriel Berman Museum of Art: Between Archive and Afterlife: Haitian Painting and Politics after the Dictatorship (closes 2026-11-24)
+- The Plastic Club: American Color Print Society 86th Annual Fall Exhibition (closes 2026-11-25)
+- InLiquid: Let’s begin in the middle (closes 2026-11-28)
+- The Delaware Contemporary: Tree Watching (closes 2026-11-29)
+- The Delaware Contemporary: I Thought I Would _______ By Now (closes 2026-11-29)
+- Second State Press: Chance Encounter (closes 2026-11-29)
+- Germantown Historical Society / Historic Germantown: Rebellion and Remembrance in Freedom's Backyard (closes 2026-12-01)
+- Chester County Art Association: Bostelle, Freeland, & Haggerty (closes 2026-12-02)
+- Chester County Art Association: From the Archives (closes 2026-12-02)
+- The Art Gallery at Delaware County Community College: Meredith Sellers: Window/Frame (closes 2026-12-04)
+- Barbara Crawford Gallery, Springside Chestnut Hill Academy: Nature Vivante (closes 2026-12-04)
+- Temple Contemporary (Tyler School of Art): Anna Tsouhlarakis: Indigenous Irregularities (closes 2026-12-05)
+- Temple Contemporary (Tyler School of Art): DREAM DIFFERENT: A Wonder Rebellion (closes 2026-12-05)
+- The Galleries at Moore: Michelle Angela Ortiz: STORIES OF US (closes 2026-12-05)
+- Asian Arts Initiative: Avatopology 2.0: 9% Grin, 33% Groove (closes 2026-12-05)
+- Asian Arts Initiative: Rami George: from every river to every sea (closes 2026-12-05)
+- Fine Arts Center Gallery, Montgomery County Community College: A House with Cosmic Roots (closes 2026-12-05)
 
-## No exhibition on file (219)
+## No exhibition on file (220)
 
 - La Salle University Art Museum
 - Icebox Project Space
@@ -257,6 +468,7 @@ _none_
 - Germantown Mennonite Historic Trust
 - The Historical Society of Frankford
 - The Richard Allen Museum at Mother Bethel AME Church
+- Congregation Mikveh Israel
 - Romanian Folk Art Museum
 - The Philadelphia Contributionship
 - St. Peter's Church
