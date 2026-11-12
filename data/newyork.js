@@ -57,8 +57,7 @@ CITIES.push({
       { t: "Nilima Sheikh: Fractured Skies", s: "2026-09-27", e: "2027-06-13", d: "A solo show by the Indian painter Nilima Sheikh", dz: "印度画家尼利玛·谢赫个展" },
       { t: "The Surrealist Book: Tomorrow Lives in Mirrors", s: "2026-10-04", e: "2027-01-23", d: "Surrealist books and printed matter from the collection", dz: "馆藏超现实主义书籍与印刷品" },
       { t: "Brancusi: The Artist and His Studio", s: "2026-10-25", e: "2027-02-27", d: "Constantin Brancusi's sculpture shown alongside how he worked in his studio", dz: "布朗库西的雕塑与其工作室创作方式并陈" },
-      { t: "Odili Donald Odita: Songs from Life", s: "2025-04-08", eText: "Spring 2027", eTextz: "至 2027 年春", d: "A long-running installation by the painter Odili Donald Odita", dz: "画家奥迪利·唐纳德·奥迪塔的长期装置" },
-      { t: "Peggy Weil: Core Memory", s: "2026-03-07", e: "2026-10-04", d: "A media work by the artist Peggy Weil", dz: "艺术家佩吉·韦尔的影像作品" }
+      { t: "Odili Donald Odita: Songs from Life", s: "2025-04-08", eText: "Spring 2027", eTextz: "至 2027 年春", d: "A long-running installation by the painter Odili Donald Odita", dz: "画家奥迪利·唐纳德·奥迪塔的长期装置" }
     ] },
   { n: "MoMA PS1", nz: "现代艺术博物馆 PS1 分馆", a: "22-25 Jackson Avenue",
     h: "Thu–Mon 12–6, Sat from 10; closed Tue and Wed", hz: "周四–周一 12–18，周六 10 点开门；周二、周三闭馆",
@@ -149,7 +148,6 @@ CITIES.push({
     flagz: "三楼暂时关闭，门票低于平日价格；花园 9 月 14–22 日及 9 月 28 日–10 月 5 日不对外开放。",
     shows: [
       { t: "Design Across Time: Exploring the Smithsonian's Design Collection", eText: "Ongoing", eTextz: "长期", d: "Fills the whole first floor of the Carnegie Mansion with the national design collection", dz: "占据卡内基宅邸整个一层，展出国家设计收藏" },
-      { t: "Made in America: The Industrial Photography of Christopher Payne", e: "2026-09-27", d: "More than 70 large-format photographs of American factories and workshops", dz: "70 余幅美国工厂与作坊的大画幅照片" },
       { t: "The Substitute", e: "2027-01-31", d: "Alexandra Daisy Ginsberg's video and sound piece resurrecting the northern white rhino", dz: "亚历山德拉·黛西·金斯伯格以影像与声音重现北方白犀牛" }
     ] },
   { n: "El Museo del Barrio", nz: "巴里奥博物馆", a: "1230 Fifth Avenue",
@@ -166,10 +164,7 @@ CITIES.push({
     u: "https://madmuseum.org/exhibitions",
     shows: [
       { t: "Nike: Form Follows Motion", e: "2027-03-07", d: "Design and prototypes behind Nike's sportswear and footwear", dz: "耐克运动服饰与鞋履背后的设计与原型" },
-      { t: "Jessica Lichtenstein: Rewilding", e: "2027-04-18", d: "An installation by the artist Jessica Lichtenstein", dz: "艺术家杰西卡·利希滕斯坦的装置作品" },
-      { t: "Alice Riehl's Porcelain Florilegium", e: "2026-10-12", d: "Porcelain flowers and plant forms by Alice Riehl", dz: "爱丽丝·里尔以瓷制作的花卉与植物形态" },
-      { t: "2025 Burke Prize: Hai-Wen Lin", e: "2026-10-11", d: "Work by the winner of MAD's biennial craft prize", dz: "MAD 双年工艺奖得主的作品" },
-      { t: "OUT of the Jewelry Box", e: "2026-10-04", d: "Contemporary jewelry drawn from the museum's collection", dz: "馆藏当代首饰精选" }
+      { t: "Jessica Lichtenstein: Rewilding", e: "2027-04-18", d: "An installation by the artist Jessica Lichtenstein", dz: "艺术家杰西卡·利希滕斯坦的装置作品" }
     ] },
   { n: "American Folk Art Museum", nz: "美国民间艺术博物馆", a: "2 Lincoln Square",
     h: "Wed–Sun 11:30–6; closed Mon and Tue", hz: "周三–周日 11:30–18；周一、周二闭馆",
@@ -242,8 +237,6 @@ CITIES.push({
     p: "Adults $18, seniors and military $14, students $12; free 14 and under; $5 Thursdays 5–8",
     pz: "成人 $18，长者与军人 $14，学生 $12；14 岁以下免费；周四 17:00–20:00 $5", u: "https://www.icp.org/exhibitions",
     shows: [
-      { t: "Yves Saint Laurent and Photography", s: "2026-06-11", e: "2026-09-28", d: "Photographs made for and about the Yves Saint Laurent fashion house", dz: "围绕伊夫·圣罗兰时装屋拍摄的摄影作品" },
-      { t: "Photobooks USA 2000–25", s: "2026-06-11", e: "2026-09-28", d: "A survey of American photobooks published since 2000", dz: "2000 年以来美国摄影书的概览展" },
       { t: "I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now", s: "2026-10-15", e: "2027-01-11", d: "Survey of Japanese women photographers from the 1950s to the present", dz: "1950 年代至今的日本女性摄影师群展" },
       { t: "Laia Abril: On Rape and Institutional Failure", s: "2026-10-15", e: "2027-01-11", d: "Documentary project by Laia Abril on sexual violence and the institutions that fail it", dz: "莱娅·阿布里尔关于性暴力与制度失职的纪实项目" }
     ] },
@@ -251,8 +244,6 @@ CITIES.push({
     h: "Wed–Sun 12–6; closed Mon–Tue", hz: "周三–周日 12–18；周一、周二闭馆", p: "Free", pz: "免费",
     u: "https://drawingcenter.org/exhibitions", free: true,
     shows: [
-      { t: "Certainly an Act: Works on Paper by Pope.L", e: "2026-09-27", d: "Drawings and works on paper by the American artist Pope.L", dz: "美国艺术家 Pope.L 的素描与纸上作品" },
-      { t: "Drawing Connections: Student Exhibition", e: "2026-09-27", d: "Drawings made by students in the Drawing Center's education programme", dz: "素描中心教育项目学员的作品展" },
       { t: "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong", s: "2026-10-23", e: "2027-01-24", d: "Works on paper drawn from a Hong Kong private collection", dz: "选自香港一家私人收藏的纸上作品" }
     ] },
   { n: "Swiss Institute", nz: "瑞士学院", a: "250 Bowery",
@@ -277,7 +268,6 @@ CITIES.push({
     flag: "There is no visual-art installation in the Drill Hall right now; the autumn season is performance, sold as individual tickets.",
     flagz: "大厅目前没有视觉艺术装置；秋季节目为演出，需单独购票。",
     shows: [
-      { t: "The Cherry Orchard", s: "2026-09-16", e: "2026-09-26", d: "Simon Stone's staging of Chekhov's last play in the Wade Thompson Drill Hall", dz: "西蒙·斯通执导的契诃夫遗作，在军械库大厅上演" },
       { t: "Music for 18 Musicians: Staged Variations", s: "2026-10-14", e: "2026-10-18", d: "Staged version of Steve Reich's Music for 18 Musicians in the Drill Hall", dz: "史蒂夫·赖希《为十八位音乐家而作》的舞台版，大厅演出" },
       { t: "Balkan Erotic Epic", s: "2026-12-08", e: "2026-12-20", d: "Marina Abramović performance work that the audience walks through in the Drill Hall", dz: "玛丽娜·阿布拉莫维奇的表演作品，观众可在大厅内穿行" }
     ] },
@@ -310,8 +300,6 @@ CITIES.push({
     p: "Pay what you wish; suggested donation $10; free for caregivers accompanying visitors with disabilities",
     pz: "随意付费；建议捐赠 $10；陪同残障访客的照护者免费", u: "https://leslielohman.org/exhibitions", free: true,
     shows: [
-      { t: "Soft Spaces: Evan Paul English and Leasho Johnson", s: "2026-08-12", e: "2026-09-27", d: "Two-person show of work by Evan Paul English and Leasho Johnson", dz: "埃文·保罗·英格利什与里绍·约翰逊双人展" },
-      { t: "Rocío García: The Object of Power is Power", s: "2026-05-06", e: "2026-09-20", d: "Solo exhibition of work by the Cuban artist Rocío García", dz: "古巴艺术家罗西奥·加西亚个展" },
       { t: "Shu Lea Cheang: LOVER LOVE", s: "2026-04-03", e: "2027-01-03", d: "Solo show by the new media artist Shu Lea Cheang", dz: "新媒体艺术家郑淑丽个展" },
       { t: "Hortensia Mi Kafchin: Through Different Eyes", s: "2026-02-20", e: "2027-01-03", d: "Solo exhibition by the Romanian artist Hortensia Mi Kafchin", dz: "罗马尼亚艺术家霍滕西娅·米·卡夫钦个展" },
       { t: "PROPS: Eikoh Hosoe and Jason Wee", s: "2026-11-06", e: "2027-03-14", d: "Two-person show pairing the Japanese photographer Eikoh Hosoe with Jason Wee", dz: "日本摄影家细江英公与艺术家杰森·维双人展" }
@@ -438,9 +426,7 @@ CITIES.push({
     h: "Wed–Sat 12–8, Sun 12–5", hz: "周三–周六 12–20，周日 12–17",
     p: "Adults $12; children 6–17 and students $8; seniors and visitors with disabilities $5; EBT cardholders $4; children under 6 free",
     pz: "成人 $12；6–17 岁儿童及学生 $8；老年人及残障人士 $5；EBT 持卡人 $4；6 岁以下免费", u: "https://mocada.org/explore/",
-    shows: [
-      { t: "Pitch Black: Haiti and Congo Revisited", s: "2026-06-12", e: "2026-10-11", d: "Art and 1974 World Cup archives linking Haiti and the Congo", dz: "以 1974 年世界杯为线索，连结海地与刚果的艺术与档案" }
-    ] },
+    shows: [] },
   { n: "Pioneer Works", nz: "先锋工厂", a: "159 Pioneer Street",
     h: "Wed–Sun 12–6", hz: "周三–周日 12–18", p: "Free", pz: "免费",
     u: "https://pioneerworks.org/exhibitions", free: true,
@@ -475,7 +461,6 @@ CITIES.push({
     u: "https://www.themorgan.org/exhibitions",
     shows: [
       { t: "Hujar: Contact", s: "2026-05-22", e: "2026-10-25", d: "Peter Hujar's contact sheets, showing how the photographer chose his pictures", dz: "摄影师 Peter Hujar 的印样，呈现其选片过程" },
-      { t: "Tarot! Renaissance Symbols, Modern Visions", s: "2026-06-26", e: "2026-10-04", d: "Renaissance tarot cards shown with work by modern and contemporary artists", dz: "文艺复兴塔罗牌与现当代艺术作品并置" },
       { t: "Fantasy and Reality: The Art of Johan Tobias Sergel", s: "2026-10-23", e: "2027-01-31", d: "Drawings by the 18th-century Swedish sculptor Johan Tobias Sergel", dz: "十八世纪瑞典雕塑家 Sergel 的素描作品" },
       { t: "Graphic Devotions: Late Medieval European Blockbooks", s: "2026-10-30", e: "2027-01-31", d: "Late medieval devotional books printed from carved woodblocks, before movable type", dz: "中世纪晚期木刻版宗教书籍，早于活字印刷" },
       { t: "Ragtime: Cakewalk in Pianoland", s: "2026-11-06", e: "2027-05-16", d: "American ragtime piano music, drawn from the Morgan's music collections", dz: "以摩根音乐收藏呈现美国拉格泰姆钢琴音乐" },
@@ -664,7 +649,6 @@ CITIES.push({
     pz: "成人 $15；65 岁以上长者、学生、13–24 岁青年、现役与退伍军人 $10；3–12 岁 $5；3 岁以下免费",
     u: "https://museumofthedog.org/visit/exhibitions/",
     shows: [
-      { t: "Dog Days of Summer: Member Art Competition", s: "2026-07-16", e: "2026-09-27", d: "Artwork submitted by the museum's own members in an annual competition", dz: "博物馆会员年度艺术竞赛的参赛作品" },
       { t: "47th Annual AKC Publications Photo Contest Winners", s: "2026-07-16", e: "2026-11-01", d: "Six winning photographs from the AKC Family Dog magazine contest", dz: "AKC 杂志摄影比赛的六幅获奖作品" },
       { t: "Xoloitzcuintle", s: "2026-10-01", e: "2027-01-10", d: "Mexico's ancient hairless breed, one of the oldest dogs in the world", dz: "墨西哥无毛犬，世界最古老犬种之一" },
       { t: "Salukis and the Dogs of the Desert", s: "2027-01-20", e: "2027-06-20", d: "Marks 100 years of AKC recognition for the Saluki and its desert relatives", dz: "纪念萨路基猎犬获 AKC 认可一百周年" }
@@ -761,15 +745,11 @@ CITIES.push({
   { n: "Westbeth Gallery", nz: "西贝斯画廊", a: "55 Bethune Street",
     h: "Wed–Sun 1–6; closed Mon–Tue", hz: "周三–周日 13–18；周一、周二闭馆", p: "Free", pz: "免费",
     u: "https://westbeth.org/about/westbeth-gallery/", free: true,
-    shows: [
-      { t: "Imprints of Becoming: Traces, Temporalities, and the Unfixed Paradise", s: "2026-09-13", e: "2026-10-07", d: "Group show at the artists'-housing gallery on trace, time and things left unfixed.", dz: "艺术家公寓画廊群展，主题为痕迹、时间与未定之物" }
-    ] },
+    shows: [] },
   { n: "The Painting Center", nz: "绘画中心", a: "547 West 27th Street, Suite 500",
     h: "Tue 10–4, Wed–Sat 11–6", hz: "周二 10–16，周三–周六 11–18", p: "Free", pz: "免费",
     u: "https://www.thepaintingcenter.org/exhibitions2026", free: true,
     shows: [
-      { t: "Megan Marlatt: Myths and Mummers", s: "2026-09-01", e: "2026-09-26", d: "Paintings by Megan Marlatt drawing on mumming traditions and folk myth, in the main gallery.", dz: "梅根·马拉特绘画，取材民间假面游行与神话" },
-      { t: "Jane Zweibel: Dreams in Action", s: "2026-09-01", e: "2026-09-26", d: "Paintings by Jane Zweibel in the Painting Center's project room.", dz: "简·兹威贝尔绘画，于项目空间展出" },
       { t: "Kathleen Beausoleil: Meet at The Ferris Wheel", s: "2026-09-29", e: "2026-10-24", d: "Paintings by Kathleen Beausoleil in the main gallery.", dz: "凯瑟琳·博索莱伊绘画，于主展厅展出" },
       { t: "Ellen Starr Lyon: Nesting Rituals", s: "2026-09-29", e: "2026-10-24", d: "Paintings by Ellen Starr Lyon in the project room.", dz: "艾伦·斯塔尔·里昂绘画，于项目空间展出" }
     ] },
@@ -849,29 +829,20 @@ CITIES.push({
     u: "https://lmcc.net/lmcc-arts-center-at-governors-island/", free: true,
     flag: "Reached only by ferry from the Battery Maritime Building - check the last boat back",
     flagz: "只能从 Battery Maritime Building 乘渡轮前往，请留意末班船时间",
-    shows: [
-      { t: "Leslie Wayne: The Unintended Blues", s: "2026-07-24", e: "2026-09-27", d: "Aerial landscape paintings of rising seas, eroding US shorelines and Arctic ice", dz: "以俯瞰视角描绘海平面上升、美国海岸侵蚀与北极冰川的绘画" },
-      { t: "The Tempestry Project", s: "2026-05-16", e: "2026-09-27", d: "Sixteen hand-knitted panels, each turning a year of New York daily temperatures into colour", dz: "十六幅手工编织挂毯，各以颜色呈现纽约一年的每日气温" }
-    ] },
+    shows: [] },
   { n: "Onassis ONX", nz: "奥纳西斯 ONX", a: "390 Broadway, 4th Floor",
     h: "Open only during announced showcase runs; no regular gallery hours",
     hz: "仅在公布的展演期间开放，无常规展厅时间", p: "Admission varies by showcase; check the event listing",
     pz: "票价视每场展演而定，请查看活动页面", u: "https://www.onx.studio/",
     flag: "Moved from Midtown to Tribeca; the space opens only for scheduled showcase runs, not daily",
     flagz: "已从中城迁至翠贝卡；仅在排定的展演档期开放，并非每日开放",
-    shows: [
-      { t: "What Remains", s: "2026-09-25", e: "2026-10-04", d: "Abandoned theaters given a speculative digital afterlife in an XR work", dz: "以 XR 作品为废弃剧院构想出的数字来世" }
-    ] },
+    shows: [] },
   { n: "A.I.R. Gallery", nz: "A.I.R. 画廊", a: "155 Plymouth Street",
     h: "Wed–Sun 12–6", hz: "周三–周日 12–18", p: "Free", pz: "免费",
     u: "https://www.airgallery.org/current", free: true,
     flag: "Due to move to Manhattan's West Village in early 2027 — check the address before travelling",
     flagz: "预计 2027 年初迁往曼哈顿西村，出发前请确认地址",
-    shows: [
-      { t: "Inevitable, inveterate", s: "2026-09-05", e: "2026-10-04", d: "Fourteen artists in a curated group show in Gallery I", dz: "14 位艺术家参加的策展群展，设于一号展厅" },
-      { t: "La Cosecha (The Harvest)", s: "2026-09-05", e: "2026-10-04", d: "Solo show by Romina Chuls in Gallery II", dz: "Romina Chuls 个展，设于二号展厅" },
-      { t: "between the skin and flesh, a thing", s: "2026-09-05", e: "2026-10-04", d: "Solo show by Mae Howard in Gallery III", dz: "Mae Howard 个展，设于三号展厅" }
-    ] },
+    shows: [] },
   { n: "UrbanGlass", nz: "城市玻璃艺术中心", a: "647 Fulton Street",
     h: "Tue–Sat 11–7, Sun 11–5, closed Mondays", hz: "周二–周六 11–19，周日 11–17；周一闭馆", p: "Free",
     pz: "免费", u: "https://urbanglass.org/events", free: true,
@@ -884,10 +855,7 @@ CITIES.push({
   { n: "NARS Foundation", nz: "NARS 基金会", a: "201 46th Street, 4th Floor",
     h: "Mon–Fri 12–5", hz: "周一–周五 12–17", p: "Free", pz: "免费",
     u: "https://www.narsfoundation.org/exhibitions/current-and-upcoming-exhibitions", free: true,
-    shows: [
-      { t: "Subject to...", s: "2026-08-28", e: "2026-09-15", d: "Group show by artists finishing the International Residency programme", dz: "国际驻地项目结业艺术家群展" },
-      { t: "…and the Cosmos returns to claim its place", s: "2026-08-28", e: "2026-09-25", d: "Solo exhibition by a NARS resident artist", dz: "NARS 驻地艺术家个展" }
-    ] },
+    shows: [] },
   { n: "Kentler International Drawing Space", nz: "肯特勒国际绘画空间", a: "353 Van Brunt Street",
     h: "Thu–Sun 12–5 during exhibitions", hz: "展览期间周四–周日 12–17", p: "Free", pz: "免费",
     u: "https://www.kentlergallery.org/Listing/upcoming_exhibitions", free: true,
@@ -907,17 +875,12 @@ CITIES.push({
     h: "Mon–Fri 10:30–5:30", hz: "周一–周五 10:30–17:30", p: "Free", pz: "免费",
     u: "https://iscp-nyc.org/exhibitions", free: true,
     flag: "Weekdays only — the galleries are closed at weekends", flagz: "仅工作日开放，周末闭馆",
-    shows: [
-      { t: "Hans Rosenström: Conspirare", s: "2026-06-30", e: "2026-10-09", d: "Site-specific sound installations drawn from the ecology of Newtown Creek", dz: "取材于牛顿溪生态的在地声音装置" },
-      { t: "Bryan Fernandez: En tránsito", s: "2026-06-30", e: "2026-10-09", d: "Paintings, collage and sculpture on transit, diaspora and surveillance", dz: "以绘画、拼贴与雕塑探讨交通、离散与监控" }
-    ] },
+    shows: [] },
   { n: "Residency Unlimited", nz: "无限驻地艺术中心", a: "360 Court Street, Unit 4",
     h: "Mon–Fri 10–6; exhibitions and events at published times", hz: "周一–周五 10–18；展览与活动按公布时间开放",
     p: "Free", pz: "免费", u: "https://residencyunlimited.org/programs/", free: true,
     shows: [
       { t: "Out of Sight: Social & Architectural Camouflage", s: "2026-09-16", d: "Exhibition on camouflage in social life and in architecture", dz: "关于社会生活与建筑中的伪装的展览" },
-      { t: "Something's Glitching in the House", s: "2026-09-19", e: "2026-09-27", d: "Nine-day exhibition in RU's Carroll Gardens church building", dz: "为期九天的展览，在卡罗尔花园教堂空间举行" },
-      { t: "Eva Aeppli – Cheers for life, cheers for death", s: "2026-10-01", e: "2026-10-01", d: "One-evening film screening on the artist Eva Aeppli, 6:30pm", dz: "关于艺术家 Eva Aeppli 的影片放映，单场 18:30" },
       { t: "Borrowed Skin", s: "2026-10-21", e: "2026-10-21", d: "One-evening film screening, 6:30pm", dz: "单场影片放映，18:30" }
     ] },
   { n: "e-flux", nz: "e-flux 艺术平台", a: "172 Classon Avenue",
@@ -927,13 +890,7 @@ CITIES.push({
     u: "https://www.e-flux.com/events/",
     flag: "No walk-in gallery hours — visits are tied to scheduled evening screenings and talks",
     flagz: "无随到随看的开放时间——参观须配合晚间放映与讲座的场次",
-    shows: [
-      { t: "Andrei Ujică: Images in the World, Images in the Mind", s: "2026-09-15", e: "2026-09-15", d: "Evening screening and talk in the e-flux Screening Room, 7pm", dz: "e-flux 放映厅的晚间放映与对谈，19:00" },
-      { t: "Rehearsal Behavior. I: Chantal Akerman and Shirley Clarke", s: "2026-09-17", e: "2026-09-17", d: "First part of a film programme on rehearsal, 7pm", dz: "以排演为题的影展第一场，19:00" },
-      { t: "Rehearsal Behavior. II: Yvonne Rainer", s: "2026-09-19", e: "2026-09-19", d: "Second part of the same film programme, 3pm", dz: "同一影展第二场，15:00" },
-      { t: "Art and Theory Today: Readings from the Index", s: "2026-09-22", e: "2026-09-22", d: "Evening of readings and discussion at e-flux, 7pm", dz: "e-flux 的朗读与讨论之夜，19:00" },
-      { t: "Planetary Afterimages: After The Short Century", s: "2026-09-24", e: "2026-09-24", d: "Afternoon programme in the Screening Room, 5pm", dz: "放映厅的下午场节目，17:00" }
-    ] },
+    shows: [] },
   { n: "Recess", nz: "Recess 艺术空间", a: "46 Washington Avenue",
     h: "Thu–Sat 12–5", hz: "周四–周六 12–17", p: "Free", pz: "免费",
     u: "https://www.recessart.org/explore", free: true,
@@ -960,8 +917,6 @@ CITIES.push({
     h: "Daily 10–6", hz: "每天 10–18", p: "Free", pz: "免费", u: "https://acfny.org/exhibitions/",
     free: true,
     shows: [
-      { t: "Dietmar Feichtinger: Architecture of Connection", s: "2026-03-05", e: "2026-09-26", d: "Bridges, schools and transit buildings by the Austrian architect, in drawings and photographs", dz: "奥地利建筑师的桥梁、学校与交通建筑，以图纸与摄影呈现" },
-      { t: "The ALBERTINA Museum: Celebrating 250 Years", s: "2026-05-11", e: "2026-09-25", d: "A travelling display marking the 250th anniversary of the Vienna graphic-art museum", dz: "维也纳阿尔贝蒂娜博物馆 250 周年巡回展" },
       { t: "Erwin Wurm: Chamber Play with Jackson Pollock and Samuel Beckett", sText: "Upcoming", sTextz: "即将开幕", d: "Announced solo show by the Austrian sculptor; the museum has not published dates yet", dz: "奥地利雕塑家个展，馆方尚未公布日期" }
     ] },
   { n: "L'Alliance New York (FIAF Gallery)", nz: "纽约法语联盟（FIAF 画廊）", a: "22 East 60th Street",
@@ -1048,8 +1003,6 @@ CITIES.push({
     flag: "In Bayside, Queens, on the Queensborough Community College campus; weekends are appointment-only",
     flagz: "位于皇后区 Bayside 的皇后区社区学院校园内；周末仅接受预约",
     shows: [
-      { t: "The Art of Central Africa: Forms & Traditions", s: "2026-05-28", e: "2026-09-23", d: "Sculpture, masks and court objects from cultures across Central Africa", dz: "中非各文化的雕塑、面具与宫廷器物" },
-      { t: "Visual Archaeology", s: "2026-07-02", e: "2026-09-25", d: "Ink-and-wash paintings by Qingji Wei reworking the language of the medium", dz: "魏青吉水墨作品，重塑水墨语言" },
       { t: "The Call That Changed Everything: Honoring EMTs and Paramedics 25 Years Later", s: "2026-09-10", eText: "No closing date published", eTextz: "未公布闭展日期", d: "Tribute to the emergency medical crews who answered the call on September 11", dz: "致敬 9·11 当天出动的急救人员" }
     ] },
   { n: "Kingsborough Art Museum", nz: "金斯伯勒艺术博物馆", a: "2001 Oriental Boulevard",
@@ -1122,7 +1075,6 @@ CITIES.push({
     h: "Mon–Sat 10–6", hz: "周一–周六 10–18", p: "Free", pz: "免费",
     u: "https://sva.edu/about/sva-gallery-exhibitions", free: true,
     shows: [
-      { t: "Building Books. Corraini Edizioni: Children, Art, Design, and Everything Else", s: "2026-09-08", e: "2026-09-28", d: "Illustrated books and projects from the Italian publisher Corraini Edizioni", dz: "意大利 Corraini 出版社的插画书与相关项目" },
       { t: "BFA Fine Arts Exhibition 2026", s: "2026-10-06", e: "2026-10-24", d: "Work by students and alumni of SVA's BFA Fine Arts programme", dz: "SVA 纯艺术本科学生与校友作品展" }
     ] },
   { n: "41 Cooper Gallery", nz: "41 Cooper 画廊", a: "41 Cooper Square",
@@ -1136,9 +1088,7 @@ CITIES.push({
   { n: "Arthur A. Houghton Jr. Gallery, The Cooper Union", nz: "库珀联盟亚瑟·A·霍顿二世画廊", a: "7 East 7th Street, Foundation Building",
     h: "Mon–Fri 12–7, Sat–Sun 12–6", hz: "周一–周五 12–19，周六–周日 12–18", p: "Free", pz: "免费",
     u: "https://cooper.edu/events-and-exhibitions/exhibitions", free: true,
-    shows: [
-      { t: "What Else Could It Mean?", s: "2026-09-03", e: "2026-09-27", d: "Drawings, photographs and artifacts by James Wines and his firm SITE", dz: "詹姆斯·瓦恩斯与 SITE 事务所的图纸、照片与实物" }
-    ] },
+    shows: [] },
   { n: "Art Gallery at Pace University", nz: "佩斯大学艺术画廊", a: "41 Park Row, 1st floor, Spruce Street entrance",
     h: "Tue–Sat 12:30–4:30, Thu until 7", hz: "周二–周六 12:30–16:30，周四至 19:00", p: "Free", pz: "免费",
     u: "https://www.pace.edu/dyson/life-dyson/art-gallery", free: true,
@@ -1240,7 +1190,6 @@ CITIES.push({
     flag: "In Yonkers, about 30 minutes on the Metro-North Hudson Line from Grand Central to Glenwood; Glenview, the 1876 historic house, is closed for restoration",
     flagz: "位于 Yonkers，从中央车站乘 Metro-North 哈德逊线约 30 分钟至 Glenwood；1876 年历史宅邸 Glenview 正在修缮，暂停开放",
     shows: [
-      { t: "Teens Seen: Art Showcase", s: "2026-06-12", e: "2026-10-04", d: "A showcase of artwork made by local teenagers", dz: "本地青少年创作的作品展示" },
       { t: "Ever Becoming: Our Stories, Our America", s: "2026-01-09", e: "2027-01-03", d: "A yearlong exhibition about American identity and the stories behind it", dz: "为期一年的展览，关于美国的身份认同与背后的故事" },
       { t: "Exquisite Creatures", s: "2026-09-18", e: "2027-01-31", d: "A new exhibition opening in September; the museum has not yet published a description", dz: "9 月开幕的新展，馆方尚未公布展览介绍" },
       { t: "Borinquen Gallo: Jungle Bliss", s: "2026-09-18", e: "2027-03-14", d: "A solo exhibition by the artist Borinquen Gallo, opening in September", dz: "艺术家 Borinquen Gallo 个展，9 月开幕" },
@@ -1288,7 +1237,6 @@ CITIES.push({
     flag: "In Rye, about 40 minutes on the Metro-North New Haven Line from Grand Central",
     flagz: "位于 Rye，从中央车站乘 Metro-North 纽黑文线约 40 分钟",
     shows: [
-      { t: "Julia iSabel: The Image of a Sound", s: "2026-09-17", e: "2026-10-03", d: "Solo show by a single artist in the main gallery", dz: "主展厅的个人作品展" },
       { t: "The BIG Show by Mamaroneck Artist Guild", s: "2026-11-16", e: "2026-12-19", d: "Annual open group show by a local artists' guild", dz: "本地艺术家协会的年度群展" },
       { t: "Katonah Museum Artists' Association", s: "2027-01-09", e: "2027-02-13", d: "Group show drawn from a neighbouring museum's artist association", dz: "邻近博物馆艺术家协会的群展" },
       { t: "Rye City School Art Department Showcase", s: "2027-02-25", e: "2027-03-17", d: "Work by pupils from the local public schools", dz: "当地公立学校学生作品展" },
@@ -1321,7 +1269,6 @@ CITIES.push({
     flag: "In Nyack, about 45 minutes from Midtown by car or express bus over the Mario Cuomo Bridge",
     flagz: "位于 Nyack，从中城驾车或乘快线巴士经 Mario Cuomo 大桥约 45 分钟",
     shows: [
-      { t: "James Prosek: Memory, Trees & Shadows", s: "2026-05-08", e: "2026-10-04", d: "Paintings and works on paper about trees, shadow and what a place leaves behind", dz: "关于树木、阴影与地方记忆的绘画与纸上作品" },
       { t: "Susan Chen: Rooms By The Sea", s: "2026-10-10", e: "2027-02-21", d: "New paintings of interiors, taking their title from a Hopper canvas", dz: "以霍珀同名画作为题的室内场景新作" },
       { t: "Edward Hopper's Bedroom: Reimagined", d: "The artist's own upstairs bedroom in the house, reinstalled as a display", dz: "艺术家本人在这栋房子里的楼上卧室，重新布置展出" }
     ] },
@@ -1377,7 +1324,6 @@ CITIES.push({
     flag: "In Stamford, CT, about 50 minutes by Metro-North from Grand Central",
     flagz: "位于康州 Stamford，从中央车站乘 Metro-North 约 50 分钟",
     shows: [
-      { t: "Artist Pop-Up Show", s: "2026-08-27", e: "2026-09-18", d: "A short pop-up of members’ work in the Townhouse Gallery", dz: "会员作品在联排屋画廊的短期快闪展" },
       { t: "World Cultures Show", s: "2026-09-10", e: "2027-01-07", d: "Members’ work on world cultures, hung at the Ferguson Library", dz: "以世界文化为题的会员展，在 Ferguson 图书馆展出" },
       { t: "Latin American & Caribbean Celebration & Art Exhibition", s: "2026-09-24", e: "2026-10-22", d: "Group show marking Latin American and Caribbean heritage", dz: "拉美与加勒比文化主题群展" },
       { t: "Faber Birren Color Award Exhibit", s: "2026-11-15", e: "2026-12-18", d: "The association’s annual juried colour award exhibition", dz: "协会一年一度的色彩奖评审展" }
@@ -1613,7 +1559,6 @@ CITIES.push({
     h: "Mon–Thu 11–4", hz: "周一–周四 11–16", p: "Free", pz: "免费", u: "https://www.macyartgallery.com/",
     free: true,
     shows: [
-      { t: "September Primer", s: "2026-09-02", e: "2026-09-30", d: "Open-call group show of work across a wide range of media", dz: "公开征集的群展，媒介广泛" },
       { t: "Emotional Liminality", s: "2026-10-12", d: "Autumn group show on states of transition; reception 15 October", dz: "以过渡状态为题的秋季群展，10 月 15 日开幕酒会" },
       { t: "Five Years", s: "2026-10-12", d: "Second autumn show opening the same day; reception 15 October", dz: "同日开幕的第二场秋季展，10 月 15 日酒会" },
       { t: "Myers Prize Exhibition - Intervene (Interconnectedness)", s: "2026-11-16", d: "Juried prize show on intervention and interconnectedness; juror talk 19 November", dz: "以“介入与互联”为题的评审奖项展，11 月 19 日评委讲座" }
@@ -1636,7 +1581,6 @@ CITIES.push({
     h: "Mon–Sat 10–6", hz: "周一–周六 10–18", p: "Free", pz: "免费",
     u: "https://sva.edu/events/search/type/Exhibition", free: true,
     shows: [
-      { t: "Brad Holland: Making It Personal", s: "2026-09-08", e: "2026-09-19", d: "Work by illustrator Brad Holland, presented by the BFA Illustration and Cartooning department", dz: "插画家 Brad Holland 作品展，由本科插画与漫画系主办" },
       { t: "HERE:", s: "2026-09-26", e: "2026-10-17", d: "Photographs by the MPS Digital Photography class; reception 25 September", dz: "数字摄影硕士班摄影作品，9 月 25 日开幕酒会" },
       { t: "BFA Photography and Video Exhibition 2026", s: "2026-10-23", e: "2026-11-14", d: "Annual undergraduate photography and video department show", dz: "本科摄影与影像系年度作品展" },
       { t: "MFA Illustration as Visual Essay Exhibition 2026", s: "2026-11-21", e: "2026-12-09", d: "Narrative and editorial illustration by graduate students", dz: "插画硕士生的叙事与编辑类插画" }
@@ -1650,9 +1594,7 @@ CITIES.push({
   { n: "New York Academy of Art Exhibitions Gallery", nz: "纽约艺术学院展览画廊", a: "111 Franklin Street",
     h: "Not published — check before visiting", hz: "未公布，出行前请查询官网", p: "Free", pz: "免费",
     u: "https://nyaa.edu/exhibitions-gallery/", free: true,
-    shows: [
-      { t: "2026 Chubb Fellows Exhibition", s: "2026-08-24", e: "2026-09-23", d: "New paintings and sculpture by three post-graduate fellows of the Academy", dz: "学院三位博士后驻留研究员的新绘画与雕塑" }
-    ] },
+    shows: [] },
   { n: "Steinberg Museum of Art at Hillwood", nz: "希尔伍德斯坦伯格艺术博物馆", a: "LIU Post, 720 Northern Boulevard",
     h: "Mon–Fri 9:30–4:30, Wed until 8; Sat 11–3", hz: "周一–周五 9:30–16:30，周三至 20:00；周六 11–15",
     p: "Free", pz: "免费",
@@ -1688,9 +1630,7 @@ CITIES.push({
     u: "https://www.purchase.edu/academics/art-and-design/exhibitions-and-public-programs/richard-and-dolly-maass-gallery/",
     free: true, flag: "At SUNY Purchase in Westchester, about 50 minutes from Midtown",
     flagz: "位于威彻斯特郡纽约州立大学 Purchase 校区，距中城约 50 分钟",
-    shows: [
-      { t: "Emily Janowick: Long Walk", s: "2026-08-26", e: "2026-09-23", d: "Solo show by the school's Windgate artist-in-residence", dz: "校方 Windgate 驻校艺术家个展" }
-    ] },
+    shows: [] },
   { n: "WCC Art Gallery", nz: "韦斯切斯特社区学院艺术画廊", a: "Academic Arts Building, 3rd floor, 75 Grasslands Road",
     h: "Mon–Sat 10–3, Thu also 4–6; closed in summer", hz: "周一–周六 10–15，周四另有 16–18；暑期闭馆", p: "Free",
     pz: "免费", u: "https://www.wccartgallery.com/", free: true,
@@ -1760,7 +1700,6 @@ CITIES.push({
     h: "Thu–Fri 5–9, Sat–Sun 2–9", hz: "周四–周五 17–21，周六–周日 14–21", p: "Free", pz: "免费",
     u: "https://www.culturelablic.org/current-exhibitions", free: true,
     shows: [
-      { t: "Hidden Stories: The Secret Language of Still Life & Floriography", s: "2026-08-13", e: "2026-09-27", d: "Contemporary still life and flower pieces read as coded messages, curated by Tess Howsam", dz: "当代静物与花卉作品，作为密码语言来读" },
       { t: "Form & Function: The Art of Graphic Design", s: "2026-10-01", e: "2026-11-01", d: "Open-call group show putting graphic design work on gallery walls", dz: "公开征集群展，把平面设计作品搬进展厅" }
     ] },
   { n: "Flux Factory", nz: "弗拉克斯工厂艺术空间", a: "39-31 29th Street",
@@ -1782,9 +1721,7 @@ CITIES.push({
   { n: "Materials for the Arts Gallery", nz: "艺术材料再利用中心展厅", a: "33-00 Northern Boulevard, 3rd floor",
     h: "Mon–Fri 9:30–4:30", hz: "周一–周五 9:30–16:30", p: "Free", pz: "免费",
     u: "https://www.materialsforthearts.org/", free: true,
-    shows: [
-      { t: "Lucky Finds: Second Chances", sText: "On view now", sTextz: "正在展出", e: "2026-09-17", d: "Designer-in-residence Scooter LaForge paints pop imagery onto donated found objects", dz: "驻场设计师用捐赠旧物与流行图像创作的绘画" }
-    ] },
+    shows: [] },
   { n: "Knockdown Center", nz: "诺克唐艺术中心", a: "52-19 Flushing Avenue",
     h: "Gallery hours vary by exhibition; check the site before going", hz: "展厅开放时间随展览调整，出发前请先查询官网",
     p: "Gallery exhibitions are usually free; ticketed events priced separately",
@@ -1821,9 +1758,7 @@ CITIES.push({
     hz: "仅展期内开放：周二–周五 15–18，周六–周日 12–17", p: "Free", pz: "免费",
     u: "https://www.bronxriverart.org/gallery", free: true,
     flag: "Gallery is open only while an exhibition is running", flagz: "仅在展览期间开放",
-    shows: [
-      { t: "Internal Anchor", s: "2026-09-10", e: "2026-10-10", d: "Eighteen artists in a group show curated by Fable Jones, with talks and workshops alongside", dz: "18 位艺术家的群展，由 Fable Jones 策展，配合讲座与工作坊" }
-    ] },
+    shows: [] },
   { n: "BronxArtSpace", nz: "布朗克斯艺术空间", a: "700 Manida Street, Ground Floor",
     h: "Thu–Fri 2–6, Sat 12–5", hz: "周四–周五 14–18，周六 12–17", p: "Free", pz: "免费",
     u: "http://www.bronxartspace.com/upcoming", free: true,
@@ -1866,9 +1801,7 @@ CITIES.push({
     h: "Mon–Fri 10–6, Sat 10–5; closed Sundays", hz: "周一–周五 10–18，周六 10–17；周日闭馆",
     p: "Free; club membership not required", pz: "免费；无需俱乐部会员身份",
     u: "https://www.nipponclub.org/activity_exhibition/?lang=en", free: true,
-    shows: [
-      { t: "Keen Vision — A Legacy of Susan Tosk", s: "2026-09-14", e: "2026-09-30", d: "Japanese art assembled by collector Susan Tosk, shown in the club's Fifth Avenue gallery", dz: "收藏家 Susan Tosk 所藏日本艺术，于俱乐部第五大道画廊展出" }
-    ] },
+    shows: [] },
   { n: "Taller Boricua Gallery", nz: "波里瓜工作坊画廊", a: "1680 Lexington Avenue",
     h: "Visits by appointment", hz: "需预约参观", p: "Free", pz: "免费", u: "https://tallerboricua.org/",
     free: true, flag: "Appointment only — email contact@tallerboricua.org before setting out",
@@ -1884,7 +1817,6 @@ CITIES.push({
     shows: [
       { t: "Peace Post", eText: "Through fall 2026", eTextz: "至 2026 年秋", d: "Nearly 200 portraits of peace and human rights activists by over 100 artists", dz: "逾百位艺术家绘制的近 200 幅和平与人权活动家肖像" },
       { t: "UNSEEN", eText: "Through fall 2026", eTextz: "至 2026 年秋", d: "Over 50,000 cast glass ginkgo leaves by Nisha Bansil, one for each unhoused New Yorker", dz: "Nisha Bansil 的五万余片铸造玻璃银杏叶，对应无家可归者人数" },
-      { t: "Gaia", s: "2026-09-18", e: "2026-10-09", d: "Luke Jerram's 23-foot rotating Earth sculpture, lit with NASA imagery, hung in the nave", dz: "Luke Jerram 直径约 7 米的旋转地球雕塑，悬于中殿" },
       { t: "SOUND OF LOSS", s: "2026-09-21", d: "Philip Gröning's audio installation: one click for each life lost to global conflict", dz: "Philip Gröning 的声音装置：每一声代表一条战乱中逝去的生命" }
     ] },
   { n: "The Interchurch Center Galleries", nz: "跨教会中心展厅", a: "475 Riverside Drive",
@@ -1903,7 +1835,6 @@ CITIES.push({
     flag: "The lobby gallery is also hired out for receptions and can be closed without notice",
     flagz: "门厅展厅有时出租办酒会，可能临时关闭",
     shows: [
-      { t: "A Man For All Media: Through the Eyes of Archbishop Sheen", s: "2026-09-09", e: "2026-09-29", d: "Multimedia displays on Fulton Sheen's radio and television career", dz: "关于富尔顿·希恩广播与电视生涯的多媒体展示" },
       { t: "Queens of Memory - An Ethereal Journey, inspired by Gabriela Mistral", s: "2026-10-01", e: "2026-10-29", d: "Work by Daniela Meza Sigala responding to the poetry of Gabriela Mistral", dz: "Daniela Meza Sigala 回应智利诗人米斯特拉尔诗作的作品" }
     ] },
   { n: "The Players", nz: "演员俱乐部", a: "16 Gramercy Park South",
@@ -1978,14 +1909,11 @@ CITIES.push({
   { n: "National Association of Women Artists (N.A.W.A. Gallery)", nz: "全美女性艺术家协会画廊", a: "15 Gramercy Park South, Suite 301",
     h: "Tue–Fri 10–5, closed Sat–Mon", hz: "周二–周五 10–17，周六至周一闭馆", p: "Free", pz: "免费",
     u: "https://thenawa.org/exhibitions/", free: true,
-    shows: [
-      { t: "When Words are Not Enough", s: "2026-09-03", e: "2026-10-05", d: "Juried show of members' work on subjects that resist plain description", dz: "会员评审展，主题难以用语言直述" }
-    ] },
+    shows: [] },
   { n: "Prince Street Gallery", nz: "王子街画廊", a: "547 West 27th Street, 5th Floor, Suite 504",
     h: "Tue–Sat 11–6", hz: "周二–周六 11–18", p: "Free", pz: "免费",
     u: "https://princestreetgallery.com/exhibitions/", free: true,
     shows: [
-      { t: "MARCIE BRONKAR", s: "2026-09-08", e: "2026-10-03", d: "Solo show by a member painter, the co-op's first slot of the season", dz: "成员画家个展，本季首档" },
       { t: "RANI CARSON / FLAVIA BACARELLA", s: "2026-10-06", e: "2026-10-31", d: "Two-person show of painting by gallery members", dz: "两位成员画家双人展" },
       { t: "TIM SATERNOW", s: "2026-11-03", e: "2026-11-28", d: "Solo member show of painting and works on paper", dz: "成员个展，绘画与纸上作品" },
       { t: "SARAH SAGARIN", s: "2026-12-01", e: "2027-01-02", d: "Solo member show running through the turn of the year", dz: "跨年举行的成员个展" },
@@ -1994,20 +1922,15 @@ CITIES.push({
   { n: "Blue Mountain Gallery", nz: "蓝山画廊", a: "547 West 27th Street, Suite 200",
     h: "Tue–Sat 11–6", hz: "周二–周六 11–18", p: "Free", pz: "免费",
     u: "https://www.bluemountaingallery.org/", free: true,
-    shows: [
-      { t: "BFF's Real and Imaginary", s: "2026-09-08", e: "2026-10-03", d: "Marykate O'Neil paints friends both actual and invented", dz: "玛丽凯特·奥尼尔绘画，真实与想象中的朋友" }
-    ] },
+    shows: [] },
   { n: "Bowery Gallery", nz: "包厘画廊", a: "547 West 27th Street, Suite 508",
     h: "Tue–Sat 11–6", hz: "周二–周六 11–18", p: "Free", pz: "免费", u: "https://bowerygallery.org/",
     free: true,
-    shows: [
-      { t: "Hearne Pardee: Landscaping", s: "2026-09-08", e: "2026-10-03", d: "Paintings and collages of landscape by a long-standing gallery member", dz: "资深成员的风景绘画与拼贴" }
-    ] },
+    shows: [] },
   { n: "First Street Gallery", nz: "第一街画廊", a: "547 West 27th Street, Suite 514",
     h: "Wed–Sat 11–6", hz: "周三–周六 11–18", p: "Free", pz: "免费",
     u: "https://www.firststreetgallery.org/exhibitions", free: true,
     shows: [
-      { t: "MUSINGS | What is Seen and What is Not Part I", s: "2026-09-09", e: "2026-09-26", d: "First half of a two-part member group show about seeing and not seeing", dz: "关于看见与看不见的两部分成员群展，上篇" },
       { t: "MUSINGS | What is Seen and What is Not Part II", s: "2026-10-07", e: "2026-10-24", d: "Second half of the same two-part member group show", dz: "同一两部分成员群展的下篇" },
       { t: "Wendy Gittler", s: "2026-10-28", e: "2026-11-21", d: "Solo show by a gallery member, representational painting", dz: "成员个展，具象绘画" },
       { t: "Carrie B. Belk", s: "2026-11-25", e: "2026-12-19", d: "Solo show by a gallery member closing out the year", dz: "成员个展，本年度最后一档" }
@@ -2015,15 +1938,11 @@ CITIES.push({
   { n: "Ceres Gallery", nz: "刻瑞斯画廊", a: "547 West 27th Street, Suite 201",
     h: "Tue–Sat 12–6", hz: "周二–周六 12–18", p: "Free", pz: "免费",
     u: "https://ceresgallery.org/exhibitions/", free: true,
-    shows: [
-      { t: "Elizabeth Downer Riker – The Understory", s: "2026-09-08", e: "2026-10-03", d: "Solo show by a member of this women's co-op; closing reception 3 October", dz: "女性合作社成员个展，10 月 3 日设闭幕酒会" },
-      { t: "Jane Seavers – Visions of a World on Fire", s: "2026-09-08", e: "2026-10-03", d: "Second solo hang in the same slot, sharing the gallery's two rooms", dz: "同期第二个个展，与前者分占两个展厅" }
-    ] },
+    shows: [] },
   { n: "Pleiades Gallery", nz: "普勒阿得斯画廊", a: "547 West 27th Street, Suite 304",
     h: "Tue–Sat 12–6", hz: "周二–周六 12–18", p: "Free", pz: "免费",
     u: "https://www.pleiadesgallery.com/exhibitions", free: true,
     shows: [
-      { t: "Ellen Bradshaw: Every Street Has a Story", s: "2026-09-08", e: "2026-10-03", d: "A member's paintings of New York streets; reception Saturday 12 September", dz: "成员个展，画纽约街景；9 月 12 日设酒会" },
       { t: "Beth Cody: Gesturing In the Abstract Countryside", s: "2026-10-06", e: "2026-10-31", d: "Abstract painting drawn from rural landscape by a gallery member", dz: "成员个展，源自乡野风景的抽象绘画" },
       { t: "Sophie Sanders", s: "2026-11-03", e: "2026-11-28", d: "Solo show by a gallery member", dz: "画廊成员个展" },
       { t: "Gallery Artists' Holiday Exhibition & Sale", s: "2026-12-01", e: "2026-12-26", d: "Small works by all gallery members, hung for the holiday weeks", dz: "假日期间全体成员小幅作品展" },
@@ -2034,29 +1953,21 @@ CITIES.push({
     u: "https://atlanticgallery.org/exhibitions/", free: true,
     flag: "Enter from either 547 West 27th Street or 548 West 28th Street — same building",
     flagz: "可从 547 West 27th Street 或 548 West 28th Street 进入，同一栋楼",
-    shows: [
-      { t: "Wo Schiffman: Light as Air", s: "2026-09-08", e: "2026-09-26", d: "Solo show by a gallery member, the co-op's autumn opener", dz: "成员个展，本季秋季首档" }
-    ] },
+    shows: [] },
   { n: "Viridian Artists", nz: "维里迪安艺术家画廊", a: "548 West 28th Street, Suite 632",
     h: "Tue–Sat 12–6, and by appointment", hz: "周二–周六 12–18，也可预约", p: "Free", pz: "免费",
     u: "https://www.viridianartists.com/current-show", free: true,
-    shows: [
-      { t: "A WORLD UNTO ITSELF", s: "2026-09-08", e: "2026-09-26", d: "Current show at this artist-run member gallery, with a closing reception on September 26", dz: "艺术家自营会员画廊的当期展览，9 月 26 日办闭幕酒会" }
-    ] },
+    shows: [] },
   { n: "55 Mercer Street Gallery", nz: "55 美世街画廊", a: "548 West 28th Street, Suite 634",
     h: "Tue–Sat 11–6", hz: "周二–周六 11–18", p: "Free", pz: "免费",
     u: "https://www.55mercerstreetgallery.com/", free: true,
     shows: [
-      { t: "Bryna Silbert and the Space Between", s: "2026-09-08", e: "2026-09-26", d: "Solo show by co-op member Bryna Silbert", dz: "合作社成员 Bryna Silbert 个展" },
-      { t: "Passengers", s: "2026-09-08", e: "2026-09-26", d: "Solo show by co-op member Lin Price, in the second gallery room", dz: "合作社成员 Lin Price 个展，位于另一展厅" },
       { t: "Presence", s: "2026-09-29", e: "2026-10-17", d: "Solo show by Richard Pitts, with a reception on October 1", dz: "Richard Pitts 个展，10 月 1 日办开幕酒会" }
     ] },
   { n: "Amos Eno Gallery", nz: "阿莫斯·伊诺画廊", a: "191 Henry Street",
     h: "Thu–Sun 12–6", hz: "周四–周日 12–18", p: "Free", pz: "免费", u: "https://www.amoseno.org/current",
     free: true,
-    shows: [
-      { t: "Samantha Jones: Residual Worlds", s: "2026-09-10", e: "2026-10-11", d: "Solo show by Samantha Jones, with an art-making session and a closing performance", dz: "Samantha Jones 个展，另设手作工作坊与闭幕表演" }
-    ] },
+    shows: [] },
   { n: "Assembly Room", nz: "集会厅画廊", a: "191 Henry Street",
     h: "Wed–Sun 12–6", hz: "周三–周日 12–18", p: "Free", pz: "免费", u: "https://assemblyroom.org/",
     free: true,
@@ -2064,9 +1975,7 @@ CITIES.push({
   { n: "Underdonk", nz: "安德唐克艺术空间", a: "297 Grand Street, 3rd Floor",
     h: "Fri–Sun 1–6", hz: "周五–周日 13–18", p: "Free", pz: "免费",
     u: "https://www.underdonk.com/exhibitions", free: true,
-    shows: [
-      { t: "Lars van Dooren: with psychic unmaking", s: "2026-09-09", e: "2026-10-04", d: "Solo show by Lars van Dooren at this collectively run artists' space", dz: "Lars van Dooren 在艺术家共同经营空间的个展" }
-    ] },
+    shows: [] },
   { n: "Field Projects", nz: "田野计划画廊", a: "526 West 26th Street, Suite 807",
     h: "Thu–Sat 12–6, or by appointment", hz: "周四–周六 12–18，也可预约", p: "Free", pz: "免费",
     u: "https://www.fieldprojectsgallery.com/past", free: true,
@@ -2154,9 +2063,7 @@ CITIES.push({
   { n: "Open Source Gallery", nz: "开源画廊", a: "306 17th Street",
     h: "Thu–Fri 4–6, Sat–Sun 2–6; appointments on request", hz: "周四–周五 16–18，周六–周日 14–18；可预约参观",
     p: "Free", pz: "免费", u: "https://open-source-gallery.org/exhibitions/", free: true,
-    shows: [
-      { t: "Sáandlaanaay: The 7th Time", s: "2026-09-05", e: "2026-10-11", d: "A fully inhabitable installation by Kimberly Fulton Orozco filling the gallery", dz: "Kimberly Fulton Orozco 的可进入式装置，占满整个展厅" }
-    ] },
+    shows: [] },
   { n: "Ortega y Gasset Projects", nz: "奥尔特加·伊·加塞特计划空间", a: "363 3rd Avenue",
     h: "Sat–Sun 1–6", hz: "周六–周日 13–18", p: "Free", pz: "免费",
     u: "https://www.oygprojects.com/current", free: true,
@@ -2169,8 +2076,6 @@ CITIES.push({
     h: "Thu–Fri 4–7, Sat–Sun 12–6", hz: "周四–周五 16–19，周六–周日 12–18", p: "Free", pz: "免费",
     u: "https://440gallery.com/exhibitions/current", free: true,
     shows: [
-      { t: "Catherine Orrok: \"Collateral Blessings\"", s: "2026-09-10", e: "2026-10-11", d: "Solo show of abstract paintings cut into squares and reassembled by intuition", dz: "个展：抽象绘画被切成方格后凭直觉重新拼合" },
-      { t: "“Whispers of the Natural World”: Bunge, Chuse, Destaing, Plenefisch", s: "2026-09-10", e: "2026-10-11", d: "Project Space show of four artists working from nature in paint, sculpture and photography", dz: "项目空间四人展，以绘画、雕塑与摄影回应自然" },
       { t: "Sophie Pickering and Hyunju Kim: \"Certainty of Repetition\"", s: "2026-10-15", e: "2026-11-15", d: "Stitching, sewing and handmade paper pulp on the border of craft and fine art", dz: "缝线与手工纸浆之作，游走于工艺与纯艺之间" }
     ] },
   { n: "Triangle Arts Association", nz: "三角艺术协会", a: "20 Jay Street, Suite 318",
@@ -2197,9 +2102,7 @@ CITIES.push({
     u: "https://www.tigerstrikesasteroid.com/", free: true,
     flag: "The website lists shows for five cities at once — check a listing says NEW YORK before setting out",
     flagz: "网站同时列出五个城市的展览，出行前请确认条目标注的是 NEW YORK",
-    shows: [
-      { t: "Rock, Stone, Steel and Rope", s: "2026-08-22", e: "2026-09-27", d: "Group show in the New York chapter's Bushwick space", dz: "纽约分部布什维克空间的群展" }
-    ] },
+    shows: [] },
   { n: "The Laundromat Project", nz: "洗衣房计划", a: "1476 Fulton Street",
     h: "Mon–Fri 9–6, Sat–Sun 10–8", hz: "周一–周五 9–18，周六–周日 10–20", p: "Free", pz: "免费",
     u: "https://laundromatproject.org/", free: true,
@@ -2310,7 +2213,6 @@ CITIES.push({
       { t: "Flower Power", s: "2026-05-23", e: "2026-10-18", d: "A garden-wide flower show with 1960s-inspired outdoor installations", dz: "全园花展，配以 1960 年代主题户外装置" },
       { t: "Art & Photography of the '60s", e: "2026-10-18", d: "Warhol's Flowers with prints, photographs and fashion of the 1960s", dz: "沃霍尔《花》及 1960 年代版画、摄影与时装" },
       { t: "Growing America", s: "2026-07-04", e: "2026-10-18", d: "A Mertz Library show on plants and the making of the United States", dz: "梅尔茨图书馆展览：植物与美国的形成" },
-      { t: "Dig! Plant! Grow! Pollinator Pals", s: "2026-09-01", e: "2026-09-27", d: "Family activities about bees, butterflies and other pollinators", dz: "关于蜜蜂、蝴蝶等传粉者的亲子活动" },
       { t: "Before New York: A Traveling Pop-Up Exhibition", s: "2026-04-25", e: "2026-11-15", d: "A pop-up on the landscape Henry Hudson met in 1609, touring city sites", dz: "巡回快闪展，重现 1609 年哈德逊所见的自然景观" },
       { t: "Holiday Train Show", s: "2026-11-14", e: "2027-01-10", d: "Model trains running past New York landmarks built from bark and seeds", dz: "模型火车穿行于树皮与种子制成的纽约地标之间" }
     ] },
@@ -2339,8 +2241,6 @@ CITIES.push({
       { t: "Dots and Loops: Jen Chen-su Huang, Rita Maas, and Audra Wolowiec", s: "2026-07-21", e: "2027-01-03", d: "A three-artist show of contemporary work made for Wave Hill's garden setting", dz: "三位艺术家的当代艺术联展，为园景语境创作" },
       { t: "Noormah Jamal: Blooms", s: "2026-08-04", e: "2026-10-18", d: "A solo project by artist Noormah Jamal in the garden's exhibition spaces", dz: "艺术家 Noormah Jamal 在园区展厅的个人项目" },
       { t: "Angel Nevarez & Valerie Tevere: As far as the ear can hear", s: "2026-08-29", e: "2026-11-29", d: "A duo project by Nevarez and Tevere, artists who work with sound and listening", dz: "以声音与聆听为媒介的双人艺术家项目" },
-      { t: "Tarik Jeremiah Brown: Hush Harbor", s: "2026-08-29", e: "2026-10-11", d: "A solo project by artist Tarik Jeremiah Brown", dz: "艺术家 Tarik Jeremiah Brown 的个人项目" },
-      { t: "Camille Cooper: SHOWPIECE", s: "2026-08-29", e: "2026-10-11", d: "A solo project by artist Camille Cooper", dz: "艺术家 Camille Cooper 的个人项目" },
       { t: "Melanie Brewster: A Metaphysical Quest for the Deepest Backbend", s: "2026-10-17", e: "2026-11-29", d: "An upcoming solo project by artist Melanie Brewster", dz: "艺术家 Melanie Brewster 即将开幕的个人项目" }
     ] },
   { n: "Bronx Children's Museum", nz: "布朗克斯儿童博物馆", a: "725 Exterior Street",
@@ -2528,7 +2428,6 @@ CITIES.push({
     pz: "成人 $23，65 岁以上 $18，19 岁以上学生 $14；18 岁及以下免费；纽约市居民随意付费；周三全民免费",
     u: "https://www.mcny.org/exhibitions",
     shows: [
-      { t: "Another Wonderland", e: "2026-10-12", d: "Restored New Deal murals of Alice in Wonderland painted for a children's hospital ward", dz: "修复后的新政时期《爱丽丝》壁画，原绘于儿童病房" },
       { t: "The Occupied City", eText: "Ongoing", eTextz: "常设", d: "An immersive third-floor walk through New York under British occupation", dz: "三楼沉浸式展厅，重现英军占领下的纽约" },
       { t: "He Built This City", eText: "Ongoing", eTextz: "常设", d: "Joe Macken's huge handmade scale model of New York City", dz: "Joe Macken 手工制作的巨型纽约城市模型" },
       { t: "New York at Its Core", eText: "Ongoing", eTextz: "常设", d: "The museum's main survey of how the city rose and where it is heading", dz: "馆内主线常设展，梳理纽约的兴起与未来" },
@@ -2543,7 +2442,6 @@ CITIES.push({
     pz: "成人 $24，长者/教师/现役军人 $19，学生 $13，5–13 岁 $6；5 岁以下免费；周五 17:00–20:00 随意付费",
     u: "https://www.nyhistory.org/exhibitions",
     shows: [
-      { t: "Betye Saar's Black Dolls", s: "2026-05-08", e: "2026-10-04", d: "More than 100 Black dolls collected by artist Betye Saar, a promised gift", dz: "艺术家 Betye Saar 收藏的百余件黑人玩偶" },
       { t: "Revolutionary Women", s: "2026-05-29", e: "2026-10-25", d: "How the Revolutionary War changed New York's women, and how they changed it", dz: "独立战争如何改变纽约女性，女性又如何影响战局" },
       { t: "Democracy Matters", s: "2026-06-18", e: "2026-11-29", d: "Art, artifacts and documents on the American ideals of liberty and equality", dz: "以艺术品与文献探讨自由与平等的美国理想" },
       { t: "Remembering September 11, 2001: 25 Years Later", s: "2026-08-24", e: "2026-10-25", d: "A small first-floor treasures case marking the 25th anniversary of the attacks", dz: "一楼小型展柜，纪念九一一事件 25 周年" },
@@ -2727,7 +2625,6 @@ CITIES.push({
     flagz: "电梯间歇性停用；不设网上预售，仅现场售票",
     shows: [
       { t: "Path to Liberty: The Emergence of a Nation", eText: "Long-term", eTextz: "长期", d: "Multi-year Revolution 250th exhibition; the current section covers 1776–1777 in New York", dz: "多年期独立 250 周年展，现阶段聚焦 1776–1777 年的纽约" },
-      { t: "Path to Liberty: The Emergence of a Nation - Orders, Discipline and Daily Life", e: "2026-10-01", d: "Orderly books showing how officers trained and disciplined Continental Army soldiers", dz: "以军令簿呈现大陆军军官如何训练与管理士兵" },
       { t: "Path to Liberty: The Emergence of a Nation - Martha, The First Founding Mother Revealed", sText: "Opening November 2026", sTextz: "2026 年 11 月开幕", d: "Martha Washington at the Continental Army's winter encampments, 1777 to 1782", dz: "1777–1782 年玛莎·华盛顿在大陆军冬营的经历" },
       { t: "The Birch Trials at Fraunces Tavern", eText: "Long-term", eTextz: "长期", d: "The 1783 hearings that let thousands of Black Loyalists evacuate New York", dz: "1783 年听证会，数千黑人保皇派得以撤离纽约" },
       { t: "Governing the Nation from Fraunces Tavern", eText: "Permanent", eTextz: "常设", d: "The Department of Foreign Affairs as it was when it rented rooms here, 1785–1788", dz: "1785–1788 年租用此处办公的外交部复原陈列" }
@@ -2737,7 +2634,6 @@ CITIES.push({
     pz: "免费", u: "https://www.bklynlibrary.org/cbh/projects/exhibitions", free: true,
     shows: [
       { t: "The Battle of Brooklyn: Fought and Remembered", s: "2026-02-05", e: "2026-12-31", d: "The 1776 battle and the ways Brooklyn has remembered it ever since", dz: "1776 年布鲁克林战役，以及后世如何纪念它" },
-      { t: "New York City History Day Showcase", s: "2026-09-10", e: "2026-10-01", d: "Research projects by New York City students from the annual History Day competition", dz: "纽约市学生历史日竞赛的研究作品展" },
       { t: "Centering Collections: Recent Work at CBH", s: "2026-07-06", e: "2027-02-05", d: "Recent acquisitions and newly processed material from the center's archives", dz: "中心近期入藏与新整理的档案材料" }
     ] },
   { n: "Jackie Robinson Museum", nz: "杰基·罗宾逊博物馆", a: "75 Varick Street",
@@ -2902,10 +2798,7 @@ CITIES.push({
   { n: "The City Reliquary", nz: "城市圣物馆", a: "370 Metropolitan Avenue",
     h: "Thu–Sun 12–6, or by appointment", hz: "周四–周日 12–18，或预约参观", p: "Adults $7", pz: "成人 $7",
     u: "https://www.cityreliquary.org/",
-    shows: [
-      { t: "I Appreciate You", s: "2026-07-14", e: "2026-10-04", d: "Found New York objects shown for the wear the city leaves on them", dz: "以捡拾的纽约旧物呈现城市留下的磨损痕迹" },
-      { t: "Views from the Skeletal City", s: "2026-08-05", e: "2026-09-27", d: "Outer-borough infrastructure photographed, then xeroxed and rescanned into abstraction", dz: "外区基建的黑白照片经反复复印扫描而趋于抽象" }
-    ] },
+    shows: [] },
   { n: "Waterfront Museum", nz: "滨水博物馆", a: "290 Conover Street",
     h: "Thu 4–8, Sat 1–5", hz: "周四 16–20，周六 13–17", p: "Free", pz: "免费",
     u: "https://waterfrontmuseum.org/events/", free: true,
@@ -3030,9 +2923,7 @@ CITIES.push({
     u: "https://www.scandinaviahouse.org/exhibitions/", free: true,
     flag: "The gallery opens only while an exhibition is installed; the current one closes September 16",
     flagz: "画廊仅在展览期间开放，本次展览 9 月 16 日结束",
-    shows: [
-      { t: "NORDIC TEXTILE TAKEOVER: THE COLD STITCH", s: "2026-09-04", e: "2026-09-16", d: "Nordic textile artists show new work, with artist talks and a workshop series", dz: "北欧纺织艺术家新作，附艺术家讲座与工作坊" }
-    ] },
+    shows: [] },
   { n: "Instituto Cervantes New York", nz: "纽约塞万提斯学院", a: "211 East 49th Street",
     h: "Gallery Mon–Fri 10–8, Sat 10–2", hz: "画廊周一–周五 10–20，周六 10–14", p: "Free", pz: "免费",
     u: "https://nyork.cervantes.es/en/culture_spanish/culture_spanish.htm", free: true,
@@ -3162,9 +3053,7 @@ CITIES.push({
     pz: "画廊门票 $5", u: "https://casa-belvedere.org/events/",
     flag: "On Staten Island; gallery hours are set per exhibition, so check the site before travelling",
     flagz: "位于史丹顿岛；画廊开放时间随展览而定，出行前请查看官网",
-    shows: [
-      { t: "Bearing Witness — An Era In Retrospect", s: "2026-09-08", e: "2026-10-03", d: "Artists look back twenty-five years on at the loss and the aftermath of September 11", dz: "艺术家在 9·11 事件二十五年后回望当时的失去与余波" }
-    ] },
+    shows: [] },
   { n: "Greater Astoria Historical Society", nz: "大阿斯托里亚历史学会", a: "35-20 Broadway, 4th Floor",
     h: "By appointment", hz: "需预约", p: "No admission price is published", pz: "官网未公布门票价格",
     u: "https://astorialic.org/",
@@ -3237,8 +3126,7 @@ CITIES.push({
     flag: "In Old Bethpage, about 50 minutes from Midtown by car",
     flagz: "位于 Old Bethpage，距中城约 50 分钟车程",
     shows: [
-      { t: "Old Bethpage Village Restoration", eText: "Permanent", eTextz: "常设", d: "Pre-Civil War Long Island buildings moved to a 209-acre site, with a working farm and costumed interpreters", dz: "内战前长岛建筑迁建于 209 英亩场地，设运作农场与古装讲解员" },
-      { t: "2026 Long Island Fair", s: "2026-09-25", e: "2026-09-27", d: "The annual fair on the village grounds: farm animals, craft vendors, demonstrations and live music", dz: "村内一年一度的集市：农场动物、手工艺摊位、技艺演示与现场音乐" }
+      { t: "Old Bethpage Village Restoration", eText: "Permanent", eTextz: "常设", d: "Pre-Civil War Long Island buildings moved to a 209-acre site, with a working farm and costumed interpreters", dz: "内战前长岛建筑迁建于 209 英亩场地，设运作农场与古装讲解员" }
     ] },
   { n: "Raynham Hall Museum", nz: "雷纳姆厅博物馆", a: "30 West Main Street",
     h: "Self-guided Tue, Thu, Sat 1–4; guided tours Wed, Fri, Sun at 1 and 3; shop Tue–Sun 1–5",
@@ -3314,8 +3202,7 @@ CITIES.push({
     flag: "In Hoboken, NJ, about 20 minutes by PATH from 33rd Street",
     flagz: "位于新泽西 Hoboken，从 33rd Street 乘 PATH 约 20 分钟",
     shows: [
-      { t: "What They Saw: Hoboken’s Amateur Photography Clubs 1889-1934", d: "Prints made from original glass negatives by Hoboken’s early camera clubs", dz: "由原始玻璃底片放印的霍博肯早期摄影俱乐部影像" },
-      { t: "Hoboken Photography", s: "2026-08-09", e: "2026-09-20", d: "Kurt Gardiner’s photographs of Hoboken, in the Upper Gallery", dz: "Kurt Gardiner 的霍博肯摄影，楼上展厅" }
+      { t: "What They Saw: Hoboken’s Amateur Photography Clubs 1889-1934", d: "Prints made from original glass negatives by Hoboken’s early camera clubs", dz: "由原始玻璃底片放印的霍博肯早期摄影俱乐部影像" }
     ] },
   { n: "Paterson Museum", nz: "帕特森博物馆", a: "2 Market Street",
     h: "Tue–Fri 10–4, Sat–Sun 12:30–4:30; closed Mondays and holidays",
@@ -3457,8 +3344,7 @@ CITIES.push({
     flag: "Bobst Library is not walk-in for non-NYU visitors — email special.collections@nyu.edu at least one business day ahead",
     flagz: "非 NYU 访客不可随到随进 Bobst 图书馆，须至少提前一个工作日邮件预约",
     shows: [
-      { t: "Tradition and Pride: 160 years of sport at New York University", sText: "September 2026", sTextz: "2026 年 9 月", eText: "January 2027", eTextz: "2027 年 1 月", d: "Archival material tracing 160 years of athletics at New York University", dz: "以馆藏档案梳理纽约大学 160 年体育史" },
-      { t: "Brenda Berkman and the Women of Ground Zero Pop-Up Exhibition", s: "2026-09-11", e: "2026-10-11", d: "Archival display on the women who worked in the 9/11 rescue and recovery effort", dz: "记录参与 9·11 救援与清理工作的女性的档案展" }
+      { t: "Tradition and Pride: 160 years of sport at New York University", sText: "September 2026", sTextz: "2026 年 9 月", eText: "January 2027", eTextz: "2027 年 1 月", d: "Archival material tracing 160 years of athletics at New York University", dz: "以馆藏档案梳理纽约大学 160 年体育史" }
     ] },
   { n: "King Juan Carlos I of Spain Center", nz: "西班牙国王胡安·卡洛斯一世中心", a: "53 Washington Square South",
     h: "Not published; the gallery is open around the Center's public programmes",
@@ -3595,7 +3481,6 @@ CITIES.push({
     h: "Centro Gallery Mon–Sat 9–6", hz: "中心展厅周一–周六 9–18", p: "Free", pz: "免费",
     u: "https://centropr.hunter.cuny.edu/", free: true,
     shows: [
-      { t: "Afterlives of San Juan Hill", s: "2026-09-09", e: "2026-10-04", d: "The Puerto Rican neighborhood cleared to build Lincoln Center, told through archive material", dz: "为兴建林肯中心而被拆除的波多黎各社区，以档案讲述" },
       { t: "Desarchivar la mirada", s: "2026-09-24", e: "2026-12-18", d: "An archive-based show drawn from the Centro Library and Archives collections", dz: "取材自中心图书馆与档案馆藏品的档案展" }
     ] },
   { n: "CUNY Dominican Studies Institute Gallery", nz: "纽约市立大学多米尼加研究所展厅", a: "160 Convent Avenue",
@@ -3683,7 +3568,6 @@ CITIES.push({
     u: "https://www.nyc.gov/site/records/exhibits-education/exhibits.page", free: true,
     shows: [
       { t: "NYC's Story: The City on Record", eText: "Ongoing", eTextz: "持续展出", d: "Archive and library photographs arranged by borough, with an interactive map of recorded New Yorkers' interviews", dz: "按行政区陈列的档案影像，附市民口述录音互动地图" },
-      { t: "Revisiting the World of Tomorrow: The 1964-65 World's Fair", e: "2026-09-25", d: "First-floor alcove display of brochures and ephemera on the Fair's transport, religion and commerce pavilions", dz: "一层壁龛展出世博会交通、宗教与商业展区的手册与纪念品" },
       { t: "Windows on the Archives", eText: "Permanent", eTextz: "常设", d: "Lower-level display of copies of city records spanning more than 300 years of governing New York", dz: "地下层常设，展出三百多年来的市政档案复制件" }
     ] },
   { n: "The Burke Library at Union Theological Seminary", nz: "协和神学院伯克图书馆", a: "3041 Broadway",
@@ -3868,7 +3752,6 @@ CITIES.push({
     u: "https://www.louisarmstronghouse.org/events/",
     shows: [
       { t: "Here to Stay", eText: "Permanent", eTextz: "常设", d: "Permanent display of Armstrong's photographs, home tapes and personal objects at the Armstrong Center", dz: "阿姆斯特朗中心常设展：照片、家庭录音带与私人物品" },
-      { t: "The Corona Collection", e: "2026-09-26", d: "Special exhibition drawn from the Corona neighborhood collection, extended through September 26", dz: "取材于科罗纳社区藏品的特展，延期至 9 月 26 日闭幕" },
       { t: "Armstrong in Ghana", s: "2026-10-01", d: "New exhibit on Armstrong's visits to Ghana, opening October 1", dz: "新展：阿姆斯特朗的加纳之行，10 月 1 日开幕" }
     ] },
   { n: "Alice Austen House", nz: "爱丽丝·奥斯汀故居", a: "2 Hylan Boulevard",
@@ -4082,8 +3965,6 @@ CITIES.push({
     pz: "成人 $6，62 岁以上长者与学生 $4，4–12 岁儿童 $2；4 岁以下免费；12 月 16 日至 3 月 31 日免费",
     u: "https://queensbotanical.org/",
     shows: [
-      { t: "The Color of Sunlight", s: "2026-04-11", e: "2026-10-04", d: "Sarah Field Sonnenberg's oil paintings in the Visitor & Administration Building gallery", dz: "Sarah Field Sonnenberg 油画个展，位于游客与行政楼展厅" },
-      { t: "Twin Urns", s: "2026-03-29", e: "2026-09-20", d: "Chloe Seibert's two ceramic urns where visitors leave written wishes to be composted", dz: "Chloe Seibert 的两只陶罐，访客写下心愿后堆肥处理" },
       { t: "SPREAD LOVE: A Mini Mural Installation", eText: "Ongoing", eTextz: "长期展出", d: "Mini murals by local street artists in the Meadow", dz: "本地街头艺术家在草地区创作的小型壁画" },
       { t: "Wonder Garden", eText: "Ongoing", eTextz: "长期展出", d: "Pasqualina Azzarello's mural of people and plants on the Education Building", dz: "Pasqualina Azzarello 绘于教育楼外墙的人与植物壁画" }
     ] },
@@ -4169,7 +4050,6 @@ CITIES.push({
     flagz: "位于 Rye，从中央车站乘 Metro-North 纽黑文线约 40 分钟",
     shows: [
       { t: "Revolutionary Rye: Stories from the Square House", s: "2026-07-04", e: "2026-12-23", d: "Local Revolutionary War history told through the tavern's own residents and travellers", dz: "以这座客栈的住客与旅人讲述当地独立战争史" },
-      { t: "Crafted in America Exhibit", s: "2026-08-25", e: "2026-09-25", d: "Handmade American craft shown in the historic tavern rooms", dz: "在历史客栈房间中展出的美国手工艺品" },
       { t: "Period Rooms of the Square House", eText: "Ongoing", eTextz: "常设", d: "Tavern Room, Warming Kitchen, Traveler's Bedroom and Innkeeper's Chambers furnished to period", dz: "酒馆厅、暖厨、旅客卧室与店主房间，按时代原貌陈设" }
     ] },
   { n: "DeWint House", nz: "德温特故居", a: "20 Livingston Avenue",
