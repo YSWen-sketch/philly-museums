@@ -18,13 +18,13 @@ CITIES.push({
   nz: "波士顿",
 
   // Set by the weekly reconciliation.
-  updated: "October 1, 2026",
-  updatedz: "2026 年 10 月 1 日",
+  updated: "November 12, 2026",
+  updatedz: "2026 年 11 月 12 日",
 
   lede: "Boston, Cambridge and the towns around them. A good number of the university museums are free, and Harvard's four collections sit within a few minutes' walk of each other.",
   ledez: "覆盖波士顿、剑桥及周边城镇。不少大学美术馆免费，哈佛的四个收藏彼此步行可达。",
-  note: "MassArt Art Museum and Harvard's Putnam Gallery have reopened after their installation closures. The Museum of Science opens a new wing on October 10.",
-  notez: "MassArt 美术馆与哈佛 Putnam 展厅已结束布展，重新开放；科学博物馆 10 月 10 日开放新翼。",
+  note: "The ICA marks its 90th anniversary with a collection show and Yayoi Kusama's Infinity Mirror Room, both through early March. The MIT Museum has opened a year-long season of exhibitions on ocean science.",
+  notez: "ICA 建馆九十周年，推出馆藏展与草间弥生镜屋，均展至明年三月初；MIT 博物馆开启为期一年的海洋科学主题展季。",
 
   groups: [
 { g: "Art", gz: "艺术",
@@ -71,7 +71,8 @@ CITIES.push({
       { t: "Cynthia Daignault: Valley", s: "2026-08-27", e: "2027-01-18", d: "Landscape paintings by the American painter", dz: "美国画家笔下的风景绘画" },
       { t: "Leilah Babirye: Embaga ya Naki ne Naki (Wedding of Naki and Naki)", s: "2026-08-27", e: "2027-01-18", d: "Sculpture by the Ugandan-born artist on queer identity and kinship", dz: "乌干达裔艺术家关于酷儿身份与亲缘的雕塑" },
       { t: "Caroline Monnet: Man-made Land", s: "2025-09-25", e: "2027-03-21", d: "Work by the Anishinaabe-French artist using building materials and land", dz: "阿尼什纳比裔法籍艺术家以建材与土地为题的作品" },
-      { t: "90 YEARS", s: "2026-10-15", e: "2027-03-07", d: "Collection exhibition marking the ICA's ninetieth anniversary", dz: "纪念 ICA 建馆九十周年的馆藏展" }
+      { t: "90 YEARS", s: "2026-10-15", e: "2027-03-07", d: "Collection exhibition marking the ICA's ninetieth anniversary", dz: "纪念 ICA 建馆九十周年的馆藏展" },
+      { t: "90 YEARS — Beyond the Galleries", s: "2026-10-01", e: "2027-03-07", d: "Companion anniversary show including Yayoi Kusama's \"LOVE IS CALLING\" Infinity Mirror Room", dz: "九十周年展的延伸展览，含草间弥生《爱的呼唤》镜屋" }
     ] },
   { n: "Harvard Art Museums", nz: "哈佛艺术博物馆", a: "32 Quincy Street",
     h: "Tue–Sun 10–5; closed Mondays", hz: "周二–周日 10–17；周一闭馆", p: "Free", pz: "免费",
@@ -222,7 +223,7 @@ CITIES.push({
     flag: "On the Waltham campus, about 25 minutes from Boston; six shows a year, academic year only",
     flagz: "位于 Waltham 校园，距波士顿约 25 分钟；每年六个展览，仅学年期间",
     shows: [
-      { t: "This Exhibit is Closed", s: "2026-08-24", e: "2026-10-12", d: "Casey Hayward reprints National Park and Archives photographs flagged for removal onto whitewashed, peeling wood", dz: "Casey Hayward 将被列为撤除对象的国家档案照片转印在剥落木板上" }
+      { t: "Ways of My Ancestors – Lighting the Path to Awareness", s: "2026-10-28", e: "2026-12-17", d: "Photography by Scott Strong Hawk Foster on Native American heritage and identity", dz: "摄影师 Scott Strong Hawk Foster 关于美洲原住民传承与身份的作品" }
     ] },
   { n: "Public Library of Brookline", nz: "布鲁克莱恩公共图书馆", a: "361 Washington Street",
     h: "Mon–Thu 10–9, Fri–Sat 10–5, Sun 1–5", hz: "周一–周四 10–21，周五–周六 10–17，周日 13–17", p: "Free",
@@ -302,7 +303,7 @@ CITIES.push({
     flag: "In Hyde Park, about 25 minutes from downtown Boston; galleries are on the second floor of the George Robert White Building",
     flagz: "位于 Hyde Park，距波士顿市中心约 25 分钟；展厅在 George Robert White 大楼二层",
     shows: [
-      { t: "Singular and Unique: A Monotype Guild of New England Open Members Hybrid Exhibition", s: "2026-09-21", e: "2026-11-20", d: "61 monotypes and monoprints by 57 artists from three countries, shown on site and in a 3D gallery", dz: "来自三国 57 位艺术家的 61 件单版画，实体与 3D 虚拟展厅同步" },
+      { t: "Singular and Unique: A Monotype Guild of New England Open Members Hybrid Exhibition", s: "2026-09-21", e: "2026-11-22", d: "61 monotypes and monoprints by 57 artists from three countries, shown on site and in a 3D gallery", dz: "来自三国 57 位艺术家的 61 件单版画，实体与 3D 虚拟展厅同步" },
       { t: "On Second Thought: HPAA Members Juried Exhibition", s: "2026-08-31", e: "2026-11-20", d: "One work each from 18 Hyde Park Art Association members, hung at the Mayor's Office Gallery in Boston City Hall", dz: "18 位 Hyde Park 艺术协会会员各一件作品，展于波士顿市政厅市长办公室画廊" }
     ] },
   { n: "Milton Art Center", nz: "米尔顿艺术中心", a: "334 Edge Hill Road",
@@ -567,13 +568,6 @@ CITIES.push({
     shows: [
       { t: "Things They Carried Away: A Visual Memoir of Leaving and Loss, Endurance and Self-Discovery", s: "2026-09-07", e: "2026-12-18", d: "Oldren Romero on the 1990s Cuban sea crossings and what people carry when they leave home", dz: "Oldren Romero 关于 1990 年代古巴渡海与离乡所携之物" }
     ] },
-  { n: "RSM Art Gallery", nz: "本特利大学图书馆 RSM 艺术画廊", a: "Bentley Library, 175 Forest Street",
-    h: "Open whenever the Bentley Library is open", hz: "本特利图书馆开放时间内均可参观", p: "Free", pz: "免费",
-    u: "https://www.bentley.edu/library/art-gallery", free: true,
-    flag: "In Waltham, about 25 minutes from Boston", flagz: "位于 Waltham，距波士顿约 25 分钟",
-    shows: [
-      { t: "This Exhibit is Closed", s: "2026-08-24", e: "2026-10-12", d: "Casey Hayward transfers National Archives photographs of American injustice onto peeling whitewashed wood", dz: "Casey Hayward 将美国不公历史的档案照片转印于剥落的白漆木板" }
-    ] },
   { n: "Hollister Gallery", nz: "巴布森学院霍利斯特画廊", a: "Hollister Hall, 231 Forest Street",
     h: "Hours not published online; call the college to confirm", hz: "网站未公布开放时间，请致电学校确认", p: "Free",
     pz: "免费", u: "https://www.babson.edu/", free: true,
@@ -731,7 +725,9 @@ CITIES.push({
       { t: "AI: Mind the Gap", eText: "Permanent", eTextz: "常设", d: "Gallery on how AI systems work, where they fail and who they affect", dz: "讲解人工智能如何运作、在何处失灵及影响何人的展厅" },
       { t: "Gene Cultures", eText: "Permanent", eTextz: "常设", d: "Gallery on genetic science and the personal choices it creates", dz: "关于基因科学及其带来的个人抉择的展厅" },
       { t: "Gestural Engineering: The Sculpture of Arthur Ganson", eText: "Permanent", eTextz: "常设", d: "Kinetic machine sculptures by Arthur Ganson, many visitor-operated", dz: "Arthur Ganson 的机械动态雕塑，多件可由观众启动" },
-      { t: "Sensing Oceans", sText: "Opens September 2026", sTextz: "2026 年 9 月开幕", d: "New exhibition on the technology used to sense and study the ocean", dz: "关于海洋感测与研究技术的新展" }
+      { t: "Sensing Oceans", sText: "Opens September 2026", sTextz: "2026 年 9 月开幕", d: "New exhibition on the technology used to sense and study the ocean", dz: "关于海洋感测与研究技术的新展" },
+      { t: "Crochet Coral Reef", s: "2026-08-14", e: "2027-02-14", d: "Crocheted sculptures modelling coral reef ecosystems and the threats they face", dz: "以钩织工艺呈现珊瑚礁生态系统及其面临的威胁" },
+      { t: "Water Architectures", s: "2026-12-17", e: "2027-06-13", d: "Designs and structures built around the management and use of water", dz: "围绕水资源管理与利用而生的设计与建筑" }
     ] },
   { n: "Harvard Collection of Historical Scientific Instruments", nz: "哈佛历史科学仪器收藏馆", a: "1 Oxford Street, Science Center Room 251",
     h: "Sun–Fri 11–4; closed Saturdays", hz: "周日–周五 11–16；周六闭馆", p: "Free", pz: "免费",
@@ -755,9 +751,7 @@ CITIES.push({
     p: "Free for walk-in visits; guided Special Access Tours $20, or $10 for EBT, WIC, ConnectorCare and SUN Bucks cardholders",
     pz: "步入参观免费；导览式特别通道游览 $20，持 EBT、WIC、ConnectorCare 或 SUN Bucks 卡者 $10",
     u: "https://waterworksmuseum.org", free: true,
-    shows: [
-      { t: "The Power of Coal", d: "How coal fired the Chestnut Hill pumping station, prompted by the loss of the museum's smokestack", dz: "讲述煤炭如何驱动栗山泵站，缘起于馆内标志性烟囱的失去" }
-    ] },
+    shows: [] },
   { n: "Blue Hills Trailside Museum", nz: "蓝山步道博物馆", a: "1904 Canton Avenue",
     h: "Wed–Sun 9–4; outdoor exhibits daily 9–4", hz: "周三–周日 9–16；户外展区每日 9–16",
     p: "Adults $5, seniors 65+ $4, children 2–12 $3; free for Mass Audubon members",
@@ -926,7 +920,7 @@ CITIES.push({
       { t: "Lexicon", s: "2026-07-21", e: "2026-11-01", d: "A free-form structural shell of origami-folded cells assembled into a two-sided lattice, in Deferrari Hall", dz: "德费拉里厅内由折纸单元拼成的双面格构自由曲面装置" },
       { t: "Becoming Boston: Eight Moments in the Geography of a Changing City", s: "2025-03-31", e: "2027-02-01", d: "Eight map-led episodes showing how Boston's physical shape changed over four centuries", dz: "以八个节点的地图讲述波士顿四百年间地貌的变迁" },
       { t: "Out of the Box: Unpacking the World of Archives", s: "2026-04-17", e: "2026-09-30", d: "What an archive actually holds and how to use one, drawn from BPL Special Collections", dz: "取材于馆藏特藏，说明档案究竟是什么、如何使用" },
-      { t: "Life, Liberty, and the Pursuit of Happiness", sText: "September 8", sTextz: "9 月 8 日", eText: "October 2", eTextz: "至 10 月 2 日", d: "Prints and written declarations made by visitors in the library's own workshops, in Gallery J", dz: "J 展厅展出观众在馆内工作坊制作的版画与宣言手稿" }
+      { t: "Life, Liberty, and the Pursuit of Happiness", s: "2026-09-09", e: "2026-12-02", d: "Prints and written declarations made by visitors in the library's own workshops, in Gallery J", dz: "J 展厅展出观众在馆内工作坊制作的版画与宣言手稿" }
     ] },
   { n: "Massachusetts Historical Society", nz: "马萨诸塞州历史学会", a: "1154 Boylston Street",
     h: "Mon, Wed–Fri 10–4:45, Tue 10–7:45, Sat 10–3; closed Sundays",
@@ -942,7 +936,7 @@ CITIES.push({
     pz: "一楼展厅：14 岁及以上 $11，学生、教师及军人 $8，13 岁以下 $5，持 Card to Culture $2；NARM 与 ROAM 会员免费；$40 日票可进入全馆",
     u: "https://bostonathenaeum.org/whats-on/exhibitions/",
     shows: [
-      { t: "Where's Boston? 50 Years Later", d: "Photographs of Boston's neighbourhoods and people, revisited fifty years on, in the Calderwood Gallery", dz: "卡尔德伍德展厅重看五十年前记录波士顿街区与市民的摄影" },
+      { t: "Where's Boston? 50 Years Later", e: "2026-12-12", d: "Photographs of Boston's neighbourhoods and people, revisited fifty years on, in the Calderwood Gallery", dz: "卡尔德伍德展厅重看五十年前记录波士顿街区与市民的摄影" },
       { t: "Imagined Nation", s: "2026-02-12", eText: "Through November 14", eTextz: "至 11 月 14 日", d: "Art and print culture marking 250 years of how Americans pictured the nation's future", dz: "以艺术与印刷品呈现美国 250 年来对国家未来的想象" },
       { t: "Re-Reading Special Collections", eText: "Ongoing", eTextz: "持续展出", d: "A rotating selection of highlights from the Athenaeum's special collections", dz: "轮换展出雅典娜图书馆特藏中的精品" }
     ] },
@@ -1053,7 +1047,7 @@ CITIES.push({
       { t: "Rise, Fall, Rebirth: Stories of the West End", eText: "Permanent", eTextz: "常设", d: "The main gallery on four centuries of the West End, with film, artifacts and interactive media", dz: "常设主展厅，以影像、文物与互动媒体讲述西区四百年" },
       { t: "Queer History West End", eText: "Ongoing", eTextz: "持续展出", d: "The little-known stories of queer residents of Boston's West End", dz: "波士顿西区酷儿居民鲜为人知的故事" },
       { t: "Free to All: West End Branch of the Boston Public Library", sText: "Upcoming, dates not yet announced", sTextz: "即将展出，日期未公布", d: "The part the neighbourhood library branch played in building the community", dz: "社区图书馆分馆在西区社区建设中的角色" },
-      { t: "Portrait Project: Honoring 250 Years of Changemakers in Boston", sText: "Upcoming, dates not yet announced", sTextz: "即将展出，日期未公布", d: "Portraits of Boston changemakers by young artists, curated by Artists for Humanity", dz: "由青年创作者绘制的波士顿变革者肖像，Artists for Humanity 策划" }
+      { t: "Portrait Project: Honoring 250 Years of Changemakers in Boston", s: "2026-10-14", e: "2026-11-15", d: "Portraits of Boston changemakers by young artists, curated by Artists for Humanity", dz: "由青年创作者绘制的波士顿变革者肖像，Artists for Humanity 策划" }
     ] },
   { n: "Vilna Shul, Boston's Center for Jewish Culture", nz: "维尔纳犹太会堂——波士顿犹太文化中心", a: "18 Phillips Street",
     h: "Open gallery hours Thursdays 12–5; guided tours Wed–Fri at 1 and 3, booking advised",
@@ -1086,14 +1080,13 @@ CITIES.push({
     p: "Not published on the museum's website; ask at the door", pz: "官网未公布票价，请到馆咨询",
     u: "https://www.somervillemuseum.org/exhibitions",
     shows: [
-      { t: "Common Ground: Photography, Place and Community", sText: "Opening reception September 17", sTextz: "9 月 17 日举行开幕酒会", d: "Fifteen photographers who live in Somerville, curated by Ivan Abarca-Torres", dz: "十五位居住在萨默维尔的摄影师作品，Ivan Abarca-Torres 策划" }
+      { t: "Common Ground: Photography, Place and Community", sText: "Opening reception September 17", sTextz: "9 月 17 日举行开幕酒会", e: "2026-12-05", d: "Fifteen photographers who live in Somerville, curated by Ivan Abarca-Torres", dz: "十五位居住在萨默维尔的摄影师作品，Ivan Abarca-Torres 策划" }
     ] },
   { n: "Armenian Museum of America", nz: "美国亚美尼亚博物馆", a: "65 Main Street",
     h: "Thu–Sun 12–6", hz: "周四–周日 12–18",
     p: "Adults $15, students and seniors $5; free for under 18 and members",
     pz: "成人 $15，学生与长者 $5；18 岁以下及会员免费", u: "https://www.armenianmuseum.org/current-exhibitions",
     shows: [
-      { t: "Arshile Gorky: Redrawing Community and Connections", s: "2025-12-12", e: "2026-09-29", d: "The Abstract Expressionist painter seen through his circles and Armenian ties", dz: "从人际圈与亚美尼亚渊源重看抽象表现主义画家高尔基" },
       { t: "Karsh: Celebrating Humanity", eText: "Ongoing", eTextz: "持续展出", d: "Portrait photographs by the Armenian-Canadian photographer Yousuf Karsh", dz: "亚美尼亚裔加拿大摄影师优素福·卡什的肖像摄影" },
       { t: "The Armenian Genocide", eText: "Ongoing", eTextz: "持续展出", d: "Standing gallery on the 1915 Armenian Genocide and its aftermath", dz: "关于 1915 年亚美尼亚种族灭绝及其后果的常设展厅" },
       { t: "Armenia: Art, Culture, Eternity", eText: "Ongoing", eTextz: "持续展出", d: "A survey of Armenian art and material culture drawn from the collection", dz: "取自馆藏的亚美尼亚艺术与物质文化综览" }
@@ -1345,7 +1338,9 @@ CITIES.push({
     flag: "In Marblehead, about 40 minutes north of Boston; the Lee Mansion runs June to October only",
     flagz: "位于 Marblehead，距波士顿约 40 分钟车程；Lee 宅邸仅 6–10 月开放",
     shows: [
-      { t: "J.O.J. Frost Gallery", eText: "Permanent", eTextz: "常设", d: "Folk paintings and carvings by a Marblehead fisherman who took up painting at 70", dz: "马布尔黑德渔民 70 岁后创作的民间绘画与木雕" }
+      { t: "J.O.J. Frost Gallery", eText: "Permanent", eTextz: "常设", d: "Folk paintings and carvings by a Marblehead fisherman who took up painting at 70", dz: "马布尔黑德渔民 70 岁后创作的民间绘画与木雕" },
+      { t: "Resistance & Resilience: Slavery and Freedom in Marblehead", s: "2026-06-01", eText: "Permanent", eTextz: "常设", d: "The history of enslaved and free Black residents of Marblehead", dz: "马布尔黑德被奴役与自由黑人居民的历史" },
+      { t: "Voices of Independence: Marblehead in the Revolution", eText: "Ongoing", eTextz: "持续展出", d: "Marblehead's role in the Revolutionary War, marking the 250th anniversary", dz: "纪念独立战争 250 周年，讲述马布尔黑德在其中的角色" }
     ] },
   { n: "Massachusetts State House", nz: "马萨诸塞州议会大厦", a: "24 Beacon Street",
     h: "Building weekdays 8:45–5; free guided tours 10–3:30; closed weekends and holidays",
@@ -1380,8 +1375,6 @@ CITIES.push({
     h: "Tue, Thu, Fri, Sat 11–5; Wed 1–7; Sun 1–5; closed Mondays",
     hz: "周二、周四、周五、周六 11–17；周三 13–19；周日 13–17；周一闭馆", p: "Free", pz: "免费",
     u: "https://www.leventhalmap.org/exhibitions/", free: true,
-    flag: "The gallery is closed September 14 to October 8, 2026 while the next exhibition is installed",
-    flagz: "展厅 2026 年 9 月 14 日至 10 月 8 日闭馆，安装下一个展览",
     shows: [
       { t: "Becoming Boston: Eight Moments in the Geography of a Changing City", eText: "Permanent", eTextz: "常设", d: "Eight maps tracing how Boston's shoreline and neighbourhoods were remade", dz: "八个节点的地图，讲述波士顿海岸线与街区的变迁" }
     ] },

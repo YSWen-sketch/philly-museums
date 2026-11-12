@@ -2,6 +2,37 @@
 
 Written by the scheduled agent every Thursday. Manual edits should add a line here too.
 
+## 2026-11-12 (Boston)
+
+**Which city, and why this was not a simple `rotation.js` call:** `node scripts/rotation.js` named New York for this calendar week. But comparing the four files' `updated` dates showed Boston's (October 1) was the oldest, older than Philadelphia's (October 8) — and git history showed why: both Boston's October 29 mechanical scan and Philadelphia's November 5 mechanical scan had been committed by the GitHub Action but never followed by a reconciliation pass, two weeks running. Rotation is purely calendar-anchored and has no notion of this backlog. Boston, being the more overdue of the two stalled cities, was reconciled this week; Philadelphia's unreconciled November 5 scan is still waiting and should be picked up next.
+
+As in past weeks, this session's network egress proxy blocked all direct outbound HTTPS, including `curl` and `WebFetch`, to every museum domain and to unrelated control domains alike — a blanket environment policy, not a per-site block. All verification this week came from `WebSearch`, run across five parallel research passes (closing-soon exhibitions, major museums, smaller college galleries, the 51 "unreachable" venues, and exhibitions with no closing date on file).
+
+**Redirects (45) applied directly from the report**, with no fetch needed: `u` updated to the mechanical scan's own confirmed redirect targets for Boston University Art Galleries, MassArt's and Montserrat's academic galleries, five Mass Audubon sanctuaries, the Museum of Science, and 39 others — committed separately as "Boston: fix 45 redirected exhibitions-page links".
+
+**A genuine duplicate venue removed:** "RSM Art Gallery, Bentley University" and a second entry simply named "RSM Art Gallery" turned out to be the same Bentley University Library gallery (same address, same `u`, same stale exhibition) entered twice in the Art group. The second copy was removed; the remaining entry's listing was refreshed with its current show, "Ways of My Ancestors – Lighting the Path to Awareness" by Scott Strong Hawk Foster (Oct 28 – Dec 17, 2026), confirmed on Bentley's own site.
+
+**Exhibitions dropped as closed, more than 30 days past their own stated end date, with no successor found:** Armenian Museum of America's "Arshile Gorky: Redrawing Community and Connections" (closed Sept 29) and Metropolitan Waterworks Museum's "The Power of Coal" (the museum's own page gives its run as having ended October 1; it carried no `e` date on file, so the mechanical scan's date-based pruning could never have caught it).
+
+**Date corrections and additions, all from the museum's own site or a reliable named source:**
+- Menino Arts Center's "Singular and Unique" (Monotype Guild of New England) closes November 22, not November 20 — MGNE's own call-for-entries page.
+- Boston Public Library's "Life, Liberty, and the Pursuit of Happiness" was on file as Sept 8–Oct 2; BPL's own current-exhibitions page gives Sept 9 – Dec 2, 2026 — corrected.
+- Boston Athenaeum's "Where's Boston? 50 Years Later" had no closing date on file; now dated to December 12, 2026.
+- The West End Museum's "Portrait Project" was "upcoming, dates not yet announced"; the museum's own event calendar gives October 14 – November 15, 2026.
+- Somerville Museum's "Common Ground" gets a closing date, December 5, 2026 (museum's calendar and the Boston Globe).
+- Added to the Institute of Contemporary Art: "90 YEARS — Beyond the Galleries", the companion to the already-listed 90th-anniversary show, featuring Yayoi Kusama's "LOVE IS CALLING" Infinity Mirror Room (Oct 1, 2026 – Mar 7, 2027).
+- Added to the MIT Museum: "Crochet Coral Reef" (Aug 14, 2026 – Feb 14, 2027) and "Water Architectures" (Dec 17, 2026 – Jun 13, 2027), part of its year-long OCEANS season.
+- Added to Marblehead Museum: "Resistance & Resilience: Slavery and Freedom in Marblehead" (permanent, opened June 1, 2026) and "Voices of Independence: Marblehead in the Revolution" (ongoing).
+- Removed a stale flag on the Norman B. Leventhal Map & Education Center describing an installation closure (Sept 14 – Oct 8) more than a month past.
+
+**Spot-checked and found already accurate, no change needed:** Museum of Fine Arts, Harvard Art Museums, MIT List Visual Arts Center, Carpenter Center, MassArt Art Museum, Boston University Art Galleries, Peabody Essex Museum, Rose Art Museum, the JFK Presidential Library, Harvard Museum of Natural History, Harvard Collection of Historical Scientific Instruments, Arnold Arboretum, Peabody Museum of Archaeology & Ethnology, Harvard Museum of the Ancient Near East, USS Constitution Museum, Museum of African American History, Trustman Art Gallery, Gallery 360, Emerson Contemporary, and Winfisky Gallery. These sampling correctly against current WebSearch results is good evidence the file was already in good shape going into this week — most of the mechanical scan's 156 "changed" flags turned out to be incidental page text rather than substantive exhibition changes.
+
+**Could not verify (left exactly as on file):** LexArt's "MINHWA – Korean Folk Painting" (no listing by this name found at all, worth a closer look next time); the Heftler Visiting Artist Gallery's Corita Kent show (one source dates it to a different venue and year entirely, conflicting with the on-file date, but nothing confirms either way); Museum of Bad Art's possible temporary relocation to Dorchester Brewing Co. (one weak signal, not acted on); and, with little to no public indexing of current shows, Quincy Art Association, Gallery 263, Suffolk University Gallery, the MIT Wiesner Student Art Gallery, the Johnson-Kulukundis Family Gallery, Harvard ArtLab, the Montserrat and Endicott sub-galleries, Raizes and Roberts Galleries (Lesley), Gallery 5 (Emmanuel), Hollister Gallery (Babson), Carney Gallery (Regis), Bapst Library Exhibits (BC), Huret & Spector Gallery (Emerson), and the Keller Gallery (MIT Architecture).
+
+**Not reached this week:** the report's full "no exhibition on file" tier (143 venues) and most of the 28 "no closing date" venues beyond the handful dated above, plus roughly 100 "changed" historic houses, libraries and NPS sites whose pages rarely carry rotating exhibition content — budget went to the redirected, unreachable, closing-soon and major-venue groups per the brief's ordering. That is a known limitation, not a guess.
+
+Boston's `updated` date is bumped to November 12, 2026; the other three cities' dates are untouched. `npm test` (validator + smoke test) passes.
+
 ## 2026-10-22 (Washington)
 
 `scripts/rotation.js` named Washington as this week's city, and `data/washington.js` had the oldest `updated` date (September 24) of the four files, confirming it. `reports/washington.md` existed (scanned 2026-09-24, 222 venues, 333 exhibitions after pruning): 38 venues unreachable, 31 with a redirected `u` link, 24 exhibitions closing within 30 days, 118 venues with no exhibition on file, 23 exhibitions with no closing date, and 0 pages flagged as changed.
