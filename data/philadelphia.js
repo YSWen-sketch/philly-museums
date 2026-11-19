@@ -18,8 +18,8 @@ CITIES.push({
   nz: "费城",
 
   // Set by the weekly reconciliation.
-  updated: "October 8, 2026",
-  updatedz: "2026 年 10 月 8 日",
+  updated: "November 19, 2026",
+  updatedz: "2026 年 11 月 19 日",
 
   lede: "America 250 shows are everywhere this year, and most of them close in early January. The list runs from the Parkway museums out to the Fairmount Park mansions, the Germantown houses and the artist-run rooms in Kensington.",
   ledez: "今年 America 250 相关的展览铺天盖地，多数在明年 1 月初收官。清单从大道上的几家大馆，一直排到费尔蒙公园的老宅、Germantown 的历史住宅和 Kensington 的艺术家自营空间。",
@@ -41,7 +41,7 @@ CITIES.push({
       { t: "New Eyes: American Landscape Drawings", s: "2026-06-06", eText: "Through November", eTextz: "至 11 月", d: "American landscape drawings tracing changing artistic views of nature and the land over time.", dz: "美国风景素描中自然观念的变迁" },
       { t: "A Nation of Artists", s: "2026-04-12", e: "2027-07-05", d: "Three centuries of American art co-presented with PAFA, marking the nation's 250th anniversary.", dz: "与 PAFA 联合展出，三百年美国艺术，纪念建国 250 周年" },
       { t: "Marcel Duchamp", s: "2026-10-10", e: "2027-01-31", d: "First major US Duchamp retrospective in 50+ years, about 300 works including Fountain and Nude Descending a Staircase.", dz: "50 余年来美国最大杜尚回顾展，约 300 件作品，含《泉》与《下楼梯的裸女》" },
-      { t: "El Anatsui: Prints and Play", sText: "Opens in December", sTextz: "12 月开幕", d: "Exact dates not yet announced; survey of the Ghanaian sculptor's experimental prints and paper works.", dz: "具体日期未公布；加纳雕塑家实验版画与纸本作品回顾" }
+      { t: "El Anatsui: Prints and Play", s: "2026-12-19", e: "2027-05-02", d: "Survey of the Ghanaian sculptor's experimental prints and paper works, in the Korman, Field and Morgan Galleries.", dz: "加纳雕塑家实验版画与纸本作品回顾，于 Korman、Field 与 Morgan 展厅展出" }
     ] },
   { n: "Rodin Museum", nz: "罗丹博物馆", a: "2151 Benjamin Franklin Pkwy",
     h: "Mon and Fri–Sun 10–5", hz: "周一、周五–周日 10–17", p: "Adults $15, students $7",
@@ -197,7 +197,7 @@ CITIES.push({
     pz: "展厅始终免费；演出与特别活动另行售票", u: "https://asianartsinitiative.org/programs/current-upcoming",
     free: true,
     shows: [
-      { t: "Avatopology 2.0: 9% Grin, 33% Groove", s: "2026-09-04", e: "2026-12-05", d: "Frank WANG Yefeng's nine avatars, remade in relay by 33 Fiverr freelancers who never met each other", dz: "王业丰的九个虚拟化身，由 33 位素未谋面的线上外包创作者接力改造" },
+      { t: "Avatopology 2.0: 9% Grin, 33% Groove", s: "2026-09-04", e: "2026-12-04", d: "Frank WANG Yefeng's nine avatars, remade in relay by 33 Fiverr freelancers who never met each other", dz: "王业丰的九个虚拟化身，由 33 位素未谋面的线上外包创作者接力改造" },
       { t: "Rami George: from every river to every sea", s: "2026-09-04", e: "2026-12-05", d: "Video made from handheld footage of the 2023–24 Palestine marches in Philadelphia and Washington", dz: "录像作品，取材于 2023–24 年费城与华盛顿的巴勒斯坦游行手持影像" },
       { t: "Black + Gold Artists Exchange Pop-Up Exhibition", s: "2026-11-14", e: "2026-11-15", d: "Two-day pop-up exchange show; open only that weekend", dz: "为期两天的快闪交流展，仅当周末开放" }
     ] },
@@ -205,13 +205,15 @@ CITIES.push({
     h: "Mon 9–5, Tue–Sat 10–6; closed Sundays", hz: "周一 9–17，周二–周六 10–18；周日闭馆",
     p: "Gallery admission is free", pz: "展厅免费", u: "https://tallerpr.org/on-view/", free: true,
     shows: [
-      { t: "EN SU SITIO / IN ITS PLACE: Antonio Fiol-Silva: architecture + urbanism", s: "2026-09-11", e: "2026-11-14", d: "Models and drawings by the architect of Taller's own building, on how buildings shape community life", dz: "Taller 自家建筑的设计师，以模型与图纸探讨建筑如何塑造社区生活" }
+      { t: "EN SU SITIO / IN ITS PLACE: Antonio Fiol-Silva: architecture + urbanism", s: "2026-09-11", e: "2026-11-14", d: "Models and drawings by the architect of Taller's own building, on how buildings shape community life", dz: "Taller 自家建筑的设计师，以模型与图纸探讨建筑如何塑造社区生活" },
+      { t: "Armando Veve: Taxonomy of a Dream", s: "2026-12-04", e: "2027-02-13", d: "Illustrated survey by Philadelphia artist Armando Veve, exploring dreams and invented creatures.", dz: "费城插画家 Armando Veve 个展，探讨梦境与想象生物" }
     ] },
   { n: "Twelve Gates Arts", nz: "十二门艺术中心", a: "106 North 2nd Street",
     h: "Thu–Sat 11–5; Tue–Wed by appointment; closed Sun–Mon", hz: "周四–周六 11–17；周二、周三需预约；周日、周一闭馆",
     p: "Free", pz: "免费", u: "https://www.twelvegatesarts.org/gallery-exhibitions", free: true,
     shows: [
-      { t: "Nihad Dukhan - Unbroken Lineages I", s: "2026-10-02", e: "2026-10-15", d: "Islamic calligraphy by master calligrapher Nihad Dukhan, from classical forms to contemporary work", dz: "书法大师 Nihad Dukhan 的伊斯兰书法，从古典写法到当代创作" }
+      { t: "Nihad Dukhan - Unbroken Lineages I", s: "2026-10-02", e: "2026-10-15", d: "Islamic calligraphy by master calligrapher Nihad Dukhan, from classical forms to contemporary work", dz: "书法大师 Nihad Dukhan 的伊斯兰书法，从古典写法到当代创作" },
+      { t: "Extended Constellations", s: "2026-10-30", e: "2027-01-16", d: "Group exhibition of multiple artists, including Carrie Mae Weems.", dz: "群展，参展艺术家包括 Carrie Mae Weems" }
     ] },
   { n: "Leonard Pearlstein Gallery, Drexel University", nz: "德雷塞尔大学伦纳德·珀尔斯坦画廊", a: "3401 Filbert Street, URBN Annex",
     h: "Tue–Fri 12–5, Sat 12–6",
@@ -309,9 +311,11 @@ CITIES.push({
   { n: "William Way LGBT Community Center", nz: "威廉·韦 LGBT 社区中心", a: "1315 Spruce Street",
     h: "Mon–Thu 1–9; closed Friday, Saturday and Sunday", hz: "周一–周四 13–21；周五、周六、周日闭馆", p: "Free",
     pz: "免费", u: "https://www.waygay.org/galleries", free: true,
-    flag: "No exhibition on view — the gallery says fall 2026 shows have not been announced yet, and on-site exhibitions in the Archives Gallery are paused",
-    flagz: "目前无展览——画廊表示 2026 年秋季展览尚未公布，档案馆展厅的实体展览暂停",
-    shows: [] },
+    flag: "The Center's own building is closed for repairs; current exhibitions are being held at a partner space, HUDDLE (338 Brown St)",
+    flagz: "中心主楼因维修闭馆；现展览移至合作空间 HUDDLE（338 Brown St）举办",
+    shows: [
+      { t: "20th Annual Group Art Exhibition", s: "2026-11-05", e: "2026-12-05", d: "Juried group show of LGBTQ+ artists, held at HUDDLE while the Center's own building is closed.", dz: "LGBTQ+ 艺术家评选群展，中心主楼闭馆期间移至 HUDDLE 举办" }
+    ] },
   { n: "Abington Art Center", nz: "阿宾顿艺术中心", a: "515 Meetinghouse Road",
     h: "Mon 2:30–9, Tue–Wed 9:30–9, Thu 9:30–6, Sat 9:30–2:30; closed Fridays and Sundays; grounds and sculpture park open dawn to dusk",
     hz: "周一 14:30–21，周二–周三 9:30–21，周四 9:30–18，周六 9:30–14:30；周五与周日闭馆；园区与雕塑公园 日出至日落开放", p: "Free",
@@ -643,7 +647,9 @@ CITIES.push({
     shows: [
       { t: "Opening the Vault: A Look Inside the GFS Collection", s: "2026-05-17", e: "2027-01-03", d: "Rarely shown works from the sculpture park's own storage, in the Domestic Arts Building", dz: "库房中鲜少展出的馆藏作品首次亮相" },
       { t: "Salvador Jiménez-Flores: Raíces & Resistencias", s: "2025-09-28", e: "2027-08-01", d: "Ceramic and mixed-media work on migration and Indigenous roots, indoors and outdoors", dz: "以移民与原住民根源为题的陶艺与综合媒材" },
-      { t: "That's Worth Celebrating: The Life and Work of the Johnson Family", s: "2017-05-07", e: "2026-12-31", d: "The founding Johnson family and Seward Johnson's own sculpture", dz: "创办人约翰逊家族与其雕塑创作" }
+      { t: "That's Worth Celebrating: The Life and Work of the Johnson Family", s: "2017-05-07", e: "2026-12-31", d: "The founding Johnson family and Seward Johnson's own sculpture", dz: "创办人约翰逊家族与其雕塑创作" },
+      { t: "Shantell Martin: Past, Present, Future", s: "2026-09-20", e: "2028-07-23", d: "Large-scale drawing installations by artist Shantell Martin across the sculpture park.", dz: "艺术家 Shantell Martin 在园区内的大型线描装置" },
+      { t: "Members' Musings 2026: Then, Now, Next", s: "2026-11-21", e: "2027-02-07", d: "Annual juried exhibition of work by Grounds For Sculpture members.", dz: "雕塑园会员年度评选展" }
     ] },
   { n: "Winterthur Museum, Garden & Library", nz: "温特图尔博物馆、花园与图书馆", a: "5105 Kennett Pike",
     h: "Tue–Sun 10–5; library Mon–Fri 9–4", hz: "周二–周日 10–17；图书馆周一–周五 9–16",
@@ -868,7 +874,7 @@ CITIES.push({
     h: "Daily 9:30–5", hz: "每天 9:30–17", p: "Adults $29", pz: "成人 $29",
     u: "https://fi.edu/en/exhibits-experiences",
     shows: [
-      { t: "STAR WARS: The Experience", sText: "Opens February 2027", sTextz: "2027 年 2 月开幕", d: "No special exhibition right now; the Universal theme parks show closed Sep 7", dz: "目前无特展；Universal Theme Parks 展已于 9/7 结束" }
+      { t: "STAR WARS: The Experience", s: "2027-02-13", e: "2027-09-06", d: "World premiere of an immersive Star Wars experience; the earlier Universal theme parks show closed Sep 7.", dz: "《星球大战》沉浸式体验全球首展；此前的 Universal Theme Parks 展已于 9/7 结束" }
     ] },
   { n: "Please Touch Museum", nz: "儿童博物馆", a: "4231 Avenue of the Republic",
     h: "Wed–Sat 9–4:30, Sun 11–4:30", hz: "周三–六 9–16:30，周日 11–16:30",
@@ -2197,7 +2203,7 @@ CITIES.push({
     pz: "成人 $15，学生与长者 $12；现役军人与 5 岁以下免费", u: "https://barracks.org/visit/",
     flag: "About 40 minutes from Center City", flagz: "距市中心约 40 分钟",
     shows: [
-      { t: "Revolution in the Ranks: The Philadelphia Associators and the Fight for Liberty and Citizenship, 1775-1777", d: "Gallery show on Philadelphia's citizen militia and who counted as a citizen", dz: "关于费城民兵与公民身份之争的展览" },
+      { t: "Revolution in the Ranks: The Philadelphia Associators and the Fight for Liberty and Citizenship, 1775-1777", s: "2024-03-15", d: "Gallery show on Philadelphia's citizen militia and who counted as a citizen", dz: "关于费城民兵与公民身份之争的展览" },
       { t: "The Restored Squad Rooms and Officers' House", eText: "Permanent", eTextz: "常设", d: "Furnished 1758 barracks rooms showing how soldiers and officers actually lived", dz: "1758 年兵营复原陈设，还原士兵与军官起居" }
     ] },
   { n: "Historic Batsto Village", nz: "巴茨托历史村", a: "31 Batsto Road",
