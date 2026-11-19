@@ -71,7 +71,6 @@ CITIES.push({
     h: "Daily 11:30–7; closed Dec 25", hz: "每日 11:30–19；12 月 25 日闭馆", p: "Free", pz: "免费",
     u: "https://npg.si.edu/exhibitions", free: true,
     shows: [
-      { t: "Best Laid Plans: Unrealized Projects from the Archives of American Art", s: "2026-04-04", e: "2026-10-18", d: "Proposals and unfinished artworks that were planned but never made", dz: "从未实现的艺术方案与未完成作品" },
       { t: "Star Power: Photographs from Hollywood's Golden Age by George Hurrell (A Sequel)", s: "2026-02-13", e: "2027-01-10", d: "Twenty vintage Hurrell portraits of film stars from the 1930s and 1940s", dz: "赫雷尔 20 张 1930-40 年代影星肖像原版照片" },
       { t: "The Spirit of Invention: Patent Office and Patentees", s: "2026-06-26", e: "2027-06-06", d: "The museum's building as the old Patent Office, and the inventors who filed there", dz: "馆舍前身为专利局，展现在此申请专利的发明家" },
       { t: "Portrait of a Nation: 2025 Honorees", s: "2025-12-12", e: "2027-10-17", d: "Portraits of the recipients of the museum's 2025 Portrait of a Nation Awards", dz: "2025 年度「国家肖像奖」获奖者肖像" },
@@ -94,7 +93,6 @@ CITIES.push({
     h: "Daily 10–5:30; closed Dec 25", hz: "每日 10–17:30；12 月 25 日闭馆", p: "Free", pz: "免费",
     u: "https://asia.si.edu/exhibitions/", free: true,
     shows: [
-      { t: "Into the Waters with Senju and Bingyi: Two Contemporary Paintings", s: "2026-04-02", e: "2026-09-27", d: "Two contemporary paintings of water by Hiroshi Senju and Bingyi", dz: "千住博与冰逸两件以水为题的当代绘画" },
       { t: "Saodat Ismailova: Melted into the Sun", s: "2026-06-13", e: "2026-11-29", d: "First major US solo museum show by the Uzbek film and installation artist", dz: "乌兹别克影像与装置艺术家在美首个大型个展" },
       { t: "From the Louvre: Masterpieces of Islamic Art", s: "2026-09-26", e: "2027-01-18", d: "Islamic art lent from the Louvre's collection in Paris", dz: "巴黎卢浮宫伊斯兰艺术收藏借展" },
       { t: "Ruffled Feathers: Creating Whistler's Peacock Room", s: "2024-07-13", e: "2027-01-31", d: "The commission and quarrel behind Whistler's painted dining room, shown beside it", dz: "惠斯勒孔雀厅的创作委托与背后纷争，与原厅并置" },
@@ -130,7 +128,6 @@ CITIES.push({
     u: "https://nmwa.org/whats-on/exhibitions/",
     shows: [
       { t: "Marlo Pascual: Making Something Out of Something", s: "2026-07-24", e: "2027-02-28", d: "Works recontextualizing vintage photographs and found objects, drawn from the collection", dz: "以旧照片与现成物重新组合的作品，全部出自馆藏" },
-      { t: "Burnished: Pueblo Pottery at NMWA", s: "2026-05-08", e: "2026-09-27", d: "Twenty-four ollas, seed jars and bowls by Pueblo women potters of the Southwest", dz: "美国西南部普韦布洛女陶工的 24 件陶罐、种子罐与碗" },
       { t: "Remix: The Collection", s: "2023-10-21", e: "2028-01-16", d: "Collection favourites and recent acquisitions grouped by theme and medium", dz: "馆藏名作与近期入藏，按主题与媒介分组陈列" },
       { t: "Routed West: Twentieth-Century African American Quilts in California", s: "2026-09-18", e: "2027-01-17", d: "More than 80 quilts by Bay Area makers who moved west in the Second Great Migration", dz: "逾 80 件被子，出自第二次大迁徙中迁往湾区的黑人之手" },
       { t: "Beverly Pepper: Land Art and Monumental Sculptures", s: "2026-10-23", e: "2027-04-25", d: "Maquettes and a new film on the sculptor, with ten large works outside the museum", dz: "雕塑家的模型与新拍影片，馆外另设十件大型作品" },
@@ -163,9 +160,7 @@ CITIES.push({
     h: "Tue–Sun 9:30–1 and 1:30–5; closed Mondays, federal holidays and Good Friday",
     hz: "周二–周日 9:30–13、13:30–17；周一、联邦假日与耶稣受难日闭馆", p: "Free", pz: "免费", u: "https://museum.oas.org/",
     free: true,
-    shows: [
-      { t: "Passport to Patriotism: 250 Years of Diplomacy", s: "2026-07-30", e: "2026-10-18", d: "An exhibition marking 250 years of diplomacy in the Americas", dz: "纪念美洲外交 250 年的展览" }
-    ] },
+    shows: [] },
   { n: "Glenstone Museum", nz: "格伦斯通博物馆", a: "12100 Glen Rd",
     h: "Thu–Sun 10–5, last ticketed entry 3:15", hz: "周四–周日 10–17，最后入场 15:15",
     p: "Free; free timed-entry passes required, released the 1st of each month for that month and the next",
@@ -247,7 +242,6 @@ CITIES.push({
     p: "Free; $10 suggested donation", pz: "免费；建议捐赠 $10",
     u: "https://athillyer.org/all-exhibitions/", free: true,
     shows: [
-      { t: "Auction on the Alley 2026", s: "2026-09-04", e: "2026-09-24", d: "42 paintings, prints, photographs and sculptures by past and present Hillyer artists, for sale", dz: "希利尔新老驻场艺术家 42 件作品义卖，含绘画、版画、摄影与雕塑" },
       { t: "Harbingers", sText: "Upcoming", sTextz: "即将展出", d: "Katherine Rosing's installation of tattered fibre columns pierced by flame", dz: "凯瑟琳·罗辛装置：被火焰穿透的破碎纤维柱" },
       { t: "La Casa en la Montaña", sText: "Upcoming", sTextz: "即将展出", d: "Sixteen paintings by Diana Mercado, drawn from two earlier London shows", dz: "戴安娜·梅尔卡多 16 幅绘画，源自此前两场伦敦展览" },
       { t: "Re-Inhabiting Conservation: Our Shared Skies", sText: "Upcoming", sTextz: "即将展出", d: "Two dozen artists and writers from six countries on wildlife conservation", dz: "六国二十余位艺术家与写作者的野生动物保护主题作品" }
@@ -292,10 +286,7 @@ CITIES.push({
     pz: "票价因节目而异；展厅时段与部分活动免费，多数演出需购票；每月第一个周五免费入场", u: "https://dupontunderground.org/",
     flag: "Open only during gallery hours and scheduled events — check the schedule before travelling",
     flagz: "仅在展厅开放时间及有活动时开门，出发前务必先查日程",
-    shows: [
-      { t: "Veiled Ladies", s: "2026-09-04", e: "2026-10-04", d: "Autumn exhibition in the disused trolley tunnel, viewable during gallery hours", dz: "废弃电车隧道内的秋季展览，展厅开放时段可看" },
-      { t: "Skin of Discomfort", s: "2026-09-04", e: "2026-10-04", d: "Runs alongside Veiled Ladies on the tunnel's 300-foot projection wall stretch", dz: "与 Veiled Ladies 同期，沿隧道约 90 米投影墙段展出" }
-    ] },
+    shows: [] },
   { n: "STABLE", nz: "STABLE 艺术空间", a: "336 Randolph Pl NE",
     h: "Fri–Sat 12–6, or by appointment", hz: "周五–周六 12:00–18:00，或预约参观", p: "Free", pz: "免费",
     u: "https://www.stablearts.org/", free: true,
@@ -307,7 +298,6 @@ CITIES.push({
     p: "Gallery admission free; theatre performances ticketed separately", pz: "展厅免费；剧场演出另行购票",
     u: "https://www.dcartscenter.org/exhibitions-menu", free: true,
     shows: [
-      { t: "Fallin from the Uppercut…", s: "2026-08-28", e: "2026-09-25", d: "Main gallery show; the centre publishes no description with the listing", dz: "主展厅展览；官网未随展讯公布任何说明" },
       { t: "Double Exposure", s: "2026-08-28", e: "2026-10-30", d: "Two-month show in the small Nano Gallery; no description published", dz: "小型 Nano 展厅的两个月展览；官网未公布说明" }
     ] },
   { n: "Luther W. Brady Art Gallery", nz: "路德·W·布雷迪艺术画廊", a: "Corcoran Flagg Building, 500 17th St NW",
@@ -439,9 +429,7 @@ CITIES.push({
     p: "Free", pz: "免费", u: "https://pyramidatlanticartcenter.org/the-gallery/", free: true,
     flag: "In Hyattsville, about 20–25 minutes from downtown DC",
     flagz: "位于 Hyattsville，距市中心约 20–25 分钟",
-    shows: [
-      { t: "Ruminations: Our Stories in Paper", s: "2026-08-29", e: "2026-10-04", d: "Papermaking show with cast-paper doors in gold leaf, pulp paintings and artist books", dz: "手工纸展：贴金纸铸门、纸浆绘画与艺术家书" }
-    ] },
+    shows: [] },
   { n: "Sarah Silberman Art Gallery", nz: "萨拉·西尔伯曼艺术画廊", a: "Paul Peck Art Building, 51 Mannakee Street",
     h: "Mon–Fri 10–4 during exhibitions; closed on college holidays", hz: "展览期间 周一–周五 10–16；学院假期闭馆",
     p: "Free", pz: "免费",
@@ -450,7 +438,6 @@ CITIES.push({
     flag: "On the Montgomery College Rockville campus, about 40 minutes from downtown DC; exhibitions run in the academic year only",
     flagz: "位于蒙哥马利学院罗克维尔校区，距市中心约 40 分钟；仅在学年期间办展",
     shows: [
-      { t: "57th Annual Rockville and Germantown Faculty and Staff Exhibition", s: "2026-09-01", e: "2026-09-25", d: "Work by the art faculty and staff of two Montgomery College campuses", dz: "蒙哥马利学院两个校区艺术系师生职员作品展" },
       { t: "Provisional Futures: Building as Revision", s: "2026-10-06", e: "2026-10-30", d: "Amir Harari, the gallery's collaborative artist in residence, on building and rebuilding", dz: "驻馆合作艺术家 Amir Harari 关于建造与重建的作品" },
       { t: "Katja Toporski", s: "2026-11-17", e: "2027-01-15", d: "Solo show by the Baltimore-based sculptor and installation artist", dz: "巴尔的摩雕塑与装置艺术家 Katja Toporski 个展" },
       { t: "Annual Student Exhibition", s: "2027-03-30", e: "2027-05-07", d: "Juried selection of work made by Montgomery College art students", dz: "蒙哥马利学院艺术专业学生作品评选展" }
@@ -529,7 +516,6 @@ CITIES.push({
     hz: "温室每日 10–17；国家花园每日 7:30–17，4 月 1 日至 9 月 15 日延至 19:00；巴托尔迪花园日出至日落；12 月 25 日闭园", p: "Free",
     pz: "免费", u: "https://www.usbg.gov/visit/exhibits", free: true,
     shows: [
-      { t: "America's State Flowers: An America250 Celebration", s: "2026-04-10", e: "2026-10-12", d: "The official flower of every US state and territory, displayed in the Conservatory", dz: "温室展出全美各州与属地的官方州花" },
       { t: "Fierce Flora: Tales of Survival and Demise", s: "2024-09-27", eText: "Open Ended", eTextz: "长期展出", d: "Multisensory Conservatory display about the dangerous side of the plant world", dz: "温室多感官展览，讲述植物凶险的一面" },
       { t: "Season's Greenings: National Parks and Historic Places", s: "2026-11-26", e: "2027-01-03", d: "Annual holiday show with model trains and national landmarks built from plant parts", dz: "年度节日展：模型火车与植物材料搭建的国家公园与历史地标" }
     ] },
@@ -932,7 +918,6 @@ CITIES.push({
     u: "https://www.museumofthebible.org/current-exhibits",
     shows: [
       { t: "The Megiddo Mosaic: Foundations of Faith", s: "2025-07-25", e: "2026-12-31", d: "A third-century mosaic floor excavated at Megiddo; free, no admission ticket needed", dz: "米吉多出土的三世纪马赛克地面；免费，无需门票" },
-      { t: "From the Vault: Art About America", s: "2026-05-01", e: "2026-10-11", d: "Colonial-era portraits and prints marking the nation's 250th anniversary", dz: "殖民时期肖像与版画，纪念建国 250 周年" },
       { t: "The Bible in Times of War", s: "2026-07-03", e: "2027-02-28", d: "Military Bibles and the stories of the American soldiers who carried them", dz: "军用《圣经》与携带它们的美国士兵的故事" },
       { t: "Sacred Liberty", s: "2026-07-03", e: "2027-02-28", d: "The Bible's influence on the founding generation's ideas of liberty; free to all visitors", dz: "《圣经》对建国一代自由观念的影响；对所有访客免费" },
       { t: "Revealing the Hidden: Byzantine Icons from Thessaloniki and Patmos", s: "2026-11-05", e: "2027-02-28", d: "Byzantine icons from monasteries in Thessaloniki and Patmos, rarely lent outside Greece", dz: "塞萨洛尼基与帕特莫斯修道院的拜占庭圣像，鲜少离境展出" }
@@ -952,7 +937,6 @@ CITIES.push({
     h: "Thu–Sun 12–6", hz: "周四–周日 12–18", p: "Free", pz: "免费",
     u: "https://dchistory.org/current-exhibits/", free: true,
     shows: [
-      { t: "Hometown DC", s: "2026-06-18", e: "2026-10-05", d: "Oral-history exhibition of Washingtonians in their own voices, shown off-site", dz: "馆外展出的华府居民口述史，全用本人声音" },
       { t: "Class Action: Education and Opportunity in the Nation's Capital", sText: "Now on view", sTextz: "展出中", d: "DC's schools, teachers and students, and the fight for Black educational excellence", dz: "华府的学校、师生与争取黑人教育卓越的历程" },
       { t: "DC Hall of History", eText: "Permanent", eTextz: "常设", d: "A 40-foot panoramic timeline of the city's history", dz: "40 英尺全景式的华府历史时间线" },
       { t: "Carnegie Gallery", eText: "Permanent", eTextz: "常设", d: "Sixteen large historical images about the Carnegie Library building itself", dz: "16 幅大型历史影像，讲述卡内基图书馆建筑本身" }
@@ -1108,8 +1092,6 @@ CITIES.push({
     h: "Mon–Thu 9:30–9, Fri–Sat 9:30–5:30, Sun 1–5", hz: "周一–周四 9:30–21，周五–周六 9:30–17:30，周日 13–17",
     p: "Free", pz: "免费", u: "https://www.dclibrary.org/using-the-library/public-art-exhibits", free: true,
     shows: [
-      { t: "hometown DC", s: "2026-06-18", e: "2026-10-06", d: "A People's Archive show drawn from the library's District of Columbia history collections", dz: "取材于图书馆华盛顿地方史馆藏的展览" },
-      { t: "Diasporacity", s: "2026-06-17", e: "2026-09-27", d: "Fifth-floor exhibit on immigrant and diaspora communities in Washington", dz: "五楼展厅，关于华盛顿的移民与离散社群" },
       { t: "Concopia", s: "2026-09-09", e: "2026-10-22", d: "A short-run gallery show in the library's rotating exhibition space", dz: "图书馆轮展空间的短期展览" },
       { t: "Art Bank: New Work from the Collection", s: "2026-04-21", eText: "Through April 2027", eTextz: "展至 2027 年 4 月", d: "Recent acquisitions from the DC government's Art Bank collection, on floor 4", dz: "四楼展出华盛顿市政府 Art Bank 收藏的新入藏作品" },
       { t: "Grounding Our Dreams/Dreaming New Ground: Art Enables at 25", s: "2026-10-07", e: "2027-01-18", d: "Twenty-five years of work from Art Enables, a DC studio for artists with disabilities", dz: "回顾华盛顿残障艺术家工作室 Art Enables 二十五年的创作" },
@@ -1377,11 +1359,7 @@ CITIES.push({
     u: "https://www.nps.gov/glec/planyourvisit/index.htm", free: true,
     flag: "About 30 minutes from downtown DC; the 1921 Dentzel Carousel runs May through September only, and the park closes Thanksgiving and Christmas Day",
     flagz: "距华盛顿市中心约 30 分钟车程；1921 年的 Dentzel 旋转木马仅 5 月至 9 月运行；感恩节与圣诞节闭园",
-    shows: [
-      { t: "Natural Progressions", s: "2026-08-07", e: "2026-09-27", d: "Three DMV artists working from imagery in nature, in watercolour, welded steel and abstraction", dz: "三位本地艺术家取材自然，水彩、焊钢与抽象作品同场" },
-      { t: "In Search of Lost Time", s: "2026-08-07", e: "2026-09-27", d: "Figurative ceramic sculpture and vessels by Leslie King and Pat Scull in the Stone Tower", dz: "石塔画廊：King 与 Scull 的具象陶塑与陶器" },
-      { t: "Yield 1", s: "2026-08-07", e: "2026-09-26", d: "Cecilia Ford's first solo show: plein-air-rooted paintings on darkness and our place in nature", dz: "Cecilia Ford 首次个展，源自户外写生，探讨幽暗与人在自然中的位置" }
-    ] },
+    shows: [] },
   { n: "Manassas National Battlefield Park", nz: "马纳萨斯国家战场公园", a: "6511 Sudley Road",
     h: "Park daily sunrise–sunset; Henry Hill Visitor Center daily 9–5, closed Thanksgiving, December 24–26 and New Year's Day",
     hz: "园区每日日出至日落；亨利山游客中心每日 9:00–17:00；感恩节、12 月 24–26 日及元旦闭馆", p: "Free", pz: "免费",
@@ -1439,9 +1417,7 @@ CITIES.push({
     p: "Free", pz: "免费", u: "https://www.restonmuseum.org/current-exhibitions", free: true,
     flag: "On Lake Anne Plaza in Reston, VA, about 40 minutes from downtown DC",
     flagz: "位于弗吉尼亚州 Reston 的 Lake Anne 广场，距市中心约 40 分钟",
-    shows: [
-      { t: "The Golden Standard: 50 Years of Timeless Service", s: "2026-09-13", e: "2026-10-12", d: "Photographs, documents and awards from 50 years of a local Alpha Kappa Alpha chapter", dz: "当地 Alpha Kappa Alpha 姐妹会分会 50 年的照片、文件与奖项" }
-    ] }
+    shows: [] }
 ]},
 
 { g: "Historic Houses & Gardens", gz: "历史宅邸与园林",
@@ -1469,7 +1445,6 @@ CITIES.push({
     flagz: "入园须提前线上购买定时票，现场不售票，也无候补；2026 年花园季票已售罄。花园 2026 年 10 月 8–10 日因内部活动关闭，自 2027 年起每年 1、2 月整月闭园。",
     shows: [
       { t: "Busy Bliss: A Collector's Passion", sText: "April 2026", sTextz: "2026 年 4 月", eText: "February 2027", eTextz: "2027 年 2 月", d: "Mildred Bliss's collecting told through objects in the Special Exhibitions Gallery", dz: "以特展厅藏品讲述收藏家米尔德里德·布利斯" },
-      { t: "Hestia Fragmented", sText: "May 2026", sTextz: "2026 年 5 月", e: "2026-10-11", d: "The Byzantine Hestia tapestry and its fragments shown in the Textile Gallery", dz: "纺织品厅展出拜占庭赫斯提亚挂毯及其残片" },
       { t: "Insular Horizons: Travel and the Environmental Imagination on Crete, 1598-1845", sText: "April 2026", sTextz: "2026 年 4 月", eText: "April 2027", eTextz: "2027 年 4 月", d: "Rare books and travel accounts of Crete in the Rare Books Gallery", dz: "珍本书厅展出关于克里特岛的珍本与旅行记述" },
       { t: "Bound by the Beverleys", eText: "Through Summer 2026", eTextz: "展至 2026 年夏", d: "A small Catalogue House display on the Beverley family and their books", dz: "目录馆小型展览，讲述贝弗利家族与其藏书" }
     ] },
@@ -1804,8 +1779,6 @@ CITIES.push({
     hz: "周二–周五 10–17，周六 10–14；周日、周一及节假日闭馆", p: "Free", pz: "免费",
     u: "https://artsclubofwashington.org/arts-club-galleries/", free: true,
     shows: [
-      { t: "September 2026 Exhibit", s: "2026-09-04", e: "2026-09-26", d: "Members' show by Lucretia Dewey Tanner and Meme Austin in the Spilsbury Gallery", dz: "Spilsbury 展厅会员展，展出 Tanner 与 Austin 的作品" },
-      { t: "Sabina Puppo and Karen Schulz", e: "2026-09-26", d: "Downstairs galleries show curated by Brandon Fortune, closing alongside the Spilsbury members' show", dz: "楼下展厅展览，由 Brandon Fortune 策划，与 Spilsbury 会员展同期闭展" },
       { t: "October 2026 Exhibit", s: "2026-10-02", e: "2026-10-31", d: "Month-long show: Sheila Flanders and Samantha Lee Shelton in the Spilsbury Gallery, Cheryl Bearss and Anna Katalkina downstairs in the Monroe galleries", dz: "门罗与 Spilsbury 展厅月度展：Spilsbury 展厅展出 Flanders 与 Shelton 作品，楼下门罗展厅展出 Bearss 与 Katalkina 作品" }
     ] },
   { n: "The White House", nz: "白宫", a: "1600 Pennsylvania Ave NW",
@@ -1864,9 +1837,7 @@ CITIES.push({
     u: "https://www.rockvillemd.gov/places/glenview-mansion-art-gallery/", free: true,
     flag: "In Rockville, about 35 minutes from downtown DC; closed on city holidays and whenever a private event is booked",
     flagz: "位于 Rockville，距华盛顿市中心约 35 分钟；市政假日及私人活动期间关闭",
-    shows: [
-      { t: "The World As We View It", s: "2026-09-08", e: "2026-10-02", d: "Prints, paintings and mixed media by the Montpelier Printmakers group", dz: "Montpelier 版画家团体的版画、绘画与综合媒材作品" }
-    ] },
+    shows: [] },
   { n: "John Poole House", nz: "约翰·普尔故居", a: "19923 Fisher Ave",
     h: "By appointment; open by chance on other days", hz: "需预约参观；其他日期视情况开放",
     p: "Admission not published; call 301-407-0777", pz: "官网未公布票价；请致电 301-407-0777",
