@@ -18,8 +18,8 @@ CITIES.push({
   nz: "波士顿",
 
   // Set by the weekly reconciliation.
-  updated: "November 12, 2026",
-  updatedz: "2026 年 11 月 12 日",
+  updated: "November 26, 2026",
+  updatedz: "2026 年 11 月 26 日",
 
   lede: "Boston, Cambridge and the towns around them. A good number of the university museums are free, and Harvard's four collections sit within a few minutes' walk of each other.",
   ledez: "覆盖波士顿、剑桥及周边城镇。不少大学美术馆免费，哈佛的四个收藏彼此步行可达。",
@@ -546,16 +546,6 @@ CITIES.push({
     flag: "At Porter Square in Cambridge; confirm the gallery is open before travelling",
     flagz: "位于剑桥 Porter Square；出发前请先确认画廊是否开放",
     shows: [] },
-  { n: "University Hall Gallery", nz: "麻州大学波士顿分校大学楼画廊", a: "University Hall, 100 William T. Morrissey Boulevard",
-    h: "Mon–Sat 12–5, and by appointment", hz: "周一–周六 12–17，也可预约参观", p: "Free", pz: "免费",
-    u: "https://www.umb.edu/liberal-arts/the-arts-at-umass-boston/university-gallery/upcoming-exhibitions/",
-    free: true,
-    flag: "Closed for the summer break; the gallery reopens on September 21 with the autumn exhibition",
-    flagz: "暑期闭馆中，9 月 21 日随秋季展览重新开放",
-    shows: [
-      { t: "thousands of horizons, endlessly returning", s: "2026-09-21", e: "2026-12-12", d: "crystal bi's floating Dorchester Bay sculpture, rehung indoors with photos, video and ephemera", dz: "crystal bi 曾漂浮于多切斯特湾的雕塑移入馆内，配照片、影像与相关物件" },
-      { t: "Matters of Consequence", sText: "Opened March 2026", sTextz: "2026 年 3 月开幕", eText: "Through March 2027", eTextz: "至 2027 年 3 月", d: "Lan Tuazon's studiolo-inspired installation in the University Hall atrium", dz: "Lan Tuazon 受文艺复兴书斋启发的大学楼中庭装置" }
-    ] },
   { n: "Gallery 5", nz: "伊曼纽尔学院 5 号画廊", a: "400 The Fenway",
     h: "Hours not published; contact gallery5@emmanuel.edu",
     hz: "未公布开放时间，请邮件 gallery5@emmanuel.edu 询问", p: "Free", pz: "免费",
@@ -727,7 +717,8 @@ CITIES.push({
       { t: "Gestural Engineering: The Sculpture of Arthur Ganson", eText: "Permanent", eTextz: "常设", d: "Kinetic machine sculptures by Arthur Ganson, many visitor-operated", dz: "Arthur Ganson 的机械动态雕塑，多件可由观众启动" },
       { t: "Sensing Oceans", sText: "Opens September 2026", sTextz: "2026 年 9 月开幕", d: "New exhibition on the technology used to sense and study the ocean", dz: "关于海洋感测与研究技术的新展" },
       { t: "Crochet Coral Reef", s: "2026-08-14", e: "2027-02-14", d: "Crocheted sculptures modelling coral reef ecosystems and the threats they face", dz: "以钩织工艺呈现珊瑚礁生态系统及其面临的威胁" },
-      { t: "Water Architectures", s: "2026-12-17", e: "2027-06-13", d: "Designs and structures built around the management and use of water", dz: "围绕水资源管理与利用而生的设计与建筑" }
+      { t: "Water Architectures", s: "2026-12-17", e: "2027-06-13", d: "Designs and structures built around the management and use of water", dz: "围绕水资源管理与利用而生的设计与建筑" },
+      { t: "Split | Second", s: "2026-02-19", e: "2027-01-04", d: "Scientific instruments and contemporary art on how humans measure, regulate and rethink time", dz: "科学仪器与当代艺术并置，探讨人类如何测量、规范与重新思考时间" }
     ] },
   { n: "Harvard Collection of Historical Scientific Instruments", nz: "哈佛历史科学仪器收藏馆", a: "1 Oxford Street, Science Center Room 251",
     h: "Sun–Fri 11–4; closed Saturdays", hz: "周日–周五 11–16；周六闭馆", p: "Free", pz: "免费",
@@ -969,7 +960,8 @@ CITIES.push({
       { t: "The Legacy of Penobscot Canoes", d: "Birchbark canoes and builders' models from the Penobscot Nation in Maine", dz: "缅因州佩诺布斯科特族的桦皮独木舟与工匠模型" },
       { t: "Digging Veritas", d: "Archaeology of the seventeenth-century Indian College on Harvard Yard", dz: "哈佛园内十七世纪印第安学院的考古发现" },
       { t: "Washington's Sash", s: "2026-05-25", e: "2026-10-18", d: "A special display marking the 250th anniversary of the Declaration of Independence", dz: "纪念《独立宣言》250 周年的特别展示" },
-      { t: "Castaway: The Afterlife of Plastic", s: "2026-05-17", d: "Work by the art collective TRES on plastic waste and its afterlife", dz: "艺术团体 TRES 关于塑料废弃物及其归宿的作品" }
+      { t: "Castaway: The Afterlife of Plastic", s: "2026-05-17", d: "Work by the art collective TRES on plastic waste and its afterlife", dz: "艺术团体 TRES 关于塑料废弃物及其归宿的作品" },
+      { t: "From Iran: A Visual Testimony", s: "2026-05-15", e: "2027-03-21", d: "Azadeh Akhlaghi's staged photographs reimagining pivotal, often unphotographed moments in Iran's twentieth-century history", dz: "阿扎德·阿赫拉吉摆拍重现伊朗二十世纪历史中未被记录的关键时刻" }
     ] },
   { n: "Harvard Museum of the Ancient Near East", nz: "哈佛古代近东博物馆", a: "6 Divinity Avenue",
     h: "Sun–Fri 11–4; closed Saturdays", hz: "周日–周五 11–16；周六闭馆", p: "Free", pz: "免费",
